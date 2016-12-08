@@ -1,5 +1,5 @@
 # xmlToFrameworkXML
-Adapters for converting biotoolsSchema 2.0.0 XML to bio.tools XML (i.e. format supported out-of-the-box by the framework used by bio.tools)
+Adapters for converting [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema/) 2.0.0 XML bio.tools XML (i.e. format supported out-of-the-box by the framework used by bio.tools)
 
 File | Description
 ---- | -----------
@@ -14,6 +14,6 @@ DoTransformXSLT2.0.bat | Script for running XSLT 2.0 transform
 input.xml | Example script input (2)
 output.xml | Example script output
 
-(1) identical to https://github.com/bio-tools/biotoolsSchema/blob/master/versions/biotools-2.0.0/biotools-2.0.0.xsd
+(1) identical to [biotools-2.0.0.xsd](https://github.com/bio-tools/biotoolsSchema/blob/master/versions/biotools-2.0.0/biotools-2.0.0.xsd)
 
-(2) identical to https://github.com/bio-tools/biotoolsSchema/blob/master/versions/biotools-2.0.0/example_files/biotools-2.0.0.xml
+(2) identical to [biotools-2.0.0.xml](https://github.com/bio-tools/biotoolsSchema/blob/master/versions/biotools-2.0.0/example_files/biotools-2.0.0.xml)
