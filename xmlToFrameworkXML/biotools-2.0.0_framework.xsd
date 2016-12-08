@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="tools">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="root" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="id" type="xs:string"/>
+							<xs:element name="version" type="xs:string"/>
+							<xs:element name="versionID" type="xs:string"/>
+							<xs:element name="doi" type="xs:string"/>
+							<xs:element name="shortDescription" type="xs:string"/>
+							<xs:element name="description" type="xs:string"/>
+							<xs:element name="homepage" type="xs:anyURI"/>
+							<xs:element name="function">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="operation">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="list-item" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="uri" type="xs:anyURI"/>
+																			<xs:element name="term" type="xs:string"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="input">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="list-item" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="data">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="uri" type="xs:anyURI"/>
+																						<xs:element name="term" type="xs:string"/>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="format">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="list-item" maxOccurs="unbounded">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="uri" type="xs:anyURI"/>
+																									<xs:element name="term" type="xs:string"/>
+																								</xs:sequence>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="output">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="list-item" maxOccurs="unbounded">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="data">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="uri" type="xs:anyURI"/>
+																						<xs:element name="term" type="xs:string"/>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="format">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="list-item" maxOccurs="unbounded">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="uri" type="xs:anyURI"/>
+																									<xs:element name="term" type="xs:string"/>
+																								</xs:sequence>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="comment" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="toolType">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="topic">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="uri" type="xs:anyURI"/>
+													<xs:element name="term" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="goTermID">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="soTermID">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="taxID">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:short" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="operatingSystem">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="language">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="license" type="xs:string"/>
+							<xs:element name="collectionID">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="maturity" type="xs:string"/>
+							<xs:element name="cost" type="xs:string"/>
+							<xs:element name="accessibility">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="relation">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="biotoolsId" type="xs:anyURI"/>
+													<xs:element name="type" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="apiSpec">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="baseURL" type="xs:anyURI"/>
+										<xs:element name="endpoint">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="list-item" maxOccurs="unbounded">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="httpMethod" type="xs:string"/>
+																<xs:element name="urlTemplate" type="xs:string"/>
+																<xs:element name="output">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="list-item">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="data">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="uri" type="xs:anyURI"/>
+																									<xs:element name="term" type="xs:string"/>
+																								</xs:sequence>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="format">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="list-item" maxOccurs="unbounded">
+																										<xs:complexType>
+																											<xs:sequence>
+																												<xs:element name="uri" type="xs:anyURI"/>
+																												<xs:element name="term" type="xs:string"/>
+																											</xs:sequence>
+																										</xs:complexType>
+																									</xs:element>
+																								</xs:sequence>
+																							</xs:complexType>
+																						</xs:element>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="summary" type="xs:string"/>
+																<xs:element name="parameter">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="list-item" maxOccurs="unbounded">
+																				<xs:complexType>
+																					<xs:sequence>
+																						<xs:element name="urlTemplateFragment" type="xs:string"/>
+																						<xs:element name="data">
+																							<xs:complexType>
+																								<xs:sequence>
+																									<xs:element name="uri" type="xs:anyURI"/>
+																									<xs:element name="term" type="xs:string"/>
+																								</xs:sequence>
+																							</xs:complexType>
+																						</xs:element>
+																						<xs:element name="comment" type="xs:string"/>
+																					</xs:sequence>
+																				</xs:complexType>
+																			</xs:element>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="link">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="url" type="xs:anyURI"/>
+													<xs:element name="type" type="xs:string"/>
+													<xs:element name="comment" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="download">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="url" type="xs:anyURI"/>
+													<xs:element name="type" type="xs:string"/>
+													<xs:element name="comment" type="xs:string"/>
+													<xs:element name="diskFormat" type="xs:string"/>
+													<xs:element name="containerFormat" type="xs:string"/>
+													<xs:element name="cmd" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="documentation">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="url" type="xs:anyURI"/>
+													<xs:element name="type" type="xs:string"/>
+													<xs:element name="comment" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="publication">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="doi" type="xs:string"/>
+													<xs:element name="pmid" type="xs:string"/>
+													<xs:element name="pmcid" type="xs:string"/>
+													<xs:element name="type" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="contact">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="email" type="xs:string"/>
+													<xs:element name="url" type="xs:anyURI"/>
+													<xs:element name="name" type="xs:string"/>
+													<xs:element name="tel" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="credit">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="list-item" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name" type="xs:string"/>
+													<xs:element name="email" type="xs:string"/>
+													<xs:element name="url" type="xs:anyURI"/>
+													<xs:element name="orcidId" type="xs:anyURI"/>
+													<xs:element name="typeEntity" type="xs:string"/>
+													<xs:element name="typeRole" type="xs:string"/>
+													<xs:element name="comment" type="xs:string"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="elixirInfo">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="lastReviewExternalSab" type="xs:date"/>
+										<xs:element name="lastReviewElixirSab" type="xs:date"/>
+										<xs:element name="inSDP" type="xs:boolean"/>
+										<xs:element name="isCoreDataResource" type="xs:boolean"/>
+										<xs:element name="platform" type="xs:string"/>
+										<xs:element name="node" type="xs:string"/>
+										<xs:element name="comment" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
