@@ -1,5 +1,5 @@
 # xmlToFrameworkXML
-Adapters for converting [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema/) 2.0.0 XML bio.tools XML (i.e. format supported out-of-the-box by the framework used by [bio.tools](https://bio.tools))
+Adapters for converting [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema/) 2.0.0 XML bio.tools XML (i.e. format supported out-of-the-box by the framework used by [bio.tools](https://bio.tools).)
 
 File | Description
 ---- | -----------
