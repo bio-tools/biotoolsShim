@@ -1,5 +1,5 @@
 # csv2xml
-Adapter for converting tools annotation in csv format (see [example](https://github.com/bio-tools/biotoolsShim/csv2xml/xxx.html) to [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema/) 2.0.0 XML.
+Adapter for converting tools annotation in csv format (see [example](https://github.com/bio-tools/biotoolsShim/csv2xml/xxx.html)) to [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema/) 2.0.0 XML.
 
 File | Description
 ---- | -----------
@@ -17,5 +17,5 @@ The script should be able to be run by any with a stock python3 installation.
 
 Credits
 -------
-Anders Dannesboe (developer)
-Jon Ison (maintainer)
+* Anders Dannesboe (developer)
+* Jon Ison (maintainer)
