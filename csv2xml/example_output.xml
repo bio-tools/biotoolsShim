@@ -1,0 +1,944 @@
+<?xml version="1.0"?>
+<tools xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://bio.tools file:///D:/repos/GitHub/biotoolsSchema/versions/biotools-2.0.0/biotools-2.0.0.xsd" xmlns="http://bio.tools">
+	<tool>
+		<summary>
+			<name>GO Consortium Enrichment Tool</name>
+			<toolID>GO_Enrich</toolID>
+			<description>A tool for GO term enrichment analysis.</description>
+			<homepage>http://geneontology.org/page/go-enrichment-analysis</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0077</uri>
+				<term>Nucleic acids</term>
+			</topic>
+			<topic>
+				<uri>http://edamontology.org/topic_0078</uri>
+				<term>Proteins</term>
+			</topic>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1038/75556</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.1093/nar/gku1179</doi>
+		</publication>
+		<contact>
+			<url>http://geneontology.org/form/contact-go</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>AmiGO 2</name>
+			<toolID>AmiGO_2</toolID>
+			<description>The GO Consortium GO browser and search engine.</description>
+			<homepage>http://amigo.geneontology.org/amigo</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_2509</uri>
+				<term>Protein sequence comparison</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_0224</uri>
+				<term>Search and retrieval</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_3559</uri>
+				<term>Ontology visualisation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btn615</doi>
+		</publication>
+		<contact>
+			<url>http://geneontology.org/form/contact-go</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>QuickGO</name>
+			<toolID>QuickGO</toolID>
+			<description>A fast browser for Gene Ontology terms and annotations.</description>
+			<homepage>http://www.ebi.ac.uk/QuickGO/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0224</uri>
+				<term>Search and retrieval</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_3559</uri>
+				<term>Ontology visualisation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btp536</doi>
+		</publication>
+		<contact>
+			<email>goa@ebi.ac.uk</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>GONUTS</name>
+			<toolID>GONUTS</toolID>
+			<description>Third-party documentation for new users of GO.</description>
+			<homepage>http://gowiki.tamu.edu/wiki/index.php/Main_Page</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0224</uri>
+				<term>Search and retrieval</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/nar/gkr907</doi>
+		</publication>
+		<contact>
+			<email>ecoliwiki@gmail.com</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Ontology Lookup Service</name>
+			<toolID>OLS</toolID>
+			<description>Ontology Lookup Service (OLS) is a web service interface to query multiple ontologies.</description>
+			<homepage>http://www.ebi.ac.uk/ols</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0224</uri>
+				<term>Search and retrieval</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_3559</uri>
+				<term>Ontology visualisation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Database portal</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1186/1471-2105-7-97</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.1093/nar/gkn252</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.1093/nar/gkq331</doi>
+		</publication>
+		<contact>
+			<email>ols-support@ebi.ac.uk</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>InterProScan</name>
+			<toolID>InterProScan</toolID>
+			<description>Protein sequence analysis and classification</description>
+			<homepage>http://www.ebi.ac.uk/interpro/search/sequence-search</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0224</uri>
+				<term>Search and retrieval</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<toolType>Web API</toolType>
+			<toolType>Web service</toolType>
+			<toolType>Command-line tool</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btu031</doi>
+		</publication>
+		<contact>
+			<url>http://www.ebi.ac.uk/support/interpro-general-query</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Generic GO Term Mapper</name>
+			<toolID>GOTermMap</toolID>
+			<description>A tool for mapping the granular GO annotations for genes in a list to a set of broader, high-level GO parents terms.</description>
+			<homepage>http://go.princeton.edu/cgi-bin/GOTermMapper</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<contact>
+			<email> gotools@genomics.princeton.edu</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Generic GO Term Finder</name>
+			<toolID>GOTermFind</toolID>
+			<description>A tool for finding significant GO terms shared among a list of genes from your organism of choice.</description>
+			<homepage>http://go.princeton.edu/cgi-bin/GOTermFinder</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<contact>
+			<email> gotools@genomics.princeton.edu</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>g:Profiler</name>
+			<toolID>gProfiler</toolID>
+			<description>A public web server for characterising and manipulating gene lists of high-throughput genomics.</description>
+			<homepage>http://biit.cs.ut.ee/gprofiler/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<toolType>Library</toolType>
+			<toolType>Web API</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/nar/gkw199</doi>
+		</publication>
+		<contact>
+			<url>http://biit.cs.ut.ee/gprofiler/contact.cgi</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>BiNGO</name>
+			<toolID>BiNGO</toolID>
+			<description>A Java-based tool to determine which GO categories are statistically overrepresented in a set of genes or a subgraph in a biological network.</description>
+			<homepage>http://www.psb.ugent.be/cbd/papers/BiNGO/Home.html</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Desktop application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/bti551</doi>
+		</publication>
+		<contact>
+			<url>http://www.psb.ugent.be/cbd/papers/BiNGO/Team.html</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Bioconductor</name>
+			<toolID>Bioconductor</toolID>
+			<description>Bioconductor provides tools for the analysis and comprehension of high-throughput genomic data.</description>
+			<homepage>http://www.bioconductor.org</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0004</uri>
+				<term>Operation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Suite</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0091</uri>
+				<term>Bioinformatics</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1186/gb-2004-5-10-r80</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.1038/nmeth.3252</doi>
+		</publication>
+		<contact>
+			<url>https://support.bioconductor.org/</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Ontologizer</name>
+			<toolID>Ontologizer</toolID>
+			<description>A Tool for Statistical Analysis and Visualization of High-Throughput Biological Data Using Gene Ontology</description>
+			<homepage>https://charite.github.io/software-ontologizer.html</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<toolType>Web application</toolType>
+			<toolType>Desktop application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btn250</doi>
+		</publication>
+		<contact>
+			<url>http://ontologizer.de/</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>GOrilla</name>
+			<toolID>GOrilla</toolID>
+			<description>GOrilla is a tool for identifying and visualizing enriched GO terms in ranked lists of genes.</description>
+			<homepage>http://cbl-gorilla.cs.technion.ac.il</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Functional enrichment</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_2436</uri>
+				<term>Gene-set enrichment analysis</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0089</uri>
+				<term>Ontology and terminology</term>
+			</topic>
+			<topic>
+				<uri>http://edamontology.org/topic_0085</uri>
+				<term>Functional genomics</term>
+			</topic>
+			<topic>
+				<uri>http://edamontology.org/topic_0602</uri>
+				<term>Molecular interactions, pathways and networks</term>
+			</topic>
+			<collectionID>GO Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1186/1471-2105-10-48</doi>
+		</publication>
+		<contact>
+			<email>rnavon@gmail.com</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Artemis</name>
+			<toolID>Artemis</toolID>
+			<description>Artemis is a free genome browser and annotation tool that allows visualisation of sequence features, next generation data and the results of analyses within the context of the sequence, and also its six-frame translation.</description>
+			<homepage>http://www.sanger.ac.uk/science/tools/artemis</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_3208</uri>
+				<term>Genome visualisation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Desktop application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0092</uri>
+				<term>Data visualisation</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btr703</doi>
+		</publication>
+		<contact>
+			<email>artemis@sanger.ac.uk</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>DISCOVAR</name>
+			<toolID>DISCOVAR</toolID>
+			<description>DISCOVAR is a variant caller designed for state-of-the-art data. DISCOVAR can call variants on a region by region basis, potentially tiling an entire large genome. DISCOVAR variant calling is under active development and transitioning to VCF.</description>
+			<homepage>http://www.broadinstitute.org/software/discovar/blog/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_3227</uri>
+				<term>Variant calling</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0199</uri>
+				<term>Genetic variation</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1038/ng.3121</doi>
+		</publication>
+		<contact>
+			<url>https://www.broadinstitute.org/contact</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>DISCOVAR de novo</name>
+			<toolID>DISCOVARnovo</toolID>
+			<description>DISCOVAR de novo is a genome assembler designed for state-of-the-art data. DISCOVAR de novo can generate de novo assemblies for both large and small genomes. It currently does not call variants.</description>
+			<homepage>http://www.broadinstitute.org/software/discovar/blog/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0525</uri>
+				<term>Genome assembly</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_0524</uri>
+				<term>De-novo assembly</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0196</uri>
+				<term>Sequence assembly</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1038/ng.3121</doi>
+		</publication>
+		<contact>
+			<url>https://www.broadinstitute.org/contact</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>FASTX-Toolkit</name>
+			<toolID>FASTX-Toolki</toolID>
+			<description>The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.</description>
+			<homepage>http://hannonlab.cshl.edu/fastx_toolkit/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0231</uri>
+				<term>Sequence editing</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_3219</uri>
+				<term>Read pre-processing</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Suite</toolType>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0080</uri>
+				<term>Sequence analysis</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<contact>
+			<email>gordon@cshl.edu</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>FGENESH</name>
+			<toolID>FGENESH</toolID>
+			<description>HMM-based gene structure prediction (multiple genes, both chains); Program for predicting multiple genes in genomic DNA sequences.</description>
+			<homepage>http://nhjy.hzau.edu.cn/kech/swxxx/jakj/dianzi/Bioinf6/GeneFinding/GeneFinding2.htm</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2454</uri>
+				<term>Gene prediction</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0114</uri>
+				<term>Gene structure</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1186/gb-2006-7-s1-s10</doi>
+		</publication>
+		<contact>
+			<url>http://linux1.softberry.com/berry.phtml?topic=contact</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>GeneMark</name>
+			<toolID>GeneMark</toolID>
+			<description>A family of gene prediction programs: Gene Prediction in Bacteria, Archaea, Metagenomes and Metatranscriptomes; Gene Prediction in Eukaryotes; Gene Prediction in Transcripts; Gene Prediction in Viruses, Phages and Plasmids.</description>
+			<homepage>http://exon.gatech.edu/GeneMark/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2454</uri>
+				<term>Gene prediction</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Suite</toolType>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0114</uri>
+				<term>Gene structure</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1016/0097-8485(93)85004-V</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.1101/gr.081612.108</doi>
+		</publication>
+		<contact>
+			<url>http://exon.gatech.edu/GeneMark/contact.html</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Glimmer</name>
+			<toolID>Glimmer</toolID>
+			<description>Glimmer is a system for finding genes in microbial DNA, especially the genomes of bacteria, archaea, and viruses. Glimmer (Gene Locator and Interpolated Markov ModelER) uses interpolated Markov models (IMMs) to identify the coding regions and distinguish them from noncoding DNA.</description>
+			<homepage>https://ccb.jhu.edu/software/glimmer/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2454</uri>
+				<term>Gene prediction</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Suite</toolType>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0114</uri>
+				<term>Gene structure</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btm009</doi>
+		</publication>
+		<contact>
+			<url>https://ccb.jhu.edu/contact.shtml</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>GREAT</name>
+			<toolID>GREAT</toolID>
+			<description>GREAT predicts functions of cis-regulatory regions. Many coding genes are well annotated with their biological functions. Non-coding regions typically lack such annotation. GREAT assigns biological meaning to a set of non-coding genomic regions by analyzing the annotations of the nearby genes.</description>
+			<homepage>http://bejerano.stanford.edu/great/public/html/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0438</uri>
+				<term>Regulatory element prediction</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0659</uri>
+				<term>Functional, regulatory and non-coding RNA</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1038/nbt.1630</doi>
+		</publication>
+		<contact>
+			<url>http://bejerano.stanford.edu/help/display/GREAT/Contact+Us</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>GSEA</name>
+			<toolID>GSEA</toolID>
+			<description>Gene Set Enrichment Analysis (GSEA) is a computational method that determines whether an a priori defined set of genes shows statistically significant, concordant differences between two biological states (e.g. phenotypes).</description>
+			<homepage>http://www.broadinstitute.org/gsea/index.jsp</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_3223</uri>
+				<term>Differential gene expression analysis</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_3463</uri>
+				<term>Gene expression correlation analysis</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_3501</uri>
+				<term>Over-representation analysis</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<toolType>Desktop application</toolType>
+			<toolType>Library</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0203</uri>
+				<term>Gene expression</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1073/pnas.0506580102</doi>
+		</publication>
+		<contact>
+			<url>http://software.broadinstitute.org/gsea/contact.jsp</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>IGB</name>
+			<toolID>IGB</toolID>
+			<description>IGB (Integrated Genome Browser) is a fast, free, and highly customizable genome browser for viewing and exploring big genomic datasets.</description>
+			<homepage>http://bioviz.org/igb/index.html</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_3208</uri>
+				<term>Genome visualisation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Desktop application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0092</uri>
+				<term>Data visualisation</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/btp472</doi>
+		</publication>
+		<contact>
+			<email>aloraine@uncc.edu</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Picard tools</name>
+			<toolID>Picard_tools</toolID>
+			<description>Picard is a set of command line tools for manipulating high-throughput sequencing (HTS) data and formats such as SAM/BAM/CRAM and VCF.</description>
+			<homepage>http://picard.sourceforge.net</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2409</uri>
+				<term>Data handling</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Suite</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_3168</uri>
+				<term>Sequencing</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<contact>
+			<url>https://github.com/broadinstitute/picard/issues</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>RSeQC</name>
+			<toolID>RSeQC</toolID>
+			<description>RSeQC (RNA-seq Quality Control) package provides a number of useful modules that can comprehensively evaluate high throughput sequence data especially RNA-seq data. Some basic modules quickly inspect sequence quality, nucleotide composition bias, PCR bias and GC bias, while RNA-seq specific modules evaluate sequencing saturation, mapped reads distribution, coverage uniformity, strand specificity, transcript level RNA integrity etc.</description>
+			<homepage>http://rseqc.sourceforge.net</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2409</uri>
+				<term>Data handling</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Suite</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_3168</uri>
+				<term>Sequencing</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/bts356</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.1186/s12859-016-0922-z</doi>
+		</publication>
+		<contact>
+			<url>http://rseqc.sourceforge.net/#contact</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>RStudio</name>
+			<toolID>RStudio</toolID>
+			<description>RStudio is an integrated development environment (IDE) for the R programming language.</description>
+			<homepage>https://www.rstudio.com/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_2945</uri>
+				<term>Analysis</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_0337</uri>
+				<term>Visualisation</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_2409</uri>
+				<term>Data handling</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Desktop application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_3315</uri>
+				<term>Mathematics</term>
+			</topic>
+			<topic>
+				<uri>http://edamontology.org/topic_3365</uri>
+				<term>Data architecture, analysis and design</term>
+			</topic>
+			<topic>
+				<uri>http://edamontology.org/topic_2269</uri>
+				<term>Statistics and probability</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<contact>
+			<email>info@rstudio.com</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>SortMeRna</name>
+			<toolID>SortMeRna</toolID>
+			<description>SortMeRNA: a sequence analysis tool for filtering, mapping and OTU-picking NGS reads.</description>
+			<homepage>http://bioinfo.lifl.fr/RNA/sortmerna/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0346</uri>
+				<term>Sequence similarity search</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_0258</uri>
+				<term>Sequence alignment analysis</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_2451</uri>
+				<term>Sequence comparison</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_3308</uri>
+				<term>Transcriptomics</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1093/bioinformatics/bts611</doi>
+		</publication>
+		<contact>
+			<url>https://github.com/biocore/sortmerna/issues</url>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>Trim Galore</name>
+			<toolID>Trim_Galore</toolID>
+			<description>A wrapper tool around Cutadapt and FastQC to consistently apply quality and adapter trimming to FastQ files, with some extra functionality for MspI-digested RRBS-type (Reduced Representation Bisufite-Seq) libraries.</description>
+			<homepage>http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_3192</uri>
+				<term>Sequence trimming</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0080</uri>
+				<term>Sequence analysis</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<contact>
+			<email>felix.krueger@babraham.ac.uk</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>WebLogo</name>
+			<toolID>WebLogo</toolID>
+			<description>WebLogo is a web based application designed to make generate sequence logos.</description>
+			<homepage>http://weblogo.berkeley.edu/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_0566</uri>
+				<term>Sequence cluster visualisation</term>
+			</operation>
+			<operation>
+				<uri>http://edamontology.org/operation_0564</uri>
+				<term>Sequence visualisation</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Command-line tool</toolType>
+			<toolType>Web application</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_3511</uri>
+				<term>Nucleic acid sites, features and motifs</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1101/gr.849004</doi>
+		</publication>
+		<contact>
+			<email>logo@compbio.berkeley.edu</email>
+		</contact>
+	</tool>
+	<tool>
+		<summary>
+			<name>WGCNA</name>
+			<toolID>WGCNA</toolID>
+			<description>Functions necessary to perform Weighted Correlation Network Analysis on high-dimensional data. Includes functions for rudimentary data cleaning, construction of correlation networks, module identification, summarization, and relating of variables and modules to sample traits. Also includes a number of utility functions for data manipulation and visualization.</description>
+			<homepage>https://cran.r-project.org/web/packages/WGCNA/</homepage>
+		</summary>
+		<function>
+			<operation>
+				<uri>http://edamontology.org/operation_3463</uri>
+				<term>Gene expression correlation analysis</term>
+			</operation>
+		</function>
+		<labels>
+			<toolType>Library</toolType>
+			<topic>
+				<uri>http://edamontology.org/topic_0203</uri>
+				<term>Gene expression</term>
+			</topic>
+			<collectionID>ELIXIR Trainer Tools</collectionID>
+		</labels>
+		<publication>
+			<doi>doi:10.1186/1471-2105-9-559</doi>
+		</publication>
+		<publication>
+			<doi>doi:10.18637/jss.v046.i11</doi>
+		</publication>
+		<contact>
+			<email>Peter.Langfelder@gmail.com</email>
+		</contact>
+	</tool>
+</tools>
