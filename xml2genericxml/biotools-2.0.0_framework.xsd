@@ -364,6 +364,7 @@
 													<xs:element name="email" type="xs:string"/>
 													<xs:element name="url" type="xs:anyURI"/>
 													<xs:element name="orcidId" type="xs:anyURI"/>
+													<xs:element name="gridId" type="xs:anyURI"/>
 													<xs:element name="typeEntity" type="xs:string"/>
 													<xs:element name="typeRole" type="xs:string"/>
 													<xs:element name="comment" type="xs:string"/>

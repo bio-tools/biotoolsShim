@@ -12,7 +12,7 @@ http://www.altova.com/mapforce
 	<xsl:output method="xml" encoding="UTF-8" byte-order-mark="no" indent="yes"/>
 	<xsl:template match="/">
 		<tools>
-			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'D:/repos/transforms/biotoolsShim/biotools-2.0.0_framework.xsd'"/>
+			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'D:/repos/GitHub/biotoolsShim/xml2genericxml/biotools-2.0.0_framework.xsd'"/>
 			<xsl:for-each select="ns0:tools/ns0:tool">
 				<root>
 					<name>
@@ -465,6 +465,11 @@ http://www.altova.com/mapforce
 									<orcidId>
 										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
 									</orcidId>
+								</xsl:for-each>
+								<xsl:for-each select="ns0:gridId">
+									<gridId>
+										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+									</gridId>
 								</xsl:for-each>
 								<xsl:for-each select="ns0:typeEntity">
 									<typeEntity>
