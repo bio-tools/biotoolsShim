@@ -85,22 +85,20 @@ http://www.altova.com/mapforce
 			<xsl:value-of select="string($var21_current)"/>
 		</term>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var24_create_format">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var24_create_listitem">
 		<xsl:param name="var23_current"/>
-		<format>
-			<list-item>
-				<xsl:for-each select="$var23_current/ns0:uri">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var20_create_uri">
-						<xsl:with-param name="var19_current" select="."/>
-					</xsl:call-template>
-				</xsl:for-each>
-				<xsl:for-each select="$var23_current/ns0:term">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var22_create_term">
-						<xsl:with-param name="var21_current" select="."/>
-					</xsl:call-template>
-				</xsl:for-each>
-			</list-item>
-		</format>
+		<list-item>
+			<xsl:for-each select="$var23_current/ns0:uri">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var20_create_uri">
+					<xsl:with-param name="var19_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+			<xsl:for-each select="$var23_current/ns0:term">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var22_create_term">
+					<xsl:with-param name="var21_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+		</list-item>
 	</xsl:template>
 	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var26_create_listitem">
 		<xsl:param name="var25_current"/>
@@ -117,11 +115,13 @@ http://www.altova.com/mapforce
 					</xsl:call-template>
 				</xsl:for-each>
 			</data>
-			<xsl:for-each select="$var25_current/ns0:format">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var24_create_format">
-					<xsl:with-param name="var23_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
+			<format>
+				<xsl:for-each select="$var25_current/ns0:format">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var24_create_listitem">
+						<xsl:with-param name="var23_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+			</format>
 		</list-item>
 	</xsl:template>
 	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var28_create_uri">
@@ -148,22 +148,20 @@ http://www.altova.com/mapforce
 			<xsl:value-of select="string($var33_current)"/>
 		</term>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var36_create_format">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var36_create_listitem">
 		<xsl:param name="var35_current"/>
-		<format>
-			<list-item>
-				<xsl:for-each select="$var35_current/ns0:uri">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var32_create_uri">
-						<xsl:with-param name="var31_current" select="."/>
-					</xsl:call-template>
-				</xsl:for-each>
-				<xsl:for-each select="$var35_current/ns0:term">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var34_create_term">
-						<xsl:with-param name="var33_current" select="."/>
-					</xsl:call-template>
-				</xsl:for-each>
-			</list-item>
-		</format>
+		<list-item>
+			<xsl:for-each select="$var35_current/ns0:uri">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var32_create_uri">
+					<xsl:with-param name="var31_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+			<xsl:for-each select="$var35_current/ns0:term">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var34_create_term">
+					<xsl:with-param name="var33_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+		</list-item>
 	</xsl:template>
 	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var38_create_listitem">
 		<xsl:param name="var37_current"/>
@@ -180,11 +178,13 @@ http://www.altova.com/mapforce
 					</xsl:call-template>
 				</xsl:for-each>
 			</data>
-			<xsl:for-each select="$var37_current/ns0:format">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var36_create_format">
-					<xsl:with-param name="var35_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
+			<format>
+				<xsl:for-each select="$var37_current/ns0:format">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var36_create_listitem">
+						<xsl:with-param name="var35_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+			</format>
 		</list-item>
 	</xsl:template>
 	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var40_create_comment">
@@ -328,673 +328,729 @@ http://www.altova.com/mapforce
 			</type>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var74_create_uri">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var74_create_baseURL">
 		<xsl:param name="var73_current"/>
-		<uri>
-			<xsl:value-of select="string($var73_current)"/>
-		</uri>
+		<baseURL>
+			<xsl:value-of select="string($var73_current/ns0:baseURL)"/>
+		</baseURL>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var76_create_term">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var76_create_uri">
 		<xsl:param name="var75_current"/>
-		<term>
-			<xsl:value-of select="string($var75_current)"/>
-		</term>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var78_create_uri">
-		<xsl:param name="var77_current"/>
 		<uri>
-			<xsl:value-of select="string($var77_current)"/>
+			<xsl:value-of select="string($var75_current)"/>
 		</uri>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var80_create_term">
-		<xsl:param name="var79_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var78_create_term">
+		<xsl:param name="var77_current"/>
 		<term>
-			<xsl:value-of select="string($var79_current)"/>
+			<xsl:value-of select="string($var77_current)"/>
 		</term>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var82_create_listitem">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var80_create_uri">
+		<xsl:param name="var79_current"/>
+		<uri>
+			<xsl:value-of select="string($var79_current)"/>
+		</uri>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var82_create_term">
 		<xsl:param name="var81_current"/>
-		<list-item>
-			<xsl:for-each select="$var81_current/ns0:uri">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var78_create_uri">
-					<xsl:with-param name="var77_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-			<xsl:for-each select="$var81_current/ns0:term">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var80_create_term">
-					<xsl:with-param name="var79_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-		</list-item>
+		<term>
+			<xsl:value-of select="string($var81_current)"/>
+		</term>
 	</xsl:template>
 	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var84_create_listitem">
 		<xsl:param name="var83_current"/>
 		<list-item>
+			<xsl:for-each select="$var83_current/ns0:uri">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var80_create_uri">
+					<xsl:with-param name="var79_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+			<xsl:for-each select="$var83_current/ns0:term">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var82_create_term">
+					<xsl:with-param name="var81_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+		</list-item>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var86_create_listitem">
+		<xsl:param name="var85_current"/>
+		<list-item>
 			<data>
-				<xsl:for-each select="$var83_current/ns0:data/ns0:uri">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var74_create_uri">
-						<xsl:with-param name="var73_current" select="."/>
+				<xsl:for-each select="$var85_current/ns0:data/ns0:uri">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var76_create_uri">
+						<xsl:with-param name="var75_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
-				<xsl:for-each select="$var83_current/ns0:data/ns0:term">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var76_create_term">
-						<xsl:with-param name="var75_current" select="."/>
+				<xsl:for-each select="$var85_current/ns0:data/ns0:term">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var78_create_term">
+						<xsl:with-param name="var77_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</data>
 			<format>
-				<xsl:for-each select="$var83_current/ns0:format">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var82_create_listitem">
-						<xsl:with-param name="var81_current" select="."/>
+				<xsl:for-each select="$var85_current/ns0:format">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var84_create_listitem">
+						<xsl:with-param name="var83_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</format>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var86_create_summary">
-		<xsl:param name="var85_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var88_create_summary">
+		<xsl:param name="var87_current"/>
 		<summary>
-			<xsl:value-of select="string($var85_current)"/>
+			<xsl:value-of select="string($var87_current)"/>
 		</summary>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var88_create_uri">
-		<xsl:param name="var87_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var90_create_uri">
+		<xsl:param name="var89_current"/>
 		<uri>
-			<xsl:value-of select="string($var87_current)"/>
+			<xsl:value-of select="string($var89_current)"/>
 		</uri>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var90_create_term">
-		<xsl:param name="var89_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var92_create_term">
+		<xsl:param name="var91_current"/>
 		<term>
-			<xsl:value-of select="string($var89_current)"/>
+			<xsl:value-of select="string($var91_current)"/>
 		</term>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var92_create_data">
-		<xsl:param name="var91_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var94_create_data">
+		<xsl:param name="var93_current"/>
 		<data>
-			<xsl:for-each select="$var91_current/ns0:uri">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var88_create_uri">
-					<xsl:with-param name="var87_current" select="."/>
+			<xsl:for-each select="$var93_current/ns0:uri">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var90_create_uri">
+					<xsl:with-param name="var89_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var91_current/ns0:term">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var90_create_term">
-					<xsl:with-param name="var89_current" select="."/>
+			<xsl:for-each select="$var93_current/ns0:term">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var92_create_term">
+					<xsl:with-param name="var91_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 		</data>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var94_create_comment">
-		<xsl:param name="var93_current"/>
-		<comment>
-			<xsl:value-of select="string($var93_current)"/>
-		</comment>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var96_create_listitem">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var96_create_comment">
 		<xsl:param name="var95_current"/>
-		<list-item>
-			<urlTemplateFragment>
-				<xsl:value-of select="string($var95_current/ns0:urlTemplateFragment)"/>
-			</urlTemplateFragment>
-			<xsl:for-each select="$var95_current/ns0:data">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var92_create_data">
-					<xsl:with-param name="var91_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-			<xsl:for-each select="$var95_current/ns0:comment">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var94_create_comment">
-					<xsl:with-param name="var93_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-		</list-item>
+		<comment>
+			<xsl:value-of select="string($var95_current)"/>
+		</comment>
 	</xsl:template>
 	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var98_create_listitem">
 		<xsl:param name="var97_current"/>
 		<list-item>
+			<urlTemplateFragment>
+				<xsl:value-of select="string($var97_current/ns0:urlTemplateFragment)"/>
+			</urlTemplateFragment>
+			<xsl:for-each select="$var97_current/ns0:data">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var94_create_data">
+					<xsl:with-param name="var93_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+			<xsl:for-each select="$var97_current/ns0:comment">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var96_create_comment">
+					<xsl:with-param name="var95_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+		</list-item>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var100_create_listitem">
+		<xsl:param name="var99_current"/>
+		<list-item>
 			<httpMethod>
-				<xsl:value-of select="string($var97_current/ns0:httpMethod)"/>
+				<xsl:value-of select="string($var99_current/ns0:httpMethod)"/>
 			</httpMethod>
 			<urlTemplate>
-				<xsl:value-of select="string($var97_current/ns0:urlTemplate)"/>
+				<xsl:value-of select="string($var99_current/ns0:urlTemplate)"/>
 			</urlTemplate>
 			<output>
-				<xsl:for-each select="$var97_current/ns0:output">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var84_create_listitem">
-						<xsl:with-param name="var83_current" select="."/>
+				<xsl:for-each select="$var99_current/ns0:output">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var86_create_listitem">
+						<xsl:with-param name="var85_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</output>
-			<xsl:for-each select="$var97_current/ns0:summary">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var86_create_summary">
-					<xsl:with-param name="var85_current" select="."/>
+			<xsl:for-each select="$var99_current/ns0:summary">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var88_create_summary">
+					<xsl:with-param name="var87_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 			<parameter>
-				<xsl:for-each select="$var97_current/ns0:parameter">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var96_create_listitem">
-						<xsl:with-param name="var95_current" select="."/>
+				<xsl:for-each select="$var99_current/ns0:parameter">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var98_create_listitem">
+						<xsl:with-param name="var97_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</parameter>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var100_create_apiSpec">
-		<xsl:param name="var99_current"/>
-		<apiSpec>
-			<baseURL>
-				<xsl:value-of select="string($var99_current/ns0:baseURL)"/>
-			</baseURL>
-			<endpoint>
-				<xsl:for-each select="$var99_current/ns0:endpoint">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var98_create_listitem">
-						<xsl:with-param name="var97_current" select="."/>
-					</xsl:call-template>
-				</xsl:for-each>
-			</endpoint>
-		</apiSpec>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var102_create_comment">
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var102_resultof_map">
 		<xsl:param name="var101_current"/>
+		<xsl:for-each select="$var101_current/ns0:endpoint">
+			<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var100_create_listitem">
+				<xsl:with-param name="var99_current" select="."/>
+			</xsl:call-template>
+		</xsl:for-each>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var104_create_comment">
+		<xsl:param name="var103_current"/>
 		<comment>
-			<xsl:value-of select="string($var101_current)"/>
+			<xsl:value-of select="string($var103_current)"/>
 		</comment>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var104_create_listitem">
-		<xsl:param name="var103_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var106_create_listitem">
+		<xsl:param name="var105_current"/>
 		<list-item>
 			<url>
-				<xsl:value-of select="string($var103_current/ns0:url)"/>
+				<xsl:value-of select="string($var105_current/ns0:url)"/>
 			</url>
 			<type>
-				<xsl:value-of select="string($var103_current/ns0:type)"/>
+				<xsl:value-of select="string($var105_current/ns0:type)"/>
 			</type>
-			<xsl:for-each select="$var103_current/ns0:comment">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var102_create_comment">
-					<xsl:with-param name="var101_current" select="."/>
+			<xsl:for-each select="$var105_current/ns0:comment">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var104_create_comment">
+					<xsl:with-param name="var103_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var106_create_comment">
-		<xsl:param name="var105_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var108_create_comment">
+		<xsl:param name="var107_current"/>
 		<comment>
-			<xsl:value-of select="string($var105_current)"/>
+			<xsl:value-of select="string($var107_current)"/>
 		</comment>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var108_create_diskFormat">
-		<xsl:param name="var107_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var110_create_diskFormat">
+		<xsl:param name="var109_current"/>
 		<diskFormat>
-			<xsl:value-of select="string($var107_current)"/>
+			<xsl:value-of select="string($var109_current)"/>
 		</diskFormat>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var110_create_containerFormat">
-		<xsl:param name="var109_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var112_create_containerFormat">
+		<xsl:param name="var111_current"/>
 		<containerFormat>
-			<xsl:value-of select="string($var109_current)"/>
+			<xsl:value-of select="string($var111_current)"/>
 		</containerFormat>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var112_create_cmd">
-		<xsl:param name="var111_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var114_create_cmd">
+		<xsl:param name="var113_current"/>
 		<cmd>
-			<xsl:value-of select="string($var111_current)"/>
+			<xsl:value-of select="string($var113_current)"/>
 		</cmd>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var114_create_listitem">
-		<xsl:param name="var113_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var116_create_listitem">
+		<xsl:param name="var115_current"/>
 		<list-item>
 			<url>
-				<xsl:value-of select="string($var113_current/ns0:url)"/>
+				<xsl:value-of select="string($var115_current/ns0:url)"/>
 			</url>
 			<type>
-				<xsl:value-of select="string($var113_current/ns0:type)"/>
+				<xsl:value-of select="string($var115_current/ns0:type)"/>
 			</type>
-			<xsl:for-each select="$var113_current/ns0:comment">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var106_create_comment">
-					<xsl:with-param name="var105_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-			<xsl:for-each select="$var113_current/ns0:diskFormat">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var108_create_diskFormat">
+			<xsl:for-each select="$var115_current/ns0:comment">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var108_create_comment">
 					<xsl:with-param name="var107_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var113_current/ns0:containerFormat">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var110_create_containerFormat">
+			<xsl:for-each select="$var115_current/ns0:diskFormat">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var110_create_diskFormat">
 					<xsl:with-param name="var109_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var113_current/ns0:cmd">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var112_create_cmd">
+			<xsl:for-each select="$var115_current/ns0:containerFormat">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var112_create_containerFormat">
 					<xsl:with-param name="var111_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
+			<xsl:for-each select="$var115_current/ns0:cmd">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var114_create_cmd">
+					<xsl:with-param name="var113_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var116_create_comment">
-		<xsl:param name="var115_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var118_create_comment">
+		<xsl:param name="var117_current"/>
 		<comment>
-			<xsl:value-of select="string($var115_current)"/>
+			<xsl:value-of select="string($var117_current)"/>
 		</comment>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var118_create_listitem">
-		<xsl:param name="var117_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var120_create_listitem">
+		<xsl:param name="var119_current"/>
 		<list-item>
 			<url>
-				<xsl:value-of select="string($var117_current/ns0:url)"/>
+				<xsl:value-of select="string($var119_current/ns0:url)"/>
 			</url>
 			<type>
-				<xsl:value-of select="string($var117_current/ns0:type)"/>
+				<xsl:value-of select="string($var119_current/ns0:type)"/>
 			</type>
-			<xsl:for-each select="$var117_current/ns0:comment">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var116_create_comment">
-					<xsl:with-param name="var115_current" select="."/>
+			<xsl:for-each select="$var119_current/ns0:comment">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var118_create_comment">
+					<xsl:with-param name="var117_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var120_create_doi">
-		<xsl:param name="var119_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var122_create_doi">
+		<xsl:param name="var121_current"/>
 		<doi>
-			<xsl:value-of select="string($var119_current)"/>
+			<xsl:value-of select="string($var121_current)"/>
 		</doi>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var122_create_pmid">
-		<xsl:param name="var121_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var124_create_pmid">
+		<xsl:param name="var123_current"/>
 		<pmid>
-			<xsl:value-of select="string($var121_current)"/>
+			<xsl:value-of select="string($var123_current)"/>
 		</pmid>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var124_create_pmcid">
-		<xsl:param name="var123_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var126_create_pmcid">
+		<xsl:param name="var125_current"/>
 		<pmcid>
-			<xsl:value-of select="string($var123_current)"/>
+			<xsl:value-of select="string($var125_current)"/>
 		</pmcid>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var126_create_type">
-		<xsl:param name="var125_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var128_create_type">
+		<xsl:param name="var127_current"/>
 		<type>
-			<xsl:value-of select="string($var125_current)"/>
+			<xsl:value-of select="string($var127_current)"/>
 		</type>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var128_create_listitem">
-		<xsl:param name="var127_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var130_create_listitem">
+		<xsl:param name="var129_current"/>
 		<list-item>
-			<xsl:for-each select="$var127_current/ns0:doi">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var120_create_doi">
-					<xsl:with-param name="var119_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-			<xsl:for-each select="$var127_current/ns0:pmid">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var122_create_pmid">
+			<xsl:for-each select="$var129_current/ns0:doi">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var122_create_doi">
 					<xsl:with-param name="var121_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var127_current/ns0:pmcid">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var124_create_pmcid">
+			<xsl:for-each select="$var129_current/ns0:pmid">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var124_create_pmid">
 					<xsl:with-param name="var123_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var127_current/ns0:type">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var126_create_type">
+			<xsl:for-each select="$var129_current/ns0:pmcid">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var126_create_pmcid">
 					<xsl:with-param name="var125_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-		</list-item>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var130_create_email">
-		<xsl:param name="var129_current"/>
-		<email>
-			<xsl:value-of select="string($var129_current)"/>
-		</email>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var132_create_url">
-		<xsl:param name="var131_current"/>
-		<url>
-			<xsl:value-of select="string($var131_current)"/>
-		</url>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var134_create_name">
-		<xsl:param name="var133_current"/>
-		<name>
-			<xsl:value-of select="string($var133_current)"/>
-		</name>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var136_create_tel">
-		<xsl:param name="var135_current"/>
-		<tel>
-			<xsl:value-of select="string($var135_current)"/>
-		</tel>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var138_create_listitem">
-		<xsl:param name="var137_current"/>
-		<list-item>
-			<xsl:for-each select="$var137_current/ns0:email">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var130_create_email">
-					<xsl:with-param name="var129_current" select="."/>
+			<xsl:for-each select="$var129_current/ns0:type">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var128_create_type">
+					<xsl:with-param name="var127_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var137_current/ns0:url">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var132_create_url">
+		</list-item>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var132_create_email">
+		<xsl:param name="var131_current"/>
+		<email>
+			<xsl:value-of select="string($var131_current)"/>
+		</email>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var134_create_url">
+		<xsl:param name="var133_current"/>
+		<url>
+			<xsl:value-of select="string($var133_current)"/>
+		</url>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var136_create_name">
+		<xsl:param name="var135_current"/>
+		<name>
+			<xsl:value-of select="string($var135_current)"/>
+		</name>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var138_create_tel">
+		<xsl:param name="var137_current"/>
+		<tel>
+			<xsl:value-of select="string($var137_current)"/>
+		</tel>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var140_create_listitem">
+		<xsl:param name="var139_current"/>
+		<list-item>
+			<xsl:for-each select="$var139_current/ns0:email">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var132_create_email">
 					<xsl:with-param name="var131_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var137_current/ns0:name">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var134_create_name">
+			<xsl:for-each select="$var139_current/ns0:url">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var134_create_url">
 					<xsl:with-param name="var133_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var137_current/ns0:tel">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var136_create_tel">
+			<xsl:for-each select="$var139_current/ns0:name">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var136_create_name">
 					<xsl:with-param name="var135_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-		</list-item>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var140_create_email">
-		<xsl:param name="var139_current"/>
-		<email>
-			<xsl:value-of select="string($var139_current)"/>
-		</email>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var142_create_url">
-		<xsl:param name="var141_current"/>
-		<url>
-			<xsl:value-of select="string($var141_current)"/>
-		</url>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var144_create_orcidId">
-		<xsl:param name="var143_current"/>
-		<orcidId>
-			<xsl:value-of select="string($var143_current)"/>
-		</orcidId>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var146_create_gridId">
-		<xsl:param name="var145_current"/>
-		<gridId>
-			<xsl:value-of select="string($var145_current)"/>
-		</gridId>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var148_create_typeEntity">
-		<xsl:param name="var147_current"/>
-		<typeEntity>
-			<xsl:value-of select="string($var147_current)"/>
-		</typeEntity>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var150_create_typeRole">
-		<xsl:param name="var149_current"/>
-		<typeRole>
-			<xsl:value-of select="string($var149_current)"/>
-		</typeRole>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var152_create_comment">
-		<xsl:param name="var151_current"/>
-		<comment>
-			<xsl:value-of select="string($var151_current)"/>
-		</comment>
-	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var154_create_listitem">
-		<xsl:param name="var153_current"/>
-		<list-item>
-			<name>
-				<xsl:value-of select="string($var153_current/ns0:name)"/>
-			</name>
-			<xsl:for-each select="$var153_current/ns0:email">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var140_create_email">
-					<xsl:with-param name="var139_current" select="."/>
+			<xsl:for-each select="$var139_current/ns0:tel">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var138_create_tel">
+					<xsl:with-param name="var137_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var153_current/ns0:url">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var142_create_url">
+		</list-item>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var142_create_email">
+		<xsl:param name="var141_current"/>
+		<email>
+			<xsl:value-of select="string($var141_current)"/>
+		</email>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var144_create_url">
+		<xsl:param name="var143_current"/>
+		<url>
+			<xsl:value-of select="string($var143_current)"/>
+		</url>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var146_create_orcidId">
+		<xsl:param name="var145_current"/>
+		<orcidId>
+			<xsl:value-of select="string($var145_current)"/>
+		</orcidId>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var148_create_gridId">
+		<xsl:param name="var147_current"/>
+		<gridId>
+			<xsl:value-of select="string($var147_current)"/>
+		</gridId>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var150_create_typeEntity">
+		<xsl:param name="var149_current"/>
+		<typeEntity>
+			<xsl:value-of select="string($var149_current)"/>
+		</typeEntity>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var152_create_typeRole">
+		<xsl:param name="var151_current"/>
+		<typeRole>
+			<xsl:value-of select="string($var151_current)"/>
+		</typeRole>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var154_create_comment">
+		<xsl:param name="var153_current"/>
+		<comment>
+			<xsl:value-of select="string($var153_current)"/>
+		</comment>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var156_create_listitem">
+		<xsl:param name="var155_current"/>
+		<list-item>
+			<name>
+				<xsl:value-of select="string($var155_current/ns0:name)"/>
+			</name>
+			<xsl:for-each select="$var155_current/ns0:email">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var142_create_email">
 					<xsl:with-param name="var141_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var153_current/ns0:orcidId">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var144_create_orcidId">
+			<xsl:for-each select="$var155_current/ns0:url">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var144_create_url">
 					<xsl:with-param name="var143_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var153_current/ns0:gridId">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var146_create_gridId">
+			<xsl:for-each select="$var155_current/ns0:orcidId">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var146_create_orcidId">
 					<xsl:with-param name="var145_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var153_current/ns0:typeEntity">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var148_create_typeEntity">
+			<xsl:for-each select="$var155_current/ns0:gridId">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var148_create_gridId">
 					<xsl:with-param name="var147_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var153_current/ns0:typeRole">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var150_create_typeRole">
+			<xsl:for-each select="$var155_current/ns0:typeEntity">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var150_create_typeEntity">
 					<xsl:with-param name="var149_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var153_current/ns0:comment">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var152_create_comment">
+			<xsl:for-each select="$var155_current/ns0:typeRole">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var152_create_typeRole">
 					<xsl:with-param name="var151_current" select="."/>
+				</xsl:call-template>
+			</xsl:for-each>
+			<xsl:for-each select="$var155_current/ns0:comment">
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var154_create_comment">
+					<xsl:with-param name="var153_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 		</list-item>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var156_create_comment">
-		<xsl:param name="var155_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var158_create_lastReviewExternalSab">
+		<xsl:param name="var157_current"/>
+		<lastReviewExternalSab>
+			<xsl:value-of select="string($var157_current/ns0:lastReviewExternalSab)"/>
+		</lastReviewExternalSab>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var160_create_lastReviewElixirSab">
+		<xsl:param name="var159_current"/>
+		<lastReviewElixirSab>
+			<xsl:value-of select="string($var159_current/ns0:lastReviewElixirSab)"/>
+		</lastReviewElixirSab>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var162_create_inSDP">
+		<xsl:param name="var161_current"/>
+		<inSDP>
+			<xsl:value-of select="string((translate(string($var161_current/ns0:inSDP), '1falseru0 ', 't') = 't'))"/>
+		</inSDP>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var164_create_isCoreDataResource">
+		<xsl:param name="var163_current"/>
+		<isCoreDataResource>
+			<xsl:value-of select="string((translate(string($var163_current/ns0:isCoreDataResource), '1falseru0 ', 't') = 't'))"/>
+		</isCoreDataResource>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var166_create_platform">
+		<xsl:param name="var165_current"/>
+		<platform>
+			<xsl:value-of select="string($var165_current/ns0:platform)"/>
+		</platform>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var168_create_node">
+		<xsl:param name="var167_current"/>
+		<node>
+			<xsl:value-of select="string($var167_current/ns0:node)"/>
+		</node>
+	</xsl:template>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var170_create_comment">
+		<xsl:param name="var169_current"/>
 		<comment>
-			<xsl:value-of select="string($var155_current)"/>
+			<xsl:value-of select="string($var169_current)"/>
 		</comment>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var158_create_elixirInfo">
-		<xsl:param name="var157_current"/>
-		<elixirInfo>
-			<lastReviewExternalSab>
-				<xsl:value-of select="string($var157_current/ns0:lastReviewExternalSab)"/>
-			</lastReviewExternalSab>
-			<lastReviewElixirSab>
-				<xsl:value-of select="string($var157_current/ns0:lastReviewElixirSab)"/>
-			</lastReviewElixirSab>
-			<inSDP>
-				<xsl:value-of select="string((translate(string($var157_current/ns0:inSDP), '1falseru0 ', 't') = 't'))"/>
-			</inSDP>
-			<isCoreDataResource>
-				<xsl:value-of select="string((translate(string($var157_current/ns0:isCoreDataResource), '1falseru0 ', 't') = 't'))"/>
-			</isCoreDataResource>
-			<platform>
-				<xsl:value-of select="string($var157_current/ns0:platform)"/>
-			</platform>
-			<node>
-				<xsl:value-of select="string($var157_current/ns0:node)"/>
-			</node>
-			<xsl:for-each select="$var157_current/ns0:comment">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var156_create_comment">
-					<xsl:with-param name="var155_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
-		</elixirInfo>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var172_resultof_map">
+		<xsl:param name="var171_current"/>
+		<xsl:for-each select="$var171_current/ns0:comment">
+			<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var170_create_comment">
+				<xsl:with-param name="var169_current" select="."/>
+			</xsl:call-template>
+		</xsl:for-each>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var160_create_root">
-		<xsl:param name="var159_current"/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var174_create_root">
+		<xsl:param name="var173_current"/>
 		<root>
 			<name>
-				<xsl:value-of select="string($var159_current/ns0:summary/ns0:name)"/>
+				<xsl:value-of select="string($var173_current/ns0:summary/ns0:name)"/>
 			</name>
 			<id>
-				<xsl:value-of select="string($var159_current/ns0:summary/ns0:toolID)"/>
+				<xsl:value-of select="string($var173_current/ns0:summary/ns0:toolID)"/>
 			</id>
-			<xsl:for-each select="$var159_current/ns0:summary/ns0:version">
+			<xsl:for-each select="$var173_current/ns0:summary/ns0:version">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var2_create_version">
 					<xsl:with-param name="var1_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var159_current/ns0:summary/ns0:versionID">
+			<xsl:for-each select="$var173_current/ns0:summary/ns0:versionID">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var4_create_versionID">
 					<xsl:with-param name="var3_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var159_current/ns0:summary/ns0:doi">
+			<xsl:for-each select="$var173_current/ns0:summary/ns0:doi">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var6_create_doi">
 					<xsl:with-param name="var5_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var159_current/ns0:summary/ns0:shortDescription">
+			<xsl:for-each select="$var173_current/ns0:summary/ns0:shortDescription">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var8_create_shortDescription">
 					<xsl:with-param name="var7_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 			<description>
-				<xsl:value-of select="string($var159_current/ns0:summary/ns0:description)"/>
+				<xsl:value-of select="string($var173_current/ns0:summary/ns0:description)"/>
 			</description>
 			<homepage>
-				<xsl:value-of select="string($var159_current/ns0:summary/ns0:homepage)"/>
+				<xsl:value-of select="string($var173_current/ns0:summary/ns0:homepage)"/>
 			</homepage>
 			<function>
-				<xsl:for-each select="$var159_current/ns0:function">
+				<xsl:for-each select="$var173_current/ns0:function">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var42_create_listitem">
 						<xsl:with-param name="var41_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</function>
 			<toolType>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:toolType">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:toolType">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var44_create_listitem">
 						<xsl:with-param name="var43_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</toolType>
 			<topic>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:topic">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:topic">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var50_create_listitem">
 						<xsl:with-param name="var49_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</topic>
 			<goTermID>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:goTermID">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:goTermID">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var52_create_listitem">
 						<xsl:with-param name="var51_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</goTermID>
 			<soTermID>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:soTermID">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:soTermID">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var54_create_listitem">
 						<xsl:with-param name="var53_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</soTermID>
 			<taxID>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:taxID">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:taxID">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var56_create_listitem">
 						<xsl:with-param name="var55_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</taxID>
 			<operatingSystem>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:operatingSystem">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:operatingSystem">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var58_create_listitem">
 						<xsl:with-param name="var57_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</operatingSystem>
 			<language>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:language">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:language">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var60_create_listitem">
 						<xsl:with-param name="var59_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</language>
-			<xsl:for-each select="$var159_current/ns0:labels/ns0:license">
+			<xsl:for-each select="$var173_current/ns0:labels/ns0:license">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var62_create_license">
 					<xsl:with-param name="var61_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 			<collectionID>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:collectionID">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:collectionID">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var64_create_listitem">
 						<xsl:with-param name="var63_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</collectionID>
-			<xsl:for-each select="$var159_current/ns0:labels/ns0:maturity">
+			<xsl:for-each select="$var173_current/ns0:labels/ns0:maturity">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var66_create_maturity">
 					<xsl:with-param name="var65_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
-			<xsl:for-each select="$var159_current/ns0:labels/ns0:cost">
+			<xsl:for-each select="$var173_current/ns0:labels/ns0:cost">
 				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var68_create_cost">
 					<xsl:with-param name="var67_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 			<accessibility>
-				<xsl:for-each select="$var159_current/ns0:labels/ns0:accessibility">
+				<xsl:for-each select="$var173_current/ns0:labels/ns0:accessibility">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var70_create_listitem">
 						<xsl:with-param name="var69_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</accessibility>
 			<relation>
-				<xsl:for-each select="$var159_current/ns0:relation">
+				<xsl:for-each select="$var173_current/ns0:relation">
 					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var72_create_listitem">
 						<xsl:with-param name="var71_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</relation>
-			<xsl:for-each select="$var159_current/ns0:apiSpec">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var100_create_apiSpec">
-					<xsl:with-param name="var99_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
+			<apiSpec>
+				<xsl:for-each select="$var173_current/ns0:apiSpec">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var74_create_baseURL">
+						<xsl:with-param name="var73_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<endpoint>
+					<xsl:for-each select="$var173_current/ns0:apiSpec">
+						<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var102_resultof_map">
+							<xsl:with-param name="var101_current" select="."/>
+						</xsl:call-template>
+					</xsl:for-each>
+				</endpoint>
+			</apiSpec>
 			<link>
-				<xsl:for-each select="$var159_current/ns0:link">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var104_create_listitem">
-						<xsl:with-param name="var103_current" select="."/>
+				<xsl:for-each select="$var173_current/ns0:link">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var106_create_listitem">
+						<xsl:with-param name="var105_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</link>
 			<download>
-				<xsl:for-each select="$var159_current/ns0:download">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var114_create_listitem">
-						<xsl:with-param name="var113_current" select="."/>
+				<xsl:for-each select="$var173_current/ns0:download">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var116_create_listitem">
+						<xsl:with-param name="var115_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</download>
 			<documentation>
-				<xsl:for-each select="$var159_current/ns0:documentation">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var118_create_listitem">
-						<xsl:with-param name="var117_current" select="."/>
+				<xsl:for-each select="$var173_current/ns0:documentation">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var120_create_listitem">
+						<xsl:with-param name="var119_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</documentation>
 			<publication>
-				<xsl:for-each select="$var159_current/ns0:publication">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var128_create_listitem">
-						<xsl:with-param name="var127_current" select="."/>
+				<xsl:for-each select="$var173_current/ns0:publication">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var130_create_listitem">
+						<xsl:with-param name="var129_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</publication>
 			<contact>
-				<xsl:for-each select="$var159_current/ns0:contact">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var138_create_listitem">
-						<xsl:with-param name="var137_current" select="."/>
+				<xsl:for-each select="$var173_current/ns0:contact">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var140_create_listitem">
+						<xsl:with-param name="var139_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</contact>
 			<credit>
-				<xsl:for-each select="$var159_current/ns0:credit">
-					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var154_create_listitem">
-						<xsl:with-param name="var153_current" select="."/>
+				<xsl:for-each select="$var173_current/ns0:credit">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var156_create_listitem">
+						<xsl:with-param name="var155_current" select="."/>
 					</xsl:call-template>
 				</xsl:for-each>
 			</credit>
-			<xsl:for-each select="$var159_current/ns0:elixirInfo">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var158_create_elixirInfo">
-					<xsl:with-param name="var157_current" select="."/>
-				</xsl:call-template>
-			</xsl:for-each>
+			<elixirInfo>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var158_create_lastReviewExternalSab">
+						<xsl:with-param name="var157_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var160_create_lastReviewElixirSab">
+						<xsl:with-param name="var159_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var162_create_inSDP">
+						<xsl:with-param name="var161_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var164_create_isCoreDataResource">
+						<xsl:with-param name="var163_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var166_create_platform">
+						<xsl:with-param name="var165_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var168_create_node">
+						<xsl:with-param name="var167_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+				<xsl:for-each select="$var173_current/ns0:elixirInfo">
+					<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var172_resultof_map">
+						<xsl:with-param name="var171_current" select="."/>
+					</xsl:call-template>
+				</xsl:for-each>
+			</elixirInfo>
 		</root>
 	</xsl:template>
-	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var162_resultof_map">
-		<xsl:param name="var161_current"/>
-		<xsl:for-each select="$var161_current/ns0:tool">
-			<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var160_create_root">
-				<xsl:with-param name="var159_current" select="."/>
+	<xsl:template name="agt:MapTobiotools-2_0_0_framework_var176_resultof_map">
+		<xsl:param name="var175_current"/>
+		<xsl:for-each select="$var175_current/ns0:tool">
+			<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var174_create_root">
+				<xsl:with-param name="var173_current" select="."/>
 			</xsl:call-template>
 		</xsl:for-each>
 	</xsl:template>
@@ -1002,8 +1058,8 @@ http://www.altova.com/mapforce
 		<tools>
 			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">D:/repos/GitHub/biotoolsShim/xml2genericxml/biotools-2.0.0_framework.xsd</xsl:attribute>
 			<xsl:for-each select="ns0:tools">
-				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var162_resultof_map">
-					<xsl:with-param name="var161_current" select="."/>
+				<xsl:call-template name="agt:MapTobiotools-2_0_0_framework_var176_resultof_map">
+					<xsl:with-param name="var175_current" select="."/>
 				</xsl:call-template>
 			</xsl:for-each>
 		</tools>

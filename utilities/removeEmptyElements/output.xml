@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<tools xsi:noNamespaceSchemaLocation="D:/repos/GitHub/biotoolsShim/xml2genericxml/biotools-2.0.0_framework.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<tools xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="D:/repos/GitHub/biotoolsShim/xml2genericxml/biotools-2.0.0_framework.xsd">
 	<root>
 		<name>toolName</name>
 		<id>toolName</id>
@@ -214,10 +213,7 @@
 		</collectionID>
 		<maturity>Mature</maturity>
 		<cost>Free of charge</cost>
-		<accessibility>
-			<list-item>Proprietary</list-item>
-			<list-item>Open access</list-item>
-		</accessibility>
+		
 		<relation>
 			<list-item>
 				<biotoolsId>https://bio.tools/tool/toolName/version/versionNumber</biotoolsId>
@@ -376,13 +372,13 @@
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				
 			</list-item>
 			<list-item>
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				
 			</list-item>
 		</contact>
 		<credit>
@@ -629,10 +625,7 @@
 		</collectionID>
 		<maturity>Mature</maturity>
 		<cost>Free of charge (with restrictions)</cost>
-		<accessibility>
-			<list-item>Restricted access</list-item>
-			<list-item>Proprietary</list-item>
-		</accessibility>
+		
 		<relation>
 			<list-item>
 				<biotoolsId>https://bio.tools/tool/toolName</biotoolsId>
@@ -791,13 +784,13 @@
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				
 			</list-item>
 			<list-item>
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				
 			</list-item>
 		</contact>
 		<credit>

@@ -81,8 +81,8 @@ http://www.altova.com/mapforce
 													</term>
 												</xsl:for-each>
 											</data>
-											<xsl:for-each select="ns0:format">
-												<format>
+											<format>
+												<xsl:for-each select="ns0:format">
 													<list-item>
 														<xsl:for-each select="ns0:uri">
 															<uri>
@@ -95,8 +95,8 @@ http://www.altova.com/mapforce
 															</term>
 														</xsl:for-each>
 													</list-item>
-												</format>
-											</xsl:for-each>
+												</xsl:for-each>
+											</format>
 										</list-item>
 									</xsl:for-each>
 								</input>
@@ -115,8 +115,8 @@ http://www.altova.com/mapforce
 													</term>
 												</xsl:for-each>
 											</data>
-											<xsl:for-each select="ns0:format">
-												<format>
+											<format>
+												<xsl:for-each select="ns0:format">
 													<list-item>
 														<xsl:for-each select="ns0:uri">
 															<uri>
@@ -129,8 +129,8 @@ http://www.altova.com/mapforce
 															</term>
 														</xsl:for-each>
 													</list-item>
-												</format>
-											</xsl:for-each>
+												</xsl:for-each>
+											</format>
 										</list-item>
 									</xsl:for-each>
 								</output>
@@ -241,67 +241,39 @@ http://www.altova.com/mapforce
 							</list-item>
 						</xsl:for-each>
 					</relation>
-					<xsl:for-each select="ns0:apiSpec">
-						<apiSpec>
+					<apiSpec>
+						<xsl:for-each select="ns0:apiSpec">
 							<baseURL>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:baseURL)))"/>
 							</baseURL>
-							<endpoint>
-								<xsl:for-each select="ns0:endpoint">
-									<list-item>
-										<httpMethod>
-											<xsl:sequence select="fn:string(ns0:httpMethod)"/>
-										</httpMethod>
-										<urlTemplate>
-											<xsl:sequence select="fn:string(ns0:urlTemplate)"/>
-										</urlTemplate>
-										<output>
-											<xsl:for-each select="ns0:output">
-												<list-item>
-													<data>
-														<xsl:for-each select="ns0:data/ns0:uri">
-															<uri>
-																<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-															</uri>
-														</xsl:for-each>
-														<xsl:for-each select="ns0:data/ns0:term">
-															<term>
-																<xsl:sequence select="fn:string(.)"/>
-															</term>
-														</xsl:for-each>
-													</data>
-													<format>
-														<xsl:for-each select="ns0:format">
-															<list-item>
-																<xsl:for-each select="ns0:uri">
-																	<uri>
-																		<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-																	</uri>
-																</xsl:for-each>
-																<xsl:for-each select="ns0:term">
-																	<term>
-																		<xsl:sequence select="fn:string(.)"/>
-																	</term>
-																</xsl:for-each>
-															</list-item>
-														</xsl:for-each>
-													</format>
-												</list-item>
-											</xsl:for-each>
-										</output>
-										<xsl:for-each select="ns0:summary">
-											<summary>
-												<xsl:sequence select="fn:string(.)"/>
-											</summary>
-										</xsl:for-each>
-										<parameter>
-											<xsl:for-each select="ns0:parameter">
-												<list-item>
-													<urlTemplateFragment>
-														<xsl:sequence select="fn:string(ns0:urlTemplateFragment)"/>
-													</urlTemplateFragment>
-													<xsl:for-each select="ns0:data">
-														<data>
+						</xsl:for-each>
+						<endpoint>
+							<xsl:for-each select="ns0:apiSpec/ns0:endpoint">
+								<list-item>
+									<httpMethod>
+										<xsl:sequence select="fn:string(ns0:httpMethod)"/>
+									</httpMethod>
+									<urlTemplate>
+										<xsl:sequence select="fn:string(ns0:urlTemplate)"/>
+									</urlTemplate>
+									<output>
+										<xsl:for-each select="ns0:output">
+											<list-item>
+												<data>
+													<xsl:for-each select="ns0:data/ns0:uri">
+														<uri>
+															<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+														</uri>
+													</xsl:for-each>
+													<xsl:for-each select="ns0:data/ns0:term">
+														<term>
+															<xsl:sequence select="fn:string(.)"/>
+														</term>
+													</xsl:for-each>
+												</data>
+												<format>
+													<xsl:for-each select="ns0:format">
+														<list-item>
 															<xsl:for-each select="ns0:uri">
 																<uri>
 																	<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
@@ -312,21 +284,49 @@ http://www.altova.com/mapforce
 																	<xsl:sequence select="fn:string(.)"/>
 																</term>
 															</xsl:for-each>
-														</data>
+														</list-item>
 													</xsl:for-each>
-													<xsl:for-each select="ns0:comment">
-														<comment>
-															<xsl:sequence select="fn:string(.)"/>
-														</comment>
-													</xsl:for-each>
-												</list-item>
-											</xsl:for-each>
-										</parameter>
-									</list-item>
-								</xsl:for-each>
-							</endpoint>
-						</apiSpec>
-					</xsl:for-each>
+												</format>
+											</list-item>
+										</xsl:for-each>
+									</output>
+									<xsl:for-each select="ns0:summary">
+										<summary>
+											<xsl:sequence select="fn:string(.)"/>
+										</summary>
+									</xsl:for-each>
+									<parameter>
+										<xsl:for-each select="ns0:parameter">
+											<list-item>
+												<urlTemplateFragment>
+													<xsl:sequence select="fn:string(ns0:urlTemplateFragment)"/>
+												</urlTemplateFragment>
+												<xsl:for-each select="ns0:data">
+													<data>
+														<xsl:for-each select="ns0:uri">
+															<uri>
+																<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+															</uri>
+														</xsl:for-each>
+														<xsl:for-each select="ns0:term">
+															<term>
+																<xsl:sequence select="fn:string(.)"/>
+															</term>
+														</xsl:for-each>
+													</data>
+												</xsl:for-each>
+												<xsl:for-each select="ns0:comment">
+													<comment>
+														<xsl:sequence select="fn:string(.)"/>
+													</comment>
+												</xsl:for-each>
+											</list-item>
+										</xsl:for-each>
+									</parameter>
+								</list-item>
+							</xsl:for-each>
+						</endpoint>
+					</apiSpec>
 					<link>
 						<xsl:for-each select="ns0:link">
 							<list-item>
@@ -489,33 +489,43 @@ http://www.altova.com/mapforce
 							</list-item>
 						</xsl:for-each>
 					</credit>
-					<xsl:for-each select="ns0:elixirInfo">
-						<elixirInfo>
+					<elixirInfo>
+						<xsl:for-each select="ns0:elixirInfo">
 							<lastReviewExternalSab>
 								<xsl:sequence select="xs:string(xs:date(fn:string(ns0:lastReviewExternalSab)))"/>
 							</lastReviewExternalSab>
+						</xsl:for-each>
+						<xsl:for-each select="ns0:elixirInfo">
 							<lastReviewElixirSab>
 								<xsl:sequence select="xs:string(xs:date(fn:string(ns0:lastReviewElixirSab)))"/>
 							</lastReviewElixirSab>
+						</xsl:for-each>
+						<xsl:for-each select="ns0:elixirInfo">
 							<inSDP>
 								<xsl:sequence select="xs:string(xs:boolean(fn:string(ns0:inSDP)))"/>
 							</inSDP>
+						</xsl:for-each>
+						<xsl:for-each select="ns0:elixirInfo">
 							<isCoreDataResource>
 								<xsl:sequence select="xs:string(xs:boolean(fn:string(ns0:isCoreDataResource)))"/>
 							</isCoreDataResource>
+						</xsl:for-each>
+						<xsl:for-each select="ns0:elixirInfo">
 							<platform>
 								<xsl:sequence select="fn:string(ns0:platform)"/>
 							</platform>
+						</xsl:for-each>
+						<xsl:for-each select="ns0:elixirInfo">
 							<node>
 								<xsl:sequence select="fn:string(ns0:node)"/>
 							</node>
-							<xsl:for-each select="ns0:comment">
-								<comment>
-									<xsl:sequence select="fn:string(.)"/>
-								</comment>
-							</xsl:for-each>
-						</elixirInfo>
-					</xsl:for-each>
+						</xsl:for-each>
+						<xsl:for-each select="ns0:elixirInfo/ns0:comment">
+							<comment>
+								<xsl:sequence select="fn:string(.)"/>
+							</comment>
+						</xsl:for-each>
+					</elixirInfo>
 				</root>
 			</xsl:for-each>
 		</tools>

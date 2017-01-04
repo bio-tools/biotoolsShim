@@ -214,10 +214,7 @@
 		</collectionID>
 		<maturity>Mature</maturity>
 		<cost>Free of charge</cost>
-		<accessibility>
-			<list-item>Proprietary</list-item>
-			<list-item>Open access</list-item>
-		</accessibility>
+		<accessibility/>
 		<relation>
 			<list-item>
 				<biotoolsId>https://bio.tools/tool/toolName/version/versionNumber</biotoolsId>
@@ -376,13 +373,13 @@
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				<tel></tel>
 			</list-item>
 			<list-item>
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				<tel></tel>
 			</list-item>
 		</contact>
 		<credit>
@@ -629,10 +626,7 @@
 		</collectionID>
 		<maturity>Mature</maturity>
 		<cost>Free of charge (with restrictions)</cost>
-		<accessibility>
-			<list-item>Restricted access</list-item>
-			<list-item>Proprietary</list-item>
-		</accessibility>
+		<accessibility/>
 		<relation>
 			<list-item>
 				<biotoolsId>https://bio.tools/tool/toolName</biotoolsId>
@@ -791,13 +785,13 @@
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				<tel></tel>
 			</list-item>
 			<list-item>
 				<email>joebloggst@elixir-dk.org</email>
 				<url>https://joebloggs.com</url>
 				<name>Joe Bloggs</name>
-				<tel>+49-89-636-48018</tel>
+				<tel></tel>
 			</list-item>
 		</contact>
 		<credit>
