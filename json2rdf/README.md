@@ -1,4 +1,7 @@
 # Motivations
+Bio.Tools makes use of the EDAM ontology to semmantically annotate bioinformatics software and data resources. However, it is not yet possible to publish and share Bio.Tools content as Linked Data. In addition it is not yet possible to query Bio.Tools with graph patterns and leverage semantic web qerying/reasoning possibilities. 
+
+This prototype aims at transforming Bio.Tools content into RDF so that content can be better shared on the web, and better exploited through advanced querying and reasoning. 
 
 # Prerequisites
 You first need to install python dependencies. They are specified in the `requirements.txt` file and can be automatically downloaded with Conda: 
