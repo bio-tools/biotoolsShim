@@ -20,6 +20,7 @@ pyparsing=2.2.0=py35_0
 pysocks=1.6.6=py35_0
 python=3.5.4=1
 rdflib=4.2.2=py35_0
+rdflib-jsonld=0.4=py35_0
 readline=6.2=2
 setuptools=36.4.0=py35_1
 six=1.10.0=py35_0
