@@ -12,30 +12,12 @@ http://www.altova.com/mapforce
 	<xsl:output method="xml" encoding="UTF-8" byte-order-mark="no" indent="yes"/>
 	<xsl:template match="/">
 		<tools>
-			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'D:/repos/GitHub/biotoolsShim/xml2genericxml/biotools-2.0.0_framework.xsd'"/>
+			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'D:/repos/GitHub/biotoolsShim/xml2genericxml/versions/biotools-3.0.0/biotools-3.0.0_framework.xsd'"/>
 			<xsl:for-each select="ns0:tools/ns0:tool">
 				<root>
 					<name>
 						<xsl:sequence select="fn:string(ns0:summary/ns0:name)"/>
 					</name>
-					<id>
-						<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:summary/ns0:toolID)))"/>
-					</id>
-					<xsl:for-each select="ns0:summary/ns0:version">
-						<version>
-							<xsl:sequence select="fn:string(.)"/>
-						</version>
-					</xsl:for-each>
-					<xsl:for-each select="ns0:summary/ns0:versionID">
-						<versionID>
-							<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-						</versionID>
-					</xsl:for-each>
-					<xsl:for-each select="ns0:summary/ns0:doi">
-						<doi>
-							<xsl:sequence select="fn:string(.)"/>
-						</doi>
-					</xsl:for-each>
 					<xsl:for-each select="ns0:summary/ns0:shortDescription">
 						<shortDescription>
 							<xsl:sequence select="fn:string(.)"/>
@@ -47,6 +29,42 @@ http://www.altova.com/mapforce
 					<homepage>
 						<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:summary/ns0:homepage)))"/>
 					</homepage>
+					<xsl:for-each select="ns0:summary/ns0:biotoolsID">
+						<biotoolsID>
+							<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+						</biotoolsID>
+					</xsl:for-each>
+					<xsl:for-each select="ns0:summary/ns0:biotoolsCURIE">
+						<biotoolsCURIE>
+							<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+						</biotoolsCURIE>
+					</xsl:for-each>
+					<version>
+						<xsl:for-each select="ns0:summary/ns0:version">
+							<list-item>
+								<xsl:sequence select="fn:string(.)"/>
+							</list-item>
+						</xsl:for-each>
+					</version>
+					<otherID>
+						<xsl:for-each select="ns0:summary/ns0:otherID">
+							<list-item>
+								<value>
+									<xsl:sequence select="fn:string(ns0:value)"/>
+								</value>
+								<xsl:for-each select="ns0:type">
+									<type>
+										<xsl:sequence select="fn:string(.)"/>
+									</type>
+								</xsl:for-each>
+								<xsl:for-each select="ns0:version">
+									<version>
+										<xsl:sequence select="fn:string(.)"/>
+									</version>
+								</xsl:for-each>
+							</list-item>
+						</xsl:for-each>
+					</otherID>
 					<function>
 						<xsl:for-each select="ns0:function">
 							<list-item>
@@ -139,6 +157,11 @@ http://www.altova.com/mapforce
 										<xsl:sequence select="fn:string(.)"/>
 									</comment>
 								</xsl:for-each>
+								<xsl:for-each select="ns0:cmd">
+									<cmd>
+										<xsl:sequence select="fn:string(.)"/>
+									</cmd>
+								</xsl:for-each>
 							</list-item>
 						</xsl:for-each>
 					</function>
@@ -182,7 +205,7 @@ http://www.altova.com/mapforce
 					<taxID>
 						<xsl:for-each select="ns0:labels/ns0:taxID">
 							<list-item>
-								<xsl:sequence select="xs:string(xs:integer(fn:string(.)))"/>
+								<xsl:sequence select="fn:string(.)"/>
 							</list-item>
 						</xsl:for-each>
 					</taxID>
@@ -208,7 +231,7 @@ http://www.altova.com/mapforce
 					<collectionID>
 						<xsl:for-each select="ns0:labels/ns0:collectionID">
 							<list-item>
-								<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+								<xsl:sequence select="fn:string(.)"/>
 							</list-item>
 						</xsl:for-each>
 					</collectionID>
@@ -233,7 +256,7 @@ http://www.altova.com/mapforce
 						<xsl:for-each select="ns0:relation">
 							<list-item>
 								<biotoolsId>
-									<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:biotoolsId)))"/>
+									<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:biotoolsID)))"/>
 								</biotoolsId>
 								<type>
 									<xsl:sequence select="fn:string(ns0:type)"/>
@@ -330,9 +353,16 @@ http://www.altova.com/mapforce
 					<link>
 						<xsl:for-each select="ns0:link">
 							<list-item>
-								<url>
-									<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:url)))"/>
-								</url>
+								<xsl:for-each select="ns0:url">
+									<url>
+										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+									</url>
+								</xsl:for-each>
+								<xsl:for-each select="ns0:isAvailable">
+									<isAvailable>
+										<xsl:sequence select="fn:string(.)"/>
+									</isAvailable>
+								</xsl:for-each>
 								<type>
 									<xsl:sequence select="fn:string(ns0:type)"/>
 								</type>
@@ -347,9 +377,16 @@ http://www.altova.com/mapforce
 					<download>
 						<xsl:for-each select="ns0:download">
 							<list-item>
-								<url>
-									<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:url)))"/>
-								</url>
+								<xsl:for-each select="ns0:url">
+									<url>
+										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+									</url>
+								</xsl:for-each>
+								<xsl:for-each select="ns0:isAvailable">
+									<isAvailable>
+										<xsl:sequence select="fn:string(.)"/>
+									</isAvailable>
+								</xsl:for-each>
 								<type>
 									<xsl:sequence select="fn:string(ns0:type)"/>
 								</type>
@@ -373,15 +410,27 @@ http://www.altova.com/mapforce
 										<xsl:sequence select="fn:string(.)"/>
 									</cmd>
 								</xsl:for-each>
+								<xsl:for-each select="ns0:version">
+									<version>
+										<xsl:sequence select="fn:string(.)"/>
+									</version>
+								</xsl:for-each>
 							</list-item>
 						</xsl:for-each>
 					</download>
 					<documentation>
 						<xsl:for-each select="ns0:documentation">
 							<list-item>
-								<url>
-									<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:url)))"/>
-								</url>
+								<xsl:for-each select="ns0:url">
+									<url>
+										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+									</url>
+								</xsl:for-each>
+								<xsl:for-each select="ns0:isAvailable">
+									<isAvailable>
+										<xsl:sequence select="fn:string(.)"/>
+									</isAvailable>
+								</xsl:for-each>
 								<type>
 									<xsl:sequence select="fn:string(ns0:type)"/>
 								</type>
@@ -396,6 +445,11 @@ http://www.altova.com/mapforce
 					<publication>
 						<xsl:for-each select="ns0:publication">
 							<list-item>
+								<xsl:for-each select="ns0:isAvailable">
+									<isAvailable>
+										<xsl:sequence select="fn:string(.)"/>
+									</isAvailable>
+								</xsl:for-each>
 								<xsl:for-each select="ns0:doi">
 									<doi>
 										<xsl:sequence select="fn:string(.)"/>
@@ -416,41 +470,42 @@ http://www.altova.com/mapforce
 										<xsl:sequence select="fn:string(.)"/>
 									</type>
 								</xsl:for-each>
+								<xsl:for-each select="ns0:version">
+									<version>
+										<xsl:sequence select="fn:string(.)"/>
+									</version>
+								</xsl:for-each>
 							</list-item>
 						</xsl:for-each>
 					</publication>
-					<contact>
-						<xsl:for-each select="ns0:contact">
+					<credit>
+						<xsl:for-each select="ns0:credit">
 							<list-item>
-								<xsl:for-each select="ns0:email">
-									<email>
+								<xsl:for-each select="ns0:elixirPlatform">
+									<elixirPlatform>
 										<xsl:sequence select="fn:string(.)"/>
-									</email>
+									</elixirPlatform>
 								</xsl:for-each>
-								<xsl:for-each select="ns0:url">
-									<url>
-										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-									</url>
+								<xsl:for-each select="ns0:elixirNode">
+									<elixirNode>
+										<xsl:sequence select="fn:string(.)"/>
+									</elixirNode>
 								</xsl:for-each>
 								<xsl:for-each select="ns0:name">
 									<name>
 										<xsl:sequence select="fn:string(.)"/>
 									</name>
 								</xsl:for-each>
-								<xsl:for-each select="ns0:tel">
-									<tel>
+								<xsl:for-each select="ns0:orcidid">
+									<orcidId>
 										<xsl:sequence select="fn:string(.)"/>
-									</tel>
+									</orcidId>
 								</xsl:for-each>
-							</list-item>
-						</xsl:for-each>
-					</contact>
-					<credit>
-						<xsl:for-each select="ns0:credit">
-							<list-item>
-								<name>
-									<xsl:sequence select="fn:string(ns0:name)"/>
-								</name>
+								<xsl:for-each select="ns0:gridid">
+									<gridId>
+										<xsl:sequence select="fn:string(.)"/>
+									</gridId>
+								</xsl:for-each>
 								<xsl:for-each select="ns0:email">
 									<email>
 										<xsl:sequence select="fn:string(.)"/>
@@ -461,15 +516,10 @@ http://www.altova.com/mapforce
 										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
 									</url>
 								</xsl:for-each>
-								<xsl:for-each select="ns0:orcidId">
-									<orcidId>
-										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-									</orcidId>
-								</xsl:for-each>
-								<xsl:for-each select="ns0:gridId">
-									<gridId>
-										<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-									</gridId>
+								<xsl:for-each select="ns0:tel">
+									<tel>
+										<xsl:sequence select="fn:string(.)"/>
+									</tel>
 								</xsl:for-each>
 								<xsl:for-each select="ns0:typeEntity">
 									<typeEntity>
@@ -509,16 +559,6 @@ http://www.altova.com/mapforce
 							<isCoreDataResource>
 								<xsl:sequence select="xs:string(xs:boolean(fn:string(ns0:isCoreDataResource)))"/>
 							</isCoreDataResource>
-						</xsl:for-each>
-						<xsl:for-each select="ns0:elixirInfo">
-							<platform>
-								<xsl:sequence select="fn:string(ns0:platform)"/>
-							</platform>
-						</xsl:for-each>
-						<xsl:for-each select="ns0:elixirInfo">
-							<node>
-								<xsl:sequence select="fn:string(ns0:node)"/>
-							</node>
 						</xsl:for-each>
 						<xsl:for-each select="ns0:elixirInfo/ns0:comment">
 							<comment>
