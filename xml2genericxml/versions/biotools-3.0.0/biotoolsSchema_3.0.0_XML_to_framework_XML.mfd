@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="biotools-2.0.0" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="51" lty="-309" rbx="625" rby="1961"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://bio.tools"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="tools" outkey="1" expanded="1">
+										<entry name="tool" outkey="2" expanded="1">
+											<entry name="summary" expanded="1">
+												<entry name="name" outkey="3"/>
+												<entry name="toolID" outkey="4"/>
+												<entry name="version" outkey="5"/>
+												<entry name="versionID" outkey="6"/>
+												<entry name="doi" outkey="7"/>
+												<entry name="shortDescription" outkey="8"/>
+												<entry name="description" outkey="9"/>
+												<entry name="homepage" outkey="10"/>
+											</entry>
+											<entry name="function" outkey="11" expanded="1">
+												<entry name="operation" outkey="12" expanded="1">
+													<entry name="uri" outkey="13"/>
+													<entry name="term" outkey="14"/>
+												</entry>
+												<entry name="input" outkey="15" expanded="1">
+													<entry name="data" outkey="1150" expanded="1">
+														<entry name="uri" outkey="17"/>
+														<entry name="term" outkey="18"/>
+													</entry>
+													<entry name="format" outkey="19" expanded="1">
+														<entry name="uri" outkey="20"/>
+														<entry name="term" outkey="21"/>
+													</entry>
+												</entry>
+												<entry name="output" outkey="22" expanded="1">
+													<entry name="data" outkey="23" expanded="1">
+														<entry name="uri" outkey="24"/>
+														<entry name="term" outkey="25"/>
+													</entry>
+													<entry name="format" outkey="26" expanded="1">
+														<entry name="uri" outkey="27"/>
+														<entry name="term" outkey="28"/>
+													</entry>
+												</entry>
+												<entry name="comment" outkey="29"/>
+											</entry>
+											<entry name="labels" expanded="1">
+												<entry name="toolType" outkey="31"/>
+												<entry name="topic" outkey="32" expanded="1">
+													<entry name="uri" outkey="33"/>
+													<entry name="term" outkey="34"/>
+												</entry>
+												<entry name="goTermID" outkey="35"/>
+												<entry name="soTermID" outkey="36"/>
+												<entry name="taxID" outkey="37"/>
+												<entry name="operatingSystem" outkey="38"/>
+												<entry name="language" outkey="39"/>
+												<entry name="license" outkey="40"/>
+												<entry name="collectionID" outkey="41"/>
+												<entry name="maturity" outkey="42"/>
+												<entry name="cost" outkey="43"/>
+												<entry name="accessibility" outkey="44"/>
+											</entry>
+											<entry name="relation" outkey="45" expanded="1">
+												<entry name="biotoolsId" outkey="46"/>
+												<entry name="type" outkey="47"/>
+											</entry>
+											<entry name="apiSpec" expanded="1">
+												<entry name="baseURL" outkey="49"/>
+												<entry name="endpoint" outkey="50" expanded="1">
+													<entry name="httpMethod" outkey="51"/>
+													<entry name="urlTemplate" outkey="52"/>
+													<entry name="output" outkey="53" expanded="1">
+														<entry name="data" outkey="54" expanded="1">
+															<entry name="uri" outkey="55"/>
+															<entry name="term" outkey="56"/>
+														</entry>
+														<entry name="format" outkey="57" expanded="1">
+															<entry name="uri" outkey="58"/>
+															<entry name="term" outkey="59"/>
+														</entry>
+													</entry>
+													<entry name="summary" outkey="60"/>
+													<entry name="parameter" outkey="61" expanded="1">
+														<entry name="urlTemplateFragment" outkey="62"/>
+														<entry name="data" outkey="63" expanded="1">
+															<entry name="uri" outkey="64"/>
+															<entry name="term" outkey="65"/>
+														</entry>
+														<entry name="comment" outkey="66"/>
+													</entry>
+												</entry>
+											</entry>
+											<entry name="link" outkey="67" expanded="1">
+												<entry name="url" outkey="68"/>
+												<entry name="type" outkey="69"/>
+												<entry name="comment" outkey="70" expanded="1"/>
+											</entry>
+											<entry name="download" outkey="71" expanded="1">
+												<entry name="url" outkey="72"/>
+												<entry name="type" outkey="73"/>
+												<entry name="comment" outkey="74"/>
+												<entry name="diskFormat" outkey="75"/>
+												<entry name="containerFormat" outkey="76"/>
+												<entry name="cmd" outkey="77"/>
+											</entry>
+											<entry name="documentation" outkey="78" expanded="1">
+												<entry name="url" outkey="79"/>
+												<entry name="type" outkey="80"/>
+												<entry name="comment" outkey="81"/>
+											</entry>
+											<entry name="publication" outkey="82" expanded="1">
+												<entry name="doi" outkey="83"/>
+												<entry name="pmid" outkey="84"/>
+												<entry name="pmcid" outkey="85"/>
+												<entry name="type" outkey="86"/>
+											</entry>
+											<entry name="contact" outkey="87" expanded="1">
+												<entry name="email" outkey="88"/>
+												<entry name="url" outkey="89"/>
+												<entry name="name" outkey="90"/>
+												<entry name="tel" outkey="91"/>
+											</entry>
+											<entry name="credit" outkey="92" expanded="1">
+												<entry name="name" outkey="93"/>
+												<entry name="email" outkey="94"/>
+												<entry name="url" outkey="95"/>
+												<entry name="orcidId" outkey="96"/>
+												<entry name="gridId" outkey="990"/>
+												<entry name="typeEntity" outkey="97"/>
+												<entry name="typeRole" outkey="98"/>
+												<entry name="comment" outkey="99"/>
+											</entry>
+											<entry name="elixirInfo" expanded="1">
+												<entry name="lastReviewExternalSab" outkey="101"/>
+												<entry name="lastReviewElixirSab" outkey="102"/>
+												<entry name="inSDP" outkey="103"/>
+												<entry name="isCoreDataResource" outkey="104"/>
+												<entry name="platform" outkey="105"/>
+												<entry name="node" outkey="106"/>
+												<entry name="comment" outkey="107"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools-2.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{http://bio.tools}tools"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="biotools-2.0.0_framework" library="xml" uid="5" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="tools" inpkey="482" expanded="1">
+										<entry name="root" inpkey="483" expanded="1">
+											<entry name="name" inpkey="484"/>
+											<entry name="id" inpkey="698"/>
+											<entry name="version" inpkey="486"/>
+											<entry name="versionID" inpkey="487"/>
+											<entry name="doi" inpkey="488"/>
+											<entry name="shortDescription" inpkey="489"/>
+											<entry name="description" inpkey="490"/>
+											<entry name="homepage" inpkey="491"/>
+											<entry name="function" expanded="1">
+												<entry name="list-item" inpkey="492" expanded="1">
+													<entry name="operation" expanded="1">
+														<entry name="list-item" inpkey="493" expanded="1">
+															<entry name="uri" inpkey="494"/>
+															<entry name="term" inpkey="495"/>
+														</entry>
+													</entry>
+													<entry name="input" expanded="1">
+														<entry name="list-item" inpkey="496" expanded="1">
+															<entry name="data" inpkey="1151" expanded="1">
+																<entry name="uri" inpkey="498"/>
+																<entry name="term" inpkey="499"/>
+															</entry>
+															<entry name="format" expanded="1">
+																<entry name="list-item" inpkey="501" expanded="1">
+																	<entry name="uri" inpkey="502"/>
+																	<entry name="term" inpkey="503"/>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="output" expanded="1">
+														<entry name="list-item" inpkey="504" expanded="1">
+															<entry name="data" inpkey="505" expanded="1">
+																<entry name="uri" inpkey="506"/>
+																<entry name="term" inpkey="507"/>
+															</entry>
+															<entry name="format" expanded="1">
+																<entry name="list-item" inpkey="509" expanded="1">
+																	<entry name="uri" inpkey="510"/>
+																	<entry name="term" inpkey="511"/>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="comment" inpkey="512"/>
+												</entry>
+											</entry>
+											<entry name="toolType" expanded="1">
+												<entry name="list-item" inpkey="513"/>
+											</entry>
+											<entry name="topic" expanded="1">
+												<entry name="list-item" inpkey="514" expanded="1">
+													<entry name="uri" inpkey="515"/>
+													<entry name="term" inpkey="516"/>
+												</entry>
+											</entry>
+											<entry name="goTermID" expanded="1">
+												<entry name="list-item" inpkey="517"/>
+											</entry>
+											<entry name="soTermID" expanded="1">
+												<entry name="list-item" inpkey="518"/>
+											</entry>
+											<entry name="taxID" expanded="1">
+												<entry name="list-item" inpkey="519"/>
+											</entry>
+											<entry name="operatingSystem" expanded="1">
+												<entry name="list-item" inpkey="520"/>
+											</entry>
+											<entry name="language" expanded="1">
+												<entry name="list-item" inpkey="521"/>
+											</entry>
+											<entry name="license" inpkey="522"/>
+											<entry name="collectionID" expanded="1">
+												<entry name="list-item" inpkey="523"/>
+											</entry>
+											<entry name="maturity" inpkey="524"/>
+											<entry name="cost" inpkey="525"/>
+											<entry name="accessibility" expanded="1">
+												<entry name="list-item" inpkey="526"/>
+											</entry>
+											<entry name="relation" expanded="1">
+												<entry name="list-item" inpkey="527" expanded="1">
+													<entry name="biotoolsId" inpkey="528"/>
+													<entry name="type" inpkey="529"/>
+												</entry>
+											</entry>
+											<entry name="apiSpec" expanded="1">
+												<entry name="baseURL" inpkey="531"/>
+												<entry name="endpoint" expanded="1">
+													<entry name="list-item" inpkey="532" expanded="1">
+														<entry name="httpMethod" inpkey="533"/>
+														<entry name="urlTemplate" inpkey="534"/>
+														<entry name="output" expanded="1">
+															<entry name="list-item" inpkey="535" expanded="1">
+																<entry name="data" inpkey="536" expanded="1">
+																	<entry name="uri" inpkey="537"/>
+																	<entry name="term" inpkey="538"/>
+																</entry>
+																<entry name="format" expanded="1">
+																	<entry name="list-item" inpkey="539" expanded="1">
+																		<entry name="uri" inpkey="540"/>
+																		<entry name="term" inpkey="541"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+														<entry name="summary" inpkey="542"/>
+														<entry name="parameter" expanded="1">
+															<entry name="list-item" inpkey="543" expanded="1">
+																<entry name="urlTemplateFragment" inpkey="544"/>
+																<entry name="data" inpkey="545" expanded="1">
+																	<entry name="uri" inpkey="546"/>
+																	<entry name="term" inpkey="547"/>
+																</entry>
+																<entry name="comment" inpkey="548"/>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+											<entry name="link" expanded="1">
+												<entry name="list-item" inpkey="549" expanded="1">
+													<entry name="url" inpkey="550"/>
+													<entry name="type" inpkey="551"/>
+													<entry name="comment" inpkey="552"/>
+												</entry>
+											</entry>
+											<entry name="download" expanded="1">
+												<entry name="list-item" inpkey="553" expanded="1">
+													<entry name="url" inpkey="554"/>
+													<entry name="type" inpkey="555"/>
+													<entry name="comment" inpkey="556"/>
+													<entry name="diskFormat" inpkey="557"/>
+													<entry name="containerFormat" inpkey="558"/>
+													<entry name="cmd" inpkey="559"/>
+												</entry>
+											</entry>
+											<entry name="documentation" expanded="1">
+												<entry name="list-item" inpkey="560" expanded="1">
+													<entry name="url" inpkey="561"/>
+													<entry name="type" inpkey="562"/>
+													<entry name="comment" inpkey="563"/>
+												</entry>
+											</entry>
+											<entry name="publication" expanded="1">
+												<entry name="list-item" inpkey="564" expanded="1">
+													<entry name="doi" inpkey="565"/>
+													<entry name="pmid" inpkey="566"/>
+													<entry name="pmcid" inpkey="567"/>
+													<entry name="type" inpkey="568"/>
+												</entry>
+											</entry>
+											<entry name="contact" expanded="1">
+												<entry name="list-item" inpkey="569" expanded="1">
+													<entry name="email" inpkey="570"/>
+													<entry name="url" inpkey="571"/>
+													<entry name="name" inpkey="572"/>
+													<entry name="tel" inpkey="573"/>
+												</entry>
+											</entry>
+											<entry name="credit" expanded="1">
+												<entry name="list-item" inpkey="574" expanded="1">
+													<entry name="name" inpkey="575"/>
+													<entry name="email" inpkey="576"/>
+													<entry name="url" inpkey="577"/>
+													<entry name="orcidId" inpkey="578"/>
+													<entry name="gridId" inpkey="989"/>
+													<entry name="typeEntity" inpkey="579"/>
+													<entry name="typeRole" inpkey="580"/>
+													<entry name="comment" inpkey="581"/>
+												</entry>
+											</entry>
+											<entry name="elixirInfo" expanded="1">
+												<entry name="lastReviewExternalSab" inpkey="583"/>
+												<entry name="lastReviewElixirSab" inpkey="584"/>
+												<entry name="inSDP" inpkey="585"/>
+												<entry name="isCoreDataResource" inpkey="586"/>
+												<entry name="platform" inpkey="587"/>
+												<entry name="node" inpkey="588"/>
+												<entry name="comment" inpkey="589"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools-2.0.0_framework.xsd" inputinstance="biotools-2.0.0_framework.xml" outputinstance="biotools-2.0.0_framework.xml" instanceroot="{}tools"/>
+						<wsdl/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="482" edgekey="590"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="483" edgekey="591"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="484" edgekey="1115"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="698" edgekey="1116"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="486" edgekey="1117"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="487" edgekey="1118"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="488" edgekey="1119"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="489" edgekey="1120"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="490" edgekey="598"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="491" edgekey="599"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="492" edgekey="600"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="493" edgekey="601"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="494" edgekey="1121"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges>
+							<edge vertexkey="495" edgekey="1122"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="496" edgekey="1152"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="498" edgekey="1123"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="499" edgekey="1124"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="501" edgekey="1153"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="502" edgekey="1125"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="503" edgekey="1126"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="504" edgekey="1154"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges>
+							<edge vertexkey="505" edgekey="613"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="506" edgekey="1127"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges>
+							<edge vertexkey="507" edgekey="1128"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="26">
+						<edges>
+							<edge vertexkey="509" edgekey="1155"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges>
+							<edge vertexkey="510" edgekey="1129"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="28">
+						<edges>
+							<edge vertexkey="511" edgekey="1130"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="29">
+						<edges>
+							<edge vertexkey="512" edgekey="1131"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="31">
+						<edges>
+							<edge vertexkey="513" edgekey="1059"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="32">
+						<edges>
+							<edge vertexkey="514" edgekey="622"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="515" edgekey="1060"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="34">
+						<edges>
+							<edge vertexkey="516" edgekey="1061"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="35">
+						<edges>
+							<edge vertexkey="517" edgekey="1062"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="36">
+						<edges>
+							<edge vertexkey="518" edgekey="1063"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="37">
+						<edges>
+							<edge vertexkey="519" edgekey="1064"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="38">
+						<edges>
+							<edge vertexkey="520" edgekey="1065"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="39">
+						<edges>
+							<edge vertexkey="521" edgekey="1066"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="40">
+						<edges>
+							<edge vertexkey="522" edgekey="1067"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="41">
+						<edges>
+							<edge vertexkey="523" edgekey="1068"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="42">
+						<edges>
+							<edge vertexkey="524" edgekey="1069"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="43">
+						<edges>
+							<edge vertexkey="525" edgekey="1070"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="44">
+						<edges>
+							<edge vertexkey="526" edgekey="1156"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="45">
+						<edges>
+							<edge vertexkey="527" edgekey="1149"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="46">
+						<edges>
+							<edge vertexkey="528" edgekey="1072"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="47">
+						<edges>
+							<edge vertexkey="529" edgekey="1073"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="49">
+						<edges>
+							<edge vertexkey="531" edgekey="1074"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="50">
+						<edges>
+							<edge vertexkey="532" edgekey="640"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="51">
+						<edges>
+							<edge vertexkey="533" edgekey="1075"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="52">
+						<edges>
+							<edge vertexkey="534" edgekey="1076"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="53">
+						<edges>
+							<edge vertexkey="535" edgekey="1147"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="54">
+						<edges>
+							<edge vertexkey="536" edgekey="644"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="55">
+						<edges>
+							<edge vertexkey="537" edgekey="1077"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="56">
+						<edges>
+							<edge vertexkey="538" edgekey="1078"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="539" edgekey="1142"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="58">
+						<edges>
+							<edge vertexkey="540" edgekey="1079"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="59">
+						<edges>
+							<edge vertexkey="541" edgekey="1080"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="60">
+						<edges>
+							<edge vertexkey="542" edgekey="1081"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="61">
+						<edges>
+							<edge vertexkey="543" edgekey="1143"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="62">
+						<edges>
+							<edge vertexkey="544" edgekey="652"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="63">
+						<edges>
+							<edge vertexkey="545" edgekey="1144"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="64">
+						<edges>
+							<edge vertexkey="546" edgekey="1082"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="65">
+						<edges>
+							<edge vertexkey="547" edgekey="1083"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="66">
+						<edges>
+							<edge vertexkey="548" edgekey="1084"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="67">
+						<edges>
+							<edge vertexkey="549" edgekey="1145"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="68">
+						<edges>
+							<edge vertexkey="550" edgekey="1085"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="69">
+						<edges>
+							<edge vertexkey="551" edgekey="1086"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="70">
+						<edges>
+							<edge vertexkey="552" edgekey="1087"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="71">
+						<edges>
+							<edge vertexkey="553" edgekey="1146"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="72">
+						<edges>
+							<edge vertexkey="554" edgekey="1088"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="73">
+						<edges>
+							<edge vertexkey="555" edgekey="1089"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="74">
+						<edges>
+							<edge vertexkey="556" edgekey="1090"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="75">
+						<edges>
+							<edge vertexkey="557" edgekey="1091"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="76">
+						<edges>
+							<edge vertexkey="558" edgekey="1092"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="77">
+						<edges>
+							<edge vertexkey="559" edgekey="1093"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="78">
+						<edges>
+							<edge vertexkey="560" edgekey="1139"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="79">
+						<edges>
+							<edge vertexkey="561" edgekey="1094"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="80">
+						<edges>
+							<edge vertexkey="562" edgekey="1095"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="81">
+						<edges>
+							<edge vertexkey="563" edgekey="1096"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="82">
+						<edges>
+							<edge vertexkey="564" edgekey="1140"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="83">
+						<edges>
+							<edge vertexkey="565" edgekey="1097"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="84">
+						<edges>
+							<edge vertexkey="566" edgekey="1098"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="85">
+						<edges>
+							<edge vertexkey="567" edgekey="1099"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="86">
+						<edges>
+							<edge vertexkey="568" edgekey="1100"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="87">
+						<edges>
+							<edge vertexkey="569" edgekey="1141"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="88">
+						<edges>
+							<edge vertexkey="570" edgekey="1101"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="89">
+						<edges>
+							<edge vertexkey="571" edgekey="1102"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="90">
+						<edges>
+							<edge vertexkey="572" edgekey="1103"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="91">
+						<edges>
+							<edge vertexkey="573" edgekey="1104"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="92">
+						<edges>
+							<edge vertexkey="574" edgekey="1136"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="93">
+						<edges>
+							<edge vertexkey="575" edgekey="1105"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="94">
+						<edges>
+							<edge vertexkey="576" edgekey="1106"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="95">
+						<edges>
+							<edge vertexkey="577" edgekey="1107"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="96">
+						<edges>
+							<edge vertexkey="578" edgekey="1108"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="97">
+						<edges>
+							<edge vertexkey="579" edgekey="1109"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="98">
+						<edges>
+							<edge vertexkey="580" edgekey="1110"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="99">
+						<edges>
+							<edge vertexkey="581" edgekey="1111"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="101">
+						<edges>
+							<edge vertexkey="583" edgekey="691"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="102">
+						<edges>
+							<edge vertexkey="584" edgekey="692"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="103">
+						<edges>
+							<edge vertexkey="585" edgekey="693"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="104">
+						<edges>
+							<edge vertexkey="586" edgekey="694"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="105">
+						<edges>
+							<edge vertexkey="587" edgekey="695"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="106">
+						<edges>
+							<edge vertexkey="588" edgekey="1112"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="107">
+						<edges>
+							<edge vertexkey="589" edgekey="1113"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="990">
+						<edges>
+							<edge vertexkey="989" edgekey="1114"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1150">
+						<edges>
+							<edge vertexkey="1151" edgekey="1157"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="suppressEmpty" library="user" blackbox="0" uid="9" editable="1" inline="1">
+		<properties/>
+		<description>
+			<long>Suppresses output of empty XML elements</long>
+		</description>
+		<structure>
+			<children>
+				<component name="exists" library="core" uid="10" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="438" lty="231" rbx="505" rby="270"/>
+				</component>
+				<component name="wireToInput" library="core" uid="14" kind="6">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="7"/>
+					</targets>
+					<view ltx="205" lty="89" rbx="310" rby="128"/>
+					<data>
+						<input datatype="string"/>
+						<wsdl/>
+						<parameter usageKind="input" name="wireToInput"/>
+					</data>
+				</component>
+				<component name="set-null" library="db" uid="398" kind="5">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="18"/>
+					</targets>
+					<view ltx="958" lty="127" rbx="1020" rby="166"/>
+				</component>
+				<component name="if-else" library="core" uid="401" kind="4">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="20"/>
+						<datapoint pos="1" key="21"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="1142" lty="52" rbx="1239" rby="128"/>
+				</component>
+				<component name="wireToOutput" library="core" uid="15" kind="7">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="8"/>
+					</sources>
+					<view ltx="1395" lty="456" rbx="1488" rby="495"/>
+					<data>
+						<output datatype="string"/>
+						<wsdl/>
+						<parameter usageKind="output" name="wireToOutput"/>
+					</data>
+				</component>
+				<component name="is-null" library="db" uid="400" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="22"/>
+					</targets>
+					<view ltx="834" lty="69" rbx="897" rby="108"/>
+				</component>
+				<component name="filter" library="core" uid="11" kind="3">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+						<datapoint/>
+					</targets>
+					<view ltx="608" lty="110" rbx="711" rby="166"/>
+				</component>
+				<component name="wireToNullify" library="core" uid="391" kind="7">
+					<properties/>
+					<sources>
+						<datapoint/>
+					</sources>
+					<view ltx="1395" lty="231" rbx="1485" rby="270"/>
+					<data>
+						<output datatype="string"/>
+						<wsdl/>
+						<parameter usageKind="output" name="wireToNullify"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2" edgekey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="8" edgekey="9"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="4" edgekey="10"/>
+							<edge vertexkey="5" edgekey="11"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="21" edgekey="23"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="20" edgekey="24"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
