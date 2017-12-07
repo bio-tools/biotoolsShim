@@ -5,169 +5,6 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="biotools-3.0.0" library="xml" uid="2" kind="14">
-					<properties XSLTTargetEncoding="UTF-8"/>
-					<view ltx="51" lty="-309" rbx="625" rby="1961"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace uid="http://bio.tools"/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="tools" outkey="1174" expanded="1">
-										<entry name="tool" outkey="1175" expanded="1">
-											<entry name="summary" expanded="1">
-												<entry name="name" outkey="1176"/>
-												<entry name="shortDescription" outkey="1177"/>
-												<entry name="description" outkey="1178"/>
-												<entry name="homepage" outkey="1179"/>
-												<entry name="biotoolsID" outkey="1180"/>
-												<entry name="biotoolsCURIE" outkey="1181"/>
-												<entry name="version" outkey="1182"/>
-												<entry name="otherID" outkey="1183" expanded="1">
-													<entry name="value" outkey="1184"/>
-													<entry name="type" outkey="1185"/>
-													<entry name="version" outkey="1186"/>
-												</entry>
-											</entry>
-											<entry name="function" outkey="1187" expanded="1">
-												<entry name="operation" outkey="1188" expanded="1">
-													<entry name="uri" outkey="1189"/>
-													<entry name="term" outkey="1190"/>
-												</entry>
-												<entry name="input" outkey="1191" expanded="1">
-													<entry name="data" outkey="1192" expanded="1">
-														<entry name="uri" outkey="1193"/>
-														<entry name="term" outkey="1194"/>
-													</entry>
-													<entry name="format" outkey="1195" expanded="1">
-														<entry name="uri" outkey="1196"/>
-														<entry name="term" outkey="1197"/>
-													</entry>
-												</entry>
-												<entry name="output" outkey="1198" expanded="1">
-													<entry name="data" outkey="1199" expanded="1">
-														<entry name="uri" outkey="1200"/>
-														<entry name="term" outkey="1201"/>
-													</entry>
-													<entry name="format" outkey="1202" expanded="1">
-														<entry name="uri" outkey="1203"/>
-														<entry name="term" outkey="1204"/>
-													</entry>
-												</entry>
-												<entry name="comment" outkey="1205"/>
-												<entry name="cmd" outkey="1206"/>
-											</entry>
-											<entry name="labels" expanded="1">
-												<entry name="toolType" outkey="1207"/>
-												<entry name="topic" outkey="1208" expanded="1">
-													<entry name="uri" outkey="1209"/>
-													<entry name="term" outkey="1210"/>
-												</entry>
-												<entry name="goTermID" outkey="1211"/>
-												<entry name="soTermID" outkey="1212"/>
-												<entry name="taxID" outkey="1213"/>
-												<entry name="operatingSystem" outkey="1214"/>
-												<entry name="language" outkey="1215"/>
-												<entry name="license" outkey="1216"/>
-												<entry name="collectionID" outkey="1217"/>
-												<entry name="maturity" outkey="1218"/>
-												<entry name="cost" outkey="1219"/>
-												<entry name="accessibility" outkey="1220"/>
-											</entry>
-											<entry name="relation" outkey="1221" expanded="1">
-												<entry name="biotoolsID" outkey="1222"/>
-												<entry name="type" outkey="1223"/>
-											</entry>
-											<entry name="apiSpec" expanded="1">
-												<entry name="baseURL" outkey="1224"/>
-												<entry name="endpoint" outkey="1225" expanded="1">
-													<entry name="httpMethod" outkey="1226"/>
-													<entry name="urlTemplate" outkey="1227"/>
-													<entry name="output" outkey="1228" expanded="1">
-														<entry name="data" outkey="1229" expanded="1">
-															<entry name="uri" outkey="1230"/>
-															<entry name="term" outkey="1231"/>
-														</entry>
-														<entry name="format" outkey="1232" expanded="1">
-															<entry name="uri" outkey="1233"/>
-															<entry name="term" outkey="1234"/>
-														</entry>
-													</entry>
-													<entry name="summary" outkey="1235"/>
-													<entry name="parameter" outkey="1236" expanded="1">
-														<entry name="urlTemplateFragment" outkey="1237"/>
-														<entry name="data" outkey="1238" expanded="1">
-															<entry name="uri" outkey="1239"/>
-															<entry name="term" outkey="1240"/>
-														</entry>
-														<entry name="comment" outkey="1241"/>
-													</entry>
-												</entry>
-											</entry>
-											<entry name="link" outkey="1242" expanded="1">
-												<entry name="url" outkey="1243"/>
-												<entry name="isAvailable" outkey="1244"/>
-												<entry name="type" outkey="1245"/>
-												<entry name="comment" outkey="1246" expanded="1"/>
-											</entry>
-											<entry name="download" outkey="1247" expanded="1">
-												<entry name="url" outkey="1248"/>
-												<entry name="isAvailable" outkey="1249"/>
-												<entry name="type" outkey="1250"/>
-												<entry name="comment" outkey="1251"/>
-												<entry name="diskFormat" outkey="1252"/>
-												<entry name="containerFormat" outkey="1253"/>
-												<entry name="cmd" outkey="1254"/>
-												<entry name="version" outkey="1255"/>
-											</entry>
-											<entry name="documentation" outkey="1256" expanded="1">
-												<entry name="url" outkey="1257"/>
-												<entry name="isAvailable" outkey="1258"/>
-												<entry name="type" outkey="1259"/>
-												<entry name="comment" outkey="1260"/>
-											</entry>
-											<entry name="publication" outkey="1261" expanded="1">
-												<entry name="isAvailable" outkey="1262"/>
-												<entry name="doi" outkey="1263"/>
-												<entry name="pmid" outkey="1264"/>
-												<entry name="pmcid" outkey="1265"/>
-												<entry name="type" outkey="1266"/>
-												<entry name="version" outkey="1267"/>
-											</entry>
-											<entry name="credit" outkey="1268" expanded="1">
-												<entry name="elixirPlatform" outkey="1269"/>
-												<entry name="elixirNode" outkey="1270"/>
-												<entry name="name" outkey="1271"/>
-												<entry name="orcidid" outkey="1272"/>
-												<entry name="gridid" outkey="1273"/>
-												<entry name="email" outkey="1274"/>
-												<entry name="url" outkey="1275"/>
-												<entry name="tel" outkey="1276"/>
-												<entry name="typeEntity" outkey="1277"/>
-												<entry name="typeRole" outkey="1278"/>
-												<entry name="comment" outkey="1279"/>
-											</entry>
-											<entry name="elixirInfo" expanded="1">
-												<entry name="lastReviewExternalSab" outkey="1280"/>
-												<entry name="lastReviewElixirSab" outkey="1281"/>
-												<entry name="inSDP" outkey="1282"/>
-												<entry name="isCoreDataResource" outkey="1283"/>
-												<entry name="comment" outkey="1284"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="biotools_3.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{http://bio.tools}tools"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="biotools-3.0.0_framework" library="xml" uid="5" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
@@ -378,6 +215,169 @@
 							</entry>
 						</root>
 						<document schema="biotools-3.0.0_framework.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}tools"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="biotools-3.0.0" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="51" lty="-309" rbx="625" rby="1961"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="http://bio.tools"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="tools" outkey="1174" expanded="1">
+										<entry name="tool" outkey="1175" expanded="1">
+											<entry name="summary" expanded="1">
+												<entry name="name" outkey="1176"/>
+												<entry name="shortDescription" outkey="1177"/>
+												<entry name="description" outkey="1178"/>
+												<entry name="homepage" outkey="1179"/>
+												<entry name="biotoolsID" outkey="1180"/>
+												<entry name="biotoolsCURIE" outkey="1181"/>
+												<entry name="version" outkey="1182"/>
+												<entry name="otherID" outkey="1183" expanded="1">
+													<entry name="value" outkey="1184"/>
+													<entry name="type" outkey="1185"/>
+													<entry name="version" outkey="1186"/>
+												</entry>
+											</entry>
+											<entry name="function" outkey="1187" expanded="1">
+												<entry name="operation" outkey="1188" expanded="1">
+													<entry name="uri" outkey="1189"/>
+													<entry name="term" outkey="1190"/>
+												</entry>
+												<entry name="input" outkey="1191" expanded="1">
+													<entry name="data" outkey="1192" expanded="1">
+														<entry name="uri" outkey="1193"/>
+														<entry name="term" outkey="1194"/>
+													</entry>
+													<entry name="format" outkey="1195" expanded="1">
+														<entry name="uri" outkey="1196"/>
+														<entry name="term" outkey="1197"/>
+													</entry>
+												</entry>
+												<entry name="output" outkey="1198" expanded="1">
+													<entry name="data" outkey="1199" expanded="1">
+														<entry name="uri" outkey="1200"/>
+														<entry name="term" outkey="1201"/>
+													</entry>
+													<entry name="format" outkey="1202" expanded="1">
+														<entry name="uri" outkey="1203"/>
+														<entry name="term" outkey="1204"/>
+													</entry>
+												</entry>
+												<entry name="comment" outkey="1205"/>
+												<entry name="cmd" outkey="1206"/>
+											</entry>
+											<entry name="labels" expanded="1">
+												<entry name="toolType" outkey="1207"/>
+												<entry name="topic" outkey="1208" expanded="1">
+													<entry name="uri" outkey="1209"/>
+													<entry name="term" outkey="1210"/>
+												</entry>
+												<entry name="goTermID" outkey="1211"/>
+												<entry name="soTermID" outkey="1212"/>
+												<entry name="taxID" outkey="1213"/>
+												<entry name="operatingSystem" outkey="1214"/>
+												<entry name="language" outkey="1215"/>
+												<entry name="license" outkey="1216"/>
+												<entry name="collectionID" outkey="1217"/>
+												<entry name="maturity" outkey="1218"/>
+												<entry name="cost" outkey="1219"/>
+												<entry name="accessibility" outkey="1220"/>
+											</entry>
+											<entry name="relation" outkey="1221" expanded="1">
+												<entry name="biotoolsID" outkey="1222"/>
+												<entry name="type" outkey="1223"/>
+											</entry>
+											<entry name="apiSpec" expanded="1">
+												<entry name="baseURL" outkey="1224"/>
+												<entry name="endpoint" outkey="1225" expanded="1">
+													<entry name="httpMethod" outkey="1226"/>
+													<entry name="urlTemplate" outkey="1227"/>
+													<entry name="output" outkey="1228" expanded="1">
+														<entry name="data" outkey="1229" expanded="1">
+															<entry name="uri" outkey="1230"/>
+															<entry name="term" outkey="1231"/>
+														</entry>
+														<entry name="format" outkey="1232" expanded="1">
+															<entry name="uri" outkey="1233"/>
+															<entry name="term" outkey="1234"/>
+														</entry>
+													</entry>
+													<entry name="summary" outkey="1235"/>
+													<entry name="parameter" outkey="1236" expanded="1">
+														<entry name="urlTemplateFragment" outkey="1237"/>
+														<entry name="data" outkey="1238" expanded="1">
+															<entry name="uri" outkey="1239"/>
+															<entry name="term" outkey="1240"/>
+														</entry>
+														<entry name="comment" outkey="1241"/>
+													</entry>
+												</entry>
+											</entry>
+											<entry name="link" outkey="1242" expanded="1">
+												<entry name="url" outkey="1243"/>
+												<entry name="isAvailable" outkey="1244"/>
+												<entry name="type" outkey="1245"/>
+												<entry name="comment" outkey="1246" expanded="1"/>
+											</entry>
+											<entry name="download" outkey="1247" expanded="1">
+												<entry name="url" outkey="1248"/>
+												<entry name="isAvailable" outkey="1249"/>
+												<entry name="type" outkey="1250"/>
+												<entry name="comment" outkey="1251"/>
+												<entry name="diskFormat" outkey="1252"/>
+												<entry name="containerFormat" outkey="1253"/>
+												<entry name="cmd" outkey="1254"/>
+												<entry name="version" outkey="1255"/>
+											</entry>
+											<entry name="documentation" outkey="1256" expanded="1">
+												<entry name="url" outkey="1257"/>
+												<entry name="isAvailable" outkey="1258"/>
+												<entry name="type" outkey="1259"/>
+												<entry name="comment" outkey="1260"/>
+											</entry>
+											<entry name="publication" outkey="1261" expanded="1">
+												<entry name="isAvailable" outkey="1262"/>
+												<entry name="doi" outkey="1263"/>
+												<entry name="pmid" outkey="1264"/>
+												<entry name="pmcid" outkey="1265"/>
+												<entry name="type" outkey="1266"/>
+												<entry name="version" outkey="1267"/>
+											</entry>
+											<entry name="credit" outkey="1268" expanded="1">
+												<entry name="elixirPlatform" outkey="1269"/>
+												<entry name="elixirNode" outkey="1270"/>
+												<entry name="name" outkey="1271"/>
+												<entry name="orcidid" outkey="1272"/>
+												<entry name="gridid" outkey="1273"/>
+												<entry name="email" outkey="1274"/>
+												<entry name="url" outkey="1275"/>
+												<entry name="tel" outkey="1276"/>
+												<entry name="typeEntity" outkey="1277"/>
+												<entry name="typeRole" outkey="1278"/>
+												<entry name="comment" outkey="1279"/>
+											</entry>
+											<entry name="elixirInfo" expanded="1">
+												<entry name="lastReviewExternalSab" outkey="1280"/>
+												<entry name="lastReviewElixirSab" outkey="1281"/>
+												<entry name="inSDP" outkey="1282"/>
+												<entry name="isCoreDataResource" outkey="1283"/>
+												<entry name="comment" outkey="1284"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools_3.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{http://bio.tools}tools"/>
 						<wsdl/>
 					</data>
 				</component>
