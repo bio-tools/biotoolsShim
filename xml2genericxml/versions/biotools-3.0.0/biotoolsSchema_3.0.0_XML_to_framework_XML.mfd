@@ -5,7 +5,7 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="biotools-2.0.0" library="xml" uid="2" kind="14">
+				<component name="biotools-3.0.0" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="51" lty="-309" rbx="625" rby="1961"/>
 					<data>
@@ -18,151 +18,157 @@
 							</header>
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="tools" outkey="1" expanded="1">
-										<entry name="tool" outkey="2" expanded="1">
+									<entry name="tools" outkey="1174" expanded="1">
+										<entry name="tool" outkey="1175" expanded="1">
 											<entry name="summary" expanded="1">
-												<entry name="name" outkey="3"/>
-												<entry name="toolID" outkey="4"/>
-												<entry name="version" outkey="5"/>
-												<entry name="versionID" outkey="6"/>
-												<entry name="doi" outkey="7"/>
-												<entry name="shortDescription" outkey="8"/>
-												<entry name="description" outkey="9"/>
-												<entry name="homepage" outkey="10"/>
+												<entry name="name" outkey="1176"/>
+												<entry name="shortDescription" outkey="1177"/>
+												<entry name="description" outkey="1178"/>
+												<entry name="homepage" outkey="1179"/>
+												<entry name="biotoolsID" outkey="1180"/>
+												<entry name="biotoolsCURIE" outkey="1181"/>
+												<entry name="version" outkey="1182"/>
+												<entry name="otherID" outkey="1183" expanded="1">
+													<entry name="value" outkey="1184"/>
+													<entry name="type" outkey="1185"/>
+													<entry name="version" outkey="1186"/>
+												</entry>
 											</entry>
-											<entry name="function" outkey="11" expanded="1">
-												<entry name="operation" outkey="12" expanded="1">
-													<entry name="uri" outkey="13"/>
-													<entry name="term" outkey="14"/>
+											<entry name="function" outkey="1187" expanded="1">
+												<entry name="operation" outkey="1188" expanded="1">
+													<entry name="uri" outkey="1189"/>
+													<entry name="term" outkey="1190"/>
 												</entry>
-												<entry name="input" outkey="15" expanded="1">
-													<entry name="data" outkey="1150" expanded="1">
-														<entry name="uri" outkey="17"/>
-														<entry name="term" outkey="18"/>
+												<entry name="input" outkey="1191" expanded="1">
+													<entry name="data" outkey="1192" expanded="1">
+														<entry name="uri" outkey="1193"/>
+														<entry name="term" outkey="1194"/>
 													</entry>
-													<entry name="format" outkey="19" expanded="1">
-														<entry name="uri" outkey="20"/>
-														<entry name="term" outkey="21"/>
-													</entry>
-												</entry>
-												<entry name="output" outkey="22" expanded="1">
-													<entry name="data" outkey="23" expanded="1">
-														<entry name="uri" outkey="24"/>
-														<entry name="term" outkey="25"/>
-													</entry>
-													<entry name="format" outkey="26" expanded="1">
-														<entry name="uri" outkey="27"/>
-														<entry name="term" outkey="28"/>
+													<entry name="format" outkey="1195" expanded="1">
+														<entry name="uri" outkey="1196"/>
+														<entry name="term" outkey="1197"/>
 													</entry>
 												</entry>
-												<entry name="comment" outkey="29"/>
+												<entry name="output" outkey="1198" expanded="1">
+													<entry name="data" outkey="1199" expanded="1">
+														<entry name="uri" outkey="1200"/>
+														<entry name="term" outkey="1201"/>
+													</entry>
+													<entry name="format" outkey="1202" expanded="1">
+														<entry name="uri" outkey="1203"/>
+														<entry name="term" outkey="1204"/>
+													</entry>
+												</entry>
+												<entry name="comment" outkey="1205"/>
+												<entry name="cmd" outkey="1206"/>
 											</entry>
 											<entry name="labels" expanded="1">
-												<entry name="toolType" outkey="31"/>
-												<entry name="topic" outkey="32" expanded="1">
-													<entry name="uri" outkey="33"/>
-													<entry name="term" outkey="34"/>
+												<entry name="toolType" outkey="1207"/>
+												<entry name="topic" outkey="1208" expanded="1">
+													<entry name="uri" outkey="1209"/>
+													<entry name="term" outkey="1210"/>
 												</entry>
-												<entry name="goTermID" outkey="35"/>
-												<entry name="soTermID" outkey="36"/>
-												<entry name="taxID" outkey="37"/>
-												<entry name="operatingSystem" outkey="38"/>
-												<entry name="language" outkey="39"/>
-												<entry name="license" outkey="40"/>
-												<entry name="collectionID" outkey="41"/>
-												<entry name="maturity" outkey="42"/>
-												<entry name="cost" outkey="43"/>
-												<entry name="accessibility" outkey="44"/>
+												<entry name="goTermID" outkey="1211"/>
+												<entry name="soTermID" outkey="1212"/>
+												<entry name="taxID" outkey="1213"/>
+												<entry name="operatingSystem" outkey="1214"/>
+												<entry name="language" outkey="1215"/>
+												<entry name="license" outkey="1216"/>
+												<entry name="collectionID" outkey="1217"/>
+												<entry name="maturity" outkey="1218"/>
+												<entry name="cost" outkey="1219"/>
+												<entry name="accessibility" outkey="1220"/>
 											</entry>
-											<entry name="relation" outkey="45" expanded="1">
-												<entry name="biotoolsId" outkey="46"/>
-												<entry name="type" outkey="47"/>
+											<entry name="relation" outkey="1221" expanded="1">
+												<entry name="biotoolsID" outkey="1222"/>
+												<entry name="type" outkey="1223"/>
 											</entry>
 											<entry name="apiSpec" expanded="1">
-												<entry name="baseURL" outkey="49"/>
-												<entry name="endpoint" outkey="50" expanded="1">
-													<entry name="httpMethod" outkey="51"/>
-													<entry name="urlTemplate" outkey="52"/>
-													<entry name="output" outkey="53" expanded="1">
-														<entry name="data" outkey="54" expanded="1">
-															<entry name="uri" outkey="55"/>
-															<entry name="term" outkey="56"/>
+												<entry name="baseURL" outkey="1224"/>
+												<entry name="endpoint" outkey="1225" expanded="1">
+													<entry name="httpMethod" outkey="1226"/>
+													<entry name="urlTemplate" outkey="1227"/>
+													<entry name="output" outkey="1228" expanded="1">
+														<entry name="data" outkey="1229" expanded="1">
+															<entry name="uri" outkey="1230"/>
+															<entry name="term" outkey="1231"/>
 														</entry>
-														<entry name="format" outkey="57" expanded="1">
-															<entry name="uri" outkey="58"/>
-															<entry name="term" outkey="59"/>
+														<entry name="format" outkey="1232" expanded="1">
+															<entry name="uri" outkey="1233"/>
+															<entry name="term" outkey="1234"/>
 														</entry>
 													</entry>
-													<entry name="summary" outkey="60"/>
-													<entry name="parameter" outkey="61" expanded="1">
-														<entry name="urlTemplateFragment" outkey="62"/>
-														<entry name="data" outkey="63" expanded="1">
-															<entry name="uri" outkey="64"/>
-															<entry name="term" outkey="65"/>
+													<entry name="summary" outkey="1235"/>
+													<entry name="parameter" outkey="1236" expanded="1">
+														<entry name="urlTemplateFragment" outkey="1237"/>
+														<entry name="data" outkey="1238" expanded="1">
+															<entry name="uri" outkey="1239"/>
+															<entry name="term" outkey="1240"/>
 														</entry>
-														<entry name="comment" outkey="66"/>
+														<entry name="comment" outkey="1241"/>
 													</entry>
 												</entry>
 											</entry>
-											<entry name="link" outkey="67" expanded="1">
-												<entry name="url" outkey="68"/>
-												<entry name="type" outkey="69"/>
-												<entry name="comment" outkey="70" expanded="1"/>
+											<entry name="link" outkey="1242" expanded="1">
+												<entry name="url" outkey="1243"/>
+												<entry name="isAvailable" outkey="1244"/>
+												<entry name="type" outkey="1245"/>
+												<entry name="comment" outkey="1246" expanded="1"/>
 											</entry>
-											<entry name="download" outkey="71" expanded="1">
-												<entry name="url" outkey="72"/>
-												<entry name="type" outkey="73"/>
-												<entry name="comment" outkey="74"/>
-												<entry name="diskFormat" outkey="75"/>
-												<entry name="containerFormat" outkey="76"/>
-												<entry name="cmd" outkey="77"/>
+											<entry name="download" outkey="1247" expanded="1">
+												<entry name="url" outkey="1248"/>
+												<entry name="isAvailable" outkey="1249"/>
+												<entry name="type" outkey="1250"/>
+												<entry name="comment" outkey="1251"/>
+												<entry name="diskFormat" outkey="1252"/>
+												<entry name="containerFormat" outkey="1253"/>
+												<entry name="cmd" outkey="1254"/>
+												<entry name="version" outkey="1255"/>
 											</entry>
-											<entry name="documentation" outkey="78" expanded="1">
-												<entry name="url" outkey="79"/>
-												<entry name="type" outkey="80"/>
-												<entry name="comment" outkey="81"/>
+											<entry name="documentation" outkey="1256" expanded="1">
+												<entry name="url" outkey="1257"/>
+												<entry name="isAvailable" outkey="1258"/>
+												<entry name="type" outkey="1259"/>
+												<entry name="comment" outkey="1260"/>
 											</entry>
-											<entry name="publication" outkey="82" expanded="1">
-												<entry name="doi" outkey="83"/>
-												<entry name="pmid" outkey="84"/>
-												<entry name="pmcid" outkey="85"/>
-												<entry name="type" outkey="86"/>
+											<entry name="publication" outkey="1261" expanded="1">
+												<entry name="isAvailable" outkey="1262"/>
+												<entry name="doi" outkey="1263"/>
+												<entry name="pmid" outkey="1264"/>
+												<entry name="pmcid" outkey="1265"/>
+												<entry name="type" outkey="1266"/>
+												<entry name="version" outkey="1267"/>
 											</entry>
-											<entry name="contact" outkey="87" expanded="1">
-												<entry name="email" outkey="88"/>
-												<entry name="url" outkey="89"/>
-												<entry name="name" outkey="90"/>
-												<entry name="tel" outkey="91"/>
-											</entry>
-											<entry name="credit" outkey="92" expanded="1">
-												<entry name="name" outkey="93"/>
-												<entry name="email" outkey="94"/>
-												<entry name="url" outkey="95"/>
-												<entry name="orcidId" outkey="96"/>
-												<entry name="gridId" outkey="990"/>
-												<entry name="typeEntity" outkey="97"/>
-												<entry name="typeRole" outkey="98"/>
-												<entry name="comment" outkey="99"/>
+											<entry name="credit" outkey="1268" expanded="1">
+												<entry name="elixirPlatform" outkey="1269"/>
+												<entry name="elixirNode" outkey="1270"/>
+												<entry name="name" outkey="1271"/>
+												<entry name="orcidid" outkey="1272"/>
+												<entry name="gridid" outkey="1273"/>
+												<entry name="email" outkey="1274"/>
+												<entry name="url" outkey="1275"/>
+												<entry name="tel" outkey="1276"/>
+												<entry name="typeEntity" outkey="1277"/>
+												<entry name="typeRole" outkey="1278"/>
+												<entry name="comment" outkey="1279"/>
 											</entry>
 											<entry name="elixirInfo" expanded="1">
-												<entry name="lastReviewExternalSab" outkey="101"/>
-												<entry name="lastReviewElixirSab" outkey="102"/>
-												<entry name="inSDP" outkey="103"/>
-												<entry name="isCoreDataResource" outkey="104"/>
-												<entry name="platform" outkey="105"/>
-												<entry name="node" outkey="106"/>
-												<entry name="comment" outkey="107"/>
+												<entry name="lastReviewExternalSab" outkey="1280"/>
+												<entry name="lastReviewElixirSab" outkey="1281"/>
+												<entry name="inSDP" outkey="1282"/>
+												<entry name="isCoreDataResource" outkey="1283"/>
+												<entry name="comment" outkey="1284"/>
 											</entry>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="biotools-2.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{http://bio.tools}tools"/>
+						<document schema="biotools_3.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{http://bio.tools}tools"/>
 						<wsdl/>
 					</data>
 				</component>
-				<component name="biotools-2.0.0_framework" library="xml" uid="5" kind="14">
+				<component name="biotools-3.0.0_framework" library="xml" uid="5" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
 					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
 					<data>
@@ -178,13 +184,21 @@
 									<entry name="tools" inpkey="482" expanded="1">
 										<entry name="root" inpkey="483" expanded="1">
 											<entry name="name" inpkey="484"/>
-											<entry name="id" inpkey="698"/>
-											<entry name="version" inpkey="486"/>
-											<entry name="versionID" inpkey="487"/>
-											<entry name="doi" inpkey="488"/>
 											<entry name="shortDescription" inpkey="489"/>
 											<entry name="description" inpkey="490"/>
 											<entry name="homepage" inpkey="491"/>
+											<entry name="biotoolsID" inpkey="1158"/>
+											<entry name="biotoolsCURIE" inpkey="1159"/>
+											<entry name="version" expanded="1">
+												<entry name="list-item" inpkey="1396"/>
+											</entry>
+											<entry name="otherID" expanded="1">
+												<entry name="list-item" inpkey="1160" expanded="1">
+													<entry name="value" inpkey="1161"/>
+													<entry name="type" inpkey="1162"/>
+													<entry name="version" inpkey="1163"/>
+												</entry>
+											</entry>
 											<entry name="function" expanded="1">
 												<entry name="list-item" inpkey="492" expanded="1">
 													<entry name="operation" expanded="1">
@@ -222,6 +236,7 @@
 														</entry>
 													</entry>
 													<entry name="comment" inpkey="512"/>
+													<entry name="cmd" inpkey="1164"/>
 												</entry>
 											</entry>
 											<entry name="toolType" expanded="1">
@@ -300,6 +315,7 @@
 											<entry name="link" expanded="1">
 												<entry name="list-item" inpkey="549" expanded="1">
 													<entry name="url" inpkey="550"/>
+													<entry name="isAvailable" inpkey="1165"/>
 													<entry name="type" inpkey="551"/>
 													<entry name="comment" inpkey="552"/>
 												</entry>
@@ -307,43 +323,43 @@
 											<entry name="download" expanded="1">
 												<entry name="list-item" inpkey="553" expanded="1">
 													<entry name="url" inpkey="554"/>
+													<entry name="isAvailable" inpkey="1166"/>
 													<entry name="type" inpkey="555"/>
 													<entry name="comment" inpkey="556"/>
 													<entry name="diskFormat" inpkey="557"/>
 													<entry name="containerFormat" inpkey="558"/>
 													<entry name="cmd" inpkey="559"/>
+													<entry name="version" inpkey="1167"/>
 												</entry>
 											</entry>
 											<entry name="documentation" expanded="1">
 												<entry name="list-item" inpkey="560" expanded="1">
 													<entry name="url" inpkey="561"/>
+													<entry name="isAvailable" inpkey="1168"/>
 													<entry name="type" inpkey="562"/>
 													<entry name="comment" inpkey="563"/>
 												</entry>
 											</entry>
 											<entry name="publication" expanded="1">
 												<entry name="list-item" inpkey="564" expanded="1">
+													<entry name="isAvailable" inpkey="1169"/>
 													<entry name="doi" inpkey="565"/>
 													<entry name="pmid" inpkey="566"/>
 													<entry name="pmcid" inpkey="567"/>
 													<entry name="type" inpkey="568"/>
-												</entry>
-											</entry>
-											<entry name="contact" expanded="1">
-												<entry name="list-item" inpkey="569" expanded="1">
-													<entry name="email" inpkey="570"/>
-													<entry name="url" inpkey="571"/>
-													<entry name="name" inpkey="572"/>
-													<entry name="tel" inpkey="573"/>
+													<entry name="version" inpkey="1170"/>
 												</entry>
 											</entry>
 											<entry name="credit" expanded="1">
 												<entry name="list-item" inpkey="574" expanded="1">
+													<entry name="elixirPlatform" inpkey="1171"/>
+													<entry name="elixirNode" inpkey="1172"/>
 													<entry name="name" inpkey="575"/>
-													<entry name="email" inpkey="576"/>
-													<entry name="url" inpkey="577"/>
 													<entry name="orcidId" inpkey="578"/>
 													<entry name="gridId" inpkey="989"/>
+													<entry name="email" inpkey="576"/>
+													<entry name="url" inpkey="577"/>
+													<entry name="tel" inpkey="1173"/>
 													<entry name="typeEntity" inpkey="579"/>
 													<entry name="typeRole" inpkey="580"/>
 													<entry name="comment" inpkey="581"/>
@@ -354,8 +370,6 @@
 												<entry name="lastReviewElixirSab" inpkey="584"/>
 												<entry name="inSDP" inpkey="585"/>
 												<entry name="isCoreDataResource" inpkey="586"/>
-												<entry name="platform" inpkey="587"/>
-												<entry name="node" inpkey="588"/>
 												<entry name="comment" inpkey="589"/>
 											</entry>
 										</entry>
@@ -363,7 +377,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="biotools-2.0.0_framework.xsd" inputinstance="biotools-2.0.0_framework.xml" outputinstance="biotools-2.0.0_framework.xml" instanceroot="{}tools"/>
+						<document schema="biotools-3.0.0_framework.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}tools"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -371,529 +385,559 @@
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="1">
+					<vertex vertexkey="1174">
 						<edges>
-							<edge vertexkey="482" edgekey="590"/>
+							<edge vertexkey="482" edgekey="1285"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2">
+					<vertex vertexkey="1175">
 						<edges>
-							<edge vertexkey="483" edgekey="591"/>
+							<edge vertexkey="483" edgekey="1286"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="3">
+					<vertex vertexkey="1176">
 						<edges>
-							<edge vertexkey="484" edgekey="1115"/>
+							<edge vertexkey="484" edgekey="1287"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="4">
+					<vertex vertexkey="1177">
 						<edges>
-							<edge vertexkey="698" edgekey="1116"/>
+							<edge vertexkey="489" edgekey="1288"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="5">
+					<vertex vertexkey="1178">
 						<edges>
-							<edge vertexkey="486" edgekey="1117"/>
+							<edge vertexkey="490" edgekey="1289"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="6">
+					<vertex vertexkey="1179">
 						<edges>
-							<edge vertexkey="487" edgekey="1118"/>
+							<edge vertexkey="491" edgekey="1290"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="7">
+					<vertex vertexkey="1180">
 						<edges>
-							<edge vertexkey="488" edgekey="1119"/>
+							<edge vertexkey="1158" edgekey="1291"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="8">
+					<vertex vertexkey="1181">
 						<edges>
-							<edge vertexkey="489" edgekey="1120"/>
+							<edge vertexkey="1159" edgekey="1292"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="9">
+					<vertex vertexkey="1182">
 						<edges>
-							<edge vertexkey="490" edgekey="598"/>
+							<edge vertexkey="1396" edgekey="1397"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="10">
+					<vertex vertexkey="1183">
 						<edges>
-							<edge vertexkey="491" edgekey="599"/>
+							<edge vertexkey="1160" edgekey="1294"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="11">
+					<vertex vertexkey="1184">
 						<edges>
-							<edge vertexkey="492" edgekey="600"/>
+							<edge vertexkey="1161" edgekey="1295"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="12">
+					<vertex vertexkey="1185">
 						<edges>
-							<edge vertexkey="493" edgekey="601"/>
+							<edge vertexkey="1162" edgekey="1296"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="13">
+					<vertex vertexkey="1186">
 						<edges>
-							<edge vertexkey="494" edgekey="1121"/>
+							<edge vertexkey="1163" edgekey="1297"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="14">
+					<vertex vertexkey="1187">
 						<edges>
-							<edge vertexkey="495" edgekey="1122"/>
+							<edge vertexkey="492" edgekey="1298"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="15">
+					<vertex vertexkey="1188">
 						<edges>
-							<edge vertexkey="496" edgekey="1152"/>
+							<edge vertexkey="493" edgekey="1299"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="17">
+					<vertex vertexkey="1189">
 						<edges>
-							<edge vertexkey="498" edgekey="1123"/>
+							<edge vertexkey="494" edgekey="1300"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="18">
+					<vertex vertexkey="1190">
 						<edges>
-							<edge vertexkey="499" edgekey="1124"/>
+							<edge vertexkey="495" edgekey="1301"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="19">
+					<vertex vertexkey="1191">
 						<edges>
-							<edge vertexkey="501" edgekey="1153"/>
+							<edge vertexkey="496" edgekey="1302"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="20">
+					<vertex vertexkey="1192">
 						<edges>
-							<edge vertexkey="502" edgekey="1125"/>
+							<edge vertexkey="1151" edgekey="1303"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="21">
+					<vertex vertexkey="1193">
 						<edges>
-							<edge vertexkey="503" edgekey="1126"/>
+							<edge vertexkey="498" edgekey="1304"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="22">
+					<vertex vertexkey="1194">
 						<edges>
-							<edge vertexkey="504" edgekey="1154"/>
+							<edge vertexkey="499" edgekey="1305"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="23">
+					<vertex vertexkey="1195">
 						<edges>
-							<edge vertexkey="505" edgekey="613"/>
+							<edge vertexkey="501" edgekey="1306"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="24">
+					<vertex vertexkey="1196">
 						<edges>
-							<edge vertexkey="506" edgekey="1127"/>
+							<edge vertexkey="502" edgekey="1307"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="25">
+					<vertex vertexkey="1197">
 						<edges>
-							<edge vertexkey="507" edgekey="1128"/>
+							<edge vertexkey="503" edgekey="1308"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="26">
+					<vertex vertexkey="1198">
 						<edges>
-							<edge vertexkey="509" edgekey="1155"/>
+							<edge vertexkey="504" edgekey="1309"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="27">
+					<vertex vertexkey="1199">
 						<edges>
-							<edge vertexkey="510" edgekey="1129"/>
+							<edge vertexkey="505" edgekey="1310"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="28">
+					<vertex vertexkey="1200">
 						<edges>
-							<edge vertexkey="511" edgekey="1130"/>
+							<edge vertexkey="506" edgekey="1311"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="29">
+					<vertex vertexkey="1201">
 						<edges>
-							<edge vertexkey="512" edgekey="1131"/>
+							<edge vertexkey="507" edgekey="1312"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="31">
+					<vertex vertexkey="1202">
 						<edges>
-							<edge vertexkey="513" edgekey="1059"/>
+							<edge vertexkey="509" edgekey="1313"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="32">
+					<vertex vertexkey="1203">
 						<edges>
-							<edge vertexkey="514" edgekey="622"/>
+							<edge vertexkey="510" edgekey="1314"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="33">
+					<vertex vertexkey="1204">
 						<edges>
-							<edge vertexkey="515" edgekey="1060"/>
+							<edge vertexkey="511" edgekey="1315"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="34">
+					<vertex vertexkey="1205">
 						<edges>
-							<edge vertexkey="516" edgekey="1061"/>
+							<edge vertexkey="512" edgekey="1316"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="35">
+					<vertex vertexkey="1206">
 						<edges>
-							<edge vertexkey="517" edgekey="1062"/>
+							<edge vertexkey="1164" edgekey="1317"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="36">
+					<vertex vertexkey="1207">
 						<edges>
-							<edge vertexkey="518" edgekey="1063"/>
+							<edge vertexkey="513" edgekey="1318"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="37">
+					<vertex vertexkey="1208">
 						<edges>
-							<edge vertexkey="519" edgekey="1064"/>
+							<edge vertexkey="514" edgekey="1319"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="38">
+					<vertex vertexkey="1209">
 						<edges>
-							<edge vertexkey="520" edgekey="1065"/>
+							<edge vertexkey="515" edgekey="1320"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="39">
+					<vertex vertexkey="1210">
 						<edges>
-							<edge vertexkey="521" edgekey="1066"/>
+							<edge vertexkey="516" edgekey="1321"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="40">
+					<vertex vertexkey="1211">
 						<edges>
-							<edge vertexkey="522" edgekey="1067"/>
+							<edge vertexkey="517" edgekey="1322"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="41">
+					<vertex vertexkey="1212">
 						<edges>
-							<edge vertexkey="523" edgekey="1068"/>
+							<edge vertexkey="518" edgekey="1323"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="42">
+					<vertex vertexkey="1213">
 						<edges>
-							<edge vertexkey="524" edgekey="1069"/>
+							<edge vertexkey="519" edgekey="1324"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="43">
+					<vertex vertexkey="1214">
 						<edges>
-							<edge vertexkey="525" edgekey="1070"/>
+							<edge vertexkey="520" edgekey="1325"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="44">
+					<vertex vertexkey="1215">
 						<edges>
-							<edge vertexkey="526" edgekey="1156"/>
+							<edge vertexkey="521" edgekey="1326"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="45">
+					<vertex vertexkey="1216">
 						<edges>
-							<edge vertexkey="527" edgekey="1149"/>
+							<edge vertexkey="522" edgekey="1327"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="46">
+					<vertex vertexkey="1217">
 						<edges>
-							<edge vertexkey="528" edgekey="1072"/>
+							<edge vertexkey="523" edgekey="1328"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="47">
+					<vertex vertexkey="1218">
 						<edges>
-							<edge vertexkey="529" edgekey="1073"/>
+							<edge vertexkey="524" edgekey="1329"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="49">
+					<vertex vertexkey="1219">
 						<edges>
-							<edge vertexkey="531" edgekey="1074"/>
+							<edge vertexkey="525" edgekey="1330"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="50">
+					<vertex vertexkey="1220">
 						<edges>
-							<edge vertexkey="532" edgekey="640"/>
+							<edge vertexkey="526" edgekey="1331"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="51">
+					<vertex vertexkey="1221">
 						<edges>
-							<edge vertexkey="533" edgekey="1075"/>
+							<edge vertexkey="527" edgekey="1332"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="52">
+					<vertex vertexkey="1222">
 						<edges>
-							<edge vertexkey="534" edgekey="1076"/>
+							<edge vertexkey="528" edgekey="1333"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="53">
+					<vertex vertexkey="1223">
 						<edges>
-							<edge vertexkey="535" edgekey="1147"/>
+							<edge vertexkey="529" edgekey="1334"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="54">
+					<vertex vertexkey="1224">
 						<edges>
-							<edge vertexkey="536" edgekey="644"/>
+							<edge vertexkey="531" edgekey="1335"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="55">
+					<vertex vertexkey="1225">
 						<edges>
-							<edge vertexkey="537" edgekey="1077"/>
+							<edge vertexkey="532" edgekey="1336"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="56">
+					<vertex vertexkey="1226">
 						<edges>
-							<edge vertexkey="538" edgekey="1078"/>
+							<edge vertexkey="533" edgekey="1337"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="57">
+					<vertex vertexkey="1227">
 						<edges>
-							<edge vertexkey="539" edgekey="1142"/>
+							<edge vertexkey="534" edgekey="1338"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="58">
+					<vertex vertexkey="1228">
 						<edges>
-							<edge vertexkey="540" edgekey="1079"/>
+							<edge vertexkey="535" edgekey="1339"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="59">
+					<vertex vertexkey="1229">
 						<edges>
-							<edge vertexkey="541" edgekey="1080"/>
+							<edge vertexkey="536" edgekey="1340"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="60">
+					<vertex vertexkey="1230">
 						<edges>
-							<edge vertexkey="542" edgekey="1081"/>
+							<edge vertexkey="537" edgekey="1341"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="61">
+					<vertex vertexkey="1231">
 						<edges>
-							<edge vertexkey="543" edgekey="1143"/>
+							<edge vertexkey="538" edgekey="1342"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="62">
+					<vertex vertexkey="1232">
 						<edges>
-							<edge vertexkey="544" edgekey="652"/>
+							<edge vertexkey="539" edgekey="1343"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="63">
+					<vertex vertexkey="1233">
 						<edges>
-							<edge vertexkey="545" edgekey="1144"/>
+							<edge vertexkey="540" edgekey="1344"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="64">
+					<vertex vertexkey="1234">
 						<edges>
-							<edge vertexkey="546" edgekey="1082"/>
+							<edge vertexkey="541" edgekey="1345"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="65">
+					<vertex vertexkey="1235">
 						<edges>
-							<edge vertexkey="547" edgekey="1083"/>
+							<edge vertexkey="542" edgekey="1346"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="66">
+					<vertex vertexkey="1236">
 						<edges>
-							<edge vertexkey="548" edgekey="1084"/>
+							<edge vertexkey="543" edgekey="1347"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="67">
+					<vertex vertexkey="1237">
 						<edges>
-							<edge vertexkey="549" edgekey="1145"/>
+							<edge vertexkey="544" edgekey="1348"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="68">
+					<vertex vertexkey="1238">
 						<edges>
-							<edge vertexkey="550" edgekey="1085"/>
+							<edge vertexkey="545" edgekey="1349"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="69">
+					<vertex vertexkey="1239">
 						<edges>
-							<edge vertexkey="551" edgekey="1086"/>
+							<edge vertexkey="546" edgekey="1350"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="70">
+					<vertex vertexkey="1240">
 						<edges>
-							<edge vertexkey="552" edgekey="1087"/>
+							<edge vertexkey="547" edgekey="1351"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="71">
+					<vertex vertexkey="1241">
 						<edges>
-							<edge vertexkey="553" edgekey="1146"/>
+							<edge vertexkey="548" edgekey="1352"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="72">
+					<vertex vertexkey="1242">
 						<edges>
-							<edge vertexkey="554" edgekey="1088"/>
+							<edge vertexkey="549" edgekey="1353"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="73">
+					<vertex vertexkey="1243">
 						<edges>
-							<edge vertexkey="555" edgekey="1089"/>
+							<edge vertexkey="550" edgekey="1354"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="74">
+					<vertex vertexkey="1244">
 						<edges>
-							<edge vertexkey="556" edgekey="1090"/>
+							<edge vertexkey="1165" edgekey="1355"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="75">
+					<vertex vertexkey="1245">
 						<edges>
-							<edge vertexkey="557" edgekey="1091"/>
+							<edge vertexkey="551" edgekey="1356"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="76">
+					<vertex vertexkey="1246">
 						<edges>
-							<edge vertexkey="558" edgekey="1092"/>
+							<edge vertexkey="552" edgekey="1357"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="77">
+					<vertex vertexkey="1247">
 						<edges>
-							<edge vertexkey="559" edgekey="1093"/>
+							<edge vertexkey="553" edgekey="1358"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="78">
+					<vertex vertexkey="1248">
 						<edges>
-							<edge vertexkey="560" edgekey="1139"/>
+							<edge vertexkey="554" edgekey="1359"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="79">
+					<vertex vertexkey="1249">
 						<edges>
-							<edge vertexkey="561" edgekey="1094"/>
+							<edge vertexkey="1166" edgekey="1360"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="80">
+					<vertex vertexkey="1250">
 						<edges>
-							<edge vertexkey="562" edgekey="1095"/>
+							<edge vertexkey="555" edgekey="1361"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="81">
+					<vertex vertexkey="1251">
 						<edges>
-							<edge vertexkey="563" edgekey="1096"/>
+							<edge vertexkey="556" edgekey="1362"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="82">
+					<vertex vertexkey="1252">
 						<edges>
-							<edge vertexkey="564" edgekey="1140"/>
+							<edge vertexkey="557" edgekey="1363"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="83">
+					<vertex vertexkey="1253">
 						<edges>
-							<edge vertexkey="565" edgekey="1097"/>
+							<edge vertexkey="558" edgekey="1364"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="84">
+					<vertex vertexkey="1254">
 						<edges>
-							<edge vertexkey="566" edgekey="1098"/>
+							<edge vertexkey="559" edgekey="1365"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="85">
+					<vertex vertexkey="1255">
 						<edges>
-							<edge vertexkey="567" edgekey="1099"/>
+							<edge vertexkey="1167" edgekey="1366"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="86">
+					<vertex vertexkey="1256">
 						<edges>
-							<edge vertexkey="568" edgekey="1100"/>
+							<edge vertexkey="560" edgekey="1367"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="87">
+					<vertex vertexkey="1257">
 						<edges>
-							<edge vertexkey="569" edgekey="1141"/>
+							<edge vertexkey="561" edgekey="1368"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="88">
+					<vertex vertexkey="1258">
 						<edges>
-							<edge vertexkey="570" edgekey="1101"/>
+							<edge vertexkey="1168" edgekey="1369"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="89">
+					<vertex vertexkey="1259">
 						<edges>
-							<edge vertexkey="571" edgekey="1102"/>
+							<edge vertexkey="562" edgekey="1370"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="90">
+					<vertex vertexkey="1260">
 						<edges>
-							<edge vertexkey="572" edgekey="1103"/>
+							<edge vertexkey="563" edgekey="1371"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="91">
+					<vertex vertexkey="1261">
 						<edges>
-							<edge vertexkey="573" edgekey="1104"/>
+							<edge vertexkey="564" edgekey="1372"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="92">
+					<vertex vertexkey="1262">
 						<edges>
-							<edge vertexkey="574" edgekey="1136"/>
+							<edge vertexkey="1169" edgekey="1373"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="93">
+					<vertex vertexkey="1263">
 						<edges>
-							<edge vertexkey="575" edgekey="1105"/>
+							<edge vertexkey="565" edgekey="1374"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="94">
+					<vertex vertexkey="1264">
 						<edges>
-							<edge vertexkey="576" edgekey="1106"/>
+							<edge vertexkey="566" edgekey="1375"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="95">
+					<vertex vertexkey="1265">
 						<edges>
-							<edge vertexkey="577" edgekey="1107"/>
+							<edge vertexkey="567" edgekey="1376"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="96">
+					<vertex vertexkey="1266">
 						<edges>
-							<edge vertexkey="578" edgekey="1108"/>
+							<edge vertexkey="568" edgekey="1377"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="97">
+					<vertex vertexkey="1267">
 						<edges>
-							<edge vertexkey="579" edgekey="1109"/>
+							<edge vertexkey="1170" edgekey="1378"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="98">
+					<vertex vertexkey="1268">
 						<edges>
-							<edge vertexkey="580" edgekey="1110"/>
+							<edge vertexkey="574" edgekey="1379"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="99">
+					<vertex vertexkey="1269">
 						<edges>
-							<edge vertexkey="581" edgekey="1111"/>
+							<edge vertexkey="1171" edgekey="1380"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="101">
+					<vertex vertexkey="1270">
 						<edges>
-							<edge vertexkey="583" edgekey="691"/>
+							<edge vertexkey="1172" edgekey="1381"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="102">
+					<vertex vertexkey="1271">
 						<edges>
-							<edge vertexkey="584" edgekey="692"/>
+							<edge vertexkey="575" edgekey="1382"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="103">
+					<vertex vertexkey="1272">
 						<edges>
-							<edge vertexkey="585" edgekey="693"/>
+							<edge vertexkey="578" edgekey="1383"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="104">
+					<vertex vertexkey="1273">
 						<edges>
-							<edge vertexkey="586" edgekey="694"/>
+							<edge vertexkey="989" edgekey="1384"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="105">
+					<vertex vertexkey="1274">
 						<edges>
-							<edge vertexkey="587" edgekey="695"/>
+							<edge vertexkey="576" edgekey="1385"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="106">
+					<vertex vertexkey="1275">
 						<edges>
-							<edge vertexkey="588" edgekey="1112"/>
+							<edge vertexkey="577" edgekey="1386"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="107">
+					<vertex vertexkey="1276">
 						<edges>
-							<edge vertexkey="589" edgekey="1113"/>
+							<edge vertexkey="1173" edgekey="1387"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="990">
+					<vertex vertexkey="1277">
 						<edges>
-							<edge vertexkey="989" edgekey="1114"/>
+							<edge vertexkey="579" edgekey="1388"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1150">
+					<vertex vertexkey="1278">
 						<edges>
-							<edge vertexkey="1151" edgekey="1157"/>
+							<edge vertexkey="580" edgekey="1389"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1279">
+						<edges>
+							<edge vertexkey="581" edgekey="1390"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1280">
+						<edges>
+							<edge vertexkey="583" edgekey="1391"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1281">
+						<edges>
+							<edge vertexkey="584" edgekey="1392"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1282">
+						<edges>
+							<edge vertexkey="585" edgekey="1393"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1283">
+						<edges>
+							<edge vertexkey="586" edgekey="1394"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1284">
+						<edges>
+							<edge vertexkey="589" edgekey="1395"/>
 						</edges>
 					</vertex>
 				</vertices>
