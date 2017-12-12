@@ -58,6 +58,11 @@ def main():
 
 
 def rdfize(json_entry):
+    """
+    Transforms a biotools json entry into RDF, and returns a JSON-LD serialization. The following fields
+    are covered: contact, publication, EDAM topic, EDAM operation, EDAM inputs & outputs.
+    """
+
     entry = json_entry
     # print(json.dumps(entry, indent=4, sort_keys=True))
     # print()
@@ -144,7 +149,7 @@ def get_web_service(connection):
     """
     establish an HTTP connection based on url, user, password, and proxy given in parameter
     :param connection: the connection information (user, password, url, and proxy)
-    :return: an urllib3 PoolManager instance connected to the endpoint url
+    :return: a urllib3 PoolManager instance connected to the endpoint url
     """
     urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
     http = urllib3.PoolManager()
@@ -160,10 +165,9 @@ def get_web_service(connection):
 
 def get_tool_as_linked_data(tool_id, connection):
     """
-    Transforms a Drupal node (http://biii.eu) of type Software into RDF, using Bise core
-    and EDAM-Bioimaging ontologies
-    :param tool_id: the drupal ID of the node for online retrieval
-    :param connection: credentials, possibly proxy, and URL to connect to
+    Given its identifier, transforms a biotool entry in RDF using common vocabularies.
+    :param tool_id: the biotool identifier
+    :param connection: credentials, possibly proxy
     :return: a string representation of the corresponding JSON-LD document
     """
     http = get_web_service(connection)
@@ -181,10 +185,9 @@ def get_tool_as_linked_data(tool_id, connection):
 
 def crawl_tools_as_linked_data(graph, connection, limit):
     """
-    Transforms a Drupal node (http://biii.eu) of type Software into RDF, using Bise core
-    and EDAM-Bioimaging ontologies
-    :param tool_id: the drupal ID of the node for online retrieval
+    transforms a biotool entry in RDF using common vocabularies.
     :param connection: credentials, possibly proxy, and URL to connect to
+    :param limit: an integer value specifying the number of entries to transform, -1 means no limit.
     :return: a string representation of the corresponding JSON-LD document
     """
     http = get_web_service(connection)
