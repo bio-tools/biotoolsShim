@@ -13,6 +13,8 @@ Then the software environment must be launched through the following command:
 source activate biotools-rdf 
 ```
 
+If for some reason, something goes wrong when setting the environment from the `requirement.txt` file, you can manually install the dependencies with `conda install rdflib-jsonld -c bioconda -c conda-forge`.
+
 # Usage examples
 ```sh
 python src/biotools_rdfizer.py --tool_id signalp
