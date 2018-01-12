@@ -2,6 +2,7 @@ import urllib3
 import json
 import argparse
 from argparse import RawTextHelpFormatter
+from json.decoder import JSONDecodeError
 import time
 import sys, os
 from rdflib import Graph
@@ -45,7 +46,7 @@ def main():
 
     if args.test:
         graph = Graph()
-        crawl_tools_as_linked_data(graph, connection, limit=10)
+        crawl_tools_as_linked_data(graph, connection, limit=100)
         graph.serialize(destination='biotools-dump-' + time.strftime("%Y%m%d") + '.ttl', format='turtle',
                         encoding='utf-8')
 
@@ -78,11 +79,24 @@ def rdfize(json_entry):
             "dc": "http://purl.org/dc/terms/",
             "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
-            "description": "dc:description",
-            "name": "dc:title",
-            "license": "dc:license",
-            "hasContact": "dc:publisher",
+            # "description": "dc:description",
+            # "name": "dc:title",
+            # "license": "dc:license",
+            # "hasContact": "dc:publisher",
+            # "hasPublication": "dc:references",
+
+            "id": "datacite:identifier",
+            "name": "datacite:title",
+            "description": "datacite:description",
+            "license": "datacite:rights",
+            "hasContact": "datacite:contributor",
+            "toolType": "datacite:resourceType",
+            "additionDate": "datacite:date",
+            "language": "datacite:format",
+            "homepage": "datacite:alternateIdentifier",
             "hasPublication": "dc:references",
+            "download": "datacite:alternateIdentifier",
+
             "hasOperation": "biotools:has_function",
             "hasInputData": "edam:has_input",
             "hasOutputData": "edam:has_output",
@@ -99,6 +113,13 @@ def rdfize(json_entry):
         else :
             entry['hasContact'].append(contact['name'])
 
+    # for download in entry['download']:
+    #     if download['url']:
+    #         if not "download" in entry.keys():
+    #             entry['download'] = [download['url']]
+    #         else :
+    #             entry['download'].append(download['url'])
+
     for publication in entry['publication']:
         if publication['pmid']:
             if not "hasPublication" in entry.keys():
@@ -111,10 +132,11 @@ def rdfize(json_entry):
                 else:
                     entry['hasPublication'].append({"@id": 'pmc:' + publication['pmcid']})
         if publication['doi']:
-                if not "hasPublication" in entry.keys():
-                    entry['hasPublication'] = [publication['doi']]
-                else:
-                    entry['hasPublication'].append(publication['doi'])
+                if not ("<" in publication['doi'] or ">" in publication['doi']) :
+                    if not "hasPublication" in entry.keys():
+                        entry['hasPublication'] = [{"@id": "https://dx.doi.org/" + publication['doi']}]
+                    else:
+                        entry['hasPublication'].append({"@id": "https://dx.doi.org/" +  publication['doi']})
 
     for item in entry['function']:
         for op in item['operation']:
@@ -195,18 +217,21 @@ def crawl_tools_as_linked_data(graph, connection, limit):
         req = http.request('GET', 'https://bio.tools/api/tool/?page=1&?format=json')
         countJson = json.loads(req.data.decode('utf-8'))
         count = int(countJson['count'])
+        print(str(count)+ " available BioTools entries")
 
         i = 1
         nbTools = 1
         hasNextPage = True
         while hasNextPage :
             req = http.request('GET', 'https://bio.tools/api/tool/?page=' + str(i) + '&?format=json')
-            entry = json.loads(req.data.decode('utf-8'))
-            # print(json.dumps(entry, indent=4, sort_keys=True))
-            # print()
-            # return rdfize(entry)
+            try:
+                entry = json.loads(req.data.decode('utf-8'))
+            except JSONDecodeError as e:
+                print("Json decode error for " + str(req.data.decode('utf-8')))
+                break
 
             hasNextPage = (entry['next'] != None)
+            # print("Processing page "+str(i)+ " hasNext="+str(hasNextPage))
 
             for tool in entry['list']:
                 jsonld = rdfize(tool)
