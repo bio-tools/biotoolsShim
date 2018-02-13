@@ -30,6 +30,7 @@ You should obtain in yout terminal something like:
 @prefix dc: <http://purl.org/dc/terms/> .
 @prefix doi: <https://dx.doi.org/> .
 @prefix edam: <http://edamontology.org/> .
+@prefix ns1: <datacite:> .
 @prefix pmc: <https://www.ncbi.nlm.nih.gov/pmc/> .
 @prefix pubmed: <https://www.ncbi.nlm.nih.gov/pubmed/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -38,15 +39,23 @@ You should obtain in yout terminal something like:
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://bio.tools/signalp> a biotools:Resource ;
+    ns1:alternateIdentifier [ ],
+        [ ],
+        "http://cbs.dtu.dk/services/SignalP/" ;
+    ns1:contributor "Henrik Nielsen" ;
+    ns1:date "2015-12-17T14:23:00Z" ;
+    ns1:description "Prediction of the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms." ;
+    ns1:identifier "signalp" ;
+    ns1:resourceType "Command-line tool",
+        "Web application" ;
+    ns1:rights "Other" ;
+    ns1:title "SignalP" ;
     edam:has_input edam:data_2044 ;
     edam:has_output edam:data_1277,
         edam:data_2955 ;
     edam:has_topic edam:topic_3510 ;
-    dc:description "Prediction of the presence and location of signal peptide cleavage sites in amino acid sequences from different organisms." ;
-    dc:publisher "Henrik Nielsen" ;
-    dc:references <https://www.ncbi.nlm.nih.gov/pubmed/21959131>,
-        "doi:10.1038/nmeth.1701" ;
-    dc:title "SignalP" ;
+    dc:references <https://dx.doi.org/10.1038/nmeth.1701>,
+        <https://www.ncbi.nlm.nih.gov/pubmed/21959131> ;
     biotools:has_function edam:operation_0418,
         edam:operation_0422 .
 
