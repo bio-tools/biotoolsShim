@@ -1,7 +1,7 @@
 # Motivations
 Bio.Tools makes use of the EDAM ontology to semmantically annotate bioinformatics software and data resources. However, it is not yet possible to publish and share Bio.Tools content as Linked Data. In addition it is not yet possible to query Bio.Tools with graph patterns and leverage semantic web qerying/reasoning possibilities. 
 
-This prototype aims at transforming Bio.Tools content into RDF so that content can be better shared on the web, and better exploited through advanced querying and reasoning. 
+This prototype aims at transforming Bio.Tools content into RDF (see https://github.com/bio-tools/biotoolsRdf) so that content can be better shared on the web, and better exploited through advanced querying and reasoning. 
 
 # Contact
   - alban.gaignard@univ-nantes.fr
