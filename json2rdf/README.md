@@ -3,6 +3,9 @@ Bio.Tools makes use of the EDAM ontology to semmantically annotate bioinformatic
 
 This prototype aims at transforming Bio.Tools content into RDF so that content can be better shared on the web, and better exploited through advanced querying and reasoning. 
 
+# Contact
+  - alban.gaignard@univ-nantes.fr
+
 # Prerequisites
 You first need to install python dependencies. They are specified in the `requirements.txt` file and can be automatically downloaded with Conda: 
 ```
