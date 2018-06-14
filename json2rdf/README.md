@@ -28,7 +28,7 @@ You should obtain in yout terminal something like:
 ```turtle
 @prefix biotools: <https://bio.tools/ontology/> .
 @prefix dc: <http://purl.org/dc/terms/> .
-@prefix doi: <https://dx.doi.org/> .
+@prefix doi: <https://doi.org/> .
 @prefix edam: <http://edamontology.org/> .
 @prefix ns1: <datacite:> .
 @prefix pmc: <https://www.ncbi.nlm.nih.gov/pmc/> .
@@ -54,7 +54,7 @@ You should obtain in yout terminal something like:
     edam:has_output edam:data_1277,
         edam:data_2955 ;
     edam:has_topic edam:topic_3510 ;
-    dc:references <https://dx.doi.org/10.1038/nmeth.1701>,
+    dc:references <https://doi.org/10.1038/nmeth.1701>,
         <https://www.ncbi.nlm.nih.gov/pubmed/21959131> ;
     biotools:has_function edam:operation_0418,
         edam:operation_0422 .
