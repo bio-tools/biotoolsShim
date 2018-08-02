@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tools xsi:noNamespaceSchemaLocation="file:///E:/repos/GitHub/biotoolsShim/genericxml2xml/versions/biotools-3.0.0/biotools_3.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<tools xsi:noNamespaceSchemaLocation="file:///E:/repos/GitHub/biotoolsShim/genericxml2xml-singletool/versions/biotools-3.0.0/biotools_3.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<tool>
 		<summary>
 			<name>needle</name>

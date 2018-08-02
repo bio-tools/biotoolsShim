@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xsi:noNamespaceSchemaLocation="file:///E:/repos/GitHub/biotoolsShim/xml2genericxml-singletool/versions/biotools-3.0.0/biotools-3.0.0_framework_singletool.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>needle</name>
+	<description>needle reads two input sequences and writes their optimal global sequence alignment to file. It uses the Needleman-Wunsch alignment algorithm to find the optimum alignment (including gaps) of two sequences along their entire length. The algorithm uses a dynamic programming method to ensure the alignment is optimum, by exploring all possible alignments and choosing the best.</description>
+	<homepage>http://emboss.open-bio.org/rel/rel6/apps/needle.html</homepage>
+	<biotoolsID>needle</biotoolsID>
+	<biotoolsCURIE>biotools:signalp</biotoolsCURIE>
+	<version>
+		<list-item>1.1</list-item>
+		<list-item>beta01</list-item>
+	</version>
+	<otherID>
+		<list-item>
+			<value>DOI:10.1038/nmeth.1701</value>
+			<type>doi</type>
+			<version>a</version>
+		</list-item>
+		<list-item>
+			<value>RRID:SCR_001156</value>
+			<type>rrid</type>
+			<version>a</version>
+		</list-item>
+	</otherID>
+	<function>
+		<list-item>
+			<operation>
+				<list-item>
+					<uri>http://edamontology.org/operation_0492</uri>
+					<term>Multiple sequence alignment</term>
+				</list-item>
+				<list-item>
+					<uri>http://edamontology.org/operation_0492</uri>
+					<term>Multiple sequence alignment</term>
+				</list-item>
+			</operation>
+			<input>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+			</input>
+			<output>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+			</output>
+			<note>Concise comment about this function, if not apparent from the software description and EDAM annotations.</note>
+			<cmd>-s best</cmd>
+		</list-item>
+		<list-item>
+			<operation>
+				<list-item>
+					<uri>http://edamontology.org/operation_0492</uri>
+					<term>Multiple sequence alignment</term>
+				</list-item>
+				<list-item>
+					<uri>http://edamontology.org/operation_0492</uri>
+					<term>Multiple sequence alignment</term>
+				</list-item>
+			</operation>
+			<input>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+			</input>
+			<output>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+				<list-item>
+					<data>
+						<list-item>
+							<uri>http://edamontology.org/data_2976</uri>
+							<term>Protein sequences</term>
+						</list-item>
+					</data>
+					<format>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+						<list-item>
+							<uri>http://edamontology.org/format_1929</uri>
+							<term>FASTA</term>
+						</list-item>
+					</format>
+				</list-item>
+			</output>
+			<note>Concise comment about this function, if not apparent from the software description and EDAM annotations.</note>
+			<cmd>-s best</cmd>
+		</list-item>
+	</function>
+	<toolType>
+		<list-item>Command-line tool</list-item>
+		<list-item>Database portal</list-item>
+	</toolType>
+	<topic>
+		<list-item>
+			<uri>http://edamontology.org/topic_0121</uri>
+			<term>Proteomics</term>
+		</list-item>
+		<list-item>
+			<uri>http://edamontology.org/topic_0121</uri>
+			<term>Proteomics</term>
+		</list-item>
+	</topic>
+	<operatingSystem>
+		<list-item>Linux</list-item>
+		<list-item>Windows</list-item>
+	</operatingSystem>
+	<language>
+		<list-item>ActionScript</list-item>
+		<list-item>Ada</list-item>
+	</language>
+	<license>0BSD</license>
+	<collectionID>
+		<list-item>emboss</list-item>
+		<list-item>emboss</list-item>
+	</collectionID>
+	<maturity>Emerging</maturity>
+	<cost>Free of charge</cost>
+	<accessibility>
+		<list-item>Open access</list-item>
+		<list-item>Restricted access</list-item>
+	</accessibility>
+	<elixirPlatform>
+		<list-item>Training</list-item>
+		<list-item>Training</list-item>
+	</elixirPlatform>
+	<elixirNode>
+		<list-item>UK</list-item>
+		<list-item>UK</list-item>
+	</elixirNode>
+	<link>
+		<list-item>
+			<url>http://someurl.org</url>
+			<type>Browser</type>
+			<note>Comment about the link.</note>
+		</list-item>
+		<list-item>
+			<url>ftp://someurl.org</url>
+			<type>Helpdesk</type>
+			<note>Comment about the link.</note>
+		</list-item>
+	</link>
+	<download>
+		<list-item>
+			<url>https://someurl.org</url>
+			<type>API specification</type>
+			<note>Comment about the download.</note>
+			<version>2.0 - 2.7</version>
+		</list-item>
+		<list-item>
+			<url>sftp://someurl.org</url>
+			<type>Biological data</type>
+			<note>Comment about the download.</note>
+			<version>1.1, 1.2.1, 1.4, v5</version>
+		</list-item>
+	</download>
+	<documentation>
+		<list-item>
+			<url>http://someurl.org</url>
+			<type>API documentation</type>
+			<note>Comment about the documentation.</note>
+		</list-item>
+		<list-item>
+			<url>ftp://someurl.org</url>
+			<type>Citation instructions</type>
+			<note>Comment about the documentation.</note>
+		</list-item>
+	</documentation>
+	<publication>
+		<list-item>
+			<doi>10.1093/nar/gkv1116</doi>
+			<pmid>26538599</pmid>
+			<pmcid>PMC4702812</pmcid>
+			<type>Primary</type>
+			<version>1.1 - 1.4, 2.0-alpha, 2.0-beta-01 - 2.0-beta-04, 2.0.0</version>
+		</list-item>
+		<list-item>
+			<doi>10.1093/nar/gkv1116</doi>
+			<pmid>26538599</pmid>
+			<pmcid>PMC4702812</pmcid>
+			<type>Comparison</type>
+			<version>1.1</version>
+		</list-item>
+	</publication>
+	<credit>
+		<list-item>
+			<name>Person or institute name</name>
+			<email>joebloggst@elixir-dk.org</email>
+			<url>https://someurl.org</url>
+			<orcidId>http://orcid.org/0000-0002-1825-0097</orcidId>
+			<typeEntity>Person</typeEntity>
+			<typeRole>
+				<list-item>Primary contact</list-item>
+				<list-item>Contributor</list-item>
+			</typeRole>
+			<note>Comment about the credit.</note>
+		</list-item>
+		<list-item>
+			<name>Person or institute name</name>
+			<email>joebloggst@elixir-dk.org</email>
+			<url>http://someurl.org</url>
+			<orcidId>http://orcid.org/0000-0002-1825-0097</orcidId>
+			<typeEntity>Project</typeEntity>
+			<typeRole>
+				<list-item>Developer</list-item>
+				<list-item>Documentor</list-item>
+			</typeRole>
+			<note>Comment about the credit.</note>
+		</list-item>
+	</credit>
+</root>

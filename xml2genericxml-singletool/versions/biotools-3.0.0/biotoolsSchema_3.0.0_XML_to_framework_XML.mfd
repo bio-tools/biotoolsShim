@@ -6,126 +6,6 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="biotools-3.0.0_framework" library="xml" uid="5" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="root" expanded="1">
-										<entry name="list" expanded="1">
-											<entry name="list-item" inpkey="1606" expanded="1">
-												<entry name="name" inpkey="1607"/>
-												<entry name="description" inpkey="1608"/>
-												<entry name="homepage" inpkey="1609"/>
-												<entry name="biotoolsID" inpkey="1610"/>
-												<entry name="biotoolsCURIE" inpkey="1611"/>
-												<entry name="version" expanded="1">
-													<entry name="list-item" inpkey="1697"/>
-												</entry>
-												<entry name="otherID" expanded="1">
-													<entry name="list-item" inpkey="1613" expanded="1">
-														<entry name="version" expanded="1"/>
-													</entry>
-												</entry>
-												<entry name="function" expanded="1">
-													<entry name="list-item" inpkey="1617" expanded="1">
-														<entry name="operation" expanded="1">
-															<entry name="list-item" inpkey="1618" expanded="1"/>
-														</entry>
-														<entry name="input" expanded="1">
-															<entry name="list-item" inpkey="1619" expanded="1">
-																<entry name="data" expanded="1">
-																	<entry name="list-item" inpkey="1699" expanded="1"/>
-																</entry>
-																<entry name="format" expanded="1">
-																	<entry name="list-item" inpkey="1621" expanded="1"/>
-																</entry>
-															</entry>
-														</entry>
-														<entry name="output" expanded="1">
-															<entry name="list-item" inpkey="1622" expanded="1">
-																<entry name="data" expanded="1">
-																	<entry name="list-item" inpkey="1700" expanded="1"/>
-																</entry>
-																<entry name="format" expanded="1">
-																	<entry name="list-item" inpkey="1624" expanded="1"/>
-																</entry>
-															</entry>
-														</entry>
-														<entry name="note" inpkey="1625"/>
-														<entry name="cmd" inpkey="1626"/>
-													</entry>
-												</entry>
-												<entry name="toolType" expanded="1">
-													<entry name="list-item" inpkey="1627"/>
-												</entry>
-												<entry name="topic" expanded="1">
-													<entry name="list-item" inpkey="1628" expanded="1"/>
-												</entry>
-												<entry name="operatingSystem" expanded="1">
-													<entry name="list-item" inpkey="1629"/>
-												</entry>
-												<entry name="language" expanded="1">
-													<entry name="list-item" inpkey="1630"/>
-												</entry>
-												<entry name="license" inpkey="1631"/>
-												<entry name="collectionID" expanded="1">
-													<entry name="list-item" inpkey="1632"/>
-												</entry>
-												<entry name="maturity" inpkey="1633"/>
-												<entry name="cost" inpkey="1634"/>
-												<entry name="accessibility" expanded="1">
-													<entry name="list-item" inpkey="1635"/>
-												</entry>
-												<entry name="elixirPlatform" expanded="1">
-													<entry name="list-item" inpkey="1636"/>
-												</entry>
-												<entry name="elixirNode" expanded="1">
-													<entry name="list-item" inpkey="1637"/>
-												</entry>
-												<entry name="link" expanded="1">
-													<entry name="list-item" inpkey="1638" expanded="1"/>
-												</entry>
-												<entry name="download" expanded="1">
-													<entry name="list-item" inpkey="1639" expanded="1"/>
-												</entry>
-												<entry name="documentation" expanded="1">
-													<entry name="list-item" inpkey="1640" expanded="1"/>
-												</entry>
-												<entry name="publication" expanded="1">
-													<entry name="list-item" inpkey="1641" expanded="1"/>
-												</entry>
-												<entry name="credit" expanded="1">
-													<entry name="list-item" inpkey="1647" expanded="1">
-														<entry name="name" inpkey="1648"/>
-														<entry name="email" inpkey="1649"/>
-														<entry name="url" inpkey="1650"/>
-														<entry name="orcidId" inpkey="1651"/>
-														<entry name="typeEntity" inpkey="1652"/>
-														<entry name="typeRole" expanded="1">
-															<entry name="list-item" inpkey="1698"/>
-														</entry>
-														<entry name="note" inpkey="1654"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="biotools-3.0.0_framework.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="biotools_3.0.0" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="180" lty="-257" rbx="754" rby="2013"/>
@@ -140,7 +20,7 @@
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="tools" expanded="1">
-										<entry name="tool" outkey="1655" expanded="1">
+										<entry name="tool" expanded="1">
 											<entry name="summary" expanded="1">
 												<entry name="name" outkey="1656"/>
 												<entry name="description" outkey="1657"/>
@@ -198,269 +78,378 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="biotools-3.0.0_framework_singletool" library="xml" uid="5" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="name" inpkey="1699"/>
+										<entry name="description" inpkey="1700"/>
+										<entry name="homepage" inpkey="1701"/>
+										<entry name="biotoolsID" inpkey="1702"/>
+										<entry name="biotoolsCURIE" inpkey="1703"/>
+										<entry name="version" expanded="1">
+											<entry name="list-item" inpkey="1704"/>
+										</entry>
+										<entry name="otherID" expanded="1">
+											<entry name="list-item" inpkey="1705" expanded="1"/>
+										</entry>
+										<entry name="function" expanded="1">
+											<entry name="list-item" inpkey="1706" expanded="1">
+												<entry name="operation" expanded="1">
+													<entry name="list-item" inpkey="1707" expanded="1"/>
+												</entry>
+												<entry name="input" expanded="1">
+													<entry name="list-item" inpkey="1708" expanded="1">
+														<entry name="data" expanded="1">
+															<entry name="list-item" inpkey="1709" expanded="1"/>
+														</entry>
+														<entry name="format" expanded="1">
+															<entry name="list-item" inpkey="1710" expanded="1"/>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="output" expanded="1">
+													<entry name="list-item" inpkey="1711" expanded="1">
+														<entry name="data" expanded="1">
+															<entry name="list-item" inpkey="1712" expanded="1"/>
+														</entry>
+														<entry name="format" expanded="1">
+															<entry name="list-item" inpkey="1713" expanded="1"/>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="note" inpkey="1714"/>
+												<entry name="cmd" inpkey="1715"/>
+											</entry>
+										</entry>
+										<entry name="toolType" expanded="1">
+											<entry name="list-item" inpkey="1716"/>
+										</entry>
+										<entry name="topic" expanded="1">
+											<entry name="list-item" inpkey="1717" expanded="1"/>
+										</entry>
+										<entry name="operatingSystem" expanded="1">
+											<entry name="list-item" inpkey="1718"/>
+										</entry>
+										<entry name="language" expanded="1">
+											<entry name="list-item" inpkey="1719"/>
+										</entry>
+										<entry name="license" inpkey="1720"/>
+										<entry name="collectionID" expanded="1">
+											<entry name="list-item" inpkey="1721"/>
+										</entry>
+										<entry name="maturity" inpkey="1722"/>
+										<entry name="cost" inpkey="1723"/>
+										<entry name="accessibility" expanded="1">
+											<entry name="list-item" inpkey="1724"/>
+										</entry>
+										<entry name="elixirPlatform" expanded="1">
+											<entry name="list-item" inpkey="1725"/>
+										</entry>
+										<entry name="elixirNode" expanded="1">
+											<entry name="list-item" inpkey="1726"/>
+										</entry>
+										<entry name="link" expanded="1">
+											<entry name="list-item" inpkey="1727" expanded="1"/>
+										</entry>
+										<entry name="download" expanded="1">
+											<entry name="list-item" inpkey="1728" expanded="1"/>
+										</entry>
+										<entry name="documentation" expanded="1">
+											<entry name="list-item" inpkey="1729" expanded="1"/>
+										</entry>
+										<entry name="publication" expanded="1">
+											<entry name="list-item" inpkey="1730" expanded="1"/>
+										</entry>
+										<entry name="credit" expanded="1">
+											<entry name="list-item" inpkey="1731" expanded="1">
+												<entry name="name" inpkey="1732"/>
+												<entry name="email" inpkey="1733"/>
+												<entry name="url" inpkey="1734"/>
+												<entry name="orcidId" inpkey="1735"/>
+												<entry name="typeEntity" inpkey="1736"/>
+												<entry name="typeRole" expanded="1">
+													<entry name="list-item" inpkey="1737"/>
+												</entry>
+												<entry name="note" inpkey="1738"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools-3.0.0_framework_singletool.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
+						<wsdl/>
+					</data>
+				</component>
 			</children>
 			<graph directed="1">
 				<edges>
-					<edge edgekey="1613">
+					<edge edgekey="1705">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1618">
+					<edge edgekey="1707">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1621">
+					<edge edgekey="1709">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1624">
+					<edge edgekey="1710">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1628">
+					<edge edgekey="1712">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1638">
+					<edge edgekey="1713">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1639">
+					<edge edgekey="1717">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1640">
+					<edge edgekey="1727">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1641">
+					<edge edgekey="1728">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1699">
+					<edge edgekey="1729">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1700">
+					<edge edgekey="1730">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
 				</edges>
 				<vertices>
-					<vertex vertexkey="1655">
-						<edges>
-							<edge vertexkey="1606"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="1656">
 						<edges>
-							<edge vertexkey="1607"/>
+							<edge vertexkey="1699"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1657">
 						<edges>
-							<edge vertexkey="1608"/>
+							<edge vertexkey="1700"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1658">
 						<edges>
-							<edge vertexkey="1609"/>
+							<edge vertexkey="1701"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1659">
 						<edges>
-							<edge vertexkey="1610"/>
+							<edge vertexkey="1702"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1660">
 						<edges>
-							<edge vertexkey="1611"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1662">
-						<edges>
-							<edge vertexkey="1613" edgekey="1613"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1663">
-						<edges>
-							<edge vertexkey="1617"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1664">
-						<edges>
-							<edge vertexkey="1618" edgekey="1618"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1665">
-						<edges>
-							<edge vertexkey="1619"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1667">
-						<edges>
-							<edge vertexkey="1621" edgekey="1621"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1668">
-						<edges>
-							<edge vertexkey="1622"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1670">
-						<edges>
-							<edge vertexkey="1624" edgekey="1624"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1671">
-						<edges>
-							<edge vertexkey="1625"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1672">
-						<edges>
-							<edge vertexkey="1626"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1673">
-						<edges>
-							<edge vertexkey="1627"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1674">
-						<edges>
-							<edge vertexkey="1628" edgekey="1628"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1675">
-						<edges>
-							<edge vertexkey="1629"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1676">
-						<edges>
-							<edge vertexkey="1630"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1677">
-						<edges>
-							<edge vertexkey="1631"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1678">
-						<edges>
-							<edge vertexkey="1632"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1679">
-						<edges>
-							<edge vertexkey="1633"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1680">
-						<edges>
-							<edge vertexkey="1634"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1681">
-						<edges>
-							<edge vertexkey="1635"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1682">
-						<edges>
-							<edge vertexkey="1636"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1683">
-						<edges>
-							<edge vertexkey="1637"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1684">
-						<edges>
-							<edge vertexkey="1638" edgekey="1638"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1685">
-						<edges>
-							<edge vertexkey="1639" edgekey="1639"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1686">
-						<edges>
-							<edge vertexkey="1640" edgekey="1640"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1687">
-						<edges>
-							<edge vertexkey="1641" edgekey="1641"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1688">
-						<edges>
-							<edge vertexkey="1647"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1689">
-						<edges>
-							<edge vertexkey="1648"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1690">
-						<edges>
-							<edge vertexkey="1649"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1691">
-						<edges>
-							<edge vertexkey="1650"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1692">
-						<edges>
-							<edge vertexkey="1651"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1693">
-						<edges>
-							<edge vertexkey="1652"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1695">
-						<edges>
-							<edge vertexkey="1654"/>
+							<edge vertexkey="1703"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1661">
 						<edges>
-							<edge vertexkey="1697"/>
+							<edge vertexkey="1704"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1694">
+					<vertex vertexkey="1662">
 						<edges>
-							<edge vertexkey="1698"/>
+							<edge vertexkey="1705" edgekey="1705"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1663">
+						<edges>
+							<edge vertexkey="1706"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1664">
+						<edges>
+							<edge vertexkey="1707" edgekey="1707"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1665">
+						<edges>
+							<edge vertexkey="1708"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1666">
 						<edges>
-							<edge vertexkey="1699" edgekey="1699"/>
+							<edge vertexkey="1709" edgekey="1709"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1667">
+						<edges>
+							<edge vertexkey="1710" edgekey="1710"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1668">
+						<edges>
+							<edge vertexkey="1711"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1669">
 						<edges>
-							<edge vertexkey="1700" edgekey="1700"/>
+							<edge vertexkey="1712" edgekey="1712"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1670">
+						<edges>
+							<edge vertexkey="1713" edgekey="1713"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1671">
+						<edges>
+							<edge vertexkey="1714"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1672">
+						<edges>
+							<edge vertexkey="1715"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1673">
+						<edges>
+							<edge vertexkey="1716"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1674">
+						<edges>
+							<edge vertexkey="1717" edgekey="1717"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1675">
+						<edges>
+							<edge vertexkey="1718"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1676">
+						<edges>
+							<edge vertexkey="1719"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1677">
+						<edges>
+							<edge vertexkey="1720"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1678">
+						<edges>
+							<edge vertexkey="1721"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1679">
+						<edges>
+							<edge vertexkey="1722"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1680">
+						<edges>
+							<edge vertexkey="1723"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1681">
+						<edges>
+							<edge vertexkey="1724"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1682">
+						<edges>
+							<edge vertexkey="1725"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1683">
+						<edges>
+							<edge vertexkey="1726"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1684">
+						<edges>
+							<edge vertexkey="1727" edgekey="1727"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1685">
+						<edges>
+							<edge vertexkey="1728" edgekey="1728"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1686">
+						<edges>
+							<edge vertexkey="1729" edgekey="1729"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1687">
+						<edges>
+							<edge vertexkey="1730" edgekey="1730"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1688">
+						<edges>
+							<edge vertexkey="1731"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1689">
+						<edges>
+							<edge vertexkey="1732"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1690">
+						<edges>
+							<edge vertexkey="1733"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1691">
+						<edges>
+							<edge vertexkey="1734"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1692">
+						<edges>
+							<edge vertexkey="1735"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1693">
+						<edges>
+							<edge vertexkey="1736"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1694">
+						<edges>
+							<edge vertexkey="1737"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1695">
+						<edges>
+							<edge vertexkey="1738"/>
 						</edges>
 					</vertex>
 				</vertices>
