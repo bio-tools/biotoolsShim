@@ -260,265 +260,268 @@ http://www.altova.com/mapforce
 	<xsl:template match="/">
 		<xsl:variable name="var1_initial" select="."/>
 		<tools>
-			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">file:///E:/repos/GitHub/biotoolsShim/genericxml2xml/versions/biotools-3.0.0/biotools_3.0.0.xsd</xsl:attribute>
-			<xsl:for-each select="root/list/list-item">
-				<xsl:variable name="var2_cur" select="."/>
-				<tool>
-					<summary>
+			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">file:///E:/repos/GitHub/biotoolsShim/genericxml2xml-singletool/versions/biotools-3.0.0/biotools_3.0.0.xsd</xsl:attribute>
+			<tool>
+				<summary>
+					<xsl:for-each select="root">
+						<xsl:variable name="var2_cur" select="."/>
 						<name>
 							<xsl:value-of select="name"/>
 						</name>
+					</xsl:for-each>
+					<xsl:for-each select="root">
+						<xsl:variable name="var3_cur" select="."/>
 						<description>
 							<xsl:value-of select="description"/>
 						</description>
+					</xsl:for-each>
+					<xsl:for-each select="root">
+						<xsl:variable name="var4_cur" select="."/>
 						<homepage>
 							<xsl:value-of select="homepage"/>
 						</homepage>
-						<xsl:for-each select="biotoolsID">
-							<xsl:variable name="var3_cur" select="."/>
-							<biotoolsID>
-								<xsl:value-of select="."/>
-							</biotoolsID>
-						</xsl:for-each>
-						<xsl:for-each select="biotoolsCURIE">
-							<xsl:variable name="var4_cur" select="."/>
-							<biotoolsCURIE>
-								<xsl:value-of select="."/>
-							</biotoolsCURIE>
-						</xsl:for-each>
-						<xsl:for-each select="version/list-item">
-							<xsl:variable name="var5_cur" select="."/>
-							<version>
-								<xsl:value-of select="."/>
-							</version>
-						</xsl:for-each>
-						<xsl:for-each select="otherID/list-item">
-							<xsl:variable name="var6_cur" select="."/>
-							<otherID>
-								<xsl:call-template name="tbf:tbf1_">
-									<xsl:with-param name="input" select="."/>
-								</xsl:call-template>
-							</otherID>
-						</xsl:for-each>
-					</summary>
-					<xsl:for-each select="function/list-item">
+					</xsl:for-each>
+					<xsl:for-each select="root/biotoolsID">
+						<xsl:variable name="var5_cur" select="."/>
+						<biotoolsID>
+							<xsl:value-of select="."/>
+						</biotoolsID>
+					</xsl:for-each>
+					<xsl:for-each select="root/biotoolsCURIE">
+						<xsl:variable name="var6_cur" select="."/>
+						<biotoolsCURIE>
+							<xsl:value-of select="."/>
+						</biotoolsCURIE>
+					</xsl:for-each>
+					<xsl:for-each select="root/version/list-item">
 						<xsl:variable name="var7_cur" select="."/>
-						<function>
-							<xsl:for-each select="operation/list-item">
-								<xsl:variable name="var8_cur" select="."/>
-								<operation>
-									<xsl:call-template name="tbf:tbf2_">
-										<xsl:with-param name="input" select="."/>
-									</xsl:call-template>
-								</operation>
-							</xsl:for-each>
-							<xsl:for-each select="input/list-item">
-								<xsl:variable name="var9_cur" select="."/>
-								<input>
-									<xsl:for-each select="data/list-item">
-										<xsl:variable name="var10_cur" select="."/>
-										<data>
-											<xsl:call-template name="tbf:tbf3_EDAMdata">
-												<xsl:with-param name="input" select="."/>
-											</xsl:call-template>
-										</data>
-									</xsl:for-each>
-									<xsl:for-each select="format/list-item">
-										<xsl:variable name="var11_cur" select="."/>
-										<format>
-											<xsl:call-template name="tbf:tbf4_EDAMformat">
-												<xsl:with-param name="input" select="."/>
-											</xsl:call-template>
-										</format>
-									</xsl:for-each>
-								</input>
-							</xsl:for-each>
-							<xsl:for-each select="output/list-item">
-								<xsl:variable name="var12_cur" select="."/>
-								<output>
-									<xsl:for-each select="data/list-item">
-										<xsl:variable name="var13_cur" select="."/>
-										<data>
-											<xsl:call-template name="tbf:tbf3_EDAMdata">
-												<xsl:with-param name="input" select="."/>
-											</xsl:call-template>
-										</data>
-									</xsl:for-each>
-									<xsl:for-each select="format/list-item">
-										<xsl:variable name="var14_cur" select="."/>
-										<format>
-											<xsl:call-template name="tbf:tbf4_EDAMformat">
-												<xsl:with-param name="input" select="."/>
-											</xsl:call-template>
-										</format>
-									</xsl:for-each>
-								</output>
-							</xsl:for-each>
-							<xsl:for-each select="note">
-								<xsl:variable name="var15_cur" select="."/>
-								<note>
-									<xsl:value-of select="."/>
-								</note>
-							</xsl:for-each>
-							<xsl:for-each select="cmd">
-								<xsl:variable name="var16_cur" select="."/>
-								<cmd>
-									<xsl:value-of select="."/>
-								</cmd>
-							</xsl:for-each>
-						</function>
+						<version>
+							<xsl:value-of select="."/>
+						</version>
 					</xsl:for-each>
-					<labels>
-						<xsl:for-each select="toolType/list-item">
-							<xsl:variable name="var17_cur" select="."/>
-							<toolType>
-								<xsl:value-of select="."/>
-							</toolType>
-						</xsl:for-each>
-						<xsl:for-each select="topic/list-item">
-							<xsl:variable name="var18_cur" select="."/>
-							<topic>
-								<xsl:call-template name="tbf:tbf5_">
+					<xsl:for-each select="root/otherID/list-item">
+						<xsl:variable name="var8_cur" select="."/>
+						<otherID>
+							<xsl:call-template name="tbf:tbf1_">
+								<xsl:with-param name="input" select="."/>
+							</xsl:call-template>
+						</otherID>
+					</xsl:for-each>
+				</summary>
+				<xsl:for-each select="root/function/list-item">
+					<xsl:variable name="var9_cur" select="."/>
+					<function>
+						<xsl:for-each select="operation/list-item">
+							<xsl:variable name="var10_cur" select="."/>
+							<operation>
+								<xsl:call-template name="tbf:tbf2_">
 									<xsl:with-param name="input" select="."/>
 								</xsl:call-template>
-							</topic>
+							</operation>
 						</xsl:for-each>
-						<xsl:for-each select="operatingSystem/list-item">
-							<xsl:variable name="var19_cur" select="."/>
-							<operatingSystem>
+						<xsl:for-each select="input/list-item">
+							<xsl:variable name="var11_cur" select="."/>
+							<input>
+								<xsl:for-each select="data/list-item">
+									<xsl:variable name="var12_cur" select="."/>
+									<data>
+										<xsl:call-template name="tbf:tbf3_EDAMdata">
+											<xsl:with-param name="input" select="."/>
+										</xsl:call-template>
+									</data>
+								</xsl:for-each>
+								<xsl:for-each select="format/list-item">
+									<xsl:variable name="var13_cur" select="."/>
+									<format>
+										<xsl:call-template name="tbf:tbf4_EDAMformat">
+											<xsl:with-param name="input" select="."/>
+										</xsl:call-template>
+									</format>
+								</xsl:for-each>
+							</input>
+						</xsl:for-each>
+						<xsl:for-each select="output/list-item">
+							<xsl:variable name="var14_cur" select="."/>
+							<output>
+								<data>
+									<xsl:call-template name="tbf:tbf3_EDAMdata">
+										<xsl:with-param name="input" select="data/list-item"/>
+									</xsl:call-template>
+								</data>
+								<xsl:for-each select="format/list-item">
+									<xsl:variable name="var15_cur" select="."/>
+									<format>
+										<xsl:call-template name="tbf:tbf4_EDAMformat">
+											<xsl:with-param name="input" select="."/>
+										</xsl:call-template>
+									</format>
+								</xsl:for-each>
+							</output>
+						</xsl:for-each>
+						<xsl:for-each select="note">
+							<xsl:variable name="var16_cur" select="."/>
+							<note>
 								<xsl:value-of select="."/>
-							</operatingSystem>
+							</note>
 						</xsl:for-each>
-						<xsl:for-each select="language/list-item">
-							<xsl:variable name="var20_cur" select="."/>
-							<language>
+						<xsl:for-each select="cmd">
+							<xsl:variable name="var17_cur" select="."/>
+							<cmd>
 								<xsl:value-of select="."/>
-							</language>
+							</cmd>
 						</xsl:for-each>
-						<xsl:for-each select="license">
-							<xsl:variable name="var21_cur" select="."/>
-							<license>
-								<xsl:value-of select="."/>
-							</license>
-						</xsl:for-each>
-						<xsl:for-each select="collectionID/list-item">
-							<xsl:variable name="var22_cur" select="."/>
-							<collectionID>
-								<xsl:value-of select="."/>
-							</collectionID>
-						</xsl:for-each>
-						<xsl:for-each select="maturity">
-							<xsl:variable name="var23_cur" select="."/>
-							<maturity>
-								<xsl:value-of select="."/>
-							</maturity>
-						</xsl:for-each>
-						<xsl:for-each select="cost">
-							<xsl:variable name="var24_cur" select="."/>
-							<cost>
-								<xsl:value-of select="."/>
-							</cost>
-						</xsl:for-each>
-						<xsl:for-each select="accessibility/list-item">
-							<xsl:variable name="var25_cur" select="."/>
-							<accessibility>
-								<xsl:value-of select="."/>
-							</accessibility>
-						</xsl:for-each>
-						<xsl:for-each select="elixirPlatform/list-item">
-							<xsl:variable name="var26_cur" select="."/>
-							<elixirPlatform>
-								<xsl:value-of select="."/>
-							</elixirPlatform>
-						</xsl:for-each>
-						<xsl:for-each select="elixirNode/list-item">
-							<xsl:variable name="var27_cur" select="."/>
-							<elixirNode>
-								<xsl:value-of select="."/>
-							</elixirNode>
-						</xsl:for-each>
-					</labels>
-					<xsl:for-each select="link/list-item">
+					</function>
+				</xsl:for-each>
+				<labels>
+					<xsl:for-each select="root/toolType/list-item">
+						<xsl:variable name="var18_cur" select="."/>
+						<toolType>
+							<xsl:value-of select="."/>
+						</toolType>
+					</xsl:for-each>
+					<xsl:for-each select="root/topic/list-item">
+						<xsl:variable name="var19_cur" select="."/>
+						<topic>
+							<xsl:call-template name="tbf:tbf5_">
+								<xsl:with-param name="input" select="."/>
+							</xsl:call-template>
+						</topic>
+					</xsl:for-each>
+					<xsl:for-each select="root/operatingSystem/list-item">
+						<xsl:variable name="var20_cur" select="."/>
+						<operatingSystem>
+							<xsl:value-of select="."/>
+						</operatingSystem>
+					</xsl:for-each>
+					<xsl:for-each select="root/language/list-item">
+						<xsl:variable name="var21_cur" select="."/>
+						<language>
+							<xsl:value-of select="."/>
+						</language>
+					</xsl:for-each>
+					<xsl:for-each select="root/license">
+						<xsl:variable name="var22_cur" select="."/>
+						<license>
+							<xsl:value-of select="."/>
+						</license>
+					</xsl:for-each>
+					<xsl:for-each select="root/collectionID/list-item">
+						<xsl:variable name="var23_cur" select="."/>
+						<collectionID>
+							<xsl:value-of select="."/>
+						</collectionID>
+					</xsl:for-each>
+					<xsl:for-each select="root/maturity">
+						<xsl:variable name="var24_cur" select="."/>
+						<maturity>
+							<xsl:value-of select="."/>
+						</maturity>
+					</xsl:for-each>
+					<xsl:for-each select="root/cost">
+						<xsl:variable name="var25_cur" select="."/>
+						<cost>
+							<xsl:value-of select="."/>
+						</cost>
+					</xsl:for-each>
+					<xsl:for-each select="root/accessibility/list-item">
+						<xsl:variable name="var26_cur" select="."/>
+						<accessibility>
+							<xsl:value-of select="."/>
+						</accessibility>
+					</xsl:for-each>
+					<xsl:for-each select="root/elixirPlatform/list-item">
+						<xsl:variable name="var27_cur" select="."/>
+						<elixirPlatform>
+							<xsl:value-of select="."/>
+						</elixirPlatform>
+					</xsl:for-each>
+					<xsl:for-each select="root/elixirNode/list-item">
 						<xsl:variable name="var28_cur" select="."/>
-						<link>
-							<xsl:call-template name="tbf:tbf6_">
-								<xsl:with-param name="input" select="."/>
-							</xsl:call-template>
-						</link>
+						<elixirNode>
+							<xsl:value-of select="."/>
+						</elixirNode>
 					</xsl:for-each>
-					<xsl:for-each select="download/list-item">
-						<xsl:variable name="var29_cur" select="."/>
-						<download>
-							<xsl:call-template name="tbf:tbf7_">
-								<xsl:with-param name="input" select="."/>
-							</xsl:call-template>
-						</download>
-					</xsl:for-each>
-					<xsl:for-each select="documentation/list-item">
-						<xsl:variable name="var30_cur" select="."/>
-						<documentation>
-							<xsl:call-template name="tbf:tbf8_">
-								<xsl:with-param name="input" select="."/>
-							</xsl:call-template>
-						</documentation>
-					</xsl:for-each>
-					<xsl:for-each select="publication/list-item">
-						<xsl:variable name="var31_cur" select="."/>
-						<publication>
-							<xsl:call-template name="tbf:tbf9_">
-								<xsl:with-param name="input" select="."/>
-							</xsl:call-template>
-						</publication>
-					</xsl:for-each>
-					<xsl:for-each select="credit/list-item">
-						<xsl:variable name="var32_cur" select="."/>
-						<credit>
-							<xsl:for-each select="name">
-								<xsl:variable name="var33_cur" select="."/>
-								<name>
-									<xsl:value-of select="."/>
-								</name>
-							</xsl:for-each>
-							<xsl:for-each select="email">
-								<xsl:variable name="var34_cur" select="."/>
-								<email>
-									<xsl:value-of select="."/>
-								</email>
-							</xsl:for-each>
-							<xsl:for-each select="url">
-								<xsl:variable name="var35_cur" select="."/>
-								<url>
-									<xsl:value-of select="."/>
-								</url>
-							</xsl:for-each>
-							<xsl:for-each select="orcidId">
-								<xsl:variable name="var36_cur" select="."/>
-								<orcidid>
-									<xsl:value-of select="."/>
-								</orcidid>
-							</xsl:for-each>
-							<xsl:for-each select="typeEntity">
-								<xsl:variable name="var37_cur" select="."/>
-								<typeEntity>
-									<xsl:value-of select="."/>
-								</typeEntity>
-							</xsl:for-each>
-							<xsl:for-each select="typeRole/list-item">
-								<xsl:variable name="var38_cur" select="."/>
-								<typeRole>
-									<xsl:value-of select="."/>
-								</typeRole>
-							</xsl:for-each>
-							<xsl:for-each select="note">
-								<xsl:variable name="var39_cur" select="."/>
-								<note>
-									<xsl:value-of select="."/>
-								</note>
-							</xsl:for-each>
-						</credit>
-					</xsl:for-each>
-				</tool>
-			</xsl:for-each>
+				</labels>
+				<xsl:for-each select="root/link/list-item">
+					<xsl:variable name="var29_cur" select="."/>
+					<link>
+						<xsl:call-template name="tbf:tbf6_">
+							<xsl:with-param name="input" select="."/>
+						</xsl:call-template>
+					</link>
+				</xsl:for-each>
+				<xsl:for-each select="root/download/list-item">
+					<xsl:variable name="var30_cur" select="."/>
+					<download>
+						<xsl:call-template name="tbf:tbf7_">
+							<xsl:with-param name="input" select="."/>
+						</xsl:call-template>
+					</download>
+				</xsl:for-each>
+				<xsl:for-each select="root/documentation/list-item">
+					<xsl:variable name="var31_cur" select="."/>
+					<documentation>
+						<xsl:call-template name="tbf:tbf8_">
+							<xsl:with-param name="input" select="."/>
+						</xsl:call-template>
+					</documentation>
+				</xsl:for-each>
+				<xsl:for-each select="root/publication/list-item">
+					<xsl:variable name="var32_cur" select="."/>
+					<publication>
+						<xsl:call-template name="tbf:tbf9_">
+							<xsl:with-param name="input" select="."/>
+						</xsl:call-template>
+					</publication>
+				</xsl:for-each>
+				<xsl:for-each select="root/credit/list-item">
+					<xsl:variable name="var33_cur" select="."/>
+					<credit>
+						<xsl:for-each select="name">
+							<xsl:variable name="var34_cur" select="."/>
+							<name>
+								<xsl:value-of select="."/>
+							</name>
+						</xsl:for-each>
+						<xsl:for-each select="email">
+							<xsl:variable name="var35_cur" select="."/>
+							<email>
+								<xsl:value-of select="."/>
+							</email>
+						</xsl:for-each>
+						<xsl:for-each select="url">
+							<xsl:variable name="var36_cur" select="."/>
+							<url>
+								<xsl:value-of select="."/>
+							</url>
+						</xsl:for-each>
+						<xsl:for-each select="orcidId">
+							<xsl:variable name="var37_cur" select="."/>
+							<orcidid>
+								<xsl:value-of select="."/>
+							</orcidid>
+						</xsl:for-each>
+						<xsl:for-each select="typeEntity">
+							<xsl:variable name="var38_cur" select="."/>
+							<typeEntity>
+								<xsl:value-of select="."/>
+							</typeEntity>
+						</xsl:for-each>
+						<xsl:for-each select="typeRole/list-item">
+							<xsl:variable name="var39_cur" select="."/>
+							<typeRole>
+								<xsl:value-of select="."/>
+							</typeRole>
+						</xsl:for-each>
+						<xsl:for-each select="note">
+							<xsl:variable name="var40_cur" select="."/>
+							<note>
+								<xsl:value-of select="."/>
+							</note>
+						</xsl:for-each>
+					</credit>
+				</xsl:for-each>
+			</tool>
 		</tools>
 	</xsl:template>
 </xsl:stylesheet>

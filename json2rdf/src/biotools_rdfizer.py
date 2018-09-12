@@ -75,7 +75,7 @@ def rdfize(json_entry):
             "edam": "http://edamontology.org/",
             "pubmed": "https://www.ncbi.nlm.nih.gov/pubmed/",
             "pmc": "https://www.ncbi.nlm.nih.gov/pmc/",
-            "doi": "https://dx.doi.org/",
+            "doi": "https://doi.org/",
             "dc": "http://purl.org/dc/terms/",
             "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
@@ -137,9 +137,9 @@ def rdfize(json_entry):
         if publication['doi']:
                 if not ("<" in publication['doi'] or ">" in publication['doi']) :
                     if not "hasPublication" in entry.keys():
-                        entry['hasPublication'] = [{"@id": "https://dx.doi.org/" + publication['doi']}]
+                        entry['hasPublication'] = [{"@id": "https://doi.org/" + publication['doi']}]
                     else:
-                        entry['hasPublication'].append({"@id": "https://dx.doi.org/" +  publication['doi']})
+                        entry['hasPublication'].append({"@id": "https://doi.org/" +  publication['doi']})
 
     for item in entry['function']:
         for op in item['operation']:
