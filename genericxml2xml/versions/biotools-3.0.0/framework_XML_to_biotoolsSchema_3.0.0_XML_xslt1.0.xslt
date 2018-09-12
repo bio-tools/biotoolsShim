@@ -315,16 +315,13 @@ http://www.altova.com/mapforce
 							<xsl:for-each select="input/list-item">
 								<xsl:variable name="var9_cur" select="."/>
 								<input>
-									<xsl:for-each select="data/list-item">
-										<xsl:variable name="var10_cur" select="."/>
-										<data>
-											<xsl:call-template name="tbf:tbf3_EDAMdata">
-												<xsl:with-param name="input" select="."/>
-											</xsl:call-template>
-										</data>
-									</xsl:for-each>
+									<data>
+										<xsl:call-template name="tbf:tbf3_EDAMdata">
+											<xsl:with-param name="input" select="data"/>
+										</xsl:call-template>
+									</data>
 									<xsl:for-each select="format/list-item">
-										<xsl:variable name="var11_cur" select="."/>
+										<xsl:variable name="var10_cur" select="."/>
 										<format>
 											<xsl:call-template name="tbf:tbf4_EDAMformat">
 												<xsl:with-param name="input" select="."/>
@@ -334,18 +331,15 @@ http://www.altova.com/mapforce
 								</input>
 							</xsl:for-each>
 							<xsl:for-each select="output/list-item">
-								<xsl:variable name="var12_cur" select="."/>
+								<xsl:variable name="var11_cur" select="."/>
 								<output>
-									<xsl:for-each select="data/list-item">
-										<xsl:variable name="var13_cur" select="."/>
-										<data>
-											<xsl:call-template name="tbf:tbf3_EDAMdata">
-												<xsl:with-param name="input" select="."/>
-											</xsl:call-template>
-										</data>
-									</xsl:for-each>
+									<data>
+										<xsl:call-template name="tbf:tbf3_EDAMdata">
+											<xsl:with-param name="input" select="data"/>
+										</xsl:call-template>
+									</data>
 									<xsl:for-each select="format/list-item">
-										<xsl:variable name="var14_cur" select="."/>
+										<xsl:variable name="var12_cur" select="."/>
 										<format>
 											<xsl:call-template name="tbf:tbf4_EDAMformat">
 												<xsl:with-param name="input" select="."/>
@@ -355,13 +349,13 @@ http://www.altova.com/mapforce
 								</output>
 							</xsl:for-each>
 							<xsl:for-each select="note">
-								<xsl:variable name="var15_cur" select="."/>
+								<xsl:variable name="var13_cur" select="."/>
 								<note>
 									<xsl:value-of select="."/>
 								</note>
 							</xsl:for-each>
 							<xsl:for-each select="cmd">
-								<xsl:variable name="var16_cur" select="."/>
+								<xsl:variable name="var14_cur" select="."/>
 								<cmd>
 									<xsl:value-of select="."/>
 								</cmd>
@@ -370,13 +364,13 @@ http://www.altova.com/mapforce
 					</xsl:for-each>
 					<labels>
 						<xsl:for-each select="toolType/list-item">
-							<xsl:variable name="var17_cur" select="."/>
+							<xsl:variable name="var15_cur" select="."/>
 							<toolType>
 								<xsl:value-of select="."/>
 							</toolType>
 						</xsl:for-each>
 						<xsl:for-each select="topic/list-item">
-							<xsl:variable name="var18_cur" select="."/>
+							<xsl:variable name="var16_cur" select="."/>
 							<topic>
 								<xsl:call-template name="tbf:tbf5_">
 									<xsl:with-param name="input" select="."/>
@@ -384,62 +378,62 @@ http://www.altova.com/mapforce
 							</topic>
 						</xsl:for-each>
 						<xsl:for-each select="operatingSystem/list-item">
-							<xsl:variable name="var19_cur" select="."/>
+							<xsl:variable name="var17_cur" select="."/>
 							<operatingSystem>
 								<xsl:value-of select="."/>
 							</operatingSystem>
 						</xsl:for-each>
 						<xsl:for-each select="language/list-item">
-							<xsl:variable name="var20_cur" select="."/>
+							<xsl:variable name="var18_cur" select="."/>
 							<language>
 								<xsl:value-of select="."/>
 							</language>
 						</xsl:for-each>
 						<xsl:for-each select="license">
-							<xsl:variable name="var21_cur" select="."/>
+							<xsl:variable name="var19_cur" select="."/>
 							<license>
 								<xsl:value-of select="."/>
 							</license>
 						</xsl:for-each>
 						<xsl:for-each select="collectionID/list-item">
-							<xsl:variable name="var22_cur" select="."/>
+							<xsl:variable name="var20_cur" select="."/>
 							<collectionID>
 								<xsl:value-of select="."/>
 							</collectionID>
 						</xsl:for-each>
 						<xsl:for-each select="maturity">
-							<xsl:variable name="var23_cur" select="."/>
+							<xsl:variable name="var21_cur" select="."/>
 							<maturity>
 								<xsl:value-of select="."/>
 							</maturity>
 						</xsl:for-each>
 						<xsl:for-each select="cost">
-							<xsl:variable name="var24_cur" select="."/>
+							<xsl:variable name="var22_cur" select="."/>
 							<cost>
 								<xsl:value-of select="."/>
 							</cost>
 						</xsl:for-each>
 						<xsl:for-each select="accessibility/list-item">
-							<xsl:variable name="var25_cur" select="."/>
+							<xsl:variable name="var23_cur" select="."/>
 							<accessibility>
 								<xsl:value-of select="."/>
 							</accessibility>
 						</xsl:for-each>
 						<xsl:for-each select="elixirPlatform/list-item">
-							<xsl:variable name="var26_cur" select="."/>
+							<xsl:variable name="var24_cur" select="."/>
 							<elixirPlatform>
 								<xsl:value-of select="."/>
 							</elixirPlatform>
 						</xsl:for-each>
 						<xsl:for-each select="elixirNode/list-item">
-							<xsl:variable name="var27_cur" select="."/>
+							<xsl:variable name="var25_cur" select="."/>
 							<elixirNode>
 								<xsl:value-of select="."/>
 							</elixirNode>
 						</xsl:for-each>
 					</labels>
 					<xsl:for-each select="link/list-item">
-						<xsl:variable name="var28_cur" select="."/>
+						<xsl:variable name="var26_cur" select="."/>
 						<link>
 							<xsl:call-template name="tbf:tbf6_">
 								<xsl:with-param name="input" select="."/>
@@ -447,7 +441,7 @@ http://www.altova.com/mapforce
 						</link>
 					</xsl:for-each>
 					<xsl:for-each select="download/list-item">
-						<xsl:variable name="var29_cur" select="."/>
+						<xsl:variable name="var27_cur" select="."/>
 						<download>
 							<xsl:call-template name="tbf:tbf7_">
 								<xsl:with-param name="input" select="."/>
@@ -455,7 +449,7 @@ http://www.altova.com/mapforce
 						</download>
 					</xsl:for-each>
 					<xsl:for-each select="documentation/list-item">
-						<xsl:variable name="var30_cur" select="."/>
+						<xsl:variable name="var28_cur" select="."/>
 						<documentation>
 							<xsl:call-template name="tbf:tbf8_">
 								<xsl:with-param name="input" select="."/>
@@ -463,7 +457,7 @@ http://www.altova.com/mapforce
 						</documentation>
 					</xsl:for-each>
 					<xsl:for-each select="publication/list-item">
-						<xsl:variable name="var31_cur" select="."/>
+						<xsl:variable name="var29_cur" select="."/>
 						<publication>
 							<xsl:call-template name="tbf:tbf9_">
 								<xsl:with-param name="input" select="."/>
@@ -471,46 +465,46 @@ http://www.altova.com/mapforce
 						</publication>
 					</xsl:for-each>
 					<xsl:for-each select="credit/list-item">
-						<xsl:variable name="var32_cur" select="."/>
+						<xsl:variable name="var30_cur" select="."/>
 						<credit>
 							<xsl:for-each select="name">
-								<xsl:variable name="var33_cur" select="."/>
+								<xsl:variable name="var31_cur" select="."/>
 								<name>
 									<xsl:value-of select="."/>
 								</name>
 							</xsl:for-each>
 							<xsl:for-each select="email">
-								<xsl:variable name="var34_cur" select="."/>
+								<xsl:variable name="var32_cur" select="."/>
 								<email>
 									<xsl:value-of select="."/>
 								</email>
 							</xsl:for-each>
 							<xsl:for-each select="url">
-								<xsl:variable name="var35_cur" select="."/>
+								<xsl:variable name="var33_cur" select="."/>
 								<url>
 									<xsl:value-of select="."/>
 								</url>
 							</xsl:for-each>
 							<xsl:for-each select="orcidId">
-								<xsl:variable name="var36_cur" select="."/>
+								<xsl:variable name="var34_cur" select="."/>
 								<orcidid>
 									<xsl:value-of select="."/>
 								</orcidid>
 							</xsl:for-each>
 							<xsl:for-each select="typeEntity">
-								<xsl:variable name="var37_cur" select="."/>
+								<xsl:variable name="var35_cur" select="."/>
 								<typeEntity>
 									<xsl:value-of select="."/>
 								</typeEntity>
 							</xsl:for-each>
 							<xsl:for-each select="typeRole/list-item">
-								<xsl:variable name="var38_cur" select="."/>
+								<xsl:variable name="var36_cur" select="."/>
 								<typeRole>
 									<xsl:value-of select="."/>
 								</typeRole>
 							</xsl:for-each>
 							<xsl:for-each select="note">
-								<xsl:variable name="var39_cur" select="."/>
+								<xsl:variable name="var37_cur" select="."/>
 								<note>
 									<xsl:value-of select="."/>
 								</note>

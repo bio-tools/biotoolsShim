@@ -375,11 +375,9 @@ http://www.altova.com/mapforce
 							<xsl:for-each select="input">
 								<list-item>
 									<data>
-										<list-item>
-											<xsl:call-template name="tbf:tbf3_">
-												<xsl:with-param name="input" select="data" as="node()"/>
-											</xsl:call-template>
-										</list-item>
+										<xsl:call-template name="tbf:tbf3_">
+											<xsl:with-param name="input" select="data" as="node()"/>
+										</xsl:call-template>
 									</data>
 									<format>
 										<xsl:for-each select="format">
@@ -397,11 +395,9 @@ http://www.altova.com/mapforce
 							<xsl:for-each select="output">
 								<list-item>
 									<data>
-										<list-item>
-											<xsl:call-template name="tbf:tbf5_">
-												<xsl:with-param name="input" select="data" as="node()"/>
-											</xsl:call-template>
-										</list-item>
+										<xsl:call-template name="tbf:tbf5_">
+											<xsl:with-param name="input" select="data" as="node()"/>
+										</xsl:call-template>
 									</data>
 									<format>
 										<xsl:for-each select="format">

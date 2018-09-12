@@ -6,126 +6,6 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="biotools-3.0.0_framework" library="xml" uid="5" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="root" expanded="1">
-										<entry name="list" expanded="1">
-											<entry name="list-item" inpkey="1606" expanded="1">
-												<entry name="name" inpkey="1607"/>
-												<entry name="description" inpkey="1608"/>
-												<entry name="homepage" inpkey="1609"/>
-												<entry name="biotoolsID" inpkey="1610"/>
-												<entry name="biotoolsCURIE" inpkey="1611"/>
-												<entry name="version" expanded="1">
-													<entry name="list-item" inpkey="1697"/>
-												</entry>
-												<entry name="otherID" expanded="1">
-													<entry name="list-item" inpkey="1613" expanded="1">
-														<entry name="version" expanded="1"/>
-													</entry>
-												</entry>
-												<entry name="function" expanded="1">
-													<entry name="list-item" inpkey="1617" expanded="1">
-														<entry name="operation" expanded="1">
-															<entry name="list-item" inpkey="1618" expanded="1"/>
-														</entry>
-														<entry name="input" expanded="1">
-															<entry name="list-item" inpkey="1619" expanded="1">
-																<entry name="data" expanded="1">
-																	<entry name="list-item" inpkey="1699" expanded="1"/>
-																</entry>
-																<entry name="format" expanded="1">
-																	<entry name="list-item" inpkey="1621" expanded="1"/>
-																</entry>
-															</entry>
-														</entry>
-														<entry name="output" expanded="1">
-															<entry name="list-item" inpkey="1622" expanded="1">
-																<entry name="data" expanded="1">
-																	<entry name="list-item" inpkey="1700" expanded="1"/>
-																</entry>
-																<entry name="format" expanded="1">
-																	<entry name="list-item" inpkey="1624" expanded="1"/>
-																</entry>
-															</entry>
-														</entry>
-														<entry name="note" inpkey="1625"/>
-														<entry name="cmd" inpkey="1626"/>
-													</entry>
-												</entry>
-												<entry name="toolType" expanded="1">
-													<entry name="list-item" inpkey="1627"/>
-												</entry>
-												<entry name="topic" expanded="1">
-													<entry name="list-item" inpkey="1628" expanded="1"/>
-												</entry>
-												<entry name="operatingSystem" expanded="1">
-													<entry name="list-item" inpkey="1629"/>
-												</entry>
-												<entry name="language" expanded="1">
-													<entry name="list-item" inpkey="1630"/>
-												</entry>
-												<entry name="license" inpkey="1631"/>
-												<entry name="collectionID" expanded="1">
-													<entry name="list-item" inpkey="1632"/>
-												</entry>
-												<entry name="maturity" inpkey="1633"/>
-												<entry name="cost" inpkey="1634"/>
-												<entry name="accessibility" expanded="1">
-													<entry name="list-item" inpkey="1635"/>
-												</entry>
-												<entry name="elixirPlatform" expanded="1">
-													<entry name="list-item" inpkey="1636"/>
-												</entry>
-												<entry name="elixirNode" expanded="1">
-													<entry name="list-item" inpkey="1637"/>
-												</entry>
-												<entry name="link" expanded="1">
-													<entry name="list-item" inpkey="1638" expanded="1"/>
-												</entry>
-												<entry name="download" expanded="1">
-													<entry name="list-item" inpkey="1639" expanded="1"/>
-												</entry>
-												<entry name="documentation" expanded="1">
-													<entry name="list-item" inpkey="1640" expanded="1"/>
-												</entry>
-												<entry name="publication" expanded="1">
-													<entry name="list-item" inpkey="1641" expanded="1"/>
-												</entry>
-												<entry name="credit" expanded="1">
-													<entry name="list-item" inpkey="1647" expanded="1">
-														<entry name="name" inpkey="1648"/>
-														<entry name="email" inpkey="1649"/>
-														<entry name="url" inpkey="1650"/>
-														<entry name="orcidId" inpkey="1651"/>
-														<entry name="typeEntity" inpkey="1652"/>
-														<entry name="typeRole" expanded="1">
-															<entry name="list-item" inpkey="1698"/>
-														</entry>
-														<entry name="note" inpkey="1654"/>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="biotools-3.0.0_framework.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="biotools_3.0.0" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="180" lty="-257" rbx="754" rby="2013"/>
@@ -198,6 +78,122 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="biotools-3.0.0_framework" library="xml" uid="5" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="list" expanded="1">
+											<entry name="list-item" inpkey="1606" expanded="1">
+												<entry name="name" inpkey="1607"/>
+												<entry name="description" inpkey="1608"/>
+												<entry name="homepage" inpkey="1609"/>
+												<entry name="biotoolsID" inpkey="1610"/>
+												<entry name="biotoolsCURIE" inpkey="1611"/>
+												<entry name="version" expanded="1">
+													<entry name="list-item" inpkey="1697"/>
+												</entry>
+												<entry name="otherID" expanded="1">
+													<entry name="list-item" inpkey="1613" expanded="1">
+														<entry name="version" expanded="1"/>
+													</entry>
+												</entry>
+												<entry name="function" expanded="1">
+													<entry name="list-item" inpkey="1617" expanded="1">
+														<entry name="operation" expanded="1">
+															<entry name="list-item" inpkey="1618" expanded="1"/>
+														</entry>
+														<entry name="input" expanded="1">
+															<entry name="list-item" inpkey="1619" expanded="1">
+																<entry name="data" inpkey="1701" expanded="1"/>
+																<entry name="format" expanded="1">
+																	<entry name="list-item" inpkey="1621" expanded="1"/>
+																</entry>
+															</entry>
+														</entry>
+														<entry name="output" expanded="1">
+															<entry name="list-item" inpkey="1622" expanded="1">
+																<entry name="data" inpkey="1702" expanded="1"/>
+																<entry name="format" expanded="1">
+																	<entry name="list-item" inpkey="1624" expanded="1"/>
+																</entry>
+															</entry>
+														</entry>
+														<entry name="note" inpkey="1625"/>
+														<entry name="cmd" inpkey="1626"/>
+													</entry>
+												</entry>
+												<entry name="toolType" expanded="1">
+													<entry name="list-item" inpkey="1627"/>
+												</entry>
+												<entry name="topic" expanded="1">
+													<entry name="list-item" inpkey="1628" expanded="1"/>
+												</entry>
+												<entry name="operatingSystem" expanded="1">
+													<entry name="list-item" inpkey="1629"/>
+												</entry>
+												<entry name="language" expanded="1">
+													<entry name="list-item" inpkey="1630"/>
+												</entry>
+												<entry name="license" inpkey="1631"/>
+												<entry name="collectionID" expanded="1">
+													<entry name="list-item" inpkey="1632"/>
+												</entry>
+												<entry name="maturity" inpkey="1633"/>
+												<entry name="cost" inpkey="1634"/>
+												<entry name="accessibility" expanded="1">
+													<entry name="list-item" inpkey="1635"/>
+												</entry>
+												<entry name="elixirPlatform" expanded="1">
+													<entry name="list-item" inpkey="1636"/>
+												</entry>
+												<entry name="elixirNode" expanded="1">
+													<entry name="list-item" inpkey="1637"/>
+												</entry>
+												<entry name="link" expanded="1">
+													<entry name="list-item" inpkey="1638" expanded="1"/>
+												</entry>
+												<entry name="download" expanded="1">
+													<entry name="list-item" inpkey="1639" expanded="1"/>
+												</entry>
+												<entry name="documentation" expanded="1">
+													<entry name="list-item" inpkey="1640" expanded="1"/>
+												</entry>
+												<entry name="publication" expanded="1">
+													<entry name="list-item" inpkey="1641" expanded="1"/>
+												</entry>
+												<entry name="credit" expanded="1">
+													<entry name="list-item" inpkey="1647" expanded="1">
+														<entry name="name" inpkey="1648"/>
+														<entry name="email" inpkey="1649"/>
+														<entry name="url" inpkey="1650"/>
+														<entry name="orcidId" inpkey="1651"/>
+														<entry name="typeEntity" inpkey="1652"/>
+														<entry name="typeRole" expanded="1">
+															<entry name="list-item" inpkey="1698"/>
+														</entry>
+														<entry name="note" inpkey="1654"/>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools-3.0.0_framework.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
+						<wsdl/>
+					</data>
+				</component>
 			</children>
 			<graph directed="1">
 				<edges>
@@ -246,12 +242,12 @@
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1699">
+					<edge edgekey="1701">
 						<data>
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1700">
+					<edge edgekey="1702">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -455,12 +451,12 @@
 					</vertex>
 					<vertex vertexkey="1666">
 						<edges>
-							<edge vertexkey="1699" edgekey="1699"/>
+							<edge vertexkey="1701" edgekey="1701"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1669">
 						<edges>
-							<edge vertexkey="1700" edgekey="1700"/>
+							<edge vertexkey="1702" edgekey="1702"/>
 						</edges>
 					</vertex>
 				</vertices>

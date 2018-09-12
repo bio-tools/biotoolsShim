@@ -315,13 +315,11 @@ http://www.altova.com/mapforce
 							</xsl:for-each>
 							<xsl:for-each select="input/list-item">
 								<input>
-									<xsl:for-each select="data/list-item">
-										<data>
-											<xsl:call-template name="tbf:tbf3_EDAMdata">
-												<xsl:with-param name="input" select="." as="node()"/>
-											</xsl:call-template>
-										</data>
-									</xsl:for-each>
+									<data>
+										<xsl:call-template name="tbf:tbf3_EDAMdata">
+											<xsl:with-param name="input" select="data" as="node()"/>
+										</xsl:call-template>
+									</data>
 									<xsl:for-each select="format/list-item">
 										<format>
 											<xsl:call-template name="tbf:tbf4_EDAMformat">
@@ -333,13 +331,11 @@ http://www.altova.com/mapforce
 							</xsl:for-each>
 							<xsl:for-each select="output/list-item">
 								<output>
-									<xsl:for-each select="data/list-item">
-										<data>
-											<xsl:call-template name="tbf:tbf3_EDAMdata">
-												<xsl:with-param name="input" select="." as="node()"/>
-											</xsl:call-template>
-										</data>
-									</xsl:for-each>
+									<data>
+										<xsl:call-template name="tbf:tbf3_EDAMdata">
+											<xsl:with-param name="input" select="data" as="node()"/>
+										</xsl:call-template>
+									</data>
 									<xsl:for-each select="format/list-item">
 										<format>
 											<xsl:call-template name="tbf:tbf4_EDAMformat">

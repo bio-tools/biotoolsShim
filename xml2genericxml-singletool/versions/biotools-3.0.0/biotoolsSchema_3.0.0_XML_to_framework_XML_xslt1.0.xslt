@@ -374,11 +374,9 @@ http://www.altova.com/mapforce
 								<xsl:variable name="var11_cur" select="."/>
 								<list-item>
 									<data>
-										<list-item>
-											<xsl:call-template name="tbf:tbf3_">
-												<xsl:with-param name="input" select="data"/>
-											</xsl:call-template>
-										</list-item>
+										<xsl:call-template name="tbf:tbf3_">
+											<xsl:with-param name="input" select="data"/>
+										</xsl:call-template>
 									</data>
 									<format>
 										<xsl:for-each select="format">
@@ -398,11 +396,9 @@ http://www.altova.com/mapforce
 								<xsl:variable name="var13_cur" select="."/>
 								<list-item>
 									<data>
-										<list-item>
-											<xsl:call-template name="tbf:tbf5_">
-												<xsl:with-param name="input" select="data"/>
-											</xsl:call-template>
-										</list-item>
+										<xsl:call-template name="tbf:tbf5_">
+											<xsl:with-param name="input" select="data"/>
+										</xsl:call-template>
 									</data>
 									<format>
 										<xsl:for-each select="format">

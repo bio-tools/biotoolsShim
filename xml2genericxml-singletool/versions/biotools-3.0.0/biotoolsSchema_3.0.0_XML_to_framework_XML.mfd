@@ -110,9 +110,7 @@
 												</entry>
 												<entry name="input" expanded="1">
 													<entry name="list-item" inpkey="1708" expanded="1">
-														<entry name="data" expanded="1">
-															<entry name="list-item" inpkey="1709" expanded="1"/>
-														</entry>
+														<entry name="data" inpkey="1739" expanded="1"/>
 														<entry name="format" expanded="1">
 															<entry name="list-item" inpkey="1710" expanded="1"/>
 														</entry>
@@ -120,9 +118,7 @@
 												</entry>
 												<entry name="output" expanded="1">
 													<entry name="list-item" inpkey="1711" expanded="1">
-														<entry name="data" expanded="1">
-															<entry name="list-item" inpkey="1712" expanded="1"/>
-														</entry>
+														<entry name="data" inpkey="1740" expanded="1"/>
 														<entry name="format" expanded="1">
 															<entry name="list-item" inpkey="1713" expanded="1"/>
 														</entry>
@@ -205,17 +201,7 @@
 							<dataconnection type="2"/>
 						</data>
 					</edge>
-					<edge edgekey="1709">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
 					<edge edgekey="1710">
-						<data>
-							<dataconnection type="2"/>
-						</data>
-					</edge>
-					<edge edgekey="1712">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -246,6 +232,16 @@
 						</data>
 					</edge>
 					<edge edgekey="1730">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="1739">
+						<data>
+							<dataconnection type="2"/>
+						</data>
+					</edge>
+					<edge edgekey="1740">
 						<data>
 							<dataconnection type="2"/>
 						</data>
@@ -302,11 +298,6 @@
 							<edge vertexkey="1708"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1666">
-						<edges>
-							<edge vertexkey="1709" edgekey="1709"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="1667">
 						<edges>
 							<edge vertexkey="1710" edgekey="1710"/>
@@ -315,11 +306,6 @@
 					<vertex vertexkey="1668">
 						<edges>
 							<edge vertexkey="1711"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="1669">
-						<edges>
-							<edge vertexkey="1712" edgekey="1712"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="1670">
@@ -450,6 +436,16 @@
 					<vertex vertexkey="1695">
 						<edges>
 							<edge vertexkey="1738"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1666">
+						<edges>
+							<edge vertexkey="1739" edgekey="1739"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1669">
+						<edges>
+							<edge vertexkey="1740" edgekey="1740"/>
 						</edges>
 					</vertex>
 				</vertices>

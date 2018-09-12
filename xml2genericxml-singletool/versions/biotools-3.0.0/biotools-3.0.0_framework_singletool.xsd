@@ -60,14 +60,8 @@
 																<xs:element name="data">
 																	<xs:complexType>
 																		<xs:sequence>
-																			<xs:element name="list-item" maxOccurs="unbounded">
-																				<xs:complexType>
-																					<xs:sequence>
-																						<xs:element name="uri" type="xs:anyURI" minOccurs="0"/>
-																						<xs:element name="term" type="xs:string" minOccurs="0"/>
-																					</xs:sequence>
-																				</xs:complexType>
-																			</xs:element>
+																			<xs:element name="uri" type="xs:anyURI" minOccurs="0"/>
+																			<xs:element name="term" type="xs:string" minOccurs="0"/>
 																		</xs:sequence>
 																	</xs:complexType>
 																</xs:element>
@@ -100,14 +94,8 @@
 																<xs:element name="data">
 																	<xs:complexType>
 																		<xs:sequence>
-																			<xs:element name="list-item">
-																				<xs:complexType>
-																					<xs:sequence>
-																						<xs:element name="uri" type="xs:anyURI" minOccurs="0"/>
-																						<xs:element name="term" type="xs:string" minOccurs="0"/>
-																					</xs:sequence>
-																				</xs:complexType>
-																			</xs:element>
+																			<xs:element name="uri" type="xs:anyURI" minOccurs="0"/>
+																			<xs:element name="term" type="xs:string" minOccurs="0"/>
 																		</xs:sequence>
 																	</xs:complexType>
 																</xs:element>

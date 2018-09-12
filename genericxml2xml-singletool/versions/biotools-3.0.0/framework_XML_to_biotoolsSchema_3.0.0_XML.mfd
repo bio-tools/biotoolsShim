@@ -110,9 +110,7 @@
 												</entry>
 												<entry name="input" expanded="1">
 													<entry name="list-item" outkey="1792" expanded="1">
-														<entry name="data" expanded="1">
-															<entry name="list-item" outkey="1793" expanded="1"/>
-														</entry>
+														<entry name="data" outkey="1823" expanded="1"/>
 														<entry name="format" expanded="1">
 															<entry name="list-item" outkey="1794" expanded="1"/>
 														</entry>
@@ -120,9 +118,7 @@
 												</entry>
 												<entry name="output" expanded="1">
 													<entry name="list-item" outkey="1795" expanded="1">
-														<entry name="data" expanded="1">
-															<entry name="list-item" outkey="1796" expanded="1"/>
-														</entry>
+														<entry name="data" outkey="1824" expanded="1"/>
 														<entry name="format" expanded="1">
 															<entry name="list-item" outkey="1797" expanded="1"/>
 														</entry>
@@ -302,7 +298,7 @@
 							<edge vertexkey="1748"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1793">
+					<vertex vertexkey="1823">
 						<edges>
 							<edge vertexkey="1749" edgekey="1749"/>
 						</edges>
@@ -317,7 +313,7 @@
 							<edge vertexkey="1751"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1796">
+					<vertex vertexkey="1824">
 						<edges>
 							<edge vertexkey="1752" edgekey="1752"/>
 						</edges>

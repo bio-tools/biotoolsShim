@@ -62,7 +62,7 @@ http://www.altova.com/mapforce
 			</xsl:choose>
 		</xsl:for-each>
 	</xsl:template>
-	<xsl:template name="tbf:tbf3_EDAMdata">
+	<xsl:template name="tbf:tbf3_">
 		<xsl:param name="input" select="()"/>
 		<xsl:for-each select="$input/node()">
 			<xsl:choose>
@@ -86,7 +86,7 @@ http://www.altova.com/mapforce
 			</xsl:choose>
 		</xsl:for-each>
 	</xsl:template>
-	<xsl:template name="tbf:tbf4_EDAMformat">
+	<xsl:template name="tbf:tbf4_">
 		<xsl:param name="input" select="()"/>
 		<xsl:for-each select="$input/node()">
 			<xsl:choose>
@@ -139,17 +139,12 @@ http://www.altova.com/mapforce
 		<xsl:for-each select="$input/node()">
 			<xsl:choose>
 				<xsl:when test="fn:boolean(self::*)">
-					<xsl:if test="fn:boolean(self::url)">
+					<xsl:if test="fn:boolean(self::uri)">
 						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
 							<xsl:sequence select="fn:string(.)"/>
 						</xsl:element>
 					</xsl:if>
-					<xsl:if test="fn:boolean(self::type)">
-						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
-							<xsl:sequence select="fn:string(.)"/>
-						</xsl:element>
-					</xsl:if>
-					<xsl:if test="fn:boolean(self::note)">
+					<xsl:if test="fn:boolean(self::term)">
 						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
 							<xsl:sequence select="fn:string(.)"/>
 						</xsl:element>
@@ -168,22 +163,12 @@ http://www.altova.com/mapforce
 		<xsl:for-each select="$input/node()">
 			<xsl:choose>
 				<xsl:when test="fn:boolean(self::*)">
-					<xsl:if test="fn:boolean(self::url)">
+					<xsl:if test="fn:boolean(self::uri)">
 						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
 							<xsl:sequence select="fn:string(.)"/>
 						</xsl:element>
 					</xsl:if>
-					<xsl:if test="fn:boolean(self::type)">
-						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
-							<xsl:sequence select="fn:string(.)"/>
-						</xsl:element>
-					</xsl:if>
-					<xsl:if test="fn:boolean(self::note)">
-						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
-							<xsl:sequence select="fn:string(.)"/>
-						</xsl:element>
-					</xsl:if>
-					<xsl:if test="fn:boolean(self::version)">
+					<xsl:if test="fn:boolean(self::term)">
 						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
 							<xsl:sequence select="fn:string(.)"/>
 						</xsl:element>
@@ -231,6 +216,69 @@ http://www.altova.com/mapforce
 		<xsl:for-each select="$input/node()">
 			<xsl:choose>
 				<xsl:when test="fn:boolean(self::*)">
+					<xsl:if test="fn:boolean(self::url)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+					<xsl:if test="fn:boolean(self::type)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+					<xsl:if test="fn:boolean(self::note)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+					<xsl:if test="fn:boolean(self::version)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:if test="fn:not(fn:boolean(self::text()))">
+						<xsl:sequence select="."/>
+					</xsl:if>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:for-each>
+	</xsl:template>
+	<xsl:template name="tbf:tbf10_">
+		<xsl:param name="input" select="()"/>
+		<xsl:for-each select="$input/node()">
+			<xsl:choose>
+				<xsl:when test="fn:boolean(self::*)">
+					<xsl:if test="fn:boolean(self::url)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+					<xsl:if test="fn:boolean(self::type)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+					<xsl:if test="fn:boolean(self::note)">
+						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
+							<xsl:sequence select="fn:string(.)"/>
+						</xsl:element>
+					</xsl:if>
+				</xsl:when>
+				<xsl:otherwise>
+					<xsl:if test="fn:not(fn:boolean(self::text()))">
+						<xsl:sequence select="."/>
+					</xsl:if>
+				</xsl:otherwise>
+			</xsl:choose>
+		</xsl:for-each>
+	</xsl:template>
+	<xsl:template name="tbf:tbf11_">
+		<xsl:param name="input" select="()"/>
+		<xsl:for-each select="$input/node()">
+			<xsl:choose>
+				<xsl:when test="fn:boolean(self::*)">
 					<xsl:if test="fn:boolean(self::doi)">
 						<xsl:element name="{fn:string(fn:node-name(.))}" namespace="{fn:namespace-uri-from-QName(fn:node-name(.))}">
 							<xsl:sequence select="fn:string(.)"/>
@@ -267,90 +315,106 @@ http://www.altova.com/mapforce
 	</xsl:template>
 	<xsl:output method="xml" encoding="UTF-8" byte-order-mark="no" indent="yes"/>
 	<xsl:template match="/">
-		<xsl:variable name="var1_root" as="node()?" select="root"/>
-		<tools>
-			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'file:///E:/repos/GitHub/biotoolsShim/genericxml2xml-singletool/versions/biotools-3.0.0/biotools_3.0.0.xsd'"/>
-			<tool>
-				<summary>
-					<xsl:for-each select="$var1_root">
-						<name>
-							<xsl:sequence select="fn:string(name)"/>
-						</name>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root">
-						<description>
-							<xsl:sequence select="fn:string(description)"/>
-						</description>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root">
-						<homepage>
-							<xsl:sequence select="xs:string(xs:anyURI(fn:string(homepage)))"/>
-						</homepage>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/biotoolsID">
-						<biotoolsID>
-							<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-						</biotoolsID>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/biotoolsCURIE">
-						<biotoolsCURIE>
-							<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
-						</biotoolsCURIE>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/version/list-item">
-						<version>
-							<xsl:sequence select="fn:string(.)"/>
-						</version>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/otherID/list-item">
-						<otherID>
-							<xsl:call-template name="tbf:tbf1_">
-								<xsl:with-param name="input" select="." as="node()"/>
-							</xsl:call-template>
-						</otherID>
-					</xsl:for-each>
-				</summary>
-				<xsl:for-each select="$var1_root/function/list-item">
-					<function>
-						<xsl:for-each select="operation/list-item">
-							<operation>
-								<xsl:call-template name="tbf:tbf2_">
-									<xsl:with-param name="input" select="." as="node()"/>
-								</xsl:call-template>
-							</operation>
-						</xsl:for-each>
-						<xsl:for-each select="input/list-item">
-							<input>
-								<data>
-									<xsl:call-template name="tbf:tbf3_EDAMdata">
-										<xsl:with-param name="input" select="data" as="node()"/>
+		<xsl:variable name="var1_tools" as="node()?" select="tools"/>
+		<root>
+			<xsl:attribute name="xsi:noNamespaceSchemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'file:///E:/repos/GitHub/biotoolsShim/xml2genericxml-singletool/versions/biotools-3.0.0/biotools-3.0.0_framework_singletool.xsd'"/>
+			<xsl:for-each select="$var1_tools/tool">
+				<name>
+					<xsl:sequence select="fn:string(summary/name)"/>
+				</name>
+			</xsl:for-each>
+			<xsl:for-each select="$var1_tools/tool">
+				<description>
+					<xsl:sequence select="fn:string(summary/description)"/>
+				</description>
+			</xsl:for-each>
+			<xsl:for-each select="$var1_tools/tool">
+				<homepage>
+					<xsl:sequence select="xs:string(xs:anyURI(fn:string(summary/homepage)))"/>
+				</homepage>
+			</xsl:for-each>
+			<xsl:for-each select="$var1_tools/tool/summary/biotoolsID">
+				<biotoolsID>
+					<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+				</biotoolsID>
+			</xsl:for-each>
+			<xsl:for-each select="$var1_tools/tool/summary/biotoolsCURIE">
+				<biotoolsCURIE>
+					<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
+				</biotoolsCURIE>
+			</xsl:for-each>
+			<version>
+				<xsl:for-each select="$var1_tools/tool/summary/version">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</version>
+			<otherID>
+				<xsl:for-each select="$var1_tools/tool/summary/otherID">
+					<list-item>
+						<xsl:call-template name="tbf:tbf1_">
+							<xsl:with-param name="input" select="." as="node()"/>
+						</xsl:call-template>
+					</list-item>
+				</xsl:for-each>
+			</otherID>
+			<function>
+				<xsl:for-each select="$var1_tools/tool/function">
+					<list-item>
+						<operation>
+							<xsl:for-each select="operation">
+								<list-item>
+									<xsl:call-template name="tbf:tbf2_">
+										<xsl:with-param name="input" select="." as="node()"/>
 									</xsl:call-template>
-								</data>
-								<xsl:for-each select="format/list-item">
+								</list-item>
+							</xsl:for-each>
+						</operation>
+						<input>
+							<xsl:for-each select="input">
+								<list-item>
+									<data>
+										<list-item>
+											<xsl:call-template name="tbf:tbf3_">
+												<xsl:with-param name="input" select="data" as="node()"/>
+											</xsl:call-template>
+										</list-item>
+									</data>
 									<format>
-										<xsl:call-template name="tbf:tbf4_EDAMformat">
-											<xsl:with-param name="input" select="." as="node()"/>
-										</xsl:call-template>
+										<xsl:for-each select="format">
+											<list-item>
+												<xsl:call-template name="tbf:tbf4_">
+													<xsl:with-param name="input" select="." as="node()"/>
+												</xsl:call-template>
+											</list-item>
+										</xsl:for-each>
 									</format>
-								</xsl:for-each>
-							</input>
-						</xsl:for-each>
-						<xsl:for-each select="output/list-item">
-							<output>
-								<data>
-									<xsl:call-template name="tbf:tbf3_EDAMdata">
-										<xsl:with-param name="input" select="data" as="node()"/>
-									</xsl:call-template>
-								</data>
-								<xsl:for-each select="format/list-item">
+								</list-item>
+							</xsl:for-each>
+						</input>
+						<output>
+							<xsl:for-each select="output">
+								<list-item>
+									<data>
+										<list-item>
+											<xsl:call-template name="tbf:tbf5_">
+												<xsl:with-param name="input" select="data" as="node()"/>
+											</xsl:call-template>
+										</list-item>
+									</data>
 									<format>
-										<xsl:call-template name="tbf:tbf4_EDAMformat">
-											<xsl:with-param name="input" select="." as="node()"/>
-										</xsl:call-template>
+										<xsl:for-each select="format">
+											<list-item>
+												<xsl:call-template name="tbf:tbf6_">
+													<xsl:with-param name="input" select="." as="node()"/>
+												</xsl:call-template>
+											</list-item>
+										</xsl:for-each>
 									</format>
-								</xsl:for-each>
-							</output>
-						</xsl:for-each>
+								</list-item>
+							</xsl:for-each>
+						</output>
 						<xsl:for-each select="note">
 							<note>
 								<xsl:sequence select="fn:string(.)"/>
@@ -361,97 +425,121 @@ http://www.altova.com/mapforce
 								<xsl:sequence select="fn:string(.)"/>
 							</cmd>
 						</xsl:for-each>
-					</function>
+					</list-item>
 				</xsl:for-each>
-				<labels>
-					<xsl:for-each select="$var1_root/toolType/list-item">
-						<toolType>
-							<xsl:sequence select="fn:string(.)"/>
-						</toolType>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/topic/list-item">
-						<topic>
-							<xsl:call-template name="tbf:tbf5_">
-								<xsl:with-param name="input" select="." as="node()"/>
-							</xsl:call-template>
-						</topic>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/operatingSystem/list-item">
-						<operatingSystem>
-							<xsl:sequence select="fn:string(.)"/>
-						</operatingSystem>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/language/list-item">
-						<language>
-							<xsl:sequence select="fn:string(.)"/>
-						</language>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/license">
-						<license>
-							<xsl:sequence select="fn:string(.)"/>
-						</license>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/collectionID/list-item">
-						<collectionID>
-							<xsl:sequence select="fn:string(.)"/>
-						</collectionID>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/maturity">
-						<maturity>
-							<xsl:sequence select="fn:string(.)"/>
-						</maturity>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/cost">
-						<cost>
-							<xsl:sequence select="fn:string(.)"/>
-						</cost>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/accessibility/list-item">
-						<accessibility>
-							<xsl:sequence select="fn:string(.)"/>
-						</accessibility>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/elixirPlatform/list-item">
-						<elixirPlatform>
-							<xsl:sequence select="fn:string(.)"/>
-						</elixirPlatform>
-					</xsl:for-each>
-					<xsl:for-each select="$var1_root/elixirNode/list-item">
-						<elixirNode>
-							<xsl:sequence select="fn:string(.)"/>
-						</elixirNode>
-					</xsl:for-each>
-				</labels>
-				<xsl:for-each select="$var1_root/link/list-item">
-					<link>
-						<xsl:call-template name="tbf:tbf6_">
-							<xsl:with-param name="input" select="." as="node()"/>
-						</xsl:call-template>
-					</link>
+			</function>
+			<toolType>
+				<xsl:for-each select="$var1_tools/tool/labels/toolType">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
 				</xsl:for-each>
-				<xsl:for-each select="$var1_root/download/list-item">
-					<download>
+			</toolType>
+			<topic>
+				<xsl:for-each select="$var1_tools/tool/labels/topic">
+					<list-item>
 						<xsl:call-template name="tbf:tbf7_">
 							<xsl:with-param name="input" select="." as="node()"/>
 						</xsl:call-template>
-					</download>
+					</list-item>
 				</xsl:for-each>
-				<xsl:for-each select="$var1_root/documentation/list-item">
-					<documentation>
+			</topic>
+			<operatingSystem>
+				<xsl:for-each select="$var1_tools/tool/labels/operatingSystem">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</operatingSystem>
+			<language>
+				<xsl:for-each select="$var1_tools/tool/labels/language">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</language>
+			<xsl:for-each select="$var1_tools/tool/labels/license">
+				<license>
+					<xsl:sequence select="fn:string(.)"/>
+				</license>
+			</xsl:for-each>
+			<collectionID>
+				<xsl:for-each select="$var1_tools/tool/labels/collectionID">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</collectionID>
+			<xsl:for-each select="$var1_tools/tool/labels/maturity">
+				<maturity>
+					<xsl:sequence select="fn:string(.)"/>
+				</maturity>
+			</xsl:for-each>
+			<xsl:for-each select="$var1_tools/tool/labels/cost">
+				<cost>
+					<xsl:sequence select="fn:string(.)"/>
+				</cost>
+			</xsl:for-each>
+			<accessibility>
+				<xsl:for-each select="$var1_tools/tool/labels/accessibility">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</accessibility>
+			<elixirPlatform>
+				<xsl:for-each select="$var1_tools/tool/labels/elixirPlatform">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</elixirPlatform>
+			<elixirNode>
+				<xsl:for-each select="$var1_tools/tool/labels/elixirNode">
+					<list-item>
+						<xsl:sequence select="fn:string(.)"/>
+					</list-item>
+				</xsl:for-each>
+			</elixirNode>
+			<link>
+				<xsl:for-each select="$var1_tools/tool/link">
+					<list-item>
 						<xsl:call-template name="tbf:tbf8_">
 							<xsl:with-param name="input" select="." as="node()"/>
 						</xsl:call-template>
-					</documentation>
+					</list-item>
 				</xsl:for-each>
-				<xsl:for-each select="$var1_root/publication/list-item">
-					<publication>
+			</link>
+			<download>
+				<xsl:for-each select="$var1_tools/tool/download">
+					<list-item>
 						<xsl:call-template name="tbf:tbf9_">
 							<xsl:with-param name="input" select="." as="node()"/>
 						</xsl:call-template>
-					</publication>
+					</list-item>
 				</xsl:for-each>
-				<xsl:for-each select="$var1_root/credit/list-item">
-					<credit>
+			</download>
+			<documentation>
+				<xsl:for-each select="$var1_tools/tool/documentation">
+					<list-item>
+						<xsl:call-template name="tbf:tbf10_">
+							<xsl:with-param name="input" select="." as="node()"/>
+						</xsl:call-template>
+					</list-item>
+				</xsl:for-each>
+			</documentation>
+			<publication>
+				<xsl:for-each select="$var1_tools/tool/publication">
+					<list-item>
+						<xsl:call-template name="tbf:tbf11_">
+							<xsl:with-param name="input" select="." as="node()"/>
+						</xsl:call-template>
+					</list-item>
+				</xsl:for-each>
+			</publication>
+			<credit>
+				<xsl:for-each select="$var1_tools/tool/credit">
+					<list-item>
 						<xsl:for-each select="name">
 							<name>
 								<xsl:sequence select="fn:string(.)"/>
@@ -467,29 +555,31 @@ http://www.altova.com/mapforce
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
 							</url>
 						</xsl:for-each>
-						<xsl:for-each select="orcidId">
-							<orcidid>
+						<xsl:for-each select="orcidid">
+							<orcidId>
 								<xsl:sequence select="fn:string(.)"/>
-							</orcidid>
+							</orcidId>
 						</xsl:for-each>
 						<xsl:for-each select="typeEntity">
 							<typeEntity>
 								<xsl:sequence select="fn:string(.)"/>
 							</typeEntity>
 						</xsl:for-each>
-						<xsl:for-each select="typeRole/list-item">
-							<typeRole>
-								<xsl:sequence select="fn:string(.)"/>
-							</typeRole>
-						</xsl:for-each>
+						<typeRole>
+							<xsl:for-each select="typeRole">
+								<list-item>
+									<xsl:sequence select="fn:string(.)"/>
+								</list-item>
+							</xsl:for-each>
+						</typeRole>
 						<xsl:for-each select="note">
 							<note>
 								<xsl:sequence select="fn:string(.)"/>
 							</note>
 						</xsl:for-each>
-					</credit>
+					</list-item>
 				</xsl:for-each>
-			</tool>
-		</tools>
+			</credit>
+		</root>
 	</xsl:template>
 </xsl:stylesheet>
