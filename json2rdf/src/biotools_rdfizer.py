@@ -79,16 +79,19 @@ def rdfize(json_entry):
             "dc": "http://purl.org/dc/terms/",
             "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
-            # "description": "dc:description",
-            # "name": "dc:title",
-            # "license": "dc:license",
+
+
             # "hasContact": "dc:publisher",
             # "hasPublication": "dc:references",
 
-            "id": "datacite:identifier",
-            "name": "datacite:title",
-            "description": "datacite:description",
-            "license": "datacite:rights",
+            # "id": "datacite:identifier",
+            "id": "dc:identifier",
+            # "name": "datacite:title",
+            "name": "dc:title",
+            # "description": "datacite:description",
+            "description": "dc:description",
+            # "license": "datacite:rights",
+            "license": "dc:license",
             "hasContact": "datacite:contributor",
             "toolType": "datacite:resourceType",
             "additionDate": "datacite:date",
