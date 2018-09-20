@@ -550,9 +550,9 @@ http://www.altova.com/mapforce
 										</url>
 									</xsl:for-each>
 									<xsl:for-each select="orcidid">
-										<orcidId>
+										<orcidid>
 											<xsl:sequence select="fn:string(.)"/>
-										</orcidId>
+										</orcidid>
 									</xsl:for-each>
 									<xsl:for-each select="typeEntity">
 										<typeEntity>

@@ -287,7 +287,7 @@
 			<name>Person or institute name</name>
 			<email>joebloggst@elixir-dk.org</email>
 			<url>https://someurl.org</url>
-			<orcidId>http://orcid.org/0000-0002-1825-0097</orcidId>
+			<orcidid>http://orcid.org/0000-0002-1825-0097</orcidid>
 			<typeEntity>Person</typeEntity>
 			<typeRole>
 				<list-item>Primary contact</list-item>
@@ -299,7 +299,7 @@
 			<name>Person or institute name</name>
 			<email>joebloggst@elixir-dk.org</email>
 			<url>http://someurl.org</url>
-			<orcidId>http://orcid.org/0000-0002-1825-0097</orcidId>
+			<orcidid>http://orcid.org/0000-0002-1825-0097</orcidid>
 			<typeEntity>Project</typeEntity>
 			<typeRole>
 				<list-item>Developer</list-item>

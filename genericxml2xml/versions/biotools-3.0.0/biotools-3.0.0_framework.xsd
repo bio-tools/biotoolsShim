@@ -271,7 +271,7 @@
 																<xs:element name="name" type="xs:string" minOccurs="0"/>
 																<xs:element name="email" type="xs:string" minOccurs="0"/>
 																<xs:element name="url" type="xs:anyURI" minOccurs="0"/>
-																<xs:element name="orcidId" type="xs:string" minOccurs="0"/>
+																<xs:element name="orcidid" type="xs:string" minOccurs="0"/>
 																<xs:element name="typeEntity" type="xs:string" minOccurs="0"/>
 																<xs:element name="typeRole" minOccurs="0">
 																	<xs:complexType>

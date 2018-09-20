@@ -6,78 +6,6 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="biotools-3.0.0" library="xml" uid="3" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="1384" lty="-257" rbx="1958" rby="2013"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="tools" expanded="1">
-										<entry name="tool" expanded="1">
-											<entry name="summary" expanded="1">
-												<entry name="name" inpkey="1739"/>
-												<entry name="description" inpkey="1740"/>
-												<entry name="homepage" inpkey="1741"/>
-												<entry name="biotoolsID" inpkey="1742"/>
-												<entry name="biotoolsCURIE" inpkey="1743"/>
-												<entry name="version" inpkey="1744"/>
-												<entry name="otherID" inpkey="1745" expanded="1"/>
-											</entry>
-											<entry name="function" inpkey="1746" expanded="1">
-												<entry name="operation" inpkey="1747" expanded="1"/>
-												<entry name="input" inpkey="1748" expanded="1">
-													<entry name="data" inpkey="1749" expanded="1"/>
-													<entry name="format" inpkey="1750" expanded="1"/>
-												</entry>
-												<entry name="output" inpkey="1751" expanded="1">
-													<entry name="data" inpkey="1752" expanded="1"/>
-													<entry name="format" inpkey="1753" expanded="1"/>
-												</entry>
-												<entry name="note" inpkey="1754"/>
-												<entry name="cmd" inpkey="1755"/>
-											</entry>
-											<entry name="labels" expanded="1">
-												<entry name="toolType" inpkey="1756"/>
-												<entry name="topic" inpkey="1757" expanded="1"/>
-												<entry name="operatingSystem" inpkey="1758"/>
-												<entry name="language" inpkey="1759"/>
-												<entry name="license" inpkey="1760"/>
-												<entry name="collectionID" inpkey="1761"/>
-												<entry name="maturity" inpkey="1762"/>
-												<entry name="cost" inpkey="1763"/>
-												<entry name="accessibility" inpkey="1764"/>
-												<entry name="elixirPlatform" inpkey="1765"/>
-												<entry name="elixirNode" inpkey="1766"/>
-											</entry>
-											<entry name="link" inpkey="1767" expanded="1"/>
-											<entry name="download" inpkey="1768" expanded="1"/>
-											<entry name="documentation" inpkey="1769" expanded="1"/>
-											<entry name="publication" inpkey="1770" expanded="1"/>
-											<entry name="credit" inpkey="1771" expanded="1">
-												<entry name="name" inpkey="1772"/>
-												<entry name="email" inpkey="1773"/>
-												<entry name="url" inpkey="1774"/>
-												<entry name="orcidid" inpkey="1775"/>
-												<entry name="typeEntity" inpkey="1776"/>
-												<entry name="typeRole" inpkey="1777"/>
-												<entry name="note" inpkey="1778"/>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="biotools_3.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}tools"/>
-						<wsdl/>
-					</data>
-				</component>
 				<component name="biotools-3.0.0_framework_singletool" library="xml" uid="2" kind="14">
 					<properties XSLTTargetEncoding="UTF-8"/>
 					<view ltx="180" lty="-492" rbx="737" rby="1840"/>
@@ -172,7 +100,7 @@
 												<entry name="name" outkey="1816"/>
 												<entry name="email" outkey="1817"/>
 												<entry name="url" outkey="1818"/>
-												<entry name="orcidId" outkey="1819"/>
+												<entry name="orcidid" outkey="1825"/>
 												<entry name="typeEntity" outkey="1820"/>
 												<entry name="typeRole" expanded="1">
 													<entry name="list-item" outkey="1821"/>
@@ -185,6 +113,78 @@
 							</entry>
 						</root>
 						<document schema="biotools-3.0.0_framework_singletool.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="biotools-3.0.0" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1384" lty="-257" rbx="1958" rby="2013"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="tools" expanded="1">
+										<entry name="tool" expanded="1">
+											<entry name="summary" expanded="1">
+												<entry name="name" inpkey="1739"/>
+												<entry name="description" inpkey="1740"/>
+												<entry name="homepage" inpkey="1741"/>
+												<entry name="biotoolsID" inpkey="1742"/>
+												<entry name="biotoolsCURIE" inpkey="1743"/>
+												<entry name="version" inpkey="1744"/>
+												<entry name="otherID" inpkey="1745" expanded="1"/>
+											</entry>
+											<entry name="function" inpkey="1746" expanded="1">
+												<entry name="operation" inpkey="1747" expanded="1"/>
+												<entry name="input" inpkey="1748" expanded="1">
+													<entry name="data" inpkey="1749" expanded="1"/>
+													<entry name="format" inpkey="1750" expanded="1"/>
+												</entry>
+												<entry name="output" inpkey="1751" expanded="1">
+													<entry name="data" inpkey="1752" expanded="1"/>
+													<entry name="format" inpkey="1753" expanded="1"/>
+												</entry>
+												<entry name="note" inpkey="1754"/>
+												<entry name="cmd" inpkey="1755"/>
+											</entry>
+											<entry name="labels" expanded="1">
+												<entry name="toolType" inpkey="1756"/>
+												<entry name="topic" inpkey="1757" expanded="1"/>
+												<entry name="operatingSystem" inpkey="1758"/>
+												<entry name="language" inpkey="1759"/>
+												<entry name="license" inpkey="1760"/>
+												<entry name="collectionID" inpkey="1761"/>
+												<entry name="maturity" inpkey="1762"/>
+												<entry name="cost" inpkey="1763"/>
+												<entry name="accessibility" inpkey="1764"/>
+												<entry name="elixirPlatform" inpkey="1765"/>
+												<entry name="elixirNode" inpkey="1766"/>
+											</entry>
+											<entry name="link" inpkey="1767" expanded="1"/>
+											<entry name="download" inpkey="1768" expanded="1"/>
+											<entry name="documentation" inpkey="1769" expanded="1"/>
+											<entry name="publication" inpkey="1770" expanded="1"/>
+											<entry name="credit" inpkey="1771" expanded="1">
+												<entry name="name" inpkey="1772"/>
+												<entry name="email" inpkey="1773"/>
+												<entry name="url" inpkey="1774"/>
+												<entry name="orcidid" inpkey="1775"/>
+												<entry name="typeEntity" inpkey="1776"/>
+												<entry name="typeRole" inpkey="1777"/>
+												<entry name="note" inpkey="1778"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools_3.0.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}tools"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -428,7 +428,7 @@
 							<edge vertexkey="1774"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1819">
+					<vertex vertexkey="1825">
 						<edges>
 							<edge vertexkey="1775"/>
 						</edges>

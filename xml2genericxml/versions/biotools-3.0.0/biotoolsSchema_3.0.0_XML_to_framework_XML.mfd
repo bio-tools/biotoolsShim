@@ -176,7 +176,7 @@
 														<entry name="name" inpkey="1648"/>
 														<entry name="email" inpkey="1649"/>
 														<entry name="url" inpkey="1650"/>
-														<entry name="orcidId" inpkey="1651"/>
+														<entry name="orcidid" inpkey="1703"/>
 														<entry name="typeEntity" inpkey="1652"/>
 														<entry name="typeRole" expanded="1">
 															<entry name="list-item" inpkey="1698"/>
@@ -424,11 +424,6 @@
 							<edge vertexkey="1650"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1692">
-						<edges>
-							<edge vertexkey="1651"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="1693">
 						<edges>
 							<edge vertexkey="1652"/>
@@ -457,6 +452,11 @@
 					<vertex vertexkey="1669">
 						<edges>
 							<edge vertexkey="1702" edgekey="1702"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1692">
+						<edges>
+							<edge vertexkey="1703"/>
 						</edges>
 					</vertex>
 				</vertices>

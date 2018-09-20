@@ -461,7 +461,7 @@ http://www.altova.com/mapforce
 									<xsl:sequence select="xs:string(xs:anyURI(fn:string(.)))"/>
 								</url>
 							</xsl:for-each>
-							<xsl:for-each select="orcidId">
+							<xsl:for-each select="orcidid">
 								<orcidid>
 									<xsl:sequence select="fn:string(.)"/>
 								</orcidid>
