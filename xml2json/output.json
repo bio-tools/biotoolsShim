@@ -1,0 +1,280 @@
+{
+	"tool": {
+		"name": "needle",
+		"description": "needle reads two input sequences and writes their optimal global sequence alignment to file. It uses the Needleman-Wunsch alignment algorithm to find the optimum alignment (including gaps) of two sequences along their entire length. The algorithm uses a dynamic programming method to ensure the alignment is optimum, by exploring all possible alignments and choosing the best.",
+		"homepage": "http://emboss.open-bio.org/rel/rel6/apps/needle.html",
+		"biotoolsID": "needle",
+		"biotoolsCURIE": "biotools:signalp",
+		"version": [
+			"1.1", "beta01"
+		],
+		"otherID": [
+			{
+				"value": "DOI:10.1038/nmeth.1701",
+				"type": "doi",
+				"version": "a"
+			}, {
+				"value": "RRID:SCR_001156",
+				"type": "rrid",
+				"version": "a"
+			}
+		],
+		"function": [
+			{
+				"operation": [
+					{
+						"uri": "http://edamontology.org/operation_0492",
+						"term": "Multiple sequence alignment"
+					}, {
+						"uri": "http://edamontology.org/operation_0492",
+						"term": "Multiple sequence alignment"
+					}
+				],
+				"input": [
+					{
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}, {
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}
+				],
+				"output": [
+					{
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}, {
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}
+				],
+				"note": "Concise comment about this function, if not apparent from the software description and EDAM annotations.",
+				"cmd": "-s best"
+			}, {
+				"operation": [
+					{
+						"uri": "http://edamontology.org/operation_0492",
+						"term": "Multiple sequence alignment"
+					}, {
+						"uri": "http://edamontology.org/operation_0492",
+						"term": "Multiple sequence alignment"
+					}
+				],
+				"input": [
+					{
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}, {
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}
+				],
+				"output": [
+					{
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}, {
+						"data": {
+							"uri": "http://edamontology.org/data_2976",
+							"term": "Protein sequences"
+						},
+						"format": [
+							{
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}, {
+								"uri": "http://edamontology.org/format_1929",
+								"term": "FASTA"
+							}
+						]
+					}
+				],
+				"note": "Concise comment about this function, if not apparent from the software description and EDAM annotations.",
+				"cmd": "-s best"
+			}
+		],
+		"toolType": [
+			"Command-line tool", "Database portal"
+		],
+		"topic": [
+			{
+				"uri": "http://edamontology.org/topic_0121",
+				"term": "Proteomics"
+			}, {
+				"uri": "http://edamontology.org/topic_0121",
+				"term": "Proteomics"
+			}
+		],
+		"operatingSystem": [
+			"Linux", "Windows"
+		],
+		"language": [
+			"ActionScript", "Ada"
+		],
+		"license": "0BSD",
+		"collectionID": [
+			"emboss", "emboss"
+		],
+		"maturity": "Emerging",
+		"cost": "Free of charge",
+		"accessibility": [
+			"Open access", "Restricted access"
+		],
+		"elixirPlatform": [
+			"Training", "Training"
+		],
+		"elixirNode": [
+			"UK", "UK"
+		],
+		"link": [
+			{
+				"url": "http://someurl.org",
+				"type": "Browser",
+				"note": "Comment about the link."
+			}, {
+				"url": "ftp://someurl.org",
+				"type": "Helpdesk",
+				"note": "Comment about the link."
+			}
+		],
+		"download": [
+			{
+				"url": "https://someurl.org",
+				"type": "API specification",
+				"note": "Comment about the download.",
+				"version": "2.0 - 2.7"
+			}, {
+				"url": "sftp://someurl.org",
+				"type": "Biological data",
+				"note": "Comment about the download.",
+				"version": "1.1, 1.2.1, 1.4, v5"
+			}
+		],
+		"documentation": [
+			{
+				"url": "http://someurl.org",
+				"type": "API documentation",
+				"note": "Comment about the documentation."
+			}, {
+				"url": "ftp://someurl.org",
+				"type": "Citation instructions",
+				"note": "Comment about the documentation."
+			}
+		],
+		"publication": [
+			{
+				"doi": "10.1093/nar/gkv1116",
+				"pmid": "26538599",
+				"pmcid": "PMC4702812",
+				"type": "Primary",
+				"version": "1.1 - 1.4, 2.0-alpha, 2.0-beta-01 - 2.0-beta-04, 2.0.0"
+			}, {
+				"doi": "10.1093/nar/gkv1116",
+				"pmid": "26538599",
+				"pmcid": "PMC4702812",
+				"type": "Comparison",
+				"version": "1.1"
+			}
+		],
+		"credit": [
+			{
+				"name": "Person or institute name",
+				"email": "joebloggst@elixir-dk.org",
+				"url": "https://someurl.org",
+				"orcidid": "http://orcid.org/0000-0002-1825-0097",
+				"typeEntity": "Person",
+				"typeRole": [
+					"Primary contact", "Contributor"
+				],
+				"note": "Comment about the credit."
+			}, {
+				"name": "Person or institute name",
+				"email": "joebloggst@elixir-dk.org",
+				"url": "http://someurl.org",
+				"orcidid": "http://orcid.org/0000-0002-1825-0097",
+				"typeEntity": "Project",
+				"typeRole": [
+					"Developer", "Documentor"
+				],
+				"note": "Comment about the credit."
+			}
+		]
+	}
+}

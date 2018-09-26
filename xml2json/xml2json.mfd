@@ -1,0 +1,810 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2018r2sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="biotoolsjson" library="json" uid="3" kind="31">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="524" lty="299" rbx="1085" rby="1896"/>
+					<data>
+						<root scrollposition="380">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="object" expanded="1">
+											<entry name="@xmlns:xs" type="json-property" expanded="1"/>
+											<entry name="tool" type="json-property" expanded="1">
+												<entry name="object" expanded="1">
+													<entry name="name" type="json-property" expanded="1">
+														<entry name="string" inpkey="1"/>
+													</entry>
+													<entry name="description" type="json-property" expanded="1">
+														<entry name="string" inpkey="2"/>
+													</entry>
+													<entry name="homepage" type="json-property" expanded="1">
+														<entry name="string" inpkey="3"/>
+													</entry>
+													<entry name="biotoolsID" type="json-property" expanded="1">
+														<entry name="string" inpkey="4"/>
+													</entry>
+													<entry name="biotoolsCURIE" type="json-property" expanded="1">
+														<entry name="string" inpkey="5"/>
+													</entry>
+													<entry name="version" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="201"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="otherID" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="7" expanded="1">
+																	<entry name="value" type="json-property" expanded="1">
+																		<entry name="string" inpkey="8"/>
+																	</entry>
+																	<entry name="type" type="json-property" expanded="1">
+																		<entry name="string" inpkey="9"/>
+																	</entry>
+																	<entry name="version" type="json-property" expanded="1">
+																		<entry name="string" inpkey="10"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="function" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="202" expanded="1">
+																	<entry name="operation" type="json-property" expanded="1">
+																		<entry name="array" expanded="1">
+																			<entry name="item" type="json-item" expanded="1">
+																				<entry name="object" inpkey="11" expanded="1">
+																					<entry name="uri" type="json-property" expanded="1">
+																						<entry name="string" inpkey="12"/>
+																					</entry>
+																					<entry name="term" type="json-property" expanded="1">
+																						<entry name="string" inpkey="203"/>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="input" type="json-property" expanded="1">
+																		<entry name="array" expanded="1">
+																			<entry name="item" type="json-item" expanded="1">
+																				<entry name="object" inpkey="14" expanded="1">
+																					<entry name="data" type="json-property" expanded="1">
+																						<entry name="object" expanded="1">
+																							<entry name="uri" type="json-property" expanded="1">
+																								<entry name="string" inpkey="15"/>
+																							</entry>
+																							<entry name="term" type="json-property" expanded="1">
+																								<entry name="string" inpkey="204"/>
+																							</entry>
+																						</entry>
+																					</entry>
+																					<entry name="format" type="json-property" expanded="1">
+																						<entry name="array" expanded="1">
+																							<entry name="item" type="json-item" expanded="1">
+																								<entry name="object" inpkey="17" expanded="1">
+																									<entry name="uri" type="json-property" expanded="1">
+																										<entry name="string" inpkey="18"/>
+																									</entry>
+																									<entry name="term" type="json-property" expanded="1">
+																										<entry name="string" inpkey="205"/>
+																									</entry>
+																								</entry>
+																							</entry>
+																						</entry>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="output" type="json-property" expanded="1">
+																		<entry name="array" expanded="1">
+																			<entry name="item" type="json-item" expanded="1">
+																				<entry name="object" inpkey="20" expanded="1">
+																					<entry name="data" type="json-property" expanded="1">
+																						<entry name="object" expanded="1">
+																							<entry name="uri" type="json-property" expanded="1">
+																								<entry name="string" inpkey="21"/>
+																							</entry>
+																							<entry name="term" type="json-property" expanded="1">
+																								<entry name="string" inpkey="206"/>
+																							</entry>
+																						</entry>
+																					</entry>
+																					<entry name="format" type="json-property" expanded="1">
+																						<entry name="array" expanded="1">
+																							<entry name="item" type="json-item" expanded="1">
+																								<entry name="object" inpkey="23" expanded="1">
+																									<entry name="uri" type="json-property" expanded="1">
+																										<entry name="string" inpkey="24"/>
+																									</entry>
+																									<entry name="term" type="json-property" expanded="1">
+																										<entry name="string" inpkey="207"/>
+																									</entry>
+																								</entry>
+																							</entry>
+																						</entry>
+																					</entry>
+																				</entry>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="note" type="json-property" expanded="1">
+																		<entry name="string" inpkey="26"/>
+																	</entry>
+																	<entry name="cmd" type="json-property" expanded="1">
+																		<entry name="string" inpkey="27"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="toolType" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="208"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="topic" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="28" expanded="1">
+																	<entry name="uri" type="json-property" expanded="1">
+																		<entry name="string" inpkey="29"/>
+																	</entry>
+																	<entry name="term" type="json-property" expanded="1">
+																		<entry name="string" inpkey="209"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="operatingSystem" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="210"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="language" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="211"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="license" type="json-property" expanded="1">
+														<entry name="string" inpkey="33"/>
+													</entry>
+													<entry name="collectionID" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="212"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="maturity" type="json-property" expanded="1">
+														<entry name="string" inpkey="35"/>
+													</entry>
+													<entry name="cost" type="json-property" expanded="1">
+														<entry name="string" inpkey="36"/>
+													</entry>
+													<entry name="accessibility" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="213"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="elixirPlatform" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="214"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="elixirNode" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="string" inpkey="215"/>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="link" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="40" expanded="1">
+																	<entry name="url" type="json-property" expanded="1">
+																		<entry name="string" inpkey="43"/>
+																	</entry>
+																	<entry name="type" type="json-property" expanded="1">
+																		<entry name="string" inpkey="42"/>
+																	</entry>
+																	<entry name="note" type="json-property" expanded="1">
+																		<entry name="string" inpkey="41"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="download" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="44" expanded="1">
+																	<entry name="url" type="json-property" expanded="1">
+																		<entry name="string" inpkey="89"/>
+																	</entry>
+																	<entry name="type" type="json-property" expanded="1">
+																		<entry name="string" inpkey="90"/>
+																	</entry>
+																	<entry name="note" type="json-property" expanded="1">
+																		<entry name="string" inpkey="91"/>
+																	</entry>
+																	<entry name="version" type="json-property" expanded="1">
+																		<entry name="string" inpkey="92"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="documentation" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="93" expanded="1">
+																	<entry name="url" type="json-property" expanded="1">
+																		<entry name="string" inpkey="94"/>
+																	</entry>
+																	<entry name="type" type="json-property" expanded="1">
+																		<entry name="string" inpkey="95"/>
+																	</entry>
+																	<entry name="note" type="json-property" expanded="1">
+																		<entry name="string" inpkey="96"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="publication" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="97" expanded="1">
+																	<entry name="doi" type="json-property" expanded="1">
+																		<entry name="string" inpkey="98"/>
+																	</entry>
+																	<entry name="pmid" type="json-property" expanded="1">
+																		<entry name="string" inpkey="99"/>
+																	</entry>
+																	<entry name="pmcid" type="json-property" expanded="1">
+																		<entry name="string" inpkey="100"/>
+																	</entry>
+																	<entry name="type" type="json-property" expanded="1">
+																		<entry name="string" inpkey="101"/>
+																	</entry>
+																	<entry name="version" type="json-property" expanded="1">
+																		<entry name="string" inpkey="102"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+													<entry name="credit" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" inpkey="103" expanded="1">
+																	<entry name="name" type="json-property" expanded="1">
+																		<entry name="string" inpkey="104"/>
+																	</entry>
+																	<entry name="email" type="json-property" expanded="1">
+																		<entry name="string" inpkey="105"/>
+																	</entry>
+																	<entry name="url" type="json-property" expanded="1">
+																		<entry name="string" inpkey="106"/>
+																	</entry>
+																	<entry name="orcidid" type="json-property" expanded="1">
+																		<entry name="string" inpkey="107"/>
+																	</entry>
+																	<entry name="typeEntity" type="json-property" expanded="1">
+																		<entry name="string" inpkey="108"/>
+																	</entry>
+																	<entry name="typeRole" type="json-property" expanded="1">
+																		<entry name="array" expanded="1">
+																			<entry name="item" type="json-item" expanded="1">
+																				<entry name="string" inpkey="216"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="note" type="json-property" expanded="1">
+																		<entry name="string" inpkey="110"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<json schema="biotoolsjson.json" outputinstance="biotools_devjson.json"/>
+					</data>
+				</component>
+				<component name="biotools" library="xml" uid="7" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="28" lty="299" rbx="366" rby="1908"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="tools" expanded="1">
+										<entry name="tool" expanded="1">
+											<entry name="summary" expanded="1">
+												<entry name="name" outkey="133"/>
+												<entry name="description" outkey="134"/>
+												<entry name="homepage" outkey="135"/>
+												<entry name="biotoolsID" outkey="136"/>
+												<entry name="biotoolsCURIE" outkey="137"/>
+												<entry name="version" outkey="138"/>
+												<entry name="otherID" outkey="139" expanded="1">
+													<entry name="value" outkey="140"/>
+													<entry name="type" outkey="141"/>
+													<entry name="version" outkey="142"/>
+												</entry>
+											</entry>
+											<entry name="function" outkey="143" expanded="1">
+												<entry name="operation" outkey="144" expanded="1">
+													<entry name="uri" outkey="145"/>
+													<entry name="term" outkey="146"/>
+												</entry>
+												<entry name="input" outkey="147" expanded="1">
+													<entry name="data" expanded="1">
+														<entry name="uri" outkey="148"/>
+														<entry name="term" outkey="149"/>
+													</entry>
+													<entry name="format" outkey="150" expanded="1">
+														<entry name="uri" outkey="151"/>
+														<entry name="term" outkey="152"/>
+													</entry>
+												</entry>
+												<entry name="output" outkey="153" expanded="1">
+													<entry name="data" expanded="1">
+														<entry name="uri" outkey="154"/>
+														<entry name="term" outkey="155"/>
+													</entry>
+													<entry name="format" outkey="156" expanded="1">
+														<entry name="uri" outkey="157"/>
+														<entry name="term" outkey="158"/>
+													</entry>
+												</entry>
+												<entry name="note" outkey="159"/>
+												<entry name="cmd" outkey="160"/>
+											</entry>
+											<entry name="labels" expanded="1">
+												<entry name="toolType" outkey="161"/>
+												<entry name="topic" outkey="162" expanded="1">
+													<entry name="uri" outkey="163"/>
+													<entry name="term" outkey="164"/>
+												</entry>
+												<entry name="operatingSystem" outkey="165"/>
+												<entry name="language" outkey="166"/>
+												<entry name="license" outkey="167"/>
+												<entry name="collectionID" outkey="168"/>
+												<entry name="maturity" outkey="169"/>
+												<entry name="cost" outkey="170"/>
+												<entry name="accessibility" outkey="171"/>
+												<entry name="elixirPlatform" outkey="172"/>
+												<entry name="elixirNode" outkey="173"/>
+											</entry>
+											<entry name="link" outkey="174" expanded="1">
+												<entry name="url" outkey="175"/>
+												<entry name="type" outkey="176"/>
+												<entry name="note" outkey="177"/>
+											</entry>
+											<entry name="download" outkey="178" expanded="1">
+												<entry name="url" outkey="179"/>
+												<entry name="type" outkey="180"/>
+												<entry name="note" outkey="181"/>
+												<entry name="version" outkey="182"/>
+											</entry>
+											<entry name="documentation" outkey="183" expanded="1">
+												<entry name="url" outkey="184"/>
+												<entry name="type" outkey="185"/>
+												<entry name="note" outkey="186"/>
+											</entry>
+											<entry name="publication" outkey="187" expanded="1">
+												<entry name="doi" outkey="188"/>
+												<entry name="pmid" outkey="189"/>
+												<entry name="pmcid" outkey="190"/>
+												<entry name="type" outkey="191"/>
+												<entry name="version" outkey="192"/>
+											</entry>
+											<entry name="credit" outkey="193" expanded="1">
+												<entry name="name" outkey="194"/>
+												<entry name="email" outkey="195"/>
+												<entry name="url" outkey="196"/>
+												<entry name="orcidid" outkey="197"/>
+												<entry name="typeEntity" outkey="198"/>
+												<entry name="typeRole" outkey="199"/>
+												<entry name="note" outkey="200"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="biotools.xsd" inputinstance="input.xml" instanceroot="{}tools"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="133">
+						<edges>
+							<edge vertexkey="1"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="134">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="135">
+						<edges>
+							<edge vertexkey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="136">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="137">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="139">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="140">
+						<edges>
+							<edge vertexkey="8"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="141">
+						<edges>
+							<edge vertexkey="9"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="142">
+						<edges>
+							<edge vertexkey="10"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="144">
+						<edges>
+							<edge vertexkey="11"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="145">
+						<edges>
+							<edge vertexkey="12"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="147">
+						<edges>
+							<edge vertexkey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="148">
+						<edges>
+							<edge vertexkey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="150">
+						<edges>
+							<edge vertexkey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="151">
+						<edges>
+							<edge vertexkey="18"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="153">
+						<edges>
+							<edge vertexkey="20"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="154">
+						<edges>
+							<edge vertexkey="21"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="156">
+						<edges>
+							<edge vertexkey="23"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="157">
+						<edges>
+							<edge vertexkey="24"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="159">
+						<edges>
+							<edge vertexkey="26"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="160">
+						<edges>
+							<edge vertexkey="27"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="162">
+						<edges>
+							<edge vertexkey="28"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="163">
+						<edges>
+							<edge vertexkey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="167">
+						<edges>
+							<edge vertexkey="33"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="169">
+						<edges>
+							<edge vertexkey="35"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="170">
+						<edges>
+							<edge vertexkey="36"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="174">
+						<edges>
+							<edge vertexkey="40"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="177">
+						<edges>
+							<edge vertexkey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="176">
+						<edges>
+							<edge vertexkey="42"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="175">
+						<edges>
+							<edge vertexkey="43"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="178">
+						<edges>
+							<edge vertexkey="44"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="179">
+						<edges>
+							<edge vertexkey="89"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="180">
+						<edges>
+							<edge vertexkey="90"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="181">
+						<edges>
+							<edge vertexkey="91"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="182">
+						<edges>
+							<edge vertexkey="92"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="183">
+						<edges>
+							<edge vertexkey="93"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="184">
+						<edges>
+							<edge vertexkey="94"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="185">
+						<edges>
+							<edge vertexkey="95"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="186">
+						<edges>
+							<edge vertexkey="96"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="187">
+						<edges>
+							<edge vertexkey="97"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="188">
+						<edges>
+							<edge vertexkey="98"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="189">
+						<edges>
+							<edge vertexkey="99"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="190">
+						<edges>
+							<edge vertexkey="100"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="191">
+						<edges>
+							<edge vertexkey="101"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="192">
+						<edges>
+							<edge vertexkey="102"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="193">
+						<edges>
+							<edge vertexkey="103"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="194">
+						<edges>
+							<edge vertexkey="104"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="195">
+						<edges>
+							<edge vertexkey="105"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="196">
+						<edges>
+							<edge vertexkey="106"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="197">
+						<edges>
+							<edge vertexkey="107"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="198">
+						<edges>
+							<edge vertexkey="108"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="200">
+						<edges>
+							<edge vertexkey="110"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="138">
+						<edges>
+							<edge vertexkey="201"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="143">
+						<edges>
+							<edge vertexkey="202"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="146">
+						<edges>
+							<edge vertexkey="203"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="149">
+						<edges>
+							<edge vertexkey="204"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="152">
+						<edges>
+							<edge vertexkey="205"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="155">
+						<edges>
+							<edge vertexkey="206"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="158">
+						<edges>
+							<edge vertexkey="207"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="161">
+						<edges>
+							<edge vertexkey="208"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="164">
+						<edges>
+							<edge vertexkey="209"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="165">
+						<edges>
+							<edge vertexkey="210"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="166">
+						<edges>
+							<edge vertexkey="211"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="168">
+						<edges>
+							<edge vertexkey="212"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="171">
+						<edges>
+							<edge vertexkey="213"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="172">
+						<edges>
+							<edge vertexkey="214"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="173">
+						<edges>
+							<edge vertexkey="215"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="199">
+						<edges>
+							<edge vertexkey="216"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
