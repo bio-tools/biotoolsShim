@@ -7,3 +7,4 @@ channels:
 dependencies:
         - urllib3
         - rdflib-jsonld
+        - jupyter
