@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/intogen",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/nmeth.2642"
+        },
+        {
+          "@id": "https://doi.org/10.1016/j.ccell.2015.02.007"
+        }
+      ],
+      "sc:description": "Collect and analyse somatic mutations in thousands of tumor genomes to identify cancer driver genes.",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:name": "Intogen",
+      "sc:provider": "upf.edu",
+      "sc:url": "http://www.intogen.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.ccell.2015.02.007",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.2642",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

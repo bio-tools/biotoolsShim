@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx573",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/phosphonormalizer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btx573"
+        },
+        "pubmed:28968644"
+      ],
+      "sc:description": "It uses the overlap between enriched and non-enriched datasets to compensate for the bias introduced in global phosphorylation after applying median normalization.",
+      "sc:featureList": {
+        "@id": "edam:operation_3435"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "phosphonormalizer",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/phosphonormalizer.html",
+      "sc:version": "1.4.0"
+    }
+  ]
+}

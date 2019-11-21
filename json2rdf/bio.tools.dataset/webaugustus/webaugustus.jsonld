@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/webaugustus",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0622"
+    },
+    {
+      "@id": "edam:topic_0114"
+    },
+    {
+      "@id": "edam:topic_0196"
+    },
+    {
+      "@id": "edam:topic_3512"
+    }
+  ],
+  "sc:citation": "pubmed:23700307",
+  "sc:description": "WebAUGUSTUS is a web server for the prediction of genes in eukaryotic genomic sequences. This web server provides an interface for training AUGUSTUS for predicting genes in genomes of novel species. It also enables users to predict genes in a genome sequence with already trained parameters.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2454"
+    },
+    {
+      "@id": "edam:operation_3662"
+    },
+    {
+      "@id": "edam:operation_0464"
+    }
+  ],
+  "sc:name": "WebAUGUSTUS",
+  "sc:url": "http://bioinf.uni-greifswald.de/webaugustus"
+}

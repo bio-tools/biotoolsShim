@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/discoveryspace",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pmcid:PMC1839122",
+  "sc:description": "DiscoverySpace is a tool for gene expression analyses and biological discovery.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3232"
+    },
+    {
+      "@id": "edam:operation_3223"
+    },
+    {
+      "@id": "edam:operation_0314"
+    },
+    {
+      "@id": "edam:operation_2495"
+    },
+    {
+      "@id": "edam:operation_3463"
+    }
+  ],
+  "sc:name": "DiscoverySpace",
+  "sc:url": "http://www.bcgsc.ca/bioinfo/software/discoveryspace/"
+}

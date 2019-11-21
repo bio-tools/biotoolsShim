@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/hubba",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3557"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0128"
+    },
+    {
+      "@id": "edam:topic_0634"
+    }
+  ],
+  "sc:citation": "pubmed:18503085",
+  "sc:description": "Hub Objects Analyzer or Hubba is a web-based service for characterizing nodes of importance within a protein interactome data set.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0276"
+    },
+    {
+      "@id": "edam:operation_0277"
+    },
+    {
+      "@id": "edam:operation_3083"
+    },
+    {
+      "@id": "edam:operation_2422"
+    },
+    {
+      "@id": "edam:operation_3439"
+    }
+  ],
+  "sc:name": "Hubba",
+  "sc:url": "http://hub.iis.sinica.edu.tw/Hubba"
+}

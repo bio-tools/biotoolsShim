@@ -1,0 +1,30 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btz580",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/PhagePromoter",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3307"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btz580"
+      },
+      "sc:description": "PhagePromoter is a python tool that predicts promoter sequences in phage genomes, using machine learning models.",
+      "sc:name": "PhagePromoter",
+      "sc:url": "https://www.bit.do/phagepromoter"
+    }
+  ]
+}

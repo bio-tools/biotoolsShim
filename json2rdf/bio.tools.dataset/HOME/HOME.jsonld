@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/S12859-019-2845-Y",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/HOME",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3295"
+        },
+        {
+          "@id": "edam:topic_3674"
+        },
+        {
+          "@id": "edam:topic_0654"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:31096906",
+        "pmcid:PMC6521357",
+        {
+          "@id": "https://doi.org/10.1186/S12859-019-2845-Y"
+        }
+      ],
+      "sc:description": "HOME (histogram of methylation) is a python package for differential methylation region (DMR) identification.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3207"
+        },
+        {
+          "@id": "edam:operation_3186"
+        },
+        {
+          "@id": "edam:operation_3206"
+        }
+      ],
+      "sc:name": "HOME",
+      "sc:url": "https://github.com/ListerLab/HOME"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/PathwayCommons_web_service_API",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": [
+    {
+      "@id": "edam:data_0968"
+    },
+    {
+      "@id": "edam:data_3786"
+    },
+    {
+      "@id": "edam:data_0842"
+    },
+    {
+      "@id": "edam:data_1047"
+    }
+  ],
+  "edam:has_output": {
+    "@id": "edam:data_2600"
+  },
+  "sc:additionalType": [
+    "Web API",
+    "Web service"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3307"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:21071392",
+  "sc:description": "Pathway Commons integrates a number of pathway and molecular interaction databases supporting BioPAX and PSI-MI formats into one large BioPAX model, which can be queried using our web API (documented below). This API can be used by computational biologists to download custom subsets of pathway data for analysis, or can be used to incorporate powerful biological pathway and network information retrieval and query functionality into websites and software.",
+  "sc:featureList": {
+    "@id": "edam:operation_2497"
+  },
+  "sc:name": "PathwayCommons web service API",
+  "sc:url": "https://www.pathwaycommons.org/pc2/home",
+  "sc:version": "11"
+}

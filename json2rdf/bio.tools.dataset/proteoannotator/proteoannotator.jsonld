@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/proteoannotator",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0219"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1002/PMIC.201400265"
+        },
+        "pubmed:25297486"
+      ],
+      "sc:description": "Open source proteogenomics annotation software supporting PSI standards.",
+      "sc:featureList": {
+        "@id": "edam:operation_3672"
+      },
+      "sc:name": "ProteoAnnotator",
+      "sc:url": "http://www.proteoannotator.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1002/PMIC.201400265",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

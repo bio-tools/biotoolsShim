@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/memtype-2l",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_0820"
+    }
+  ],
+  "sc:citation": "pubmed:17586467",
+  "sc:description": "2-layer predictor for predicting membrane protein types, the first layer will predict whether the query sequence belongs to membrane proteins or not; and the second layer aims to predict exactly the membrane protein types when the output of the first layer is “membrane proteins”.",
+  "sc:featureList": {
+    "@id": "edam:operation_0474"
+  },
+  "sc:name": "MemType-2L",
+  "sc:url": "http://www.csbio.sjtu.edu.cn/bioinf/MemType/"
+}

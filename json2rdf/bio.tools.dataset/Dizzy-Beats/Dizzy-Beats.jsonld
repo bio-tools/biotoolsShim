@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Dizzy-Beats",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3068"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv062"
+      },
+      "sc:description": "Bayesian evidence analysis tool for systems biology.",
+      "sc:license": "Other",
+      "sc:name": "Dizzy-Beats",
+      "sc:url": "https://sourceforge.net/p/bayesevidence/home/Home/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv062",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

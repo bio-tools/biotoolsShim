@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/bio.tools_sum",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_output": {
+    "@id": "edam:data_2337"
+  },
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0605"
+  },
+  "sc:author": "Dan Polanský",
+  "sc:description": "Local views over bio.tools data with information about publications and citations.",
+  "sc:featureList": {
+    "@id": "edam:operation_3761"
+  },
+  "sc:license": "MIT",
+  "sc:name": "bio.tools Sum",
+  "sc:url": "http://ncbr.muni.cz/biotoolssum"
+}

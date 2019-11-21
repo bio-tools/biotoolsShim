@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/maxsnippetmodel",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3400"
+        },
+        {
+          "@id": "edam:topic_3474"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1814-6"
+      },
+      "sc:description": "Statistical classifiers for diagnosing disease from immune repertoires.",
+      "sc:featureList": {
+        "@id": "edam:operation_2995"
+      },
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "MaxSnippetModel",
+      "sc:url": "https://github.com/jostmey/MaxSnippetModel"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1814-6",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

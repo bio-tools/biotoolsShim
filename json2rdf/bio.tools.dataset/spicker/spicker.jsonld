@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/jcc.20011",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/spicker",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1002/jcc.20011"
+      },
+      "sc:description": "A clustering algorithm to identify the near-native models from a pool of protein structure decoys.",
+      "sc:featureList": {
+        "@id": "edam:operation_3432"
+      },
+      "sc:name": "SPICKER",
+      "sc:url": "http://zhanglab.ccmb.med.umich.edu/SPICKER/",
+      "sc:version": "2.0"
+    }
+  ]
+}

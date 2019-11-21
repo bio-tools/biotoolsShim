@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/CytoTRACE",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_3395"
+        },
+        {
+          "@id": "edam:topic_3308"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/649848"
+      },
+      "sc:description": "Single-cell transcriptional diversity is a hallmark of developmental potential",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_3799"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "CytoTRACE",
+      "sc:url": "https://cytotrace.stanford.edu"
+    },
+    {
+      "@id": "https://doi.org/10.1101/649848",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

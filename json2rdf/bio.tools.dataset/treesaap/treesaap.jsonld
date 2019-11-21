@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/treesaap",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2269"
+    },
+    {
+      "@id": "edam:topic_0084"
+    },
+    {
+      "@id": "edam:topic_0077"
+    },
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0123"
+    }
+  ],
+  "sc:citation": "pubmed:12651734",
+  "sc:description": "The software program TreeSAAP measures the selective influences on 31 structural and biochemical amino acid properties during clade-genesis, and performs goodness-of-fit and categorical statistical tests.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0455"
+    },
+    {
+      "@id": "edam:operation_3197"
+    },
+    {
+      "@id": "edam:operation_0250"
+    },
+    {
+      "@id": "edam:operation_0262"
+    },
+    {
+      "@id": "edam:operation_2238"
+    }
+  ],
+  "sc:name": "TreeSAAP",
+  "sc:url": "http://dna.cs.byu.edu/treesaap/"
+}

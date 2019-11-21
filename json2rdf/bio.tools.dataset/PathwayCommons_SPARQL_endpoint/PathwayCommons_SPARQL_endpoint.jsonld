@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/PathwayCommons_SPARQL_endpoint",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": {
+    "@id": "edam:data_3786"
+  },
+  "edam:has_output": {
+    "@id": "edam:data_2600"
+  },
+  "sc:additionalType": "SPARQL endpoint",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_3307"
+    }
+  ],
+  "sc:citation": "pubmed:21071392",
+  "sc:description": "Pathway Commons aims to collect and disseminate biological pathway and interaction data. Data is collected from partner databases and is represented in the BioPAX standard. By representing data in BioPAX, Pathway Commons is able to provide a detailed representation of a variety of biological concepts including: Biochemical reactions; gene regulatory networks; and genetic interactions; transport and catalysis events; and physical interactions involving proteins, DNA, RNA and small molecules and complexes.",
+  "sc:featureList": {
+    "@id": "edam:operation_0224"
+  },
+  "sc:name": "PathwayCommons SPARQL endpoint",
+  "sc:url": "http://rdf.pathwaycommons.org/sparql/",
+  "sc:version": "11"
+}

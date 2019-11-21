@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn838",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/imgt",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2773"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0849"
+      },
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2830"
+      },
+      "sc:citation": [
+        "pmcid:PMC2686541",
+        "pubmed:18978023",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkn838"
+        }
+      ],
+      "sc:description": "Database for the immunoglobulins (IG), T cell receptors (TR), major histocompatibility complex (MHC), immunoglobulin superfamily (IgSF), major histocompatibility complex superfamily (MhcSF) and related proteins of the immune system (RPI) of human and other vertebrate species.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "The international immunogenetics database (IMGT)",
+      "sc:url": "http://www.imgt.org/"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/pred-signal",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": {
+    "@id": "edam:data_2044"
+  },
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0078"
+  },
+  "sc:citation": "pubmed:18988691",
+  "sc:description": "PRED-SIGNAL is a tool that takes a protein sequence as input and predicts the signal peptides of archaea",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2423"
+    },
+    {
+      "@id": "edam:operation_0422"
+    },
+    {
+      "@id": "edam:operation_0418"
+    }
+  ],
+  "sc:name": "PRED-SIGNAL",
+  "sc:url": "http://www.compgen.org/tools/PRED-SIGNAL",
+  "sc:version": "1.1"
+}

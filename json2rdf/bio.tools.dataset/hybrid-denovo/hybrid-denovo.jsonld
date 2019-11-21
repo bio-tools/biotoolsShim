@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/hybrid-denovo",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3293"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/gigascience/gix129"
+      },
+      "sc:description": "De novo OTU-picking pipeline integrating single- and paired-end 16S sequence tags. It is designed to take Illumina paired-end sequencing reads as input and output the OTU BIOM table, together with their representative sequences and a phylogenetic tree of OTUs.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0323"
+        },
+        {
+          "@id": "edam:operation_0232"
+        }
+      ],
+      "sc:license": "BSD-2-Clause",
+      "sc:name": "Hybrid-denovo",
+      "sc:url": "http://bioinformaticstools.mayo.edu/research/hybrid-denovo/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/gigascience/gix129",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx462",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/limtox",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3369"
+        },
+        {
+          "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_2840"
+        }
+      ],
+      "sc:author": [
+        "Andrés Cañada",
+        "Martin Krallinger"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkx462"
+      },
+      "sc:description": "Text mining for toxicology.",
+      "sc:featureList": {
+        "@id": "edam:operation_0305"
+      },
+      "sc:name": "LimTox",
+      "sc:provider": "cnio.es",
+      "sc:url": "http://limtox.bioinfo.cnio.es/",
+      "sc:version": "0.1"
+    }
+  ]
+}

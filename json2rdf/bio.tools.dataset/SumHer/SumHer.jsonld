@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/SumHer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_2885"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/s41588-018-0279-5"
+        },
+        "pubmed:30510236"
+      ],
+      "sc:description": "Software for estimating confounding bias, SNP heritability, enrichments of heritability and genetic correlations using summary statistics from genome-wide association studies.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_3196"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "SumHer",
+      "sc:url": "http://dougspeed.com/sumher/"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41588-018-0279-5",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.1328258",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/vica",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0781"
+        },
+        {
+          "@id": "edam:topic_3174"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.1328258"
+      },
+      "sc:description": "Software to train models and detect highly divergent DNA and RNA viruses in microbiome data",
+      "sc:featureList": {
+        "@id": "edam:operation_3460"
+      },
+      "sc:license": "Other",
+      "sc:name": "Vica",
+      "sc:url": "https://github.com/USDA-ARS-GBRU/vica",
+      "sc:version": "v0.1.6"
+    }
+  ]
+}

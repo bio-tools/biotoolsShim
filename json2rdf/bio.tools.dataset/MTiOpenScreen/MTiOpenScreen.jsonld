@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/MTiOpenScreen",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3343"
+        },
+        {
+          "@id": "edam:topic_0209"
+        },
+        {
+          "@id": "edam:topic_2275"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3390/IJMS20184648"
+        },
+        "pmcid:PMC6769597",
+        "pubmed:31546814"
+      ],
+      "sc:description": "> LOW CONFIDENCE! | > CORRECT NAME OF TOOL COULD ALSO BE 'FAF-Drugs4', 'AMMOS2' (bio.tools/ammos2), 'protocol', 'online-based' | A Free Web-Based Protocol to Assist Structure-Based Virtual Screening Experiments | Open screening endeavors play and will play key role in order to facilitate the identification of new bioactive compounds for drug discovery and chemical biology purposes. Such open access tools are critical to advance the success of drug discovery projects in particular for academic groups. This page describes how to use and run MTiOpenScreen web server proposing two services: MTiOpenScreen and MTiAutoDock dedicated to small molecule docking and chemical library virtual screening. The services are hosted on the Mobyle Portal. For specific requirements or reporting possible bugs, please write to us | A service to dock small compounds",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_3899"
+        },
+        {
+          "@id": "edam:operation_0482"
+        }
+      ],
+      "sc:name": "MTiOpenScreen",
+      "sc:url": "http://bioserv.rpbs.univ-paris-diderot.fr/services/MTiOpenScreen/"
+    },
+    {
+      "@id": "https://doi.org/10.3390/IJMS20184648",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

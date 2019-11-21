@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0177475",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pgs_classify",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_3518"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0177475"
+      },
+      "sc:description": "A new features selection method to improve classification performances in imbalanced data sets.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:name": "Peculiar Genes Selection (PGS)",
+      "sc:url": "https://github.com/mbeccuti/PGS"
+    }
+  ]
+}

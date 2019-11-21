@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/genecodis3",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_0659"
+    },
+    {
+      "@id": "edam:topic_3518"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0621"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:22573175",
+    "pubmed:19465387"
+  ],
+  "sc:description": "Originally designed in 2007 for modular enrichment analysis, GeneCodis assists in functional analysis of gene lists, integrating information from different sources. GeneCodis also finds regulatory patterns, and singular and modular patterns of interrelated annotations. Noisy and redundant output data has been removed from enrichment results, and greater comparative analyses are possible.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3223"
+    },
+    {
+      "@id": "edam:operation_2436"
+    },
+    {
+      "@id": "edam:operation_3672"
+    }
+  ],
+  "sc:name": "GeneCodis3",
+  "sc:url": "http://genecodis.cnb.csic.es/"
+}

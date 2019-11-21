@@ -1,0 +1,72 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/predictsnp",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2974"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_2291"
+        },
+        {
+          "@id": "edam:data_1277"
+        }
+      ],
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3063"
+        },
+        {
+          "@id": "edam:topic_2885"
+        }
+      ],
+      "sc:author": [
+        "Ondrej Salanda",
+        "Jan Brezovsky",
+        "Jan Stourac",
+        "Jiri Damborsky",
+        "Jaroslav Bendl"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1003440"
+      },
+      "sc:contributor": [
+        "Jaroslav Zendulka",
+        "Antonin Pavelka",
+        "Eric D. Wieben"
+      ],
+      "sc:description": "A consensus classifier that combines six of the top performing tools for the prediction of the effects of mutation on protein function. The obtained results are provided together with annotations extracted from the Protein Mutant Database and the UniProt database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0331"
+      },
+      "sc:name": "PredictSNP",
+      "sc:provider": [
+        "International Centre for Clinical Research, Brno, Czech Republic",
+        "Brno University of Technology, Brno, Czech Republic",
+        "Masaryk University, Brno, Czech Republic",
+        "Loschmidt Laboratories",
+        "Mayo Clinic, Rochester, New York, United States of America"
+      ],
+      "sc:url": "http://loschmidt.chemi.muni.cz/predictsnp",
+      "sc:version": "1.0"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1003440",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

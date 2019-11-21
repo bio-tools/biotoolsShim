@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/TPES",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:31099386",
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ406"
+        }
+      ],
+      "sc:description": "Tumor Purity Estimation from SNVs.",
+      "sc:license": "MIT",
+      "sc:name": "TPES",
+      "sc:url": "https://bitbucket.org/l0ka/tpes.git"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ406",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/631606",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/BiAlign",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0082"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/631606"
+      },
+      "sc:description": "Bi-Alignments as Models of Incongruent Evolution of RNA Sequence and Structure.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0278"
+        },
+        {
+          "@id": "edam:operation_0491"
+        },
+        {
+          "@id": "edam:operation_0502"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "BiAlign",
+      "sc:url": "https://github.com/s-will/BiAlign"
+    }
+  ]
+}

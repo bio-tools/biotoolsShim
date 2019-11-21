@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/ccomp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2275"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_0128"
+    }
+  ],
+  "sc:citation": "pubmed:17267206",
+  "sc:description": "Complex COMParison, is a simple command-line tool for comparing ligand/receptor complexes. It can also be used for calculating pairwise all-atom RMSD of slightly different protein structures, taking care of missing atoms, sequence inconsistencies, etc.",
+  "sc:featureList": {
+    "@id": "edam:operation_0491"
+  },
+  "sc:name": "CCOMP",
+  "sc:url": "http://www.pirx.com/ccomp/index.shtml"
+}

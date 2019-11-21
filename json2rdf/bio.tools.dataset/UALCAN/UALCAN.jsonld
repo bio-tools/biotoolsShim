@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.neo.2017.05.002",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/UALCAN",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3512"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.neo.2017.05.002"
+      },
+      "sc:description": "Comprehensive, user-friendly, and interactive web resource for analyzing cancer OMICS data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_3766"
+        },
+        {
+          "@id": "edam:operation_2436"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "UALCAN",
+      "sc:url": "http://ualcan.path.uab.edu/analysis.html"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/wenmr_gromacs",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0176"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/ct300102d"
+      },
+      "sc:description": "The WeNMR web portal combines the versatility of this molecular dynamics package with the calculation power of the eNMR grid. This will enable you to perform many simulations from the comfort of your internet browser anywhere in the world. The server is furthermore aimed to provide a user friendly and efficient MD experience by performing many preparation and optimization steps automatically.",
+      "sc:featureList": {
+        "@id": "edam:operation_2426"
+      },
+      "sc:name": "WeNMR GROMACS",
+      "sc:url": "http://haddock.science.uu.nl/enmr/services/GROMACS/main.php"
+    },
+    {
+      "@id": "https://doi.org/10.1021/ct300102d",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

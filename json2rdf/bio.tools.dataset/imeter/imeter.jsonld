@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr043",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1105/tpc.107.057190",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/imeter",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0077"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1105/tpc.107.057190"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr043"
+        }
+      ],
+      "sc:description": "Calculate if an intron enhances gene expression.",
+      "sc:featureList": {
+        "@id": "edam:operation_3463"
+      },
+      "sc:license": "Unlicensed",
+      "sc:name": "IMEter",
+      "sc:url": "http://korflab.ucdavis.edu/cgi-bin/web-imeter.pl",
+      "sc:version": "2.1"
+    }
+  ]
+}

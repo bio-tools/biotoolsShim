@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/soapsnp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2815"
+    },
+    {
+      "@id": "edam:topic_0196"
+    },
+    {
+      "@id": "edam:topic_2885"
+    }
+  ],
+  "sc:citation": "pubmed:19420381",
+  "sc:description": "Accurate consensus sequence builder based on soap1 and SOAPaligner/soap2's alignment output. It calculates a quality score for each consensus base, which can be used for any latter process to call SNPs.",
+  "sc:featureList": {
+    "@id": "edam:operation_3227"
+  },
+  "sc:name": "SOAPsnp",
+  "sc:url": "http://soap.genomics.org.cn/soapsnp.html"
+}

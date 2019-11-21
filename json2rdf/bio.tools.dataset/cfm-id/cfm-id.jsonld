@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/cfm-id",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0082"
+    },
+    {
+      "@id": "edam:topic_3474"
+    },
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_3172"
+    }
+  ],
+  "sc:citation": "pmcid:PMC4086103",
+  "sc:description": "CFM-ID (Competitive Fragmentation Modeling) is a web server for annotation, spectrum prediction and metabolite identification from tandem mass spectra data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3214"
+    },
+    {
+      "@id": "edam:operation_3627"
+    }
+  ],
+  "sc:name": "CFM-ID",
+  "sc:url": "http://cfmid.wishartlab.com"
+}

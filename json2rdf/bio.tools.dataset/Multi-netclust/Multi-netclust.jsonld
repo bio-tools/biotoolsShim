@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv479",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/Multi-netclust",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv479"
+      },
+      "sc:description": "Tool for finding connected clusters in multi-parametric networks.",
+      "sc:featureList": {
+        "@id": "edam:operation_3436"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "Multi-netclust",
+      "sc:url": "http://www.bioinformatics.nl/netclust/"
+    }
+  ]
+}

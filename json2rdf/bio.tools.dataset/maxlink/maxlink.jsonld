@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/maxlink",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2640"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:24849579",
+  "sc:description": "Thus tool find and rank cancer gene candidates by their connectivity to known cancer genes. Using a comprehensive protein interaction network, it searchs for genes connected to known cancer genes.",
+  "sc:featureList": {
+    "@id": "edam:operation_3439"
+  },
+  "sc:name": "MaxLink",
+  "sc:url": "http://maxlink.sbc.su.se/"
+}

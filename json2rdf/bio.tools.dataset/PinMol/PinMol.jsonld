@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1261/rna.069542.118",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/PinMol",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3512"
+        },
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_0632"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1261/rna.069542.118"
+        },
+        "pubmed:30573696"
+      ],
+      "sc:description": "Application for designing molecular beacons for live cell imaging of endogenous mRNAs.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0279"
+        },
+        {
+          "@id": "edam:operation_0278"
+        },
+        {
+          "@id": "edam:operation_0502"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "PinMol",
+      "sc:url": "https://bratulab.wordpress.com/software/",
+      "sc:version": "beta 1.0"
+    }
+  ]
+}

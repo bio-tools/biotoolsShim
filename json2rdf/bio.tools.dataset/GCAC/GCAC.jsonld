@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/GCAC",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3336"
+        },
+        {
+          "@id": "edam:topic_2258"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:30717669",
+        {
+          "@id": "https://doi.org/10.1186/s12859-018-2492-8"
+        }
+      ],
+      "sc:description": "Galaxy workflow system for predictive model building for virtual screening.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2428"
+        },
+        {
+          "@id": "edam:operation_0482"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "GCAC",
+      "sc:url": "https://toolshed.g2.bx.psu.edu/repository?repository_id=351af44ceb587e54"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-018-2492-8",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

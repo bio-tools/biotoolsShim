@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mvp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0081"
+    },
+    {
+      "@id": "edam:topic_2275"
+    }
+  ],
+  "sc:description": "Mainly for the illustration and processing of structure-related information which is useful in structure prediction.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2423"
+    },
+    {
+      "@id": "edam:operation_2409"
+    },
+    {
+      "@id": "edam:operation_2480"
+    }
+  ],
+  "sc:name": "MVP",
+  "sc:url": "http://zhanglab.ccmb.med.umich.edu/MVP/"
+}

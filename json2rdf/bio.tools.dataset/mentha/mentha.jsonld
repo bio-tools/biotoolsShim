@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mentha",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_output": {
+        "@id": "edam:data_0906"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0128"
+      },
+      "sc:author": "Alberto Calderone",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/nmeth.2561"
+        },
+        "pubmed:23900247"
+      ],
+      "sc:contributor": "Gianni Cesareni",
+      "sc:description": "Resource for protein-protein interactions (PPI). It integrates data curated by experts in compliance with IMEx curation policies, using the PSICQUIC protocol to implement an automatic procedure that automatically aligns the integrated database with data regularly annotated by the primary databases",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_2949"
+        }
+      ],
+      "sc:name": "mentha",
+      "sc:provider": [
+        "Molecular Genetic Group, University of Rome \"Tor Vergata\", Rome, Italy",
+        "ELIXIR-ITA-TORVERGATA"
+      ],
+      "sc:url": "http://mentha.uniroma2.it/",
+      "sc:version": "1"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.2561",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

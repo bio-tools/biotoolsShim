@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-015-0742-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/compepitools",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3173"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-015-0742-6"
+        },
+        "pubmed:26415965",
+        "pmcid:PMC4587815"
+      ],
+      "sc:description": "Tools for computational epigenomics developed for the analysis, integration and simultaneous visualization of various (epi)genomics data types across multiple genomic regions in multiple samples.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3744"
+        },
+        {
+          "@id": "edam:operation_2403"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "compEpiTools",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/compEpiTools.html",
+      "sc:version": "1.8.0"
+    }
+  ]
+}

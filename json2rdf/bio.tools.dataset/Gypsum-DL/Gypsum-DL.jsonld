@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Gypsum-DL",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_3343"
+        },
+        {
+          "@id": "edam:topic_3369"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/S13321-019-0358-3"
+        },
+        "pmcid:PMC6534830",
+        "pubmed:31127411"
+      ],
+      "sc:description": "Program for preparing small-molecule libraries for structure-based virtual screening.",
+      "sc:featureList": {
+        "@id": "edam:operation_0482"
+      },
+      "sc:license": "Apache-2.0",
+      "sc:name": "Gypsum-DL",
+      "sc:url": "http://durrantlab.com/gypsum-dl/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S13321-019-0358-3",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

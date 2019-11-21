@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/smmrna",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKT976"
+        },
+        "pmcid:PMC3965028",
+        "pubmed:24163098"
+      ],
+      "sc:description": "An interactive database, with special focus on small molecule ligands targeting RNA.",
+      "sc:featureList": {
+        "@id": "edam:operation_2439"
+      },
+      "sc:name": "SMMRNA",
+      "sc:url": "http://rdb.vlifesciences.com/homepage.php"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKT976",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

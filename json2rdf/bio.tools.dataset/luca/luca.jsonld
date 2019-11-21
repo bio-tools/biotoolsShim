@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/luca",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3053"
+    },
+    {
+      "@id": "edam:topic_3295"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:17474879",
+  "sc:description": "R package implementing the methods for case-control inference of statistical interaction between genetic and nongenetic risk factors under covariate assumptions.",
+  "sc:featureList": {
+    "@id": "edam:operation_3658"
+  },
+  "sc:name": "LUCA",
+  "sc:url": "http://stat.sfu.ca/statgen/research/luca.html"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/hansa",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2533"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_3053"
+    }
+  ],
+  "sc:citation": "pubmed:22045683",
+  "sc:description": "Tool to predict the deleterious effects of a mutation by using 10 Neutral- Disease Mis-Sense Mutation Discriminatory (NDMSMD) features.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2479"
+    },
+    {
+      "@id": "edam:operation_3197"
+    },
+    {
+      "@id": "edam:operation_2423"
+    }
+  ],
+  "sc:name": "Hansa",
+  "sc:url": "http://hansa.cdfd.org.in:8080/"
+}

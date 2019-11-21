@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/monster",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0130"
+    },
+    {
+      "@id": "edam:topic_0097"
+    },
+    {
+      "@id": "edam:topic_0082"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:15215451",
+  "sc:description": "MONSTER takes a PDB structure file as input, and predicts non-bonding interactions that have the potential to provide stability to the molecule.  The output can be viewed or downloaded as XML or text, or can be viewed as a 3D structure or a 2D diagram.  There is also a good tutorial available at the site.",
+  "sc:featureList": {
+    "@id": "edam:operation_0475"
+  },
+  "sc:license": "Unlicensed",
+  "sc:name": "MONSTER",
+  "sc:url": "http://monster.northwestern.edu/"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1006117",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/badtrip",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1006117"
+      },
+      "sc:description": "BEAST2 package to infer who infected whom using within- and between-sample genetic variation data and epidemiological data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:license": "Other",
+      "sc:name": "BadTrIP",
+      "sc:url": "https://bitbucket.org/nicofmay/badtrip"
+    }
+  ]
+}

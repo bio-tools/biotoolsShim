@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/BISE",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3382"
+  },
+  "sc:description": "An online catalogue of bioimage analysis software.",
+  "sc:name": "Bioimage Informatics Search Engine (BISE)",
+  "sc:url": "https://biii.eu/"
+}

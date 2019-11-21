@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/ontologizer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Desktop application",
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0089"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btn250"
+      },
+      "sc:description": "A Tool for Statistical Analysis and Visualization of High-Throughput Biological Data Using Gene Ontology.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:name": "Ontologizer",
+      "sc:url": "http://ontologizer.de/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btn250",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/DrugR",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3373"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3336"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/J.COMPBIOMED.2019.05.006"
+        },
+        "pubmed:31096089"
+      ],
+      "sc:description": "Database for drug repurposing, combination therapy, and replacement therapy.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:license": "MIT",
+      "sc:name": "DrugR+",
+      "sc:url": "http://www.drugr.ir"
+    },
+    {
+      "@id": "https://doi.org/10.1016/J.COMPBIOMED.2019.05.006",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/vaccimm",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0804"
+        },
+        {
+          "@id": "edam:topic_3524"
+        },
+        {
+          "@id": "edam:topic_2640"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-14-127"
+        },
+        "pmcid:PMC3651379",
+        "pubmed:23586423"
+      ],
+      "sc:description": "Simulating peptide vaccination in cancer therapy.",
+      "sc:featureList": {
+        "@id": "edam:operation_3660"
+      },
+      "sc:name": "VaccImm",
+      "sc:url": "http://bioinformatics.charite.de/vaccimm/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-14-127",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

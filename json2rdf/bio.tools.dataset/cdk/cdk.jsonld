@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.2174/138161206777585274",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1021/ci025584y",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/cdk",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_2258"
+        }
+      ],
+      "sc:author": [
+        "Rajarshi Guha",
+        "Christoph Steinbeck",
+        "John May",
+        "Egon Willighagen"
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.2174/138161206777585274"
+        },
+        {
+          "@id": "https://doi.org/10.1021/ci025584y"
+        }
+      ],
+      "sc:description": "Open source Java library for bio- and cheminformatics.",
+      "sc:featureList": {
+        "@id": "edam:operation_0337"
+      },
+      "sc:license": "LGPL-2.1",
+      "sc:name": "The Chemistry Development Kit",
+      "sc:provider": "maastrichtuniversity.nl",
+      "sc:url": "http://github.com/cdk/cdk/",
+      "sc:version": "1"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Mothur",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0084"
+        },
+        {
+          "@id": "edam:topic_0632"
+        },
+        {
+          "@id": "edam:topic_3697"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1002/CPBI.83"
+        },
+        "pubmed:31524992"
+      ],
+      "sc:description": "> LOW CONFIDENCE! | > COMMON LINK WITH (PUB. & NAME DIFFERENT) bio.tools/indices_diversity (MOTHUR.ORG/wiki) | Using Mothur to Determine Bacterial Community Composition and Structure in 16S Ribosomal RNA Datasets | Welcome to the website for the mothur project, initiated by Dr | We will be offering an R workshop December 18-20, 2019 | Welcome to the website for the mothur project, initiated by Dr",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0308"
+        },
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_3460"
+        }
+      ],
+      "sc:name": "Mothur",
+      "sc:url": "https://www.mothur.org"
+    },
+    {
+      "@id": "https://doi.org/10.1002/CPBI.83",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

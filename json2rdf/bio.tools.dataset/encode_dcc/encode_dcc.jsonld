@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/encode_dcc",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3295"
+    },
+    {
+      "@id": "edam:topic_3170"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_3169"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:19920125",
+    "pubmed:21037257"
+  ],
+  "sc:description": "It has a goal of cataloguing all the functional elements in the human genome. The ENCODE Data Coordination Center (DCC) serves as the central repository for ENCODE data. The DCC contains a collection of high-throughput, genome-wide data generated with technologies such as ChIP-Seq, RNA-Seq, DNA digestion and others. It includes sequences with quality scores, alignments, signals calculated from the alignments, and in most cases, element or peak calls calculated from the signal data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3222"
+    },
+    {
+      "@id": "edam:operation_3208"
+    },
+    {
+      "@id": "edam:operation_2422"
+    }
+  ],
+  "sc:name": "ENCODE DCC",
+  "sc:url": "http://encodeproject.org/ENCODE/"
+}

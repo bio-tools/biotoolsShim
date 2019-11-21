@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Protein-sol",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3306"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/625830"
+      },
+      "sc:description": "Solubility from protein sequence prediction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3435"
+        },
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_0409"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "Protein-sol",
+      "sc:url": "https://protein-sol.manchester.ac.uk/software"
+    },
+    {
+      "@id": "https://doi.org/10.1101/625830",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

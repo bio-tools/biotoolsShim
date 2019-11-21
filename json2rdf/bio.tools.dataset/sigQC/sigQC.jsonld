@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/sigQC",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_2640"
+        }
+      ],
+      "sc:author": [
+        "Francesca Buffa",
+        "Andrew Dhawan",
+        "Alessandro Barberis",
+        "Wei-Chen Cheng"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/203729"
+      },
+      "sc:description": "R package enabling a streamlined methodological and standardised approach for the quality control validation of gene signatures on independent data sets.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3463"
+        },
+        {
+          "@id": "edam:operation_3218"
+        },
+        {
+          "@id": "edam:operation_3435"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "sigQC",
+      "sc:url": "https://cran.r-project.org/package=sigQC",
+      "sc:version": "0.1.21"
+    },
+    {
+      "@id": "https://doi.org/10.1101/203729",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

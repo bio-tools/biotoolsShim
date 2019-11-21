@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/RuleBuilder",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3315"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1007/978-1-4939-9102-0_2"
+        },
+        "pubmed:30945241"
+      ],
+      "sc:description": "tool for drawing graphs that can be represented by the BioNetGen language, which is used to formulate mathematical, rule-based models of biochemical systems.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3216"
+        },
+        {
+          "@id": "edam:operation_2426"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "RuleBuilder",
+      "sc:url": "https://github.com/RuleWorld/RuleBuilder"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-4939-9102-0_2",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1006830",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ReaDDy",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0176"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3314"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/journal.pcbi.1006830"
+        },
+        "pmcid:PMC6413953",
+        "pubmed:30818351"
+      ],
+      "sc:description": "Reaction Diffusion Dynamics (ReaDDy) - software framework for interacting-particle reaction dynamics.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2476"
+        },
+        {
+          "@id": "edam:operation_3457"
+        },
+        {
+          "@id": "edam:operation_0334"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "ReaDDy",
+      "sc:url": "https://readdy.github.io/"
+    }
+  ]
+}

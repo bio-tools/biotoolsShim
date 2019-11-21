@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.12688/f1000research.11317.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ogttmetrics",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0152"
+        },
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3407"
+        },
+        {
+          "@id": "edam:topic_3360"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.12688/f1000research.11317.1"
+      },
+      "sc:description": "Management and analysis of large numbers of oral glucose tolerance test series. Computes diverse measures of glucose metabolism derived from oral glucose tolerance tests (OGTTs).",
+      "sc:license": "GPL-3.0",
+      "sc:name": "ogttMetrics",
+      "sc:url": "https://github.com/vjcitn/ogttMetrics"
+    }
+  ]
+}

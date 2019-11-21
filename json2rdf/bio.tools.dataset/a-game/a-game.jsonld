@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/a-game",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0080"
+  },
+  "sc:citation": "pubmed:29329522",
+  "sc:description": "A web service incorporating state of the art tools and workflows for the analysis of eDNA sequence data.  Dedicated tools available in A-GAME allow efficient analysis of pooled libraries and rapid identification of candidate genes, reducing sequencing costs and saving the need for laborious manual annotation.",
+  "sc:featureList": {
+    "@id": "edam:operation_3672"
+  },
+  "sc:name": "A-GAME",
+  "sc:provider": "ELIXIR-ITA-MILANO",
+  "sc:url": "http://beaconlab.it/agame",
+  "sc:version": "1"
+}

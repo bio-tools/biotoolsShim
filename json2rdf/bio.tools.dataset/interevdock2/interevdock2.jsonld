@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/interevdock2",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0128"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gky377"
+      },
+      "sc:description": "Ab initio protein docking based on rigid-body sampling followed by consensus scoring using physics-based and statistical potentials, including the InterEvScore function specifically developed to incorporate co-evolutionary information in docking.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0478"
+        },
+        {
+          "@id": "edam:operation_0476"
+        },
+        {
+          "@id": "edam:operation_0477"
+        }
+      ],
+      "sc:name": "InterEvDock2",
+      "sc:url": "http://bioserv.rpbs.univ-paris-diderot.fr/services/InterEvDock2/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky377",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Bio2BEL",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0089"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2258"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/631812"
+      },
+      "sc:description": "Integration of Structured Biological Data Sources using Biological Expression Language.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_0533"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "Bio2BEL",
+      "sc:url": "https://github.com/bio2bel"
+    },
+    {
+      "@id": "https://doi.org/10.1101/631812",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

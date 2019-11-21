@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1074/mcp.D500002-MCP200",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/proteinprospector",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3489"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1074/mcp.D500002-MCP200"
+      },
+      "sc:description": "A suite of protein identification tools.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3647"
+        },
+        {
+          "@id": "edam:operation_2929"
+        }
+      ],
+      "sc:name": "ProteinProspector",
+      "sc:url": "http://prospector.ucsf.edu"
+    }
+  ]
+}

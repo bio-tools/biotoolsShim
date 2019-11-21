@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/TCRE",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0218"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/643767"
+      },
+      "sc:description": "T Cell Relation Extraction (TCRE) - Extracting T Cell Function and Differentiation Characteristics from the Biomedical Literature.",
+      "sc:featureList": {
+        "@id": "edam:operation_0306"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "TCRE",
+      "sc:url": "https://github.com/hammerlab/t-cell-relation-extraction"
+    },
+    {
+      "@id": "https://doi.org/10.1101/643767",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

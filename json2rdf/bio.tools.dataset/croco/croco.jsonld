@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/croco",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12915-018-0486-7"
+      },
+      "sc:description": "A program to detect potential cross contaminations in HTS assembled transcriptomes using expression level quantification.",
+      "sc:featureList": {
+        "@id": "edam:operation_3180"
+      },
+      "sc:name": "CroCo",
+      "sc:url": "http://gitlab.mbb.univ-montp2.fr/mbb/CroCo"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12915-018-0486-7",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

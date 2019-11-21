@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/SCOPA",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_0820"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s12859-016-1437-3"
+        },
+        "pmcid:PMC5225593",
+        "pubmed:28077070"
+      ],
+      "sc:description": "Software for COrrelated Phenotype Analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3557"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "SCOPA",
+      "sc:url": "https://www.geenivaramu.ee/en/tools/scopa",
+      "sc:version": "1.0.14"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-016-1437-3",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

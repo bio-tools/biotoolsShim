@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv723",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pharmacogx",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0208"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0202"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:26656004",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btv723"
+        }
+      ],
+      "sc:description": "Set of functions to perform large-scale analysis of pharmacogenomic data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "PharmacoGx",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/PharmacoGx.html",
+      "sc:version": "1.4.2"
+    }
+  ]
+}

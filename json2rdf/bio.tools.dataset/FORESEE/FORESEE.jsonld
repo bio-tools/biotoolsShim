@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btz145",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/FORESEE",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0108"
+        },
+        {
+          "@id": "edam:topic_0202"
+        },
+        {
+          "@id": "edam:topic_0769"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btz145"
+      },
+      "sc:contributor": "Ali Esfahani",
+      "sc:description": "Tool for the systematic comparison of translational drug response modeling pipelines.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_3216"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "FORESEE",
+      "sc:url": "https://osf.io/rf6qk/"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/panther",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0623"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_0160"
+    },
+    {
+      "@id": "edam:topic_0199"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:12952881",
+    "pubmed:15492219",
+    "pubmed:12520017",
+    "pubmed:15608197"
+  ],
+  "sc:description": "Unique resource that classifies genes by their functions, using published scientific experimental evidence and evolutionary relationships to predict function. The research tools allow you to score proteins against the HMM library, use it to do gene expression analyses, and download tools and data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0487"
+    },
+    {
+      "@id": "edam:operation_0331"
+    },
+    {
+      "@id": "edam:operation_3501"
+    }
+  ],
+  "sc:name": "PANTHER Tools",
+  "sc:url": "http://www.pantherdb.org/tools/"
+}

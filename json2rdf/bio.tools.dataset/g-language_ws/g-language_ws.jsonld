@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1751-0473-8-17",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/g-language_ws",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1751-0473-8-17"
+      },
+      "sc:description": "Great variety of useful genome analysis tools.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:name": "G-language Genome Analysis Environment WS",
+      "sc:url": "http://ws.g-language.org/gdoc/",
+      "sc:version": "1"
+    }
+  ]
+}

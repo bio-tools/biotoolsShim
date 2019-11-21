@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/0263-7855(90)80070-V",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/whatif",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2275"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/0263-7855(90)80070-V"
+      },
+      "sc:description": "A molecular modelling package that is specialized on working with proteins and the molecules in their environment like water, ligands, nucleic acids, etc.",
+      "sc:featureList": {
+        "@id": "edam:operation_0477"
+      },
+      "sc:name": "WHATIF",
+      "sc:provider": "Instruct",
+      "sc:url": "http://swift.cmbi.ru.nl/whatif/",
+      "sc:version": "1"
+    }
+  ]
+}

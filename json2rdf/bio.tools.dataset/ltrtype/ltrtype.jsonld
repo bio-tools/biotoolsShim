@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.3389/fpls.2017.00402",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ltrtype",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3389/fpls.2017.00402"
+        },
+        "pubmed:28421083",
+        "pmcid:PMC5379124"
+      ],
+      "sc:description": "Efficient tool to characterize structurally complex LTR retrotransposons and nested insertions on genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0253"
+      },
+      "sc:name": "LTRtype",
+      "sc:url": "http://www.plantkingdomgdb.com/LTRtype/index.html"
+    }
+  ]
+}

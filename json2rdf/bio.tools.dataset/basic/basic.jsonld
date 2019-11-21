@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/basic",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_3360"
+        },
+        {
+          "@id": "edam:topic_3383"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/ncomms14836"
+      },
+      "sc:description": "Background and shading correction of optical microscopy images.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:name": "BaSiC",
+      "sc:url": "http://sites.imagej.net/BaSiC/"
+    },
+    {
+      "@id": "https://doi.org/10.1038/ncomms14836",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

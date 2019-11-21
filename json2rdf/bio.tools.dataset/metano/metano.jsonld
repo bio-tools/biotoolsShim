@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1752-0509-7-33",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/metano",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1752-0509-7-33"
+      },
+      "sc:description": "metano is an open-source software toolbox for analyzing the capabilities of metabolic networks and for assisting in metabolic reconstruction.",
+      "sc:featureList": {
+        "@id": "edam:operation_3660"
+      },
+      "sc:license": "GPL-1.0",
+      "sc:name": "metano",
+      "sc:url": "http://metano.tu-bs.de/",
+      "sc:version": "1.0"
+    }
+  ]
+}

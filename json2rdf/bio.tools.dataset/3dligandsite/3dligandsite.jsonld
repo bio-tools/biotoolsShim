@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/3dligandsite",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_3534"
+    },
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_3511"
+    },
+    {
+      "@id": "edam:topic_0082"
+    }
+  ],
+  "sc:citation": "pubmed:20513649",
+  "sc:description": "3DLigandSite is a web server for the prediction of ligand binding sites. Ligands bound to similar protein structures as the query structure are used to predict the binding site.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0482"
+    },
+    {
+      "@id": "edam:operation_0474"
+    },
+    {
+      "@id": "edam:operation_2575"
+    }
+  ],
+  "sc:name": "3DLigandSite",
+  "sc:url": "http://www.sbg.bio.ic.ac.uk/3dligandsite"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s10038-019-0573-9",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ClinTAD",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0749"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/s10038-019-0573-9"
+        },
+        "pubmed:30765865"
+      ],
+      "sc:description": "Quick evaluation of the clinical relevance of copy number variants (CNVs) in the context of topologically associated domains (TADs).",
+      "sc:featureList": {
+        "@id": "edam:operation_3196"
+      },
+      "sc:name": "ClinTAD",
+      "sc:url": "https://www.clintad.com/"
+    }
+  ]
+}

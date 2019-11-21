@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/RIscoper",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": [
+    "Web service",
+    "Web application"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0659"
+    },
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_0218"
+    }
+  ],
+  "sc:description": "Tool for RNA–RNA interaction extraction from the literature.",
+  "sc:featureList": {
+    "@id": "edam:operation_0306"
+  },
+  "sc:license": "Unlicense",
+  "sc:name": "RIscoper",
+  "sc:url": "http://www.rna-society.org/riscoper/"
+}

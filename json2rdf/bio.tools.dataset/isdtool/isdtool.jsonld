@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/isdtool",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3324"
+    },
+    {
+      "@id": "edam:topic_0804"
+    },
+    {
+      "@id": "edam:topic_3301"
+    },
+    {
+      "@id": "edam:topic_2830"
+    }
+  ],
+  "sc:citation": "pubmed:25008418",
+  "sc:description": "Developed to predict ISD of retroviruses, including HERV, HTLV-1, HIV-1, STLV and SIV.",
+  "sc:featureList": {
+    "@id": "edam:operation_3461"
+  },
+  "sc:name": "ISDTool",
+  "sc:url": "http://sourceforge.net/projects/isdtool/"
+}

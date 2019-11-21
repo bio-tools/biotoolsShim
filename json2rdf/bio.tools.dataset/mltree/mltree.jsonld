@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mltree",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0084"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.cub.2007.11.058"
+      },
+      "sc:description": "MLtree is a software to compute maximum likelihood optimization of models of character evolution (either DNA or phenotypic ones) along the branches of a phylogenetic tree. It is assuming that the phylogenetic tree is known.",
+      "sc:featureList": {
+        "@id": "edam:operation_0547"
+      },
+      "sc:name": "MLtree",
+      "sc:url": "https://www2.unil.ch/phylo/bioinformatics/mltree.html"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cub.2007.11.058",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

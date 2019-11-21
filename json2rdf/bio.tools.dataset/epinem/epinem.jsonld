@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005496",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/epinem",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1005496"
+      },
+      "sc:description": "Extension of the original Nested Effects Models (NEM). It is able to take into account double knockouts and infer more complex network signalling pathways.",
+      "sc:featureList": {
+        "@id": "edam:operation_2497"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "epiNEM",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/epiNEM.html",
+      "sc:version": "1.4.0"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41467-018-03975-6",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pyfrap",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3370"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3382"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41467-018-03975-6"
+      },
+      "sc:description": "A Python based FRAP analysis tool box.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:name": "PyFRAP",
+      "sc:url": "https://github.com/alexblaessle/PyFRAP"
+    }
+  ]
+}

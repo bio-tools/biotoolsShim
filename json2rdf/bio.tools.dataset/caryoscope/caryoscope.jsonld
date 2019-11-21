@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-5-151",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/caryoscope",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0654"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0097"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-5-151"
+      },
+      "sc:description": "Application for viewing gene expression data in a whole-genome context. It has been used to “draw” microarray data onto a set of chromosomes so that changes in DNA copy number can identify regions of chromosome loss or duplication within the genome of tumor cells (Nat Genet. 1999 Sep;23(1):41-6).",
+      "sc:featureList": {
+        "@id": "edam:operation_3501"
+      },
+      "sc:name": "Caryoscope",
+      "sc:url": "http://www.stanford.edu/group/sherlocklab/software.shtml",
+      "sc:version": "0.4.0"
+    }
+  ]
+}

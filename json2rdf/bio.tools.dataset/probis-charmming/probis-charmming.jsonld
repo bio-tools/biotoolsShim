@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/acs.jcim.5b00534",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/probis-charmming",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/acs.jcim.5b00534"
+        },
+        "pubmed:26509288"
+      ],
+      "sc:description": "Connected the ProBiS and CHARMMing web servers into one functional unit that enables prediction of protein-ligand complexes and allows for their geometry optimization and interaction energy calculation.",
+      "sc:featureList": {
+        "@id": "edam:operation_2492"
+      },
+      "sc:name": "ProBiS-CHARMMing",
+      "sc:url": "https://probis.nih.gov/"
+    }
+  ]
+}

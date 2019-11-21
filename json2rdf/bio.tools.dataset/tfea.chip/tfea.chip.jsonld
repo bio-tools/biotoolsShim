@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tfea.chip",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0204"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3169"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/303651"
+      },
+      "sc:description": "Package to analize transcription factor enrichment in a gene set using data from ChIP-Seq experiments.",
+      "sc:featureList": {
+        "@id": "edam:operation_2436"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "TFEA.ChIP",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/TFEA.ChIP.html",
+      "sc:version": "1.0.0"
+    },
+    {
+      "@id": "https://doi.org/10.1101/303651",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

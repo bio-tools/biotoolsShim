@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/csm",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_1775"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2164-12-S4-S12"
+      },
+      "sc:description": "CSM (Cutoff Scanning Matrix) is a novel structure-based protein function prediction and structural classification method. CSM generates feature vectors that represent distance patterns between protein residues. These feature vectors are then used as evidence for classification.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2479"
+        },
+        {
+          "@id": "edam:operation_1777"
+        },
+        {
+          "@id": "edam:operation_2423"
+        },
+        {
+          "@id": "edam:operation_2990"
+        }
+      ],
+      "sc:name": "CSM",
+      "sc:url": "http://homepages.dcc.ufmg.br/~dpires/csm/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2164-12-S4-S12",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

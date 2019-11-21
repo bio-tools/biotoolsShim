@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/sabbac",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0736"
+    },
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_0196"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0166"
+    }
+  ],
+  "sc:citation": "pubmed:16844979",
+  "sc:description": "Tool for the reconstruction of complete protein structures from their alpha-carbon descriptions.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0479"
+    },
+    {
+      "@id": "edam:operation_0487"
+    },
+    {
+      "@id": "edam:operation_0477"
+    },
+    {
+      "@id": "edam:operation_0474"
+    },
+    {
+      "@id": "edam:operation_0245"
+    }
+  ],
+  "sc:license": "Unlicense",
+  "sc:name": "SABBAC",
+  "sc:url": "http://mobyle.rpbs.univ-paris-diderot.fr/cgi-bin/portal.py#forms::SABBAC",
+  "sc:version": "1.3"
+}

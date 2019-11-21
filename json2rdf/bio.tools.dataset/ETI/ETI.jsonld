@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/ETI",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3399"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC6735795",
+        {
+          "@id": "https://doi.org/10.1093/VE/VEZ002.013"
+        }
+      ],
+      "sc:description": "> LOW CONFIDENCE! | > CORRECT NAME OF TOOL COULD ALSO BE 'HIV', 'estimated time', 'FSW', 'A14 Estimating time since HIV infection using next-generation sequencing data' | A unique tool to help understand HIV prevention among high-risk young women in Ukraine | Estimate time since infection from NGS diversity",
+      "sc:name": "ETI",
+      "sc:url": "https://hiv.biozentrum.unibas.ch/ETI/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/VE/VEZ002.013",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

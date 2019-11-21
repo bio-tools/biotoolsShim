@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/path2models",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1752-0509-7-116"
+      },
+      "sc:description": "Branch of BioModels Database dedicated to hosting models automatically generated from pathway resources, such as KEGG, BioCarta, MetaCyc, PID and SABIO-RK.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:license": "Apache-2.0",
+      "sc:name": "Path2Models",
+      "sc:url": "http://www.ebi.ac.uk/biomodels-main/path2models"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1752-0509-7-116",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

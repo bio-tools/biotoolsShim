@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/svmtm",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_0820"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_3510"
+    },
+    {
+      "@id": "edam:topic_0736"
+    }
+  ],
+  "sc:citation": "pubmed:14978706",
+  "sc:description": "Support Vector Machine Transmembrane (SVMtm) predicts transmembrane helices when given protein sequences in FASTA format.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0269"
+    },
+    {
+      "@id": "edam:operation_0270"
+    },
+    {
+      "@id": "edam:operation_2241"
+    }
+  ],
+  "sc:name": "SVMtm",
+  "sc:url": "http://ccb.imb.uq.edu.au/svmtm/svmtm_predictor.shtml"
+}

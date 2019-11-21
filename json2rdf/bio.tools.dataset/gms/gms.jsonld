@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/gms",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3169"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1089/gen.32.15.12"
+      },
+      "sc:description": "Mapping of NGS reads onto genomes, transcriptomes and splice-junction libraries. It is a client-server based solution and can be controlled through an intuitive GUI or via command-line. It covers different tasks such as, as genomic positioning, SNP detection, splice analyses and genomic enrichments.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0484"
+        },
+        {
+          "@id": "edam:operation_3198"
+        },
+        {
+          "@id": "edam:operation_0310"
+        }
+      ],
+      "sc:name": "Genomatix Mining Station (GMS)",
+      "sc:url": "http://www.genomatix.de/en/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1089/gen.32.15.12",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

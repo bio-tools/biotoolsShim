@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts240",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/psi-search",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2976"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_2854"
+        },
+        {
+          "@id": "edam:data_0857"
+        }
+      ],
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": [
+        "Bill Pearson",
+        "Web Production"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts240"
+      },
+      "sc:description": "Iterative protein sequence similarity search based on Smith & Waterman algorithm with PSI-BLAST profile construction : find distantly related protein sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0346"
+      },
+      "sc:name": "PSI-Search (EBI)",
+      "sc:provider": [
+        "EMBL-EBI",
+        "University of Virginia"
+      ],
+      "sc:url": "http://www.ebi.ac.uk/Tools/sss/psisearch/",
+      "sc:version": "1"
+    }
+  ]
+}

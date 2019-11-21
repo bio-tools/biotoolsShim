@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/S12859-015-0473-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/mbbc",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3174"
+        },
+        {
+          "@id": "edam:topic_3321"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:25652152",
+        "pmcid:PMC4339733",
+        {
+          "@id": "https://doi.org/10.1186/S12859-015-0473-8"
+        }
+      ],
+      "sc:description": "An efficient approach for metagenomic binning based on clustering.",
+      "sc:featureList": {
+        "@id": "edam:operation_3798"
+      },
+      "sc:name": "MBBC",
+      "sc:url": "http://eecs.ucf.edu/~xiaoman/MBBC/MBBC.html"
+    }
+  ]
+}

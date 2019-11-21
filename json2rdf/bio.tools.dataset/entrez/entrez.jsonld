@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkg057",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/entrez",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_3366"
+        },
+        {
+          "@id": "edam:topic_3068"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkg057"
+        },
+        "pubmed:12519940",
+        "pmcid:PMC165504"
+      ],
+      "sc:description": "NCBI information retrieval system, including GenBank, MMDB (structures), genomes, population sets, OMIM, taxonomy and PubMed.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_3763"
+        },
+        {
+          "@id": "edam:operation_2429"
+        },
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_0346"
+        },
+        {
+          "@id": "edam:operation_2403"
+        }
+      ],
+      "sc:name": "Entrez",
+      "sc:url": "https://www.ncbi.nlm.nih.gov/Entrez/"
+    }
+  ]
+}

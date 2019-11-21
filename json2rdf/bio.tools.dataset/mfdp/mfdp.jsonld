@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mfdp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_2814"
+    }
+  ],
+  "sc:citation": "pubmed:24573480",
+  "sc:description": "Combines per-residue disorder probabilities predicted by MFDp with per-sequence disorder content predicted by DisCon, and applies novel post-processing filters to provide disorder predictions with improved predictive quality.",
+  "sc:featureList": {
+    "@id": "edam:operation_0474"
+  },
+  "sc:name": "MFDp",
+  "sc:url": "http://biomine-ws.ece.ualberta.ca/MFDp2/index.php"
+}

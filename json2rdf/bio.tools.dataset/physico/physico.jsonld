@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/physico",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0123"
+    },
+    {
+      "@id": "edam:topic_0080"
+    }
+  ],
+  "sc:citation": "pubmed:26339154",
+  "sc:description": "UNIX based Standalone Procedure for Computation of Physicochemical, Window-dependent and Substitution Based Evolutionary Properties of Protein Sequences along with Automated Block Preparation Tools.",
+  "sc:featureList": {
+    "@id": "edam:operation_2479"
+  },
+  "sc:name": "PHYSICO",
+  "sc:url": "http://sourceforge.net/projects/physico2/"
+}

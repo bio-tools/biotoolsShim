@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/pr2align",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0080"
+    }
+  ],
+  "sc:citation": "pubmed:25947299",
+  "sc:description": "Find an optimal minimal distance global alignment of two amino acid sequences based on the comparison of the profiles of biochemical properties of these sequences.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0496"
+    },
+    {
+      "@id": "edam:operation_0292"
+    },
+    {
+      "@id": "edam:operation_2479"
+    }
+  ],
+  "sc:name": "PR2ALIGN",
+  "sc:url": "http://pr2align.rit.albany.edu/"
+}

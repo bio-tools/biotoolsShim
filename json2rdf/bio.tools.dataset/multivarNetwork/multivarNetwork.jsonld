@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/multivarNetwork",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1007/978-1-4939-8882-2_6"
+        },
+        "pubmed:30547399"
+      ],
+      "sc:description": "R package for inferring multi-variate/multi-attribute Gaussian graphical models.",
+      "sc:license": "GPL-3.0",
+      "sc:name": "multivarNetwork",
+      "sc:url": "https://github.com/jchiquet/multivarNetwork"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-4939-8882-2_6",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

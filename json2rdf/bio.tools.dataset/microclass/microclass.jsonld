@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/microclass",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0637"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1583-2"
+      },
+      "sc:description": "Methods for Taxonomic Classification of Prokaryotes.",
+      "sc:featureList": {
+        "@id": "edam:operation_3460"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "microclass",
+      "sc:url": "https://cran.r-project.org/web/packages/microclass/",
+      "sc:version": "1.1"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1583-2",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

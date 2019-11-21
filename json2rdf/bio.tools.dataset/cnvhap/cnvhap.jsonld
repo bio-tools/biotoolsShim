@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.1466",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/cnvhap",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.1466"
+      },
+      "sc:description": "Joint copy number genotyping, which uses a haplotype model of copy number variation and integrates data from multiple platforms. It also carries out CN association.",
+      "sc:featureList": {
+        "@id": "edam:operation_3196"
+      },
+      "sc:name": "cnvHap",
+      "sc:url": "http://www.imperial.ac.uk/people/l.coin",
+      "sc:version": "1.033"
+    }
+  ]
+}

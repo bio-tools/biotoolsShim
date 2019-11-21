@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/APPAGATO",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3500"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btw223"
+      },
+      "sc:description": "APproximate PArallel and stochastic GrAph querying TOol for biological networks.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_0495"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "APPAGATO",
+      "sc:url": "http://profs.scienze.univr.it/~bombieri/APPAGATO/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw223",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/bsf",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3473"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-018-2210-6"
+      },
+      "sc:description": "The Blazing Signature Filter is a highly efficient pairwise similarity algorithm which enables extensive data mining within a reasonable amount of time. The algorithm transforms datasets into binary metrics, allowing it to utilize the computationally efficient bit operators and provide a coarse measure of similarity.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_3278"
+        },
+        {
+          "@id": "edam:operation_2424"
+        }
+      ],
+      "sc:license": "BSD-2-Clause",
+      "sc:name": "BSF",
+      "sc:url": "https://github.com/PNNL-Comp-Mass-Spec/bsf-py"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-018-2210-6",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

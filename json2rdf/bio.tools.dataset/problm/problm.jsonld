@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/problm",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2275"
+    },
+    {
+      "@id": "edam:topic_0128"
+    },
+    {
+      "@id": "edam:topic_0820"
+    },
+    {
+      "@id": "edam:topic_0078"
+    }
+  ],
+  "sc:citation": "pubmed:25126110",
+  "sc:description": "Webserver that creates a combined protein-membrane complex when given a membrane protein (helical or beta-barrel) and bilayer lipid membrane (POPC, POPE or artificial).",
+  "sc:featureList": {
+    "@id": "edam:operation_2492"
+  },
+  "sc:name": "ProBLM",
+  "sc:url": "http://compbio.clemson.edu/sapp/problm_webserver/"
+}

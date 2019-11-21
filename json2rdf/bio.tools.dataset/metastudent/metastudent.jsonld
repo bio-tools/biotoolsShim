@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-14-S3-S7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/metastudent",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3307"
+      },
+      "sc:author": "Tobias Hamp",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-14-S3-S7"
+      },
+      "sc:description": "Metastudent predicts Gene Ontology (GO) terms from the Molecular Function Ontology (MFO) and Biological Process Ontology (BPO) for input protein sequences by homology-based inference from already annotated proteins.",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:name": "MetaStudent",
+      "sc:provider": [
+        "Rostlab",
+        "tum.de"
+      ],
+      "sc:url": "https://github.com/Rostlab/MetaStudent",
+      "sc:version": "1"
+    }
+  ]
+}

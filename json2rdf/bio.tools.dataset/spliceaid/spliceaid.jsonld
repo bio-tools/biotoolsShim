@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btp124",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/spliceaid",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1009"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0896"
+      },
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0114"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btp124"
+        },
+        "pubmed:19261717"
+      ],
+      "sc:description": "Experimental RNA target motifs bound by splicing proteins in humans.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "SpliceAid",
+      "sc:url": "http://www.introni.it/splicing.html"
+    }
+  ]
+}

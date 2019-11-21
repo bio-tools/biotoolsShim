@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12918-016-0298-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/petalnet",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_2275"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12918-016-0298-8"
+      },
+      "sc:description": "Construction of small-world, scale-free networks.",
+      "sc:featureList": {
+        "@id": "edam:operation_3660"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "petalNet",
+      "sc:url": "https://github.com/julipetal/petalNet"
+    }
+  ]
+}

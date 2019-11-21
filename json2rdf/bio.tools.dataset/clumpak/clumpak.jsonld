@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1111/1755-0998.12387",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/clumpak",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3056"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1111/1755-0998.12387"
+      },
+      "sc:description": "Clustering Markov Packager Across K- was developed in order to aid users analyse the results of STRUCTURE-like programs. The main pipeline offers a full pipeline for the summation and graphical representation of the results previously obtained by the user using a STRUCTURE-like program.",
+      "sc:featureList": {
+        "@id": "edam:operation_3197"
+      },
+      "sc:license": "Unlicensed",
+      "sc:name": "CLUMPAK",
+      "sc:url": "http://clumpak.tau.ac.il/"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv446",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/assist",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_2885"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv446"
+      },
+      "sc:contributor": "http://www.fruitbreedomics.com/",
+      "sc:description": "Tool for the efficient filtering of Illumina Infinium/BeadExpress based SNP markers.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_3695"
+        }
+      ],
+      "sc:funder": "http://www.fruitbreedomics.com/",
+      "sc:name": "ASSIST",
+      "sc:provider": "ELIXIR-ITA-MACH",
+      "sc:url": "http://compbiotoolbox.fmach.it/assist/",
+      "sc:version": "1.01"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/vep",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Script",
+        "Command-line tool",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:author": "Ensembl",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13059-016-0974-4"
+      },
+      "sc:description": "Tool for predicting effects of variants for any genome in Ensembl or with genome annotation (via GFF). This includes vertebrates and also plants, fungi, protists, metazoa and bacteria.  There is a web and a REST API version but the most powerful is the Perl script version. See McLaren et al., 2016, Genome Biology",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3661"
+        },
+        {
+          "@id": "edam:operation_3197"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "Variant Effect Predictor (VEP)",
+      "sc:url": "http://www.ensembl.org/vep"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-016-0974-4",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

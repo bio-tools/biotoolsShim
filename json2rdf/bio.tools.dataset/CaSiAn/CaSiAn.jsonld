@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/CaSiAn",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3068"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty281"
+      },
+      "sc:description": "Calcium Signaling Analyzer (CaSiAn), an open source software tool that allows for quantifying these signal characteristics including individual spike properties and time course statistics in a semi-automated manner.",
+      "sc:license": "GPL-3.0",
+      "sc:name": "CaSiAn",
+      "sc:url": "http://r3lab.uni.lu/web/casa"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty281",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

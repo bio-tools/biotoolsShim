@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/nmrnet",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0593"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0081"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty134"
+      },
+      "sc:description": "Deep learning approach to automated peak picking of protein NMR spectra (part of a Dumpling software).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3214"
+        },
+        {
+          "@id": "edam:operation_3215"
+        }
+      ],
+      "sc:name": "NMRNet",
+      "sc:url": "https://dumpling.bio/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty134",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

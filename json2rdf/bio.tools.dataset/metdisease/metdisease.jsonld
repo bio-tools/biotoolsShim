@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/metdisease",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0219"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_3407"
+    }
+  ],
+  "sc:citation": "pubmed:24713438",
+  "sc:description": "App for Cytoscape, the bioinformatics network visualization tool. The app is used to annotate a metabolic network with MeSH disease terms, explore related diseases within a network, and link to PubMed references corresponding to any network node and selection of MeSH terms.",
+  "sc:featureList": {
+    "@id": "edam:operation_0226"
+  },
+  "sc:name": "MetDisease",
+  "sc:url": "http://metdisease.ncibi.org/"
+}

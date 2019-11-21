@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/cytoasp",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12918-015-0179-6"
+      },
+      "sc:description": "A Cytoscape app for qualitative consistency analysis, prediction and repair in biological networks.",
+      "sc:featureList": {
+        "@id": "edam:operation_3660"
+      },
+      "sc:license": "MIT",
+      "sc:name": "CytoASP",
+      "sc:url": "https://bitbucket.org/akittas/cytoasp"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12918-015-0179-6",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

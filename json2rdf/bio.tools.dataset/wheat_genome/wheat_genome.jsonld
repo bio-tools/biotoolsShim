@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/wheat_genome",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3070"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/pcp/pcr141"
+      },
+      "sc:description": "Individual chromosome arms are being assembled and annotated. They are made publically available as they are produced using the genome viewer GBrowse2.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Wheat Genome",
+      "sc:provider": "unimelb.edu.au",
+      "sc:url": "http://www.wheatgenome.info/wheat_genome_databases.php"
+    },
+    {
+      "@id": "https://doi.org/10.1093/pcp/pcr141",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

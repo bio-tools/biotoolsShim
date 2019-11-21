@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/tmpred",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0736"
+    },
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_3542"
+    }
+  ],
+  "sc:description": "The TMpred program makes a prediction of membrane-spanning regions and their orientation. The algorithm is based on the statistical analysis of TMbase, a database of naturally occurring transmembrane proteins",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2423"
+    },
+    {
+      "@id": "edam:operation_2489"
+    }
+  ],
+  "sc:name": "TMPred",
+  "sc:url": "http://embnet.vital-it.ch/software/TMPRED_form.html"
+}

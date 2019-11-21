@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/stag-cns",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0659"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:28602693",
+        {
+          "@id": "https://doi.org/10.1016/j.molp.2017.05.010"
+        }
+      ],
+      "sc:description": "STAG-CNS can identify noncoding regulatory regions of a genome by simultaneously integrate the data from the promoters of conserved orthologous genes in three or more species.",
+      "sc:featureList": {
+        "@id": "edam:operation_3194"
+      },
+      "sc:license": "MIT",
+      "sc:name": "STAG-CNS",
+      "sc:url": "https://github.com/srbehera11/stag-cns"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.molp.2017.05.010",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

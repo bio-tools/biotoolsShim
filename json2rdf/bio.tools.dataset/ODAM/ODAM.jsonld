@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-6687-7169",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.tools/ODAM",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_3108"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_3108"
+        },
+        {
+          "@id": "edam:data_2884"
+        }
+      ],
+      "sc:additionalType": [
+        "Web API",
+        "Web application",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3678"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3473"
+        }
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0002-6687-7169"
+      },
+      "sc:description": "ODAM (Open Data for Access and Mining) is an Experiment Data Table Management System (EDTMS) that implements a simple way to make research data broadly accessible and fully available for reuse, including by script languages such as R and Python. The main purpose is to make a dataset accessible online with minimal effort from the data provider, and to allow any data scientists or researchers to be able to explore the dataset and then extract a subpart or the totality of the data according to their needs.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "ODAM",
+      "sc:url": "https://pmb-bordeaux.fr/dataexplorer/",
+      "sc:version": "1.1"
+    }
+  ]
+}

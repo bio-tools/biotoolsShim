@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/coryneregnet",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_output": [
+        {
+          "@id": "edam:data_0842"
+        },
+        {
+          "@id": "edam:data_2044"
+        }
+      ],
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkr883"
+        },
+        "pubmed:22080556",
+        "pmcid:PMC3245100"
+      ],
+      "sc:description": "Reference database and analysis platform for corynebacterial transcription factors and gene regulatory networks.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0338"
+        },
+        {
+          "@id": "edam:operation_3439"
+        },
+        {
+          "@id": "edam:operation_2497"
+        }
+      ],
+      "sc:name": "CoryneRegNet",
+      "sc:provider": "bmb.sdu.dk",
+      "sc:url": "http://www.coryneregnet.de"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkr883",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

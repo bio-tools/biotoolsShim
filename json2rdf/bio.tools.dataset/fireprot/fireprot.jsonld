@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkx285",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/fireprot",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1460"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_1537"
+        },
+        {
+          "@id": "edam:data_1384"
+        },
+        {
+          "@id": "edam:data_1460"
+        },
+        {
+          "@id": "edam:data_2974"
+        }
+      ],
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2814"
+        },
+        {
+          "@id": "edam:topic_1317"
+        }
+      ],
+      "sc:author": [
+        "Milos Musil",
+        "Jan Stourac"
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkx285"
+        },
+        "pmcid:PMC5570187",
+        "pubmed:28449074"
+      ],
+      "sc:contributor": [
+        "Jiri Damborsky",
+        "David Bednar",
+        "Jaroslav Bendl",
+        "Tomas Martinek",
+        "Jan Brezovsky",
+        "Zbynek Prokop",
+        "Jaroslav Zendulka"
+      ],
+      "sc:description": "FireProt is a web server for an automated design of thermostable mutants. The design of thermostable mutants is based on the integration of structural and evolutionary information obtained from several bioinformatics databases and computational tools.",
+      "sc:featureList": {
+        "@id": "edam:operation_2406"
+      },
+      "sc:license": "Proprietary",
+      "sc:name": "FireProt",
+      "sc:url": "https://loschmidt.chemi.muni.cz/fireprot/",
+      "sc:version": "1.1"
+    }
+  ]
+}

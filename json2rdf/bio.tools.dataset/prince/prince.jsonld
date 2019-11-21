@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/prince",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0099"
+    },
+    {
+      "@id": "edam:topic_0128"
+    }
+  ],
+  "sc:citation": "pubmed:22689640",
+  "sc:description": "Web server which analyzes the structural features and physicochemical properties of the protein-RNA interface.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2479"
+    },
+    {
+      "@id": "edam:operation_2949"
+    }
+  ],
+  "sc:name": "PRince",
+  "sc:url": "http://www.facweb.iitkgp.ernet.in/~rbahadur/prince/home.html"
+}

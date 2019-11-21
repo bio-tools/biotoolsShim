@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/vicmpred",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3407"
+    },
+    {
+      "@id": "edam:topic_3301"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0623"
+    }
+  ],
+  "sc:citation": "pubmed:16689701",
+  "sc:description": "Classification of bacterial proteins into virulence factors, information molecule, cellular process and metabolism molecule.",
+  "sc:featureList": {
+    "@id": "edam:operation_3225"
+  },
+  "sc:name": "VICMpred",
+  "sc:url": "http://www.imtech.res.in/raghava/vicmpred/"
+}

@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/eager",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_3299"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3056"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13059-016-0918-z"
+      },
+      "sc:description": "Efficient ancient genome reconstruction.",
+      "sc:featureList": {
+        "@id": "edam:operation_3478"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "EAGER",
+      "sc:url": "https://github.com/apeltzer/EAGER-GUI"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13059-016-0918-z",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

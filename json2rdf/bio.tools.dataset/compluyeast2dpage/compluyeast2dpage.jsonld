@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/compluyeast2dpage",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": [
+    {
+      "@id": "edam:data_3021"
+    },
+    {
+      "@id": "edam:data_0989"
+    }
+  ],
+  "edam:has_output": {
+    "@id": "edam:data_2531"
+  },
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0121"
+  },
+  "sc:description": "A two-dimensional polyacrilamide gel electrophoresis federated database.",
+  "sc:featureList": {
+    "@id": "edam:operation_0224"
+  },
+  "sc:name": "COMPLUYEAST-2DPAGE database",
+  "sc:provider": "Universidad Complutense Madrid",
+  "sc:url": "http://compluyeast2dpage.dacya.ucm.es/"
+}

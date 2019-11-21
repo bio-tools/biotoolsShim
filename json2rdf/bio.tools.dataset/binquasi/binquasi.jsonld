@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/binquasi",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3127"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty227"
+      },
+      "sc:description": "Peak detection method for ChIP-sequencing data with biological replicates.",
+      "sc:featureList": {
+        "@id": "edam:operation_3222"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "BinQuasi",
+      "sc:url": "https://cran.r-project.org/web/packages/BinQuasi/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty227",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

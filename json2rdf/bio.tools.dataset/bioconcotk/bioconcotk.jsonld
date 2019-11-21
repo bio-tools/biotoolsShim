@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/bioconcotk",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2885"
+    },
+    {
+      "@id": "edam:topic_3295"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_0749"
+    }
+  ],
+  "sc:description": "Provide a central interface to various tools for genome-scale analysis of cancer studies.",
+  "sc:featureList": {
+    "@id": "edam:operation_3197"
+  },
+  "sc:license": "Artistic-2.0",
+  "sc:name": "BiocOncoTK",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/BiocOncoTK.html",
+  "sc:version": "1.0.0"
+}

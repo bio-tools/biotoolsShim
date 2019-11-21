@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1074/mcp.M111.010017",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/mixdb",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0121"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1074/mcp.M111.010017"
+      },
+      "sc:description": "MixDB is a database search tool that able to identify mixture MS/MS spectra from more than one peptide.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:name": "MixDB",
+      "sc:url": "http://proteomics.ucsd.edu/software-tools/mixdb/",
+      "sc:version": "1.0r"
+    }
+  ]
+}

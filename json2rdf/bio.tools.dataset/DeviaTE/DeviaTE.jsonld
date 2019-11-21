@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/DeviaTE",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0798"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_2885"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1111/1755-0998.13030"
+        },
+        "pubmed:31056858"
+      ],
+      "sc:description": "Assembly-free analysis and visualization of mobile genetic element composition.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3219"
+        },
+        {
+          "@id": "edam:operation_0427"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "DeviaTE",
+      "sc:url": "https://github.com/W-L/deviaTE"
+    },
+    {
+      "@id": "https://doi.org/10.1111/1755-0998.13030",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

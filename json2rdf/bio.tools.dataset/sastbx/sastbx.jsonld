@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/sastbx",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Workbench",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_2275"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1107/S0021889812015786"
+      },
+      "sc:description": "Set of software routines that can be used to analyze SAXS data, build molecular shapes from SAXS data and further refine existing atomic models.",
+      "sc:featureList": {
+        "@id": "edam:operation_0322"
+      },
+      "sc:name": "SASTBX",
+      "sc:provider": "Instruct",
+      "sc:url": "http://sastbx-document.readthedocs.io/en/latest/",
+      "sc:version": "1"
+    },
+    {
+      "@id": "https://doi.org/10.1107/S0021889812015786",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

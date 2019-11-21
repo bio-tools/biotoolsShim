@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/partek_genomics_suite",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0085"
+        },
+        {
+          "@id": "edam:topic_3173"
+        },
+        {
+          "@id": "edam:topic_3320"
+        },
+        {
+          "@id": "edam:topic_3169"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/S0076-6879(06)11013-7"
+      },
+      "sc:description": "Easy to use software providing A to Z analysis for all Next Generation Sequencing and Microarray data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3800"
+      },
+      "sc:name": "Partek Genomics Suite",
+      "sc:url": "http://www.partek.com"
+    },
+    {
+      "@id": "https://doi.org/10.1016/S0076-6879(06)11013-7",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

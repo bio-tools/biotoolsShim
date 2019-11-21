@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/gfsat",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": [
+    "Desktop application",
+    "Web application"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_1775"
+    },
+    {
+      "@id": "edam:topic_3053"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:23628645",
+  "sc:description": "Web tool that can be used to Analysis the functional similarity of genes in the forms of “two genes”, “two gene groups “, and “pairwise gene groups” based on GO Annotation(GOA) and GO semantic similarity measurements.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2497"
+    },
+    {
+      "@id": "edam:operation_3672"
+    }
+  ],
+  "sc:name": "GFSAT",
+  "sc:url": "http://118.178.236.158/GFSAT/index.php"
+}

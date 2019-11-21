@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.ajhg.2013.07.003",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/drgap",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_2830"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.ajhg.2013.07.003"
+      },
+      "sc:description": "A Powerful Tool for Identifying Driver Genes and Pathways in Cancer Sequencing Studies.",
+      "sc:featureList": {
+        "@id": "edam:operation_2497"
+      },
+      "sc:name": "DrGaP",
+      "sc:url": "https://code.google.com/archive/p/drgap/"
+    }
+  ]
+}

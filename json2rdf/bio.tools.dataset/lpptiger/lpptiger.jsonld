@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41598-017-15363-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/lpptiger",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0153"
+        },
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0081"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41598-017-15363-z"
+      },
+      "sc:description": "lipidome-specific prediction and identification of oxidized phospholipids from LC-MS datasets.",
+      "sc:featureList": {
+        "@id": "edam:operation_3214"
+      },
+      "sc:name": "LPPtiger",
+      "sc:url": "https://bitbucket.org/SysMedOs/lpptiger"
+    }
+  ]
+}

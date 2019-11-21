@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/polygenicpathways",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0621"
+    },
+    {
+      "@id": "edam:topic_0781"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_2830"
+    }
+  ],
+  "sc:citation": "pubmed:18552348",
+  "sc:description": "The datasets list genes, environmental risk factors and autoantibodies in a number of polygenic diseases and provide KEGG pathway analysis etched out by susceptibility genes. Host/pathogen interactions are also characterised for herpes simplex, helicobacter pylori and the HIV-1/AIDS virus.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3501"
+    },
+    {
+      "@id": "edam:operation_2495"
+    },
+    {
+      "@id": "edam:operation_2454"
+    },
+    {
+      "@id": "edam:operation_2497"
+    },
+    {
+      "@id": "edam:operation_3461"
+    }
+  ],
+  "sc:name": "PolygenicPathways",
+  "sc:url": "http://www.polygenicpathways.co.uk"
+}

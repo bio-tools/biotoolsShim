@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/hipipe",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1109/ISCAS.1991.176345"
+      },
+      "sc:description": "Make NGS data analysis quick and easy with high performance pipelines and intuitive web GUI.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_3198"
+        }
+      ],
+      "sc:name": "HiPipe",
+      "sc:url": "http://hipipe.ncgm.sinica.edu.tw/"
+    },
+    {
+      "@id": "https://doi.org/10.1109/ISCAS.1991.176345",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

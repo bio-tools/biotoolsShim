@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/bgf",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0654"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/s11390-005-0446-x"
+      },
+      "sc:description": "Hidden Markov model (HMM) and dynamic programming based ab initio gene prediction program.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2454"
+        },
+        {
+          "@id": "edam:operation_2423"
+        }
+      ],
+      "sc:name": "BGF",
+      "sc:url": "http://bgf.genomics.org.cn/",
+      "sc:version": "1.01"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s11390-005-0446-x",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

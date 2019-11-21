@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.mad.2004.09.032",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/msimageview",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_0943"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2968"
+      },
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3383"
+        },
+        {
+          "@id": "edam:topic_3391"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.mad.2004.09.032"
+      },
+      "sc:description": "Generate images from WIFF data and export to imzML.",
+      "sc:featureList": {
+        "@id": "edam:operation_0335"
+      },
+      "sc:name": "MSImageView",
+      "sc:url": "https://ms-imaging.org/wp/msimageview/"
+    }
+  ]
+}

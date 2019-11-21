@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-15-263",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/morfeus",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3321"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC4137093",
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-15-263"
+        },
+        "pubmed:25096057"
+      ],
+      "sc:description": "Meta-analysis based orthology finder using symmetrical best hits.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:name": "morFeus",
+      "sc:url": "http://bio.biochem.mpg.de/morfeus/"
+    }
+  ]
+}

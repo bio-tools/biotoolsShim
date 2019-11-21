@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Human_Factors_Integration_Toolset",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0089"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1080/00140139.2019.1572228"
+        },
+        "pubmed:31466512"
+      ],
+      "sc:description": "> LOW CONFIDENCE! | Assessing human factors and ergonomics capability in organisations | Human Factors Integration Toolset- see update for free file download | Human Factors Integration Toolset- see update for free file download : Creation of a tool that reports the level of HF integration and maturity in an organization | Human Factors Integration Toolset- see update for free file download : Michael Greig : 1 updates : Research Project",
+      "sc:name": "Human Factors Integration Toolset",
+      "sc:url": "https://www.researchgate.net/project/Human-Factors-Integration-Toolset"
+    },
+    {
+      "@id": "https://doi.org/10.1080/00140139.2019.1572228",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

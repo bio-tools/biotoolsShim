@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.12688/wellcomeopenres.11275.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/neopeptide_analyser",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.12688/wellcomeopenres.11275.1"
+        },
+        "pmcid:PMC5428739",
+        "pubmed:28503667"
+      ],
+      "sc:description": "Neopeptide discovery in proteomics data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3214"
+      },
+      "sc:license": "MIT",
+      "sc:name": "Neopeptide Analyser",
+      "sc:url": "https://github.com/PGB-LIV/neo-pep-tool/releases/"
+    }
+  ]
+}

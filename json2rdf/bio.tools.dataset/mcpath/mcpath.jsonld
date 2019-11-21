@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mcpath",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_3678"
+    },
+    {
+      "@id": "edam:topic_0736"
+    },
+    {
+      "@id": "edam:topic_0130"
+    }
+  ],
+  "sc:citation": "pubmed:23742907",
+  "sc:description": "MCPath is a Monte Carlo path generation approach to predict likely allosteric pathways and functional residues.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0321"
+    },
+    {
+      "@id": "edam:operation_3439"
+    },
+    {
+      "@id": "edam:operation_0248"
+    },
+    {
+      "@id": "edam:operation_0272"
+    },
+    {
+      "@id": "edam:operation_2497"
+    }
+  ],
+  "sc:name": "MCPath",
+  "sc:url": "http://safir.prc.boun.edu.tr/clbet_server"
+}

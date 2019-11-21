@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/wigwams",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0204"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btt728"
+      },
+      "sc:description": "Biclustering approach for time series data, as it identifies genes exhibiting co-expression across subsets of available time course data sets.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:license": "Unlicensed",
+      "sc:name": "Wigwams",
+      "sc:url": "http://cyverseuk.org/applications/wigwams/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btt728",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

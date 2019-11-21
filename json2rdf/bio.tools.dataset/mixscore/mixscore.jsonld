@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mixscore",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_0199"
+    },
+    {
+      "@id": "edam:topic_3517"
+    },
+    {
+      "@id": "edam:topic_3053"
+    }
+  ],
+  "sc:citation": "pubmed:21541012",
+  "sc:description": "Software for disease scoring (combining case-only admixture and case-control SNP association signals) in Admixed Populations such as African Americans.",
+  "sc:featureList": {
+    "@id": "edam:operation_2238"
+  },
+  "sc:name": "MIXSCORE",
+  "sc:url": "http://bogdan.bioinformatics.ucla.edu/software/"
+}

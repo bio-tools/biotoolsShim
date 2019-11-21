@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/JOURNAL.PNTD.0005465",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/vivaxgen",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3516"
+        },
+        {
+          "@id": "edam:topic_3302"
+        },
+        {
+          "@id": "edam:topic_0157"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/JOURNAL.PNTD.0005465"
+        },
+        "pubmed:28362818",
+        "pmcid:PMC5389845"
+      ],
+      "sc:description": "Open access platform for comparative analysis of short tandem repeat genotyping data in Plasmodium vivax populations.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0379"
+        },
+        {
+          "@id": "edam:operation_3196"
+        }
+      ],
+      "sc:name": "VivaxGEN",
+      "sc:url": "http://vivaxgen.menzies.edu.au/"
+    }
+  ]
+}

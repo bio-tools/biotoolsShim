@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/dgva",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_3366"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gks1213"
+        },
+        "pmcid:PMC3531204",
+        "pubmed:23193291"
+      ],
+      "sc:description": "The Database of Genomic Variants archive ((DGVa) is a repository that provides archiving, accessioning and distribution of publicly available genomic structural variants, in all species.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3228"
+        }
+      ],
+      "sc:name": "DGVa",
+      "sc:url": "http://www.ebi.ac.uk/dgva"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1213",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

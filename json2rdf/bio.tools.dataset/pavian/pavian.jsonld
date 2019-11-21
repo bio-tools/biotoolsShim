@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/pavian",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_3174"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/084715"
+      },
+      "sc:description": "Web application for exploring metagenomics classification results, with a special focus on infectious disease diagnosis. Pinpointing pathogens in metagenomics classification results is often complicated by host and laboratory contaminants as well as many non-pathogenic microbiota. Researchers can analyze, display and transform results from the Kraken and Centrifuge classifiers using interactive tables, heatmaps and flow diagrams.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3460"
+        },
+        {
+          "@id": "edam:operation_0226"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "Pavian",
+      "sc:url": "https://ccb.jhu.edu/software/pavian/"
+    },
+    {
+      "@id": "https://doi.org/10.1101/084715",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

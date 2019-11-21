@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/hec",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3056"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_3697"
+    },
+    {
+      "@id": "edam:topic_3053"
+    }
+  ],
+  "sc:citation": "pubmed:18415976",
+  "sc:description": "Tool for simulation of bacterial (more exactly prokaryotic) communities. It is based on the original modeling approach investigated in the Laboratory of molecular-genetic systems at the Institute of Cytology and Genetics (Novosibirsk, Russia).",
+  "sc:featureList": {
+    "@id": "edam:operation_2426"
+  },
+  "sc:name": "HEC",
+  "sc:url": "http://evol-constructor.bionet.nsc.ru/?cat=5&lang=en"
+}

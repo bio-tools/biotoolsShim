@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0160334",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/metlab",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3678"
+        },
+        {
+          "@id": "edam:topic_3174"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/journal.pone.0160334"
+        },
+        "pmcid:PMC4968819",
+        "pubmed:27479078"
+      ],
+      "sc:description": "MetLab is aimed at providing scientists with an integrated tool for experimental design and analysis of viral metagenomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0449"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "MetLab",
+      "sc:url": "https://github.com/norling/metlab"
+    }
+  ]
+}

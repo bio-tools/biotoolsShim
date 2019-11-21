@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/knime-cellular-phenotyping",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Workflow",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2259"
+      },
+      "sc:citation": [
+        "pubmed:28757289",
+        {
+          "@id": "https://doi.org/10.1016/j.jbiotec.2017.07.019"
+        }
+      ],
+      "sc:description": "This KNIME framework is a data mining platform including manifold libraries for image processing (based on Fiji/ImageJ) and data exploration. The platform provides access to workflows and pipelines for (large-scale) automated phenotype analysis.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:name": "KNIME - phenotyping of image data",
+      "sc:url": "https://github.com/manugunkel/KNIME-cellular-phenotyping"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.jbiotec.2017.07.019",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

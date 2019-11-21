@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.omtm.2016.11.003",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/inspiired",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3127"
+        },
+        {
+          "@id": "edam:topic_3295"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.omtm.2016.11.003"
+      },
+      "sc:description": "INSPIIRED is a software suite designed to study viral integration sites and the longitudinal outcomes of gene therapy patients.",
+      "sc:featureList": {
+        "@id": "edam:operation_3197"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "INSPIIRED",
+      "sc:url": "https://github.com/BushmanLab/INSPIIRED"
+    }
+  ]
+}

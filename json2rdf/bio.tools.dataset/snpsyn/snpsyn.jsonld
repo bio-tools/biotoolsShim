@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/snpsyn",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2885"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_3517"
+    },
+    {
+      "@id": "edam:topic_3678"
+    },
+    {
+      "@id": "edam:topic_0634"
+    }
+  ],
+  "sc:citation": "pubmed:21576219",
+  "sc:description": "Tool for the discovery of synergistic pairs of SNPs from large genome-wide case-control association studies data on complex diseases. The web server receives GWAS data submissions, invokes the interaction analysis and returns results. The user can explore details on identified SNP-SNP pairs, perform gene set enrichment analysis and interact with the constructed SNP synergy network.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2436"
+    },
+    {
+      "@id": "edam:operation_0484"
+    },
+    {
+      "@id": "edam:operation_3501"
+    },
+    {
+      "@id": "edam:operation_0276"
+    }
+  ],
+  "sc:name": "SNPsyn",
+  "sc:url": "http://snpsyn.biolab.si"
+}

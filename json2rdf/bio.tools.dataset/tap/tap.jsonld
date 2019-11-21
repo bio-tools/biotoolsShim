@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tap",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2814"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-8-155"
+      },
+      "sc:description": "Validate the local torsion angles of a protein structure.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "TAP",
+      "sc:provider": "ELIXIR-ITA-PADOVA",
+      "sc:url": "http://protein.bio.unipd.it/tap/",
+      "sc:version": "1.1"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-8-155",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

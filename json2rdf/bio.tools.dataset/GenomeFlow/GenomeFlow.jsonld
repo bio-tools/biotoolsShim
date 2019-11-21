@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/GenomeFlow",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0621"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_0654"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty802"
+      },
+      "sc:description": "Graphical tool for modeling and analyzing 3D genome structure.",
+      "sc:featureList": {
+        "@id": "edam:operation_2429"
+      },
+      "sc:name": "GenomeFlow",
+      "sc:url": "https://github.com/jianlin-cheng/GenomeFlow"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty802",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

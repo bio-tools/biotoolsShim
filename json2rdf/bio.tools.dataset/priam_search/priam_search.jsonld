@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkg847",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/priam_search",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3070"
+      },
+      "sc:author": "Thomas Bernard",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkg847"
+      },
+      "sc:contributor": "Daniel Kahn",
+      "sc:description": "Sequence search utility to annotate enzyme genes and generate draft metabolic networks.",
+      "sc:featureList": {
+        "@id": "edam:operation_2945"
+      },
+      "sc:name": "PRIAM search",
+      "sc:provider": [
+        "Lyon 1 University",
+        "univ-lyon1.fr",
+        "INRA",
+        "Pole Rhone-Alpin de Bioinformatique"
+      ],
+      "sc:url": "http://priam.prabi.fr/REL_MAR15/index_mar15.html"
+    }
+  ]
+}

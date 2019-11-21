@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKZ332",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/Cistrome-GO",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web service",
+        "Command-line tool",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0204"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:31053864",
+        "pmcid:PMC6602521",
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKZ332"
+        }
+      ],
+      "sc:description": "Web server for functional enrichment analysis of transcription factor ChIP-seq peaks.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3222"
+        },
+        {
+          "@id": "edam:operation_3223"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "Cistrome-GO",
+      "sc:url": "http://go.cistrome.org/"
+    }
+  ]
+}

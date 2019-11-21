@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.4514",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/netsig",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_2640"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.4514"
+      },
+      "sc:description": "A statistic that integrates protein interaction networks with data from tumor exomes",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_2497"
+        }
+      ],
+      "sc:name": "NetSig",
+      "sc:url": "http://www.lagelab.org/resources/"
+    }
+  ]
+}

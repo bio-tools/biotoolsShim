@@ -1,0 +1,76 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1261/rna.5248604",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/rnahybrid",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2975"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_3128"
+        },
+        {
+          "@id": "edam:data_1584"
+        },
+        {
+          "@id": "edam:data_1276"
+        },
+        {
+          "@id": "edam:data_0880"
+        }
+      ],
+      "sc:additionalType": [
+        "Web application",
+        "Web API",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
+      "sc:author": "Marc Rehmsmeier",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1261/rna.5248604"
+      },
+      "sc:description": "Tool for finding the minimum free energy hybridization of a long and a short RNA. The hybridization is performed in a kind of domain mode, ie. the short sequence is hybridized to the best fitting part of the long one. The tool is primarily meant as a means for microRNA target prediction.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0415"
+        },
+        {
+          "@id": "edam:operation_0349"
+        },
+        {
+          "@id": "edam:operation_0475"
+        },
+        {
+          "@id": "edam:operation_0279"
+        }
+      ],
+      "sc:name": "RNAhybrid",
+      "sc:provider": [
+        "Bielefeld university",
+        "BiBiServ"
+      ],
+      "sc:url": "http://bibiserv.cebitec.uni-bielefeld.de/rnahybrid",
+      "sc:version": "2.2.1"
+    }
+  ]
+}

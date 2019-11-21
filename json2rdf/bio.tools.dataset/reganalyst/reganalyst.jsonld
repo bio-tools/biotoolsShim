@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/reganalyst",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0749"
+    },
+    {
+      "@id": "edam:topic_3489"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:19465400",
+  "sc:description": "Web server that integrates MoPP (Motif Prediction Program), MyPatternFinder and MycoRegDB (mycobacterial promoter and regulatory elements database).",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0440"
+    },
+    {
+      "@id": "edam:operation_0438"
+    }
+  ],
+  "sc:name": "RegAnalyst",
+  "sc:url": "http://www.nii.ac.in/~deepak/RegAnalyst/"
+}

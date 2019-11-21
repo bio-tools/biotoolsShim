@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/micheck",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3697"
+    },
+    {
+      "@id": "edam:topic_3339"
+    },
+    {
+      "@id": "edam:topic_0622"
+    }
+  ],
+  "sc:citation": "pubmed:15980515",
+  "sc:description": "Verify gene annotations in previously published microbial genomes.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3672"
+    },
+    {
+      "@id": "edam:operation_0362"
+    }
+  ],
+  "sc:name": "MICheck",
+  "sc:url": "http://www.genoscope.cns.fr/agc/tools/micheck/"
+}

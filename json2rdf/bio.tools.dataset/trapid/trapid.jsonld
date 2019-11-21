@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/gb-2013-14-12-r134",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/trapid",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1234"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0907"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0659"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/gb-2013-14-12-r134"
+      },
+      "sc:description": "Online tool for the fast, reliable and user-friendly analysis of de novo transcriptomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0492"
+      },
+      "sc:name": "TRAPID",
+      "sc:provider": "PSB",
+      "sc:url": "http://bioinformatics.psb.ugent.be/webtools/trapid/trapid/",
+      "sc:version": "1"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/methylinheritance",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3674"
+    },
+    {
+      "@id": "edam:topic_3295"
+    },
+    {
+      "@id": "edam:topic_2269"
+    },
+    {
+      "@id": "edam:topic_3168"
+    }
+  ],
+  "sc:description": "Permutation analysis, based on Monte Carlo sampling, for testing the hypothesis that the number of conserved differentially methylated elements, between several generations, is associated to an effect inherited from a treatment and that stochastic effect can be dismissed.",
+  "sc:featureList": {
+    "@id": "edam:operation_3809"
+  },
+  "sc:license": "Artistic-2.0",
+  "sc:name": "methylInheritance",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/methylInheritance.html",
+  "sc:version": "1.4.0"
+}

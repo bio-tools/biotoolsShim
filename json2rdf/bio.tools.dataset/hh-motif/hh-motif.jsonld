@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/hh-motif",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC5570144",
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKX341"
+        },
+        "pubmed:28460141"
+      ],
+      "sc:description": "Protein motif discovery method that combines hidden Markov model (HH-) comparisons with a hierarchical representation of identified SLiMs in motif trees.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3644"
+        },
+        {
+          "@id": "edam:operation_0238"
+        },
+        {
+          "@id": "edam:operation_0476"
+        }
+      ],
+      "sc:name": "HH-MOTiF",
+      "sc:url": "http://hh-motif.ibdm.univ-mrs.fr/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKX341",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

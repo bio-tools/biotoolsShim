@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/bz-rates",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0622"
+    },
+    {
+      "@id": "edam:topic_2533"
+    },
+    {
+      "@id": "edam:topic_2269"
+    }
+  ],
+  "sc:citation": "pubmed:26338660",
+  "sc:description": "Web-tool that allows to compute mutation rates from fluctuation assays.",
+  "sc:featureList": {
+    "@id": "edam:operation_3799"
+  },
+  "sc:name": "bz-rates",
+  "sc:url": "http://www.lcqb.upmc.fr/bzrates"
+}

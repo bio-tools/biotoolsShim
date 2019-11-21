@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/scmmtp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0820"
+    },
+    {
+      "@id": "edam:topic_0122"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0123"
+    }
+  ],
+  "sc:citation": "pubmed:26677931",
+  "sc:description": "A novel method  based on the scoring card method (SCM) using dipeptide composition to identify and characterize MTPs from an existing dataset.",
+  "sc:featureList": {
+    "@id": "edam:operation_0269"
+  },
+  "sc:name": "SCMMTP",
+  "sc:url": "http://iclab.life.nctu.edu.tw/iclab_webtools/SCMMTP/"
+}

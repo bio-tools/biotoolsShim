@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/978-3-642-12683-3_28",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/idba",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0196"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-3-642-12683-3_28"
+      },
+      "sc:description": "A short read assembler based on iterative De Bruijn graph. It is developed under 64-bit Linux, but should be suitable for all unix-like system.",
+      "sc:featureList": {
+        "@id": "edam:operation_0310"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "IDBA",
+      "sc:url": "http://i.cs.hku.hk/%7Ealse/idba"
+    }
+  ]
+}

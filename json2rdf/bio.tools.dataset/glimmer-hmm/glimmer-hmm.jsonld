@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bth315",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/glimmer-hmm",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0114"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bth315"
+      },
+      "sc:description": "A new gene finder based on a Generalized Hidden Markov Model. Although the gene finder conforms to the overall mathematical framework of a GHMM, additionally it incorporates splice site models adapted from the GeneSplicer program and a decision tree adapted from GlimmerM. It also utilizes Interpolated Markov Models for the coding and noncoding models . Currently, GlimmerHMM's GHMM structure includes introns of each phase, intergenic regions, and four types of exons.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2454"
+        },
+        {
+          "@id": "edam:operation_3662"
+        }
+      ],
+      "sc:license": "Artistic-1.0",
+      "sc:name": "Glimmer-HMM",
+      "sc:url": "https://ccb.jhu.edu/software/glimmerhmm/"
+    }
+  ]
+}

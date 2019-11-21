@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTU144",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/gossto",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_3053"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTU144"
+        },
+        "pmcid:PMC4103586",
+        "pubmed:24659104"
+      ],
+      "sc:description": "Calculating semantic similarities on the Gene Ontology.",
+      "sc:featureList": {
+        "@id": "edam:operation_3352"
+      },
+      "sc:name": "GOssTo",
+      "sc:url": "http://www.paccanarolab.org/gosstoweb/"
+    }
+  ]
+}

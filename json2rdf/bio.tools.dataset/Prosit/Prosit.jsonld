@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Prosit",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/s41592-019-0426-7"
+        },
+        "pubmed:31133760"
+      ],
+      "sc:description": "Proteome-wide prediction of peptide tandem mass spectra by deep learning.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3627"
+        },
+        {
+          "@id": "edam:operation_3649"
+        },
+        {
+          "@id": "edam:operation_3801"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "Prosit",
+      "sc:url": "https://www.proteomicsdb.org/prosit/"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41592-019-0426-7",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

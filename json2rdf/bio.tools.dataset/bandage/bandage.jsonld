@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv383",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bandage",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_0925"
+      },
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:author": "Ryan Wick",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv383"
+      },
+      "sc:contributor": [
+        "Justin Zobel",
+        "Rayan Chikhi",
+        "Mark Schultz",
+        "Kathryn Holt",
+        "Elmar Pruesse"
+      ],
+      "sc:description": "GUI program that allows users to interact with the assembly graphs made by de novo assemblers such as Velvet, SPAdes, MEGAHIT and others. It visualises assembly graphs, with connections, using graph layout algorithms.",
+      "sc:featureList": {
+        "@id": "edam:operation_3184"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "Bandage",
+      "sc:provider": [
+        "unimelb.edu.au",
+        "University of Melbourne, Australia"
+      ],
+      "sc:url": "https://rrwick.github.io/Bandage/",
+      "sc:version": "1"
+    }
+  ]
+}

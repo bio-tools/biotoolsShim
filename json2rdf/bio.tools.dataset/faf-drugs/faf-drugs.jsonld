@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/faf-drugs",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0209"
+    },
+    {
+      "@id": "edam:topic_3303"
+    },
+    {
+      "@id": "edam:topic_3336"
+    },
+    {
+      "@id": "edam:topic_3407"
+    }
+  ],
+  "sc:citation": "pubmed:16845110",
+  "sc:description": "Process compound collections via simple absorption, distribution, metabolism, excretion and toxicity (ADME/tox) filtering rules to aid in the drug discovery process.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2409"
+    },
+    {
+      "@id": "edam:operation_0387"
+    },
+    {
+      "@id": "edam:operation_3761"
+    },
+    {
+      "@id": "edam:operation_0482"
+    },
+    {
+      "@id": "edam:operation_3695"
+    }
+  ],
+  "sc:name": "FAF-Drugs",
+  "sc:url": "http://fafdrugs4.mti.univ-paris-diderot.fr/"
+}

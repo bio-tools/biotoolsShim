@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1107/s0021889809045701",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/xia2",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_2828"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1107/s0021889809045701"
+      },
+      "sc:description": "Automated data reduction system designed to work from raw diffraction data and a little metadata, and produce usefully reduced data in a form suitable for immediately starting phasing and structure solution.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3445"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:name": "XIA2",
+      "sc:provider": "Instruct",
+      "sc:url": "https://xia2.github.io/",
+      "sc:version": "1"
+    }
+  ]
+}

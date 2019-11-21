@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/OGRDB",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3400"
+        },
+        {
+          "@id": "edam:topic_0804"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:31566225",
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKZ822"
+        }
+      ],
+      "sc:description": "a reference database of inferred immune receptor genes | Welcome to OGRDB - the curated Open Germline Receptor Database! | OGRDB is now accepting V- and J- sequence inferences from the human BCR light and heavy chain. Analysis scripts and submission pages have been updated accordingly",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3431"
+        }
+      ],
+      "sc:name": "OGRDB",
+      "sc:url": "https://ogrdb.airr-community.org"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKZ822",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

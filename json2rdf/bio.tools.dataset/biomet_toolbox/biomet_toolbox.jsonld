@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/biomet_toolbox",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": [
+    "Web application",
+    "Suite"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_3407"
+    }
+  ],
+  "sc:citation": [
+    "pmcid:PMC4086127",
+    "pubmed:20483918"
+  ],
+  "sc:description": "BioMet Toolbox 2.0 is a web server for genome-wide analysis of metabolism and omics data. BioMet Toolbox exploits the capabilites of metabolic networks described in genome scale models using flux analysis and random sampling, and gene set analysis and basic microarray analysis, thereby providing an integrated analysis to identify coregulated subnetwork structures within the metabolic network and also for identifying statistically significant gene sets enabling biological interpretation.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3660"
+    },
+    {
+      "@id": "edam:operation_2436"
+    },
+    {
+      "@id": "edam:operation_2495"
+    },
+    {
+      "@id": "edam:operation_2426"
+    },
+    {
+      "@id": "edam:operation_2497"
+    },
+    {
+      "@id": "edam:operation_3715"
+    }
+  ],
+  "sc:name": "BioMet Toolbox",
+  "sc:url": "http://biomet-toolbox.chalmers.se/"
+}

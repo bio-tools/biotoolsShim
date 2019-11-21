@@ -1,0 +1,129 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Kmasker",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_0850"
+        },
+        {
+          "@id": "edam:data_3495"
+        },
+        {
+          "@id": "edam:data_3494"
+        },
+        {
+          "@id": "edam:data_0857"
+        },
+        {
+          "@id": "edam:data_3002"
+        }
+      ],
+      "edam:has_output": [
+        {
+          "@id": "edam:data_2977"
+        },
+        {
+          "@id": "edam:data_3494"
+        },
+        {
+          "@id": "edam:data_2914"
+        },
+        {
+          "@id": "edam:data_1361"
+        },
+        {
+          "@id": "edam:data_1772"
+        },
+        {
+          "@id": "edam:data_3002"
+        }
+      ],
+      "sc:additionalType": [
+        "Web service",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0157"
+        }
+      ],
+      "sc:author": [
+        {
+          "@id": "https://orcid.org/0000-0001-5444-9282"
+        },
+        "Markus Schwalbe",
+        {
+          "@id": "https://orcid.org/0000-0003-1073-6719"
+        },
+        {
+          "@id": "https://orcid.org/0000-0002-2177-8781"
+        }
+      ],
+      "sc:contributor": [
+        {
+          "@id": "https://orcid.org/0000-0002-2177-8781"
+        },
+        "Markus Schwalbe"
+      ],
+      "sc:description": "Kmasker plants is a tool for the automatic detection of sequence regions with meaningful k-mer characteristics. This can be sequences with highly abundant k-mer patterns (repeats), regions with diverging k-mer patterns between two studied WGS samples or segments with high target specificity.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2451"
+        },
+        {
+          "@id": "edam:operation_2428"
+        },
+        {
+          "@id": "edam:operation_0463"
+        },
+        {
+          "@id": "edam:operation_3472"
+        },
+        {
+          "@id": "edam:operation_0237"
+        },
+        {
+          "@id": "edam:operation_0379"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "Kmasker",
+      "sc:url": "https://kmasker.ipk-gatersleben.de/",
+      "sc:version": [
+        "1.1.1",
+        "1.1.0"
+      ]
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-2177-8781",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0003-1073-6719",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5444-9282",
+      "@type": "schema:Person"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/MOLGENIS_Research",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3068"
+        },
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_3697"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty742"
+      },
+      "sc:description": "Web-application to collect, manage, analyze, visualize and share large and complex biomedical datasets, without the need for advanced bioinformatics skills.",
+      "sc:featureList": {
+        "@id": "edam:operation_3501"
+      },
+      "sc:license": "Other",
+      "sc:name": "MOLGENIS Research",
+      "sc:url": "http://wiki.gcc.rug.nl/wiki/research"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty742",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

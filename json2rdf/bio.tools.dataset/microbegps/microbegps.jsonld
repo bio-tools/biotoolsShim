@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/microbegps",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3174"
+    },
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_3301"
+    }
+  ],
+  "sc:citation": "pubmed:25643362",
+  "sc:description": "Bioinformatics tool for the analysis of metagenomic sequencing data. The goal is to profile the composition of metagenomic communities as accurately as possible and present the results to the user in a convenient manner.",
+  "sc:featureList": {
+    "@id": "edam:operation_3200"
+  },
+  "sc:name": "MicrobeGPS",
+  "sc:url": "http://sourceforge.net/projects/microbegps/"
+}

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1002",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/hamap-scan",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku1002"
+      },
+      "sc:description": "Scan several protein sequences or a whole genome (all ORFs) against HAMAP family profiles. Sequences that match HAMAP profiles will be annotated in the UniProtKB format by the associated annotation rules.",
+      "sc:featureList": {
+        "@id": "edam:operation_3672"
+      },
+      "sc:name": "HAMAP-Scan",
+      "sc:url": "http://hamap.expasy.org/hamap_scan/"
+    }
+  ]
+}

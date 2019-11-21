@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty102",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/metabocraft",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty102"
+      },
+      "sc:description": "Minecraft plugin which creates immersive visualizations of metabolic networks and pathways in a 3D environment and allows the results of user experiments to be viewed in this context, presenting a novel approach to exploring the metabolome.",
+      "sc:featureList": {
+        "@id": "edam:operation_3083"
+      },
+      "sc:name": "MetaboCraft",
+      "sc:url": "https://github.com/argymeg/MetaboCraft/"
+    }
+  ]
+}

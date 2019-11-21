@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts390",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/loctree2",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2886"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0896"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_2229"
+        },
+        {
+          "@id": "edam:topic_0123"
+        }
+      ],
+      "sc:author": [
+        "Tobias Hamp",
+        "Tatyana Goldberg"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts390"
+      },
+      "sc:contributor": "Burkhard Rost",
+      "sc:description": "Framework to predict localization in life's three domains, including globular and membrane proteins (3 classes for archaea; 6 for bacteria and 18 for eukaryota). The resulting method, works well even for protein fragments. It uses a hierarchical system of support vector machines that imitates the cascading mechanism of cellular sorting.The method also accurately distinguishes membrane and non-membrane proteins.",
+      "sc:featureList": {
+        "@id": "edam:operation_2489"
+      },
+      "sc:name": "LocTree2",
+      "sc:provider": [
+        "tum.de",
+        "Technische Universität München"
+      ],
+      "sc:url": "https://rostlab.org/owiki/index.php/Loctree2",
+      "sc:version": "1"
+    }
+  ]
+}

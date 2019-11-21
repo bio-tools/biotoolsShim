@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s13059-014-0550-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/deseq2",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3308"
+      },
+      "sc:author": [
+        "Simon Anders",
+        "Wolfgang Huber",
+        "Michael Love"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13059-014-0550-8"
+      },
+      "sc:description": "R/Bioconductor package for differential gene expression analysis based on the negative binomial distribution. Estimate variance-mean dependence in count data from high-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.",
+      "sc:featureList": {
+        "@id": "edam:operation_3223"
+      },
+      "sc:license": "LGPL-2.1",
+      "sc:name": "DESeq2",
+      "sc:provider": "hdhub",
+      "sc:url": "http://bioconductor.org/packages/DESeq2/",
+      "sc:version": "1"
+    }
+  ]
+}

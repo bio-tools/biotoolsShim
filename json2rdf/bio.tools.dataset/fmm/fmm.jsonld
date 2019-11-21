@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/fmm",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3407"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_3489"
+    }
+  ],
+  "sc:citation": "pubmed:19401437",
+  "sc:description": "From Metabolite to Metabolite (FMM) is a web server for metabolic pathway reconstruction from one metabolite to another metabolite in a different species based on the KEGG pathway and other integrated databases.",
+  "sc:featureList": {
+    "@id": "edam:operation_3660"
+  },
+  "sc:name": "FMM",
+  "sc:url": "http://FMM.mbc.nctu.edu.tw/"
+}

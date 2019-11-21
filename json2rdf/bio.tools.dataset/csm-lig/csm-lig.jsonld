@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/csm-lig",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0154"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:27151202",
+        {
+          "@id": "https://doi.org/10.1093/NAR/GKW390"
+        },
+        "pmcid:PMC4987933"
+      ],
+      "sc:description": "Web server for assessing and comparing protein–small molecule affinities.",
+      "sc:featureList": {
+        "@id": "edam:operation_0482"
+      },
+      "sc:name": "CSM-lig",
+      "sc:url": "http://biosig.unimelb.edu.au/csm_lig/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/NAR/GKW390",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

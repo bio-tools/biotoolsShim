@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/malaria_data_small_molecule_search",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_3490"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0962"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0621"
+        }
+      ],
+      "sc:author": "ChEMBL Team",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1352"
+      },
+      "sc:description": "Search against small molecules stored in Malaria Data database.",
+      "sc:featureList": {
+        "@id": "edam:operation_0339"
+      },
+      "sc:name": "Malaria Data Small Molecule Search",
+      "sc:provider": "EMBL-EBI",
+      "sc:url": "https://www.ebi.ac.uk/chembl/malaria/compound",
+      "sc:version": "1"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/inspect",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_3511"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:25957348",
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btv288"
+        }
+      ],
+      "sc:description": "INference of Synthesis, Processing and dEgradation rates in Course-Time experiments analyses 4sU-seq and RNA-seq time-course data in order to evaluate synthesis, processing and degradation rates and asses via modeling the rates that determines changes in mature mRNA levels.",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "INSPEcT",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/INSPEcT.html",
+      "sc:version": "1.4.0"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv288",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/centroidfold",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0659"
+    },
+    {
+      "@id": "edam:topic_0097"
+    },
+    {
+      "@id": "edam:topic_0082"
+    },
+    {
+      "@id": "edam:topic_0099"
+    },
+    {
+      "@id": "edam:topic_3542"
+    }
+  ],
+  "sc:citation": "pubmed:19435882",
+  "sc:description": "Recognizing the growing role for non-coding RNAs (ncRNAs) in cells, the CentroidFold web server predicts RNA secondary structure from input sequence data (single or multiple alignments).",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0278"
+    },
+    {
+      "@id": "edam:operation_0502"
+    },
+    {
+      "@id": "edam:operation_2439"
+    },
+    {
+      "@id": "edam:operation_0267"
+    }
+  ],
+  "sc:name": "CentroidFold",
+  "sc:url": "http://rtools.cbrc.jp/centroidfold/"
+}

@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/transview",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "This package provides efficient tools to generate, access and display read densities of sequencing based data sets such as from RNA-Seq and ChIP-Seq.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0335"
+        },
+        {
+          "@id": "edam:operation_0258"
+        },
+        {
+          "@id": "edam:operation_3680"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "TransView",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/TransView.html",
+      "sc:version": "1.22.0"
+    }
+  ]
+}

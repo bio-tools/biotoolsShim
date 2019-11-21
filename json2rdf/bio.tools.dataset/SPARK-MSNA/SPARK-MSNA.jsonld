@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/S41598-019-42966-5",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/SPARK-MSNA",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3474"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1038/S41598-019-42966-5"
+        },
+        "pmcid:PMC6488671",
+        "pubmed:31036850"
+      ],
+      "sc:description": "Efficient algorithm on Apache Spark for aligning multiple similar DNA/RNA sequences with supervised learning.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0323"
+        },
+        {
+          "@id": "edam:operation_0491"
+        },
+        {
+          "@id": "edam:operation_0492"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "SPARK-MSNA",
+      "sc:url": "https://sourceforge.net/projects/spark-msna/"
+    }
+  ]
+}

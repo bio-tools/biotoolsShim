@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/scop",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_0623"
+    },
+    {
+      "@id": "edam:topic_0736"
+    },
+    {
+      "@id": "edam:topic_0082"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:14681400",
+    "pubmed:11752311",
+    "pubmed:10592240",
+    "pubmed:9847194",
+    "pubmed:7723011",
+    "pubmed:18000004"
+  ],
+  "sc:description": "Database created by a combination of manual inspection and automated methods. Comprehensive ordering of all proteins of known structure, according to evolutionary and structural relationships.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2996"
+    },
+    {
+      "@id": "edam:operation_2487"
+    },
+    {
+      "@id": "edam:operation_0303"
+    },
+    {
+      "@id": "edam:operation_3092"
+    },
+    {
+      "@id": "edam:operation_2990"
+    }
+  ],
+  "sc:name": "SCOP",
+  "sc:url": "http://scop.mrc-lmb.cam.ac.uk/scop/"
+}

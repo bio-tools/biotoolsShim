@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/RECIST_1.1",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3384"
+        },
+        {
+          "@id": "edam:topic_3452"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/S12874-019-0727-7"
+        },
+        "pmcid:PMC6498480",
+        "pubmed:31046712"
+      ],
+      "sc:description": "Measurement variability calculator.",
+      "sc:featureList": {
+        "@id": "edam:operation_3799"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "RECIST 1.1",
+      "sc:url": "http://studyanalysis2017.pythonanywhere.com/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S12874-019-0727-7",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

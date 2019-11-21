@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/adgo",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3277"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_0157"
+    },
+    {
+      "@id": "edam:topic_3518"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:16837524",
+    "pubmed:21624890"
+  ],
+  "sc:description": "ADGO is a web tool that provides composite interpretations for microarray data comparing two sample groups. It also provides composite interpretations and enrichment analysis for lists of genes from diverse sources of biological information.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3762"
+    },
+    {
+      "@id": "edam:operation_2436"
+    },
+    {
+      "@id": "edam:operation_2495"
+    },
+    {
+      "@id": "edam:operation_3223"
+    }
+  ],
+  "sc:name": "ADGO",
+  "sc:url": "http://www.btool.org/ADGO2"
+}

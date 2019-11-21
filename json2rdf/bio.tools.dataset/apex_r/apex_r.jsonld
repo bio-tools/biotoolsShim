@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1111/1755-0998.12567",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/apex_r",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_3365"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:27417145",
+        "pmcid:PMC5215480",
+        {
+          "@id": "https://doi.org/10.1111/1755-0998.12567"
+        }
+      ],
+      "sc:description": "apex is an R package that can be used for phylogenetic studies. It implements new object classes, which extend existing standards for storing DNA and amino acid sequences, and provides a number of convenient tools for handling, visualizing and analysing these data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3802"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "apex",
+      "sc:url": "https://cran.r-project.org/web/packages/apex/index.html",
+      "sc:version": "1.0.3"
+    }
+  ]
+}

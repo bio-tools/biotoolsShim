@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/moose",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3524"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_3304"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:19129924",
+  "sc:description": "Core of a modern software platform for the simulation of neural systems ranging from subcellular components and biochemical reactions to complex models of single neurons, large networks, and systems-level processes.",
+  "sc:featureList": {
+    "@id": "edam:operation_3562"
+  },
+  "sc:name": "Moose",
+  "sc:url": "http://moose.ncbs.res.in/"
+}

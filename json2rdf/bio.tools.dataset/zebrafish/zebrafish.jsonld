@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/zebrafish",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3383"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-018-2166-6"
+      },
+      "sc:description": "This work developed a fully automatic method to calculate heart rate, an important parameter to analyze cardiac function, from videos. It contains several filters to identify the heart region, to reduce video noise and to calculate heart rates.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:name": "zebrafish",
+      "sc:url": "https://github.com/mbilab/zebrafish"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-018-2166-6",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

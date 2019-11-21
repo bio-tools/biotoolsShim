@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mindboggle",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_3442"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2048"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3444"
+        },
+        {
+          "@id": "edam:topic_3334"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1005350"
+      },
+      "sc:description": "An open source brain morphometry platform for analyzing human brain image data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3443"
+        },
+        {
+          "@id": "edam:operation_3553"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "Mindboggle",
+      "sc:url": "http://mindboggle.info/"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005350",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

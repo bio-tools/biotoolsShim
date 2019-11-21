@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/ompdb",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0081"
+    },
+    {
+      "@id": "edam:topic_0078"
+    }
+  ],
+  "sc:citation": "pubmed:20952406",
+  "sc:description": "OMPdb is a database of beta-barrel outer membrane proteins from Gram-negative bacteria",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2422"
+    },
+    {
+      "@id": "edam:operation_2421"
+    }
+  ],
+  "sc:name": "OMPdb",
+  "sc:url": "http://www.ompdb.org/",
+  "sc:version": "1.3"
+}

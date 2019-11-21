@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/redi",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3369"
+    },
+    {
+      "@id": "edam:topic_3524"
+    },
+    {
+      "@id": "edam:topic_3292"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:21098882",
+  "sc:description": "The software simulates biochemical systems at the mesoscopic scale of interaction based on the stochastic model of reaction-diffusion systems, in which the diffusion coefficients are function of the local concentration, viscosity and frictional forces.",
+  "sc:featureList": {
+    "@id": "edam:operation_2426"
+  },
+  "sc:name": "Redi",
+  "sc:url": "http://www.cosbi.eu/research/prototypes/redi"
+}

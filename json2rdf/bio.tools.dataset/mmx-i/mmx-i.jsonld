@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mmx-i",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2828"
+        },
+        {
+          "@id": "edam:topic_3452"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1107/S1600577516003052"
+        },
+        "pmcid:PMC4853872",
+        "pubmed:27140159"
+      ],
+      "sc:description": "MMX-I is a data-processing software for multimodal X-ray imaging and tomography.",
+      "sc:featureList": {
+        "@id": "edam:operation_3443"
+      },
+      "sc:license": "MIT",
+      "sc:name": "MMX-I",
+      "sc:url": "https://bitbucket.org/antoinebergamaschi/mmx-i/overview"
+    },
+    {
+      "@id": "https://doi.org/10.1107/S1600577516003052",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

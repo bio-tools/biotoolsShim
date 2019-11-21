@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/lipid_maps",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3407"
+    },
+    {
+      "@id": "edam:topic_0153"
+    },
+    {
+      "@id": "edam:topic_0154"
+    },
+    {
+      "@id": "edam:topic_0102"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:15722563",
+    "pubmed:17584797",
+    "pubmed:16381922",
+    "pubmed:17098933"
+  ],
+  "sc:description": "LIPID Metabolites And Pathways Strategy (LIPID MAPS) is a consortium that presents a collection of tools for performing tasks such as drawing lipid structures and predicting possible structures from mass spectrometry data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0474"
+    },
+    {
+      "@id": "edam:operation_2429"
+    },
+    {
+      "@id": "edam:operation_2422"
+    },
+    {
+      "@id": "edam:operation_3282"
+    }
+  ],
+  "sc:name": "LIPID MAPS",
+  "sc:url": "http://www.lipidmaps.org/tools/index.html"
+}

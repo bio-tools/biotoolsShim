@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/sdphapinfer",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0625"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_3053"
+    }
+  ],
+  "sc:citation": "pubmed:16379533",
+  "sc:description": "The tool formulates the haplotype inference problem as the following integer quadratic programming (IQP) problem. The objective function is to minimize the number of haplotypes, and the constraint functions are to resolve each genotype.",
+  "sc:featureList": {
+    "@id": "edam:operation_0487"
+  },
+  "sc:name": "SDPHapInfer",
+  "sc:url": "http://www.csie.ntu.edu.tw/~kmchao/tools/HapInfer/index.htm#SDPHapInfer"
+}

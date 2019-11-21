@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/ligmerge",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3336"
+    },
+    {
+      "@id": "edam:topic_0209"
+    },
+    {
+      "@id": "edam:topic_2275"
+    }
+  ],
+  "sc:citation": "pubmed:22594624",
+  "sc:description": "Novel drug-design algorithm which combines structures of known binders to generate similar but structurally distinct compounds that can be tested for binding.",
+  "sc:featureList": {
+    "@id": "edam:operation_2430"
+  },
+  "sc:name": "LigMerge",
+  "sc:url": "http://nbcr.ucsd.edu/data/sw/hosted/ligmerge/"
+}

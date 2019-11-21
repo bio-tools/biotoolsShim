@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/gigascience/gix090",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/indexcov",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3673"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/gigascience/gix090"
+      },
+      "sc:description": "Quickly estimate coverage from a whole-genome bam or cram index. A bam index has 16KB resolution so that's what this gives, but it provides what appears to be a high-quality coverage estimate in seconds per genome.",
+      "sc:featureList": {
+        "@id": "edam:operation_3218"
+      },
+      "sc:license": "MIT",
+      "sc:name": "Indexcov",
+      "sc:url": "https://github.com/brentp/goleft/tree/master/indexcov#indexcov"
+    }
+  ]
+}

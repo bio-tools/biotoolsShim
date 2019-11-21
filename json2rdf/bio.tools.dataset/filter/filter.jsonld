@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts311",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/filter",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0769"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts311"
+      },
+      "sc:description": "Produce a filtered version of an sRNA dataset, controlled by several user-defined criteria, including sequence length, abundance, complexity, transfer and ribosomal RNA removal.",
+      "sc:featureList": {
+        "@id": "edam:operation_3187"
+      },
+      "sc:license": "MIT",
+      "sc:name": "Filter",
+      "sc:url": "http://srna-workbench.cmp.uea.ac.uk/filter-2/"
+    }
+  ]
+}

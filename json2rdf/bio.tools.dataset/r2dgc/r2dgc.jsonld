@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/r2dgc",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_3407"
+        },
+        {
+          "@id": "edam:topic_3370"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx825"
+      },
+      "sc:description": "Provides functions for aligning 2D gas chromatography mass spectrometry derived metabolite peaks obtained from primary processing and generates an alignment table that allows for a comparison of common peaks across samples and metabolite identification.",
+      "sc:featureList": {
+        "@id": "edam:operation_3214"
+      },
+      "sc:license": "MIT",
+      "sc:name": "R2DGC",
+      "sc:url": "https://cran.r-project.org/web/packages/R2DGC/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx825",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

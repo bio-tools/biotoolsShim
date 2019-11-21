@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku489",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/UNCeqR",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku489"
+      },
+      "sc:description": "Method and associated software for discovering somatic mutations using the integration of DNA and RNA sequencing.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_0452"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "UNCeqR",
+      "sc:url": "https://lbc.unc.edu/~mwilkers/unceqr_dist/"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1073/pnas.0337561100",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.871403",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/sgp2",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2977"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_1276"
+      },
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3511"
+      },
+      "sc:author": [
+        "Josep Abril",
+        "Roderic Guigo",
+        "Genis Parra"
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1101/gr.871403"
+        },
+        {
+          "@id": "https://doi.org/10.1073/pnas.0337561100"
+        }
+      ],
+      "sc:description": "Program to predict genes by comparing anonymous genomic sequences from different species. It combines tblastx, a sequence similarity search program, with geneid, an ab initio gene prediction program.",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "SGP2",
+      "sc:provider": [
+        "Lab Roderic Guigo Group",
+        "crg.eu"
+      ],
+      "sc:url": "http://big.crg.cat/services/sgp2",
+      "sc:version": "1.1"
+    }
+  ]
+}

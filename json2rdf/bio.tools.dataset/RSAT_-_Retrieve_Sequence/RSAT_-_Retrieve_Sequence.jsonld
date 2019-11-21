@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/RSAT_-_Retrieve_Sequence",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2295"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_3494"
+      },
+      "sc:additionalType": [
+        "Web API",
+        "Command-line tool",
+        "Web application",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0204"
+      },
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0002-8799-8584"
+      },
+      "sc:citation": [
+        "pubmed:10641039",
+        {
+          "@id": "https://doi.org/10.1093/nar/gky317"
+        }
+      ],
+      "sc:description": "Starting from a list of genes, returns upstream or downstream sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:name": "RSAT - Retrieve Sequence",
+      "sc:url": "http://pedagogix-tagc.univ-mrs.fr/rsat/retrieve-seq_form.cgi"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky317",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0002-8799-8584",
+      "@type": "schema:Person"
+    }
+  ]
+}

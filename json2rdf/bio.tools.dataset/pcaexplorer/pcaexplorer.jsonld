@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/pcaexplorer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.18547/gcb.2017.vol3.iss1.e39"
+      },
+      "sc:description": "This package provides functionality for interactive visualization of RNA-seq datasets based on Principal Components Analysis. The methods provided allow for quick information extraction and effective data exploration. A Shiny application encapsulates the whole analysis.",
+      "sc:featureList": {
+        "@id": "edam:operation_2939"
+      },
+      "sc:license": "MIT",
+      "sc:name": "pcaExplorer",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/pcaExplorer.html",
+      "sc:version": "2.0.0"
+    },
+    {
+      "@id": "https://doi.org/10.18547/gcb.2017.vol3.iss1.e39",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty075",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/chromswitch",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0085"
+        },
+        {
+          "@id": "edam:topic_3295"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty075"
+      },
+      "sc:description": "Flexible method to detect chromatin state switches between samples in two biological conditions in a specific genomic region of interest given peaks or chromatin state calls from ChIP-seq data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2424"
+        },
+        {
+          "@id": "edam:operation_3432"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "chromswitch",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/chromswitch.html",
+      "sc:version": "1.2.1"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/978-1-59745-535-0_26",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bioperl",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3372"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-1-59745-535-0_26"
+      },
+      "sc:description": "A collection of Perl modules that facilitate the development of Perl scripts for bioinformatics applications.  It provides software modules for many of the typical tasks of bioinformatics programming.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_3763"
+        }
+      ],
+      "sc:name": "BioPerl",
+      "sc:url": "http://bioperl.org/"
+    }
+  ]
+}

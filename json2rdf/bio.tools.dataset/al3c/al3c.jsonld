@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/al3c",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3500"
+        },
+        {
+          "@id": "edam:topic_3855"
+        },
+        {
+          "@id": "edam:topic_3316"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv393"
+      },
+      "sc:description": "Software for parameter inference using Approximate Bayesian Computation.",
+      "sc:license": "Unlicense",
+      "sc:name": "al3c",
+      "sc:url": "https://github.com/ahstram/al3c"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv393",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

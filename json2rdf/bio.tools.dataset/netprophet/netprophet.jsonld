@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx563",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/netprophet",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx563"
+      },
+      "sc:description": "Mapping transcription factor networks by exploiting scalable data resources.",
+      "sc:featureList": {
+        "@id": "edam:operation_0282"
+      },
+      "sc:name": "NetProphet",
+      "sc:url": "https://github.com/yiming-kang/NetProphet_2.0",
+      "sc:version": "2.0"
+    }
+  ]
+}

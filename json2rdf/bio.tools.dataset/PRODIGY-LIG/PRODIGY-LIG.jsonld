@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTY816",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/PRODIGY-LIG",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_2275"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTY816"
+        },
+        "pubmed:31051038"
+      ],
+      "sc:description": "Large-scale prediction of binding affinity in protein-small ligand complexes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2492"
+        },
+        {
+          "@id": "edam:operation_0482"
+        },
+        {
+          "@id": "edam:operation_0272"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "PRODIGY-LIG",
+      "sc:url": "http://milou.science.uu.nl/services/PRODIGY-LIG"
+    }
+  ]
+}

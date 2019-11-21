@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/MASCOT",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": [
+    {
+      "@id": "edam:data_0944"
+    },
+    {
+      "@id": "edam:data_0943"
+    }
+  ],
+  "edam:has_output": {
+    "@id": "edam:data_0945"
+  },
+  "sc:additionalType": [
+    "Command-line tool",
+    "Web application"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_3520"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:12422359",
+    "pubmed:21447708",
+    "pubmed:10612281"
+  ],
+  "sc:description": "The leading software package for protein identification and characterisation using mass spectrometry data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3801"
+    },
+    {
+      "@id": "edam:operation_2929"
+    },
+    {
+      "@id": "edam:operation_3647"
+    },
+    {
+      "@id": "edam:operation_3639"
+    },
+    {
+      "@id": "edam:operation_3646"
+    },
+    {
+      "@id": "edam:operation_3649"
+    },
+    {
+      "@id": "edam:operation_3643"
+    },
+    {
+      "@id": "edam:operation_3767"
+    },
+    {
+      "@id": "edam:operation_3641"
+    }
+  ],
+  "sc:license": "Proprietary",
+  "sc:name": "Mascot Server",
+  "sc:url": "http://www.matrixscience.com/server.html"
+}

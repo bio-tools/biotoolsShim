@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1472-6807-10-23",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/cbspredict",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2814"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1472-6807-10-23"
+      },
+      "sc:description": "Given a protein structure (PDB file), cbsPredict will identify potential carbohydrate-binding sites based on detection of coplanar, aromatic residues located on the protein surface.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2423"
+        },
+        {
+          "@id": "edam:operation_2479"
+        }
+      ],
+      "sc:name": "cbsPredict",
+      "sc:url": "http://doxey.uwaterloo.ca/cgi-bin/cbsPredict.cgi"
+    }
+  ]
+}

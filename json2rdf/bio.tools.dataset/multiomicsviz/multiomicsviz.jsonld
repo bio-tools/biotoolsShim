@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/multiomicsviz",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3391"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:description": "Calculate the spearman correlation between the source omics data and other target omics data, identify the significant correlations and plot the significant correlations on the heat map in which the x-axis and y-axis are ordered by the chromosomal location.",
+  "sc:featureList": {
+    "@id": "edam:operation_0337"
+  },
+  "sc:license": "LGPL-2.0",
+  "sc:name": "multiOmicsViz",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/multiOmicsViz.html",
+  "sc:version": "1.4.0"
+}

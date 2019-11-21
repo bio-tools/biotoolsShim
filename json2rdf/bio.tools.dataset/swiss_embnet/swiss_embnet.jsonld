@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/swiss_embnet",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0091"
+    },
+    {
+      "@id": "edam:topic_0078"
+    }
+  ],
+  "sc:citation": "pubmed:12824417",
+  "sc:description": "Web portal with links and access to various bioinformatics tools and links to institutes that are involved in bioinformatics.",
+  "sc:featureList": {
+    "@id": "edam:operation_2479"
+  },
+  "sc:name": "Swiss EMBnet",
+  "sc:url": "http://www.ch.embnet.org/"
+}

@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/hpeak",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3169"
+    },
+    {
+      "@id": "edam:topic_3511"
+    },
+    {
+      "@id": "edam:topic_0128"
+    },
+    {
+      "@id": "edam:topic_0654"
+    }
+  ],
+  "sc:citation": "pubmed:20598134",
+  "sc:description": "Hidden Markov model (HMM)-based Peak-finding algorithm for analyzing ChIP-seq data to identify protein-interacting genomic regions.",
+  "sc:featureList": {
+    "@id": "edam:operation_3222"
+  },
+  "sc:name": "HPeak",
+  "sc:url": "https://github.com/cauyrd/HPeak"
+}

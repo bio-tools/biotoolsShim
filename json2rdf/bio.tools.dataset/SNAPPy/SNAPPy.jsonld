@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/SNAPPy",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0769"
+        },
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_3305"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/ve/vez050"
+      },
+      "sc:description": "a snakemake pipeline for scalable HIV-1 subtyping by phylogenetic pairing | SNAPPy is a Snakemake pipeline for HIV-1 subtyping by phylogenetic pairing | This is the repository for SNAPPy, a Snakemake pipeline for HIV-1 subtyping by phylogenetic pairing. SNAPPy allows high-throughput HIV-1 subtyping locally while being resource efficient and scalable. This pipeline was constructed using Snakemake , and it uses MAFFT and for multiple sequence alignment, BLAST for similarirty querys, IQ-TREE for phylogenetic inference, and several Biopython modules for data parsing an analysis. For in-depth information on how the tool works please visit the documentation page. SNAPPy was design for Linux based operative systems | Welcome to snappy’s documentation! — SNAPPy-HIV1-Subtyping 1.0.0 documentation | Free document hosting provided by Read the Docs",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3192"
+        },
+        {
+          "@id": "edam:operation_1812"
+        },
+        {
+          "@id": "edam:operation_3196"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "SNAPPy",
+      "sc:url": "https://github.com/PMMAraujo/snappy"
+    },
+    {
+      "@id": "https://doi.org/10.1093/ve/vez050",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

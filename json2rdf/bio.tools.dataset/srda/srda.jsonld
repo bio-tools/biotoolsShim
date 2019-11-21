@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx374",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/srda",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx374"
+      },
+      "sc:description": "Sparse redundancy analysis for high dimensional (biomedical) data. Directional multivariate analysis to express the maximum variance in the predicted data set by a linear combination of variables of the predictive data set.",
+      "sc:featureList": {
+        "@id": "edam:operation_0290"
+      },
+      "sc:license": "MIT",
+      "sc:name": "sRDA",
+      "sc:url": "https://cran.r-project.org/web/packages/sRDA/index.html",
+      "sc:version": "1.0.0"
+    }
+  ]
+}

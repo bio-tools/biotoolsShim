@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/623082",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ImmClass2019",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3400"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/623082"
+      },
+      "sc:description": "An elastic-net logistic regression approach to generate classifiers and gene signatures for types of immune cells and T helper cell subsets.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3557"
+        },
+        {
+          "@id": "edam:operation_2436"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "ImmClass2019",
+      "sc:url": "https://github.com/KlinkeLab/ImmClass2019"
+    }
+  ]
+}

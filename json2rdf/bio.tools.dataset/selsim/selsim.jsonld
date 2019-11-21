@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bth417",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/selsim",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3524"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bth417"
+      },
+      "sc:description": "A program for Monte Carlo simulation of DNA polymorphism data for a recombining region within which a single bi-allelic site has experienced natural selection.",
+      "sc:featureList": {
+        "@id": "edam:operation_2426"
+      },
+      "sc:license": "Unlicensed",
+      "sc:name": "SelSim",
+      "sc:url": "https://popmodels.cancercontrol.cancer.gov/gsr/packages/selsim"
+    }
+  ]
+}

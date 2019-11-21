@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/clusterjudge",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2269"
+    },
+    {
+      "@id": "edam:topic_0203"
+    }
+  ],
+  "sc:description": "ClusterJudge implements the functions, examples and other software published as an algorithm by Gibbons, FD and Roth FP. The article is called \"Judging the Quality of Gene Expression-Based Clustering Methods Using Gene Annotation\" and it appeared in Genome Research, vol. 12, pp1574-1581 (2002).",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2428"
+    },
+    {
+      "@id": "edam:operation_3432"
+    }
+  ],
+  "sc:license": "Artistic-2.0",
+  "sc:name": "ClusterJudge",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/ClusterJudge.html",
+  "sc:version": "1.2.0"
+}

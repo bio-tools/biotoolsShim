@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/structured_input-output_lasso",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0102"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bts227"
+      },
+      "sc:description": "Novel regularization scheme over multitask regression , which allows shared sparsity patterns for related inputs and outputs to be optimally estimated.  Such patterns capture multiple related single nucleotide polymorphisms (SNPs) that jointly influence multiple-related expression traits.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_2429"
+        }
+      ],
+      "sc:name": "Structured Input-output Lasso",
+      "sc:url": "http://www.sailing.cs.cmu.edu/main/?page_id=483"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts227",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

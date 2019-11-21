@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1109/TCBB.2013.68",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/genometools",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1109/TCBB.2013.68"
+      },
+      "sc:description": "Free collection of bioinformatics tools for genome informatics.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "GenomeTools",
+      "sc:url": "http://genometools.org/"
+    }
+  ]
+}

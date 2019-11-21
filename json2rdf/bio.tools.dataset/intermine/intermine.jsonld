@@ -1,0 +1,65 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts577",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/intermine",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1255"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2600"
+      },
+      "sc:additionalType": [
+        "Web application",
+        "Database portal",
+        "Web API",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3366"
+      },
+      "sc:author": "Julie Sullivan",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bts577"
+        },
+        "pmcid:PMC3516146",
+        "pubmed:23023984",
+        "pubmed:24753429"
+      ],
+      "sc:contributor": [
+        "BBSRC",
+        "Wellcome Trust",
+        "NIH"
+      ],
+      "sc:description": "Open source data warehouse built specifically for the integration and analysis of complex biological data. It enables the creation of biological databases accessed by sophisticated web query tools. Parsers are provided for integrating data from many common biological data sources and formats, and there is a framework for adding your own data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:funder": [
+        "Wellcome Trust",
+        "NIH",
+        "BBSRC"
+      ],
+      "sc:license": "LGPL-2.1",
+      "sc:name": "InterMine",
+      "sc:provider": [
+        "gen.cam.ac.uk",
+        "University of Cambridge"
+      ],
+      "sc:url": "http://www.intermine.org"
+    }
+  ]
+}

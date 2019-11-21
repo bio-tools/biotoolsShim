@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/pophelper",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_3056"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:26850166",
+        {
+          "@id": "https://doi.org/10.1111/1755-0998.12509"
+        }
+      ],
+      "sc:description": "An R package and web app to analyse and visualize population structure.",
+      "sc:featureList": {
+        "@id": "edam:operation_3744"
+      },
+      "sc:name": "pophelper",
+      "sc:url": "http://pophelper.com/"
+    },
+    {
+      "@id": "https://doi.org/10.1111/1755-0998.12509",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

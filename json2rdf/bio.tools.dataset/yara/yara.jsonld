@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt005",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/yara",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0102"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkt005"
+      },
+      "sc:description": "Yara is an exact tool for aligning DNA sequencing reads to reference genomes.",
+      "sc:featureList": {
+        "@id": "edam:operation_3198"
+      },
+      "sc:name": "yara",
+      "sc:url": "http://www.seqan.de/yara/",
+      "sc:version": "0.9.6"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mdp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3063"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_3308"
+    },
+    {
+      "@id": "edam:topic_3518"
+    }
+  ],
+  "sc:description": "The Molecular Degree of Perturbation webtool quantifies the heterogeneity of samples. It takes a data.frame of omic data that contains at least two classes (control and test) and assigns a score to all samples based on how perturbed they are compared to the controls.",
+  "sc:featureList": {
+    "@id": "edam:operation_2428"
+  },
+  "sc:license": "GPL-3.0",
+  "sc:name": "mdp",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/mdp.html",
+  "sc:version": "1.0.0"
+}

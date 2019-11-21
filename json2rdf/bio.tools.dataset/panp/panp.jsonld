@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/panp",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3321"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1109/BIBE.2007.4375552"
+      },
+      "sc:description": "A function to make gene presence/absence calls based on distance from negative strand matching probesets (NSMP) which are derived from Affymetrix annotation. It is applied after gene expression values are created, and therefore can be used after any preprocessing method such as MAS5 or GCRMA, or PM-only methods like RMA. NSMP sets have been established for the HGU133A and HGU133-Plus-2.0 chipsets to date.",
+      "sc:featureList": {
+        "@id": "edam:operation_2454"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "panp",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/panp.html",
+      "sc:version": "1.44.0"
+    },
+    {
+      "@id": "https://doi.org/10.1109/BIBE.2007.4375552",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/pcrtiler",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": [
+    "Desktop application",
+    "Web application"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3361"
+    },
+    {
+      "@id": "edam:topic_0077"
+    },
+    {
+      "@id": "edam:topic_0632"
+    },
+    {
+      "@id": "edam:topic_0749"
+    },
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_3656"
+    },
+    {
+      "@id": "edam:topic_3519"
+    }
+  ],
+  "sc:citation": "pubmed:20519202",
+  "sc:description": "Allows for the automated design of tiled primer pairs for any number of genomic loci. Based on Primer3 and BLAST analysis for cross-hybridization.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0308"
+    },
+    {
+      "@id": "edam:operation_2945"
+    },
+    {
+      "@id": "edam:operation_3359"
+    },
+    {
+      "@id": "edam:operation_2419"
+    },
+    {
+      "@id": "edam:operation_3237"
+    }
+  ],
+  "sc:name": "PCRTiler",
+  "sc:url": "http://pcrtiler.genap.ca/PCRTiler/"
+}

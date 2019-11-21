@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/rinchi",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3371"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_3314"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13321-018-0277-8"
+      },
+      "sc:description": "International chemical identifier for reactions .",
+      "sc:featureList": {
+        "@id": "edam:operation_0322"
+      },
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "RInChI",
+      "sc:url": "https://www.inchi-trust.org/downloads/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s13321-018-0277-8",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/cellbase",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Database portal",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2259"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gks575"
+      },
+      "sc:description": "RESTful Web Services for retrieving relevant biological information.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:name": "CellBase",
+      "sc:provider": [
+        "cipf.es",
+        "http://bioinfo.cipf.es",
+        "Computational Genomics Department. Prince Felipe Research Center (CIPF)"
+      ],
+      "sc:url": "http://docs.bioinfo.cipf.es/projects/cellbase/wiki"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gks575",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/rpbs",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_2275"
+    },
+    {
+      "@id": "edam:topic_0081"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:10373380",
+    "pubmed:7583694",
+    "pubmed:3678489",
+    "pubmed:8683588",
+    "pubmed:15588112",
+    "pubmed:8019863",
+    "pubmed:10089205",
+    "pubmed:15724288",
+    "pubmed:15980507"
+  ],
+  "sc:description": "Structural bioinformatics resource with several types of specific services including tools for searching sequence (AUTOMAT) and structure (YAKUSA) databases and for homology modelling (WLOOP).",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0339"
+    },
+    {
+      "@id": "edam:operation_0346"
+    },
+    {
+      "@id": "edam:operation_2421"
+    },
+    {
+      "@id": "edam:operation_0360"
+    },
+    {
+      "@id": "edam:operation_0477"
+    }
+  ],
+  "sc:name": "RPBS",
+  "sc:url": "http://bioserv.rpbs.jussieu.fr/"
+}

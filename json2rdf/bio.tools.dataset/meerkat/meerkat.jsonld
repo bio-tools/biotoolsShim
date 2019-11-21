@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/meerkat",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Workflow",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.cell.2013.04.010"
+      },
+      "sc:description": "Meerkat is designed to identify structure variations (SVs) in human cancer genomes from paired end high throughput sequencing data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2403"
+        },
+        {
+          "@id": "edam:operation_3228"
+        },
+        {
+          "@id": "edam:operation_3202"
+        }
+      ],
+      "sc:name": "Meerkat",
+      "sc:url": "http://compbio.med.harvard.edu/Meerkat/"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.cell.2013.04.010",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

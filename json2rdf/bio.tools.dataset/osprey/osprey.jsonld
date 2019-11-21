@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/osprey",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0199"
+    }
+  ],
+  "sc:citation": "pubmed:24931991",
+  "sc:description": "Suite of programs for computational structure-based protein design. It is specifically designed to identify protein mutants that possess desired target properties (e.g., improved stability, switch of substrate specificity, etc.).",
+  "sc:featureList": {
+    "@id": "edam:operation_2430"
+  },
+  "sc:name": "OSPREY",
+  "sc:url": "http://www.cs.duke.edu/donaldlab/osprey.php"
+}

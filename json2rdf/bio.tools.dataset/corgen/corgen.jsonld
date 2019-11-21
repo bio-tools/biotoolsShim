@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/corgen",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_0157"
+    },
+    {
+      "@id": "edam:topic_0654"
+    }
+  ],
+  "sc:citation": "pubmed:16845099",
+  "sc:description": "Measures long-range correlations in DNA sequences and can generate random sequences with the same (or user-specified) correlation and composition parameters.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0236"
+    },
+    {
+      "@id": "edam:operation_0364"
+    },
+    {
+      "@id": "edam:operation_0449"
+    },
+    {
+      "@id": "edam:operation_0230"
+    }
+  ],
+  "sc:name": "CorGen",
+  "sc:url": "http://corgen.molgen.mpg.de"
+}

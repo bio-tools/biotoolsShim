@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu313",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/unifiedwmwqpcr",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2603"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2603"
+      },
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3519"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu313"
+        },
+        "pubmed:24794933"
+      ],
+      "sc:description": "This packages implements the unified Wilcoxon-Mann-Whitney Test for qPCR data. This modified test allows for testing differential expression in qPCR data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3223"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "unifiedWMWqPCR",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/unifiedWMWqPCR.html",
+      "sc:version": "1.10.0"
+    }
+  ]
+}

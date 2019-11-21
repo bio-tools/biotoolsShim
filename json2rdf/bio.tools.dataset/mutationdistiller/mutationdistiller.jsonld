@@ -1,0 +1,58 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mutationdistiller",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_0850"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gkz330"
+        },
+        "pubmed:31106342"
+      ],
+      "sc:description": "Make the analysis of Next-Generation Sequencing data simple. Depending on your background and interest, it offers various modes with optimised settings: Clinical (HPO), Clinical (Gene Panels), Gene Function and Basic Search.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_2495"
+        }
+      ],
+      "sc:name": "MutationDistiller",
+      "sc:url": "https://www.mutationdistiller.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkz330",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

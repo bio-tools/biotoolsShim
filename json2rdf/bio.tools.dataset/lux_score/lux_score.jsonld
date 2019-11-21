@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/lux_score",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2905"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0842"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0153"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1004511"
+      },
+      "sc:description": "The first method offering a metric to compare pairwise distances between complete lipidomics. We will offer LUXScore, as a standalone tool as well as a Knime node.",
+      "sc:featureList": {
+        "@id": "edam:operation_3432"
+      },
+      "sc:name": "LUX Score",
+      "sc:url": "http://lifs.isas.de/index.php/lux-score"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1004511",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

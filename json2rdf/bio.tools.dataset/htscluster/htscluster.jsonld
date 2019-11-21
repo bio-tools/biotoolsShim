@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/htscluster",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_2269"
+    },
+    {
+      "@id": "edam:topic_0623"
+    },
+    {
+      "@id": "edam:topic_3053"
+    }
+  ],
+  "sc:citation": "pubmed:25563332",
+  "sc:description": "Implements a Poisson mixture model to cluster observations (e.g., genes) in high throughput sequencing data. Parameter estimation is performed using either the EM or CEM algorithm, and the slope heuristics are used for model selection (i.e., to choose the number of clusters).",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2426"
+    },
+    {
+      "@id": "edam:operation_3432"
+    }
+  ],
+  "sc:name": "HTSCluster",
+  "sc:url": "http://cran.r-project.org/web/packages/HTSCluster/index.html"
+}

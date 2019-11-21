@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/idbases",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_1097"
+        },
+        {
+          "@id": "edam:data_1025"
+        }
+      ],
+      "edam:has_output": {
+        "@id": "edam:data_3498"
+      },
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0634"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1002/humu.20405"
+        },
+        "pubmed:17004234"
+      ],
+      "sc:description": "Locus-specific databases for immunodeficiency-causing mutations.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "Immunodeficiency mutation databases (IDbases)",
+      "sc:url": "http://structure.bmc.lu.se/idbase/"
+    },
+    {
+      "@id": "https://doi.org/10.1002/humu.20405",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

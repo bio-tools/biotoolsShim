@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/panada",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0078383"
+      },
+      "sc:description": "Protein similarity network generation method for Cytoscape.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "PANADA",
+      "sc:provider": "ELIXIR-ITA-PADOVA",
+      "sc:url": "http://protein.bio.unipd.it/download/",
+      "sc:version": "1.0"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0078383",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

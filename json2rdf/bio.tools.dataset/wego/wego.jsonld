@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/wego",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0089"
+  },
+  "sc:citation": "pubmed:16845012",
+  "sc:description": "Web Gene Ontology Annotation Plot (WEGO) helps visualize the annotation of sets of genes.  WEGO can compare gene annotation datasets by plotting the distribution of gene ontology (GO) annotation results into a histogram.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3672"
+    },
+    {
+      "@id": "edam:operation_0337"
+    },
+    {
+      "@id": "edam:operation_2943"
+    },
+    {
+      "@id": "edam:operation_3224"
+    }
+  ],
+  "sc:name": "WEGO",
+  "sc:url": "http://wego.genomics.org.cn"
+}

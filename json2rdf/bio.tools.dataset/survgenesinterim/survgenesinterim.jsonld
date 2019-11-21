@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-12-127",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/survgenesinterim",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3678"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-12-127"
+      },
+      "sc:description": "survGenesInterim is an R package for simulation of survival studies based on simulated gene expression level and patient data. Includes functions to generate such data. Resulting error and power rate can be visualized.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:name": "survGenesInterim",
+      "sc:url": "http://www.ams.med.uni-goettingen.de/software-en.shtml",
+      "sc:version": "1.0"
+    }
+  ]
+}

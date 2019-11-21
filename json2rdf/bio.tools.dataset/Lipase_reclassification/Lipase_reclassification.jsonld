@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7287/PEERJ.PREPRINTS.27725",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/Lipase_reclassification",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_0821"
+        },
+        {
+          "@id": "edam:topic_0623"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.7287/PEERJ.PREPRINTS.27725"
+      },
+      "sc:description": "Deposit and classification of lipolytic enzymes based on the proposed classification system in Hitch and Clavel (TBP).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3891"
+        },
+        {
+          "@id": "edam:operation_0483"
+        },
+        {
+          "@id": "edam:operation_3431"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "Lipase reclassification",
+      "sc:url": "https://github.com/thh32/Lipase_reclassification"
+    }
+  ]
+}

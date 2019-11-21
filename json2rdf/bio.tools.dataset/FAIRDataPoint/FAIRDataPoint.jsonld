@@ -1,0 +1,70 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://orcid.org/0000-0002-1215-167X",
+      "@type": "schema:Person"
+    },
+    {
+      "@id": "https://bio.tools/FAIRDataPoint",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web API",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3337"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0610"
+        }
+      ],
+      "sc:author": [
+        "Kees burger",
+        {
+          "@id": "https://orcid.org/0000-0002-1215-167X"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.3233/ISU-170824"
+      },
+      "sc:contributor": [
+        {
+          "@id": "https://orcid.org/0000-0002-1215-167X"
+        },
+        "Mark Thompson",
+        "Kees burger"
+      ],
+      "sc:description": "FAIRDataPoint is a REST api for creating, storing and servering FAIR metadata. The metadata contents are in this api are generated semi-automatically according to the FAIR Data Point software specification document. In the current version of api we support GET, POST and PATCH requests.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0337"
+        },
+        {
+          "@id": "edam:operation_0335"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "FAIRDataPoint",
+      "sc:url": "https://github.com/FAIRDataTeam/FAIRDataPoint"
+    },
+    {
+      "@id": "https://doi.org/10.3233/ISU-170824",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

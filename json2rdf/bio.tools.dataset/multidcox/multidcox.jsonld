@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1963-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/multidcox",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0203"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1963-7"
+      },
+      "sc:description": "Space and time efficient procedure to identify differentially co-expressed gene sets and successfully identify influence of individual factors on differential co-expression.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:name": "MultiDCoX",
+      "sc:url": "https://github.com/lianyh/MultiDCoX"
+    }
+  ]
+}

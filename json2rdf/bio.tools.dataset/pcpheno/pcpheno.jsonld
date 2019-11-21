@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pcpheno",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Tools to integrate, annotate, and link phenotypes to cellular organizational units such as protein complexes and pathways.",
+      "sc:featureList": {
+        "@id": "edam:operation_0226"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "PCpheno",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/PCpheno.html",
+      "sc:version": "1.36.0"
+    }
+  ]
+}

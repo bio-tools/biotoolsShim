@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1530-2",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/marv",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC5311849",
+        {
+          "@id": "https://doi.org/10.1186/s12859-017-1530-2"
+        },
+        "pubmed:28209135"
+      ],
+      "sc:description": "Multi-phenotype Analysis of Rare Variants.",
+      "sc:featureList": {
+        "@id": "edam:operation_3197"
+      },
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "MARV",
+      "sc:url": "https://github.com/ImperialStatGen/MARV"
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gky320",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/busca",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_3028"
+        },
+        {
+          "@id": "edam:data_2974"
+        }
+      ],
+      "edam:has_output": {
+        "@id": "edam:data_1277"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_3307"
+        },
+        {
+          "@id": "edam:topic_0123"
+        }
+      ],
+      "sc:author": "Castrense Savojardo",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gky320"
+      },
+      "sc:description": "Prediction of protein subcellular localization from sequence",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0418"
+        },
+        {
+          "@id": "edam:operation_2489"
+        },
+        {
+          "@id": "edam:operation_0269"
+        },
+        {
+          "@id": "edam:operation_3092"
+        }
+      ],
+      "sc:name": "BUSCA",
+      "sc:provider": "ELIXIR-ITA-BOLOGNA",
+      "sc:url": "http://busca.biocomp.unibo.it",
+      "sc:version": "1.0"
+    }
+  ]
+}

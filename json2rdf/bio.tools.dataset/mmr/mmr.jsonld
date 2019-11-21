@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mmr",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0797"
+    },
+    {
+      "@id": "edam:topic_0102"
+    },
+    {
+      "@id": "edam:topic_3308"
+    },
+    {
+      "@id": "edam:topic_3168"
+    }
+  ],
+  "sc:citation": "pubmed:26519503",
+  "sc:description": "Infers optimal mapping locations from the coverage densities of other mapped reads in vicinity.",
+  "sc:featureList": {
+    "@id": "edam:operation_2520"
+  },
+  "sc:name": "MMR",
+  "sc:url": "http://raetschlab.org/suppl/MMR"
+}

@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/bnbr",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty330"
+      },
+      "sc:description": "Bayesian negative binomial regression for differential expression with confounding factors",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3223"
+        },
+        {
+          "@id": "edam:operation_3659"
+        }
+      ],
+      "sc:name": "BNBR",
+      "sc:url": "https://github.com/siamakz/BNBR"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty330",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s13104-018-3686-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.2647048",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/emblmygff3",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1255"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_1255"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0219"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s13104-018-3686-x"
+        },
+        {
+          "@id": "https://doi.org/10.5281/zenodo.2647048"
+        }
+      ],
+      "sc:description": "Software to convert GFF3 and fasta to legal EMBL format suitable for ENA submission.",
+      "sc:featureList": {
+        "@id": "edam:operation_0335"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "EMBLmyGFF3",
+      "sc:url": "https://github.com/NBISweden/EMBLmyGFF3",
+      "sc:version": "1.2.6"
+    }
+  ]
+}

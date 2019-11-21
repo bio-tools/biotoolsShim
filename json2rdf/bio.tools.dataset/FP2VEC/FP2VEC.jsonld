@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/FP2VEC",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0218"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ307"
+        },
+        "pubmed:31070725"
+      ],
+      "sc:description": "Molecular featurizer for learning molecular properties.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_3216"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "FP2VEC",
+      "sc:url": "https://github.com/wsjeon92/FP2VEC"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ307",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

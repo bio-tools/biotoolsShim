@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.2976/1.3027681",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/latpack",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3678"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.2976/1.3027681"
+      },
+      "sc:description": "LatPack is a collection of tools related to the folding simulations of lattice-protein models with arbitrary energy function.",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:name": "LatPack",
+      "sc:url": "http://www.bioinf.uni-freiburg.de/Software/LatPack/",
+      "sc:version": "1.9.0"
+    }
+  ]
+}

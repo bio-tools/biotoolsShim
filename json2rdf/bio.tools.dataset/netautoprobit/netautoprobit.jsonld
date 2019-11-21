@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/netautoprobit",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_1775"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:21133881",
+  "sc:description": "Matlab software of network-based auto-probit method for protein function prediction.",
+  "sc:featureList": {
+    "@id": "edam:operation_1777"
+  },
+  "sc:name": "NetAutoProbit",
+  "sc:url": "http://math.bu.edu/people/kolaczyk/software.html"
+}

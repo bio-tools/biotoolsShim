@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/MRICloud",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3304"
+        },
+        {
+          "@id": "edam:topic_3384"
+        },
+        {
+          "@id": "edam:topic_3444"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC6609486",
+        "pubmed:31037800",
+        {
+          "@id": "https://doi.org/10.1111/JON.12623"
+        }
+      ],
+      "sc:description": "Multi‐Atlas Label Fusion Tool for Neonatal Brain MRI Parcellation and Quantification.",
+      "sc:featureList": {
+        "@id": "edam:operation_3799"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "MRICloud",
+      "sc:url": "http://braingps.mricloud.org"
+    },
+    {
+      "@id": "https://doi.org/10.1111/JON.12623",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

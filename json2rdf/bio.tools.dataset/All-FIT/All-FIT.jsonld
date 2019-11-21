@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/All-FIT",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_3360"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/625376"
+      },
+      "sc:description": "Allele-Frequency-based Imputation of Tumor Purity from High-Depth Sequencing Data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3227"
+        },
+        {
+          "@id": "edam:operation_3557"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "All-FIT",
+      "sc:url": "https://github.com/KhiabanianLab/All-FIT"
+    },
+    {
+      "@id": "https://doi.org/10.1101/625376",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

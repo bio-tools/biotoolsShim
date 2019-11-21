@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/perm",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0622"
+  },
+  "sc:citation": "pubmed:19675096",
+  "sc:description": "PerM (Periodic Seed Mapping) uses periodic spaced seeds to significantly improve mapping efficiency for large reference genomes when compared to state-of-the-art programs.",
+  "sc:featureList": {
+    "@id": "edam:operation_3198"
+  },
+  "sc:name": "PerM",
+  "sc:url": "http://code.google.com/p/perm/"
+}

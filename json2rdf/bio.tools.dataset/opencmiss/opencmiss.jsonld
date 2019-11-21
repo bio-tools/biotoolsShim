@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/opencmiss",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3569"
+    },
+    {
+      "@id": "edam:topic_3398"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:21762717",
+  "sc:description": "Mathematical modelling environment that enables the application of finite element analysis techniques to a variety of complex bioengineering problems.",
+  "sc:featureList": {
+    "@id": "edam:operation_2426"
+  },
+  "sc:name": "OpenCMISS",
+  "sc:url": "http://physiomeproject.org/software/opencmiss/"
+}

@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/q",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3176"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/gr.189894.115"
+      },
+      "sc:description": "Saturation-based ChIP-seq and ChIP-nexus caller. Q works with the irreproducible discovery rate (IDR) procedure. Q can be run with or without data from a control experiment.",
+      "sc:featureList": {
+        "@id": "edam:operation_3215"
+      },
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "Q",
+      "sc:url": "http://charite.github.io/Q/"
+    },
+    {
+      "@id": "https://doi.org/10.1101/gr.189894.115",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

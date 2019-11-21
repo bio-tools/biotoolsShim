@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tailfindr",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0091"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1261/rna.071332.119"
+      },
+      "sc:description": "tailfindr is a R package for estimating poly(A)-tail lengths in Oxford Nanopore RNA and DNA reads.",
+      "sc:license": "GPL-3.0",
+      "sc:name": "tailfindr",
+      "sc:url": "https://github.com/adnaniazi/tailfindr"
+    },
+    {
+      "@id": "https://doi.org/10.1261/rna.071332.119",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

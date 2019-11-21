@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/merav",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_2229"
+    },
+    {
+      "@id": "edam:topic_2640"
+    },
+    {
+      "@id": "edam:topic_3518"
+    }
+  ],
+  "sc:citation": "pubmed:26626150",
+  "sc:description": "Web-based tool that can query a database comprising ～4300 microarrays, representing human gene expression in normal tissues, cancer cell lines and primary tumors.",
+  "sc:featureList": {
+    "@id": "edam:operation_2495"
+  },
+  "sc:name": "MERAV",
+  "sc:url": "http://merav.wi.mit.edu/"
+}

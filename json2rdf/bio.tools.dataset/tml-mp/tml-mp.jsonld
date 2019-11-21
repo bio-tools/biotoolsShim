@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tml-mp",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3120"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0130"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx460"
+      },
+      "sc:description": "Predictor for protein folding free energy change upon single point mutation for soluble proteins.",
+      "sc:featureList": {
+        "@id": "edam:operation_2415"
+      },
+      "sc:name": "TML-MP",
+      "sc:url": "http://weilab.math.msu.edu/TML/TML-MP/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx460",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

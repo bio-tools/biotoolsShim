@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mc3",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3292"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1752-0509-7-129"
+      },
+      "sc:description": "Steady-state Model and Constraint Consistency Checker for biochemical networks.",
+      "sc:featureList": {
+        "@id": "edam:operation_3660"
+      },
+      "sc:name": "MC3",
+      "sc:url": "https://github.com/sohahassoun/mc3"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1752-0509-7-129",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/069104",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/imman",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_2259"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/069104"
+      },
+      "sc:description": "Reconstructing Interlog Protein Network (IPN) integrated from several Protein protein Interaction Networks (PPINs). Using this package, overlaying different PPINs to mine conserved common networks between diverse species will be applicable.",
+      "sc:featureList": {
+        "@id": "edam:operation_2497"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "IMMAN",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/IMMAN.html",
+      "sc:version": "1.0.0"
+    }
+  ]
+}

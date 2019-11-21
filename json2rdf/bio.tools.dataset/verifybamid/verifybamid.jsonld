@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.ajhg.2012.09.004",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/verifybamid",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_3498"
+        },
+        {
+          "@id": "edam:data_1383"
+        }
+      ],
+      "edam:has_output": {
+        "@id": "edam:data_2048"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_3572"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.ajhg.2012.09.004"
+      },
+      "sc:description": "Software that verifies whether the reads in particular file match previously known genotypes for an individual (or group of individuals), and checks whether the reads are contaminated as a mixture of two samples. It can detect sample contamination and swaps when external genotypes are available. When external genotypes are not available, it still robustly detects sample swaps.",
+      "sc:featureList": {
+        "@id": "edam:operation_3218"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "verifyBamID",
+      "sc:provider": [
+        "sanger.ac.uk",
+        "University of Michigan"
+      ],
+      "sc:url": "http://genome.sph.umich.edu/wiki/VerifyBamID",
+      "sc:version": "1.1.2"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/combfunc",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_1775"
+    }
+  ],
+  "sc:citation": "pubmed:22641853",
+  "sc:description": "Automated method for the prediction of protein function. Users can either submit a sequence or use a uniprot identifier.",
+  "sc:featureList": {
+    "@id": "edam:operation_1777"
+  },
+  "sc:name": "CombFunc",
+  "sc:url": "http://www.sbg.bio.ic.ac.uk/~mwass/combfunc/"
+}

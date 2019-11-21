@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/allerdictor",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web service",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3307"
+    },
+    {
+      "@id": "edam:topic_3510"
+    }
+  ],
+  "sc:citation": "pubmed:24403538",
+  "sc:description": "Fast and accurate sequence-based allergen prediction tool that models protein sequences as text documents and employs support vector machine in text classification for allergen prediction.",
+  "sc:featureList": {
+    "@id": "edam:operation_2479"
+  },
+  "sc:name": "Allerdictor",
+  "sc:url": "http://allerdictor.vbi.vt.edu/"
+}

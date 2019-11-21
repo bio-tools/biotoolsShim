@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/hipsec",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0045869"
+      },
+      "sc:description": "Hipsec is a tool for predicting high-level protein production in Aspergillus niger. The software predicts if gene overexpression of an extracellular protein will lead to successful high-level production in Aspergillus niger. The prediction is based on a protein’s amino acid sequence. One or more protein sequences can be pasted into the the text area (fasta format) or uploaded as a fasta file.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2479"
+        },
+        {
+          "@id": "edam:operation_2423"
+        }
+      ],
+      "sc:name": "Hipsec",
+      "sc:url": "http://helix.ewi.tudelft.nl/hipsec/home.py",
+      "sc:version": "2.0"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0045869",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

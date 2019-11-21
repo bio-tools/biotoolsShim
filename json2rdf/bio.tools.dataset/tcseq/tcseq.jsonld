@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/tcseq",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Library",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3170"
+    },
+    {
+      "@id": "edam:topic_3169"
+    },
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_3295"
+    }
+  ],
+  "sc:description": "Quantitative and differential analysis of epigenomic and transcriptomic time course sequencing data, clustering analysis and visualization of temporal patterns of time course data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3223"
+    },
+    {
+      "@id": "edam:operation_0337"
+    },
+    {
+      "@id": "edam:operation_3432"
+    }
+  ],
+  "sc:license": "GPL-2.0",
+  "sc:name": "TCseq",
+  "sc:url": "http://bioconductor.org/packages/release/bioc/html/TCseq.html",
+  "sc:version": "1.4.0"
+}

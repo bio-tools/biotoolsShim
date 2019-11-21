@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/space",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2814"
+    },
+    {
+      "@id": "edam:topic_0081"
+    },
+    {
+      "@id": "edam:topic_0082"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:15980496",
+    "pubmed:11301313",
+    "pubmed:10320401",
+    "pubmed:8727324",
+    "pubmed:14978714"
+  ],
+  "sc:description": "SPACE (Structure Prediction and Analysis based on Complementarity with Environment) is a suite of tools for predicting and analyzing structures of biomolecules and their complexes.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0429"
+    },
+    {
+      "@id": "edam:operation_2442"
+    },
+    {
+      "@id": "edam:operation_0474"
+    }
+  ],
+  "sc:name": "SPACE",
+  "sc:url": "http://ligin.weizmann.ac.il/space/"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/csmetapred",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3510"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1987-z"
+      },
+      "sc:description": "Consensus method for prediction of catalytic residues.",
+      "sc:featureList": {
+        "@id": "edam:operation_0250"
+      },
+      "sc:name": "CSmetaPred",
+      "sc:url": "http://14.139.227.206/csmetapred/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1987-z",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

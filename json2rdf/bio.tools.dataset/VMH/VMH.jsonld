@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gky992",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/VMH",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Database portal",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3697"
+        },
+        {
+          "@id": "edam:topic_3407"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gky992"
+      },
+      "sc:description": "Virtual Metabolic Human (VMH) database captures information on human and gut microbial metabolism and links this information to hundreds of diseases and nutritional data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3715"
+        },
+        {
+          "@id": "edam:operation_3660"
+        },
+        {
+          "@id": "edam:operation_3501"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "VMH",
+      "sc:url": "https://vmh.life"
+    }
+  ]
+}

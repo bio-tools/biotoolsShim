@@ -1,0 +1,121 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/gpcrdb",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_1460"
+        },
+        {
+          "@id": "edam:data_2974"
+        }
+      ],
+      "edam:has_output": [
+        {
+          "@id": "edam:data_1707"
+        },
+        {
+          "@id": "edam:data_2884"
+        },
+        {
+          "@id": "edam:data_0872"
+        },
+        {
+          "@id": "edam:data_0857"
+        },
+        {
+          "@id": "edam:data_1277"
+        },
+        {
+          "@id": "edam:data_0937"
+        },
+        {
+          "@id": "edam:data_2886"
+        },
+        {
+          "@id": "edam:data_1460"
+        },
+        {
+          "@id": "edam:data_1381"
+        }
+      ],
+      "sc:additionalType": [
+        "Database portal",
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0082"
+        },
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_3542"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_3534"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1178"
+      },
+      "sc:description": "Contains data, diagrams and web tools for G protein-coupled receptors (GPCRs). Users can browse all GPCR crystal structures and the largest collections of mutants. Diagrams can be produced and downloaded to illustrate receptor residues (snake-plot and helix box diagrams) and relationships (phylogenetic trees).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2451"
+        },
+        {
+          "@id": "edam:operation_0291"
+        },
+        {
+          "@id": "edam:operation_0240"
+        },
+        {
+          "@id": "edam:operation_0346"
+        },
+        {
+          "@id": "edam:operation_2990"
+        },
+        {
+          "@id": "edam:operation_0477"
+        },
+        {
+          "@id": "edam:operation_2928"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:name": "GPCRDB",
+      "sc:provider": "GPCRDB",
+      "sc:url": "http://gpcrdb.org"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1178",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

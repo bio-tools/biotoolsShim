@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/vonode",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-11-118"
+      },
+      "sc:description": "New de novo sequencing algorithm which has been developed specifically for analysis of such high-resolution tandem mass spectra.",
+      "sc:featureList": {
+        "@id": "edam:operation_3644"
+      },
+      "sc:name": "Vonode",
+      "sc:url": "http://www.omicsbio.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-11-118",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

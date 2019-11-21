@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1061",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/europe_pmc_plus_grant_linking",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_output": {
+        "@id": "edam:data_3505"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3068"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku1061"
+      },
+      "sc:description": "Link grants to their articles.",
+      "sc:featureList": {
+        "@id": "edam:operation_3349"
+      },
+      "sc:name": "Europe PMC plus Grant Linking",
+      "sc:provider": [
+        "NCBI",
+        "EMBL-EBI",
+        "Mimas"
+      ],
+      "sc:url": "http://plus.europepmc.org/emss/login/uls.cgi?rss=wt&url=/plus/menu.html",
+      "sc:version": "1"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/cghra",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0804"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx309"
+      },
+      "sc:description": "Combines a user-friendly graphical interface and a powerful object-oriented command-line interface to handle a full aCGH analysis, as is illustrated in an original series of 107 Diffuse Large B-Cell Lymphomas.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3202"
+        },
+        {
+          "@id": "edam:operation_3233"
+        }
+      ],
+      "sc:name": "cghRA",
+      "sc:url": "http://bioinformatics.ovsa.fr/cghRA",
+      "sc:version": "1.6.0."
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx309",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

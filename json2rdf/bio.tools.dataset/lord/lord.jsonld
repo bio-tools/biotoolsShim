@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/lord",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0199"
+    },
+    {
+      "@id": "edam:topic_3325"
+    }
+  ],
+  "sc:citation": [
+    "pmcid:PMC4765596",
+    "pubmed:26958175"
+  ],
+  "sc:description": "LORD (linking opendata for rare diseases) - tool for browsing information about rare diseases. It aggregates the information from Orphanet, HPO and OMIM database.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3436"
+    },
+    {
+      "@id": "edam:operation_2421"
+    }
+  ],
+  "sc:name": "LORD",
+  "sc:url": "http://enlord.bndmr.fr/#homepage"
+}

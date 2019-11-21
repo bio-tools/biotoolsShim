@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth0410-248",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/polyphen-2",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_1775"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3473"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC2855889",
+        "pubmed:23315928",
+        "pubmed:20354512",
+        {
+          "@id": "https://doi.org/10.1002/0471142905.hg0720s76"
+        },
+        {
+          "@id": "https://doi.org/10.1038/nmeth0410-248"
+        },
+        "pmcid:PMC4480630"
+      ],
+      "sc:description": "Polymorphism Phenotyping (PolyPhen) is a tool which predicts possible impact of an amino acid substitution on the structure and function of a human protein.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_1777"
+        },
+        {
+          "@id": "edam:operation_0477"
+        },
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_3092"
+        }
+      ],
+      "sc:license": "Unlicensed",
+      "sc:name": "PolyPhen-2",
+      "sc:url": "http://genetics.bwh.harvard.edu/pph2/"
+    },
+    {
+      "@id": "https://doi.org/10.1002/0471142905.hg0720s76",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

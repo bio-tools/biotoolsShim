@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty141",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/esatac",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3169"
+        },
+        {
+          "@id": "edam:topic_3295"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty141"
+      },
+      "sc:description": "framework and complete preset pipeline for quantification and analysis of ATAC-seq Reads. It covers raw sequencing reads preprocessing (FASTQ files), reads alignment (Rbowtie2), aligned reads file operations (SAM, BAM, and BED files), peak calling (F-seq), genome annotations (Motif, GO, SNP analysis) and quality control report.",
+      "sc:featureList": {
+        "@id": "edam:operation_2403"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "esATAC",
+      "sc:url": "https://www.bioconductor.org/packages/release/bioc/html/esATAC.html",
+      "sc:version": "1.2.1"
+    }
+  ]
+}

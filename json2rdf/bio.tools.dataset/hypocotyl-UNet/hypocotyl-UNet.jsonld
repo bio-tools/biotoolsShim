@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/hypocotyl-UNet",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3382"
+        },
+        {
+          "@id": "edam:topic_0780"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/651729"
+      },
+      "sc:description": "Deep learning-based approach for high-throughput hypocotyl phenotyping.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3799"
+        },
+        {
+          "@id": "edam:operation_3553"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "hypocotyl-UNet",
+      "sc:url": "https://github.com/biomag-lab/hypocotyl-UNet"
+    },
+    {
+      "@id": "https://doi.org/10.1101/651729",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

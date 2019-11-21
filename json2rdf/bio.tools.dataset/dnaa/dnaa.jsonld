@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/dnaa",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3175"
+        },
+        {
+          "@id": "edam:topic_3295"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/jhg.2011.43"
+      },
+      "sc:description": "Software for analysis of Next-Generation Sequencing data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_2238"
+        },
+        {
+          "@id": "edam:operation_3218"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "DNAA",
+      "sc:url": "https://sourceforge.net/projects/dnaa/"
+    },
+    {
+      "@id": "https://doi.org/10.1038/jhg.2011.43",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

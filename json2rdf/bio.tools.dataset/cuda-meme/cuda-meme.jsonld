@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/cuda-meme",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_0160"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.patrec.2009.10.009"
+      },
+      "sc:description": "Motif discovery software based on MEME algorithm for a single GPU device using CUDA programming model. At present, it only supports the OOPS and ZOOPS models.",
+      "sc:featureList": {
+        "@id": "edam:operation_0238"
+      },
+      "sc:name": "CUDA-MEME",
+      "sc:url": "https://sites.google.com/site/yongchaosoftware/Home/cuda-meme",
+      "sc:version": "2.74"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.patrec.2009.10.009",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

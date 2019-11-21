@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.ymeth.2015.08.021",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/argot_2.5",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.ymeth.2015.08.021"
+      },
+      "sc:description": "An enhancement of previous server Argot2 able to quickly process thousands of sequences for functional inference.",
+      "sc:featureList": {
+        "@id": "edam:operation_1777"
+      },
+      "sc:name": "Argot 2.5",
+      "sc:provider": [
+        "FEM Research and Innovation Center",
+        "Department of Molecular Medicine, University of Padua"
+      ],
+      "sc:url": "http://www.medcomp.medicina.unipd.it/Argot2-5/",
+      "sc:version": "2.5"
+    }
+  ]
+}

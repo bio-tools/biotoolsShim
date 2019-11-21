@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/featurep",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2044"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_1277"
+        },
+        {
+          "@id": "edam:data_2955"
+        }
+      ],
+      "sc:additionalType": [
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0160"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.sbi.2010.03.008"
+      },
+      "sc:description": "Comparative analysis of protein sequences derived from the same transcript by alternative splicing, genome variation data (SNPs) or protein families from one or more organisms.",
+      "sc:featureList": {
+        "@id": "edam:operation_2451"
+      },
+      "sc:license": "Other",
+      "sc:name": "FeatureP",
+      "sc:provider": "CBS",
+      "sc:url": "http://cbs.dtu.dk/services/EPipe/",
+      "sc:version": "0.983"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.sbi.2010.03.008",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

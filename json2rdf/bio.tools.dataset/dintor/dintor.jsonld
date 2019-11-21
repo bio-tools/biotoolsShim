@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/dintor",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0219"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0622"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:26691694",
+        "pmcid:PMC4687148",
+        {
+          "@id": "https://doi.org/10.1186/S12864-015-2279-5"
+        }
+      ],
+      "sc:description": "Functional annotation of genomic and proteomic data.",
+      "sc:featureList": {
+        "@id": "edam:operation_0362"
+      },
+      "sc:license": "MIT",
+      "sc:name": "Dintor",
+      "sc:url": "https://dintor.eurac.edu/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S12864-015-2279-5",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

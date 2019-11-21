@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty027",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ADEPTUS",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty027"
+      },
+      "sc:description": "Discovery tool for disease prediction, enrichment and network analysis based on profiles from many diseases.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_3501"
+        }
+      ],
+      "sc:name": "ADEPTUS",
+      "sc:url": "http://adeptus.cs.tau.ac.il/home"
+    }
+  ]
+}

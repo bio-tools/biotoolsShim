@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/itsxpress",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": {
+    "@id": "edam:data_2975"
+  },
+  "edam:has_output": {
+    "@id": "edam:data_2975"
+  },
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3174"
+    },
+    {
+      "@id": "edam:topic_3697"
+    }
+  ],
+  "sc:description": "ITSxpress: Software to rapidly trim the Internally transcribed spacer (ITS) region of FASTQ files",
+  "sc:featureList": {
+    "@id": "edam:operation_3192"
+  },
+  "sc:license": "CC0-1.0",
+  "sc:name": "ITSxpress",
+  "sc:url": "https://github.com/USDA-ARS-GBRU/itsxpress",
+  "sc:version": "v1.6.0"
+}

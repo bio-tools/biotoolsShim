@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mni",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0203"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_3336"
+    }
+  ],
+  "sc:citation": "pubmed:17406508",
+  "sc:description": "Algorithm to identify the gene targets of a drug treatment based on gene-expression data. In a typical use of the algorithm, a single expression profile, say obtained as a result of a treatment under study, is used as the test profile while a set of hundreds of expression profiles is used as the training set.",
+  "sc:featureList": {
+    "@id": "edam:operation_3439"
+  },
+  "sc:name": "MNI",
+  "sc:url": "http://dibernardo.tigem.it/softwares/mode-of-action-by-network-inference-mni"
+}

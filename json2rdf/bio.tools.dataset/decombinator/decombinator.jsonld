@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTT004",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/decombinator",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3534"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_2830"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTT004"
+        },
+        "pubmed:23303508"
+      ],
+      "sc:description": "Fast, efficient gene assignment in T-cell receptor sequences using a finite state machine.",
+      "sc:featureList": {
+        "@id": "edam:operation_0527"
+      },
+      "sc:name": "Decombinator",
+      "sc:url": "https://github.com/uclinfectionimmunity/Decombinator",
+      "sc:version": "v2.2"
+    }
+  ]
+}

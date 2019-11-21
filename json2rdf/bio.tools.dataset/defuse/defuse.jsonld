@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/defuse",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2640"
+    },
+    {
+      "@id": "edam:topic_3170"
+    },
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_0114"
+    }
+  ],
+  "sc:citation": "pubmed:21625565",
+  "sc:description": "A software package for gene fusion discovery using RNA-Seq data. The software uses clusters of discordant paired end alignments to inform a split read alignment analysis for finding fusion boundaries.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3680"
+    },
+    {
+      "@id": "edam:operation_0315"
+    },
+    {
+      "@id": "edam:operation_2499"
+    },
+    {
+      "@id": "edam:operation_0238"
+    }
+  ],
+  "sc:name": "DeFuse",
+  "sc:url": "http://shahlab.ca/projects/defuse/"
+}

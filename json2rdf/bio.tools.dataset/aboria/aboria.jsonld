@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.softx.2017.07.002",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/aboria",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0176"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.softx.2017.07.002"
+      },
+      "sc:description": "Aboria is a powerful and flexible C++ library for the implementation of particle-based numerical methods. The particles in such methods can represent actual particles (e.g. Molecular Dynamics) or abstract particles used to discretise a continuous function over a domain (e.g. Radial Basis Functions).",
+      "sc:featureList": {
+        "@id": "edam:operation_2476"
+      },
+      "sc:license": "BSD-3-Clause",
+      "sc:name": "Aboria",
+      "sc:url": "https://github.com/ElsevierSoftwareX/SOFTX-D-17-00029",
+      "sc:version": "v0.4"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1039/C1MB05241A",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/network_motif_clustering_toolbox",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2600"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2600"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0602"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1039/C1MB05241A"
+      },
+      "sc:description": "A Matlab/Octave toolbox for clustering topological network motifs in large-scale, integrated networks.",
+      "sc:featureList": {
+        "@id": "edam:operation_3562"
+      },
+      "sc:name": "Network Motif Clustering Toolbox",
+      "sc:provider": "ugent.be",
+      "sc:url": "http://bioinformatics.psb.ugent.be/software/details/Network-Motif-Clustering-Toolbox",
+      "sc:version": "1"
+    }
+  ]
+}

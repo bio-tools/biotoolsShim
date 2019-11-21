@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gky055",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/rnentropy",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_3112"
+      },
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0203"
+      },
+      "sc:author": "Giulio Pavesi",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gky055"
+      },
+      "sc:contributor": "Graziano Pesole",
+      "sc:description": "A methodology for the identification of genes showing a significant variation of expression across multiple conditions. Given expression estimates from any number of RNA-Seq samples and conditions identifies genes or transcripts with a significant variation of expression across all the conditions studied, together with the samples in which they are over- or under-expressed.",
+      "sc:featureList": {
+        "@id": "edam:operation_3223"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "RNentropy",
+      "sc:provider": "ELIXIR-ITA-MILANO",
+      "sc:url": "http://www.beaconlab.it/RNentrpy",
+      "sc:version": "1.1.2"
+    }
+  ]
+}

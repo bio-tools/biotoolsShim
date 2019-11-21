@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/metashark",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0128"
+    },
+    {
+      "@id": "edam:topic_3407"
+    },
+    {
+      "@id": "edam:topic_3375"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:16845107",
+    "pubmed:15745999"
+  ],
+  "sc:description": "Interactive visualisation platform for the KEGG metabolic network in the form of the SHARKview applet.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0337"
+    },
+    {
+      "@id": "edam:operation_3083"
+    },
+    {
+      "@id": "edam:operation_3715"
+    },
+    {
+      "@id": "edam:operation_3660"
+    }
+  ],
+  "sc:name": "metaSHARK",
+  "sc:url": "http://bioinformatics.leeds.ac.uk/shark/"
+}

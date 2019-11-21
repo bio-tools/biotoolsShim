@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/shinygeo",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3053"
+    },
+    {
+      "@id": "edam:topic_0625"
+    },
+    {
+      "@id": "edam:topic_3360"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_0203"
+    }
+  ],
+  "sc:citation": "pubmed:27503226",
+  "sc:description": "A web-based application for performing differential expression and survival analysis on Gene Expression Omnibus datasets.",
+  "sc:featureList": {
+    "@id": "edam:operation_3223"
+  },
+  "sc:name": "shinyGEO",
+  "sc:url": "http://gdancik.github.io/shinyGEO/"
+}

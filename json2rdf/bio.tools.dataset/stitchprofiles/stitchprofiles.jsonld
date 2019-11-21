@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gki424",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/stitchprofiles",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_3494"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2958"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0654"
+      },
+      "sc:author": [
+        "Eivind Hovig",
+        "Geir Ivar Jerstad",
+        "Eivind Tøstesen"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gki424"
+      },
+      "sc:contributor": "The Research Council of Norway",
+      "sc:description": "Web-based computations on DNA melting, thus predicting the localized separation of the two strands for sequences provided by the users.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0456"
+        },
+        {
+          "@id": "edam:operation_0262"
+        }
+      ],
+      "sc:funder": "The Research Council of Norway",
+      "sc:name": "Stitchprofiles",
+      "sc:provider": [
+        "The Norwegian Radium Hospital",
+        "UiO",
+        "University of Oslo"
+      ],
+      "sc:url": "http://stitchprofiles.uio.no/",
+      "sc:version": "1"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/htssip",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0077"
+        },
+        {
+          "@id": "edam:topic_3127"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0189616"
+      },
+      "sc:description": "The tool functions for analyzing high throughput sequencing stable isotope probing (HTS-SIP) data. Analyses include high resolution stable isotope probing (HR-SIP), multi-window high resolution stable isotope probing (MW-HR-SIP), and quantitative stable isotope probing (q-SIP).",
+      "sc:featureList": {
+        "@id": "edam:operation_2478"
+      },
+      "sc:name": "HTSSIP",
+      "sc:url": "https://cran.r-project.org/web/packages/HTSSIP/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0189616",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

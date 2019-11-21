@@ -1,0 +1,54 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s13059-019-1670-y",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/Alevin",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_3512"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/s13059-019-1670-y"
+        },
+        "pmcid:PMC6437997",
+        "pubmed:30917859"
+      ],
+      "sc:description": "Tool introducing a family of algorithms for quantification and analysis of 3’ tagged-end single-cell sequencing data.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2495"
+        },
+        {
+          "@id": "edam:operation_3799"
+        },
+        {
+          "@id": "edam:operation_3200"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "Alevin",
+      "sc:url": "https://salmon.readthedocs.io/en/latest/alevin.html#references"
+    }
+  ]
+}

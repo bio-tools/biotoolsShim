@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/seqprep",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0632"
+        },
+        {
+          "@id": "edam:topic_0196"
+        },
+        {
+          "@id": "edam:topic_3168"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1134/S1021443716020175"
+      },
+      "sc:description": "Strips adapters and optionally merges overlapping paired-end (or paired-end contamination in mate-pair libraries) illumina style reads.",
+      "sc:featureList": {
+        "@id": "edam:operation_3095"
+      },
+      "sc:license": "MIT",
+      "sc:name": "SeqPrep",
+      "sc:url": "https://github.com/jstjohn/SeqPrep"
+    },
+    {
+      "@id": "https://doi.org/10.1134/S1021443716020175",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

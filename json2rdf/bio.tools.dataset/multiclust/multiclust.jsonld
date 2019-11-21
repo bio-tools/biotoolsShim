@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/multiclust",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3303"
+        },
+        {
+          "@id": "edam:topic_3053"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.4137/cin.s38000"
+      },
+      "sc:description": "Integrative R-package that allows researchers to experiment with the choice of combination of methods for gene selection and clustering with ease. We identified the best performing clustering methodology in the context of clinical outcome. Our observations demonstrate that simple methods such as variance-based ranking perform well on the majority of data sets, provided that the appropriate number of genes is selected.",
+      "sc:featureList": {
+        "@id": "edam:operation_3432"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "multiClust",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/multiClust.html",
+      "sc:version": "1.4.0"
+    },
+    {
+      "@id": "https://doi.org/10.4137/cin.s38000",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

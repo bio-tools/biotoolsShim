@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/annotate",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1276"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2080"
+      },
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Using R enviroments for annotation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2421"
+        },
+        {
+          "@id": "edam:operation_0361"
+        }
+      ],
+      "sc:license": "Artistic-2.0",
+      "sc:name": "annotate",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/annotate.html",
+      "sc:version": "1.52.1"
+    }
+  ]
+}

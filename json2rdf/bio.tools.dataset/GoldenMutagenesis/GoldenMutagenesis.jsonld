@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41598-019-47376-1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/GoldenMutagenesis",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Library"
+      ],
+      "sc:author": {
+        "@id": "https://orcid.org/0000-0001-5444-9282"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1101/453621"
+        },
+        {
+          "@id": "https://doi.org/10.1038/s41598-019-47376-1"
+        },
+        "pmcid:PMC6662682",
+        "pubmed:31358887"
+      ],
+      "sc:contributor": "Pascal Püllmann",
+      "sc:description": "The Golden Gate cloning technique has been proven to be a highly efficient toolbox for a variety of cloning setups. Based on its modular concept it is particularly suitable for the use in multiple-site mutagenesis approaches. In this technical note we developed a protocol termed Golden Mutagenesis for the rapid, easy, reliable and cheap formation of mutagenesis libraries. One to five positions could be altered in parallel or simultaneously within two days. To facilitate the implementation of this technique, this R-library has been developed for the automated primer design and the graphical evaluation of sequencing results to determine the quality of the library.",
+      "sc:license": "LGPL-3.0",
+      "sc:name": "GoldenMutagenesis",
+      "sc:url": "https://msbi.ipb-halle.de/GoldenMutagenesisWeb",
+      "sc:version": "1.1.1"
+    },
+    {
+      "@id": "https://doi.org/10.1101/453621",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://orcid.org/0000-0001-5444-9282",
+      "@type": "schema:Person"
+    }
+  ]
+}

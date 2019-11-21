@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/casas",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Suite",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3678"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.12688/f1000research.11830.2"
+      },
+      "sc:description": "Interactive survival analysis and visualization. Perform the following types of survival analysis:  quantile, landmark and competing risks, in addition to standard survival analysis.",
+      "sc:featureList": {
+        "@id": "edam:operation_0337"
+      },
+      "sc:name": "CASAS",
+      "sc:url": "http://bbisr.shinyapps.winship.emory.edu/CASAS/"
+    },
+    {
+      "@id": "https://doi.org/10.12688/f1000research.11830.2",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

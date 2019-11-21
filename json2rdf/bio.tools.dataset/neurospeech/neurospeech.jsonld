@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.softx.2017.08.004",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/neurospeech",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3334"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.softx.2017.08.004"
+      },
+      "sc:description": "NeuroSpeech is a software for modeling pathological speech signals considering different speech dimensions: phonation, articulation, prosody, and intelligibility.",
+      "sc:featureList": {
+        "@id": "edam:operation_3731"
+      },
+      "sc:license": "MIT",
+      "sc:name": "NeuroSpeech",
+      "sc:url": "https://github.com/ElsevierSoftwareX/SOFTX-D-17-00058",
+      "sc:version": "1.1"
+    }
+  ]
+}

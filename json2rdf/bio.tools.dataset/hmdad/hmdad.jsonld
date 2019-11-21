@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/hmdad",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3697"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1968-2"
+      },
+      "sc:description": "Human microbe-disease association prediction using network consistency projection.",
+      "sc:featureList": {
+        "@id": "edam:operation_3439"
+      },
+      "sc:name": "Human Microbe-Disease Association Database (HMDAD)",
+      "sc:url": "http://www.cuilab.cn/hmdad"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1968-2",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

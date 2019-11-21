@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0132866",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/swdmr",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3295"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0132866"
+      },
+      "sc:description": "swDMR: a sliding window approach to identify differentially methylated regions based on bisulfite sequencing",
+      "sc:featureList": {
+        "@id": "edam:operation_3204"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "SwDMR",
+      "sc:url": "http://code.google.com/p/swdmr/"
+    }
+  ]
+}

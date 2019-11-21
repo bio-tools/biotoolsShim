@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/RIPTiDe",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3407"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/637124"
+      },
+      "sc:description": "Transcriptomic analyses of bacteria have become instrumental to our understanding of their responses to changes in their environment.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3660"
+        },
+        {
+          "@id": "edam:operation_3629"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "RIPTiDe",
+      "sc:url": "https://github.com/mjenior/riptide"
+    },
+    {
+      "@id": "https://doi.org/10.1101/637124",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

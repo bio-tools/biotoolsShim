@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/audocker",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0128"
+    },
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_2275"
+    }
+  ],
+  "sc:citation": "pubmed:22026969",
+  "sc:description": "A GUI for AutoDock Vina, it helps in virtual screening of huge number of ligands continuously. Helps in resumption of work in accidental shutdowns. This program can help you in docking several ligands automatically in to a prescribed protein receptor site.",
+  "sc:featureList": {
+    "@id": "edam:operation_0482"
+  },
+  "sc:name": "AUDocker",
+  "sc:url": "http://sdisau.blogspot.kr/2011/04/audocker-10-easy-tool-for-virtual.html"
+}

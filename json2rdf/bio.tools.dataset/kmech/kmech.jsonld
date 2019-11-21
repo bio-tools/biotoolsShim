@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/kmech",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0821"
+    },
+    {
+      "@id": "edam:topic_3407"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_0602"
+    }
+  ],
+  "sc:citation": "pubmed:15509612",
+  "sc:description": "Comprehensive collection of single and multiple substrate enzyme reactions and regulatory mechanisms that extends Cellerator function for the mathematical modeling of enzyme reactions.",
+  "sc:featureList": {
+    "@id": "edam:operation_2426"
+  },
+  "sc:name": "kMech",
+  "sc:url": "http://www.igb.uci.edu/tools/sb/metabolic-modeling/35-kmech.html"
+}

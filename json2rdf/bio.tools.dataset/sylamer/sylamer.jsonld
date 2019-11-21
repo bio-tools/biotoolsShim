@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/sylamer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.1267"
+      },
+      "sc:description": "System for finding significantly over or under-represented words in sequences according to a sorted gene list. Typically it is used to find significant enrichment or depletion of microRNA or siRNA seed sequences from microarray expression data. Sylamer is extremely fast and can be applied to genome-wide datasets with ease. Results are plotted in terms of a significance landscape plot. These plots show significance profiles for each word studied across the sorted genelist.",
+      "sc:featureList": {
+        "@id": "edam:operation_3501"
+      },
+      "sc:name": "Sylamer",
+      "sc:url": "http://www-test.ebi.ac.uk/enright/sylamer/",
+      "sc:version": "1.0"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nmeth.1267",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

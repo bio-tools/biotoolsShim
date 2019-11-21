@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/dna_baser",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3175"
+  },
+  "sc:description": "Tool for manual and automatic sequence assembly, analysis, editing, sample processing, metadata integration, file format conversion and mutation detection.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2403"
+    },
+    {
+      "@id": "edam:operation_0310"
+    }
+  ],
+  "sc:name": "DNA Baser",
+  "sc:url": "http://www.dnabaser.com/"
+}

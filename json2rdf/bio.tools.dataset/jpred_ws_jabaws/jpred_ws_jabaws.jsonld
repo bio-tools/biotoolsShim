@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btr304",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/jpred_ws_jabaws",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3542"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btr304"
+      },
+      "sc:description": "The Jnet algorithm provides a three-state (α-helix, β-strand and coil) prediction of secondary structure. Given either a single protein sequence or a multiple sequence alignment, this tool derives alignment profiles from which predictions of secondary structure and solvent accessibility are made.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2479"
+        },
+        {
+          "@id": "edam:operation_0267"
+        }
+      ],
+      "sc:name": "Jpred WS (jabaws)",
+      "sc:url": "http://www.compbio.dundee.ac.uk/jabaws/",
+      "sc:version": "1"
+    }
+  ]
+}

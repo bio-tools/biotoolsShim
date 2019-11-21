@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/GerOSS",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_3411"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.3414/ME14-01-0141"
+        },
+        "pubmed:26065375"
+      ],
+      "sc:description": "German Obstetric Surveillance System (GerOSS) - project to improve the treatment of obstetric rare diseases and complications using a web based documentation and information platform.",
+      "sc:featureList": {
+        "@id": "edam:operation_3283"
+      },
+      "sc:license": "Other",
+      "sc:name": "GerOSS",
+      "sc:url": "https://www.geross.de/Default_en.aspx"
+    },
+    {
+      "@id": "https://doi.org/10.3414/ME14-01-0141",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

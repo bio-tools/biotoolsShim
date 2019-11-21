@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.tpb.2005.11.003",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/kininfor",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3053"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/j.tpb.2005.11.003"
+        },
+        "pubmed:16388833"
+      ],
+      "sc:description": "Fortran program that calculates the informativeness of markers in inferring pairwise relatedness or relationships.",
+      "sc:featureList": {
+        "@id": "edam:operation_3625"
+      },
+      "sc:name": "KinInfor",
+      "sc:url": "http://www.zsl.org/science/software/kininfor"
+    }
+  ]
+}

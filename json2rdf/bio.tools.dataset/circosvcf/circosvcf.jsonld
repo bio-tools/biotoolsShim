@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btw834",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/circosvcf",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0092"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btw834"
+      },
+      "sc:description": "Circos visualization of whole-genome sequence variations stored in VCF files .",
+      "sc:featureList": {
+        "@id": "edam:operation_3208"
+      },
+      "sc:name": "CircosVCF",
+      "sc:url": "http://www.ariel.ac.il/research/fbl/software"
+    }
+  ]
+}

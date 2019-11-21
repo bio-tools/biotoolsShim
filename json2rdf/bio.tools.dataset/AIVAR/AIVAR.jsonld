@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/AIVAR",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3676"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ442"
+        },
+        "pubmed:31141141"
+      ],
+      "sc:description": "Assessing concordance among human, in silico predictions and functional assays on genetic variant classification.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3225"
+        },
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_3461"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "AIVAR",
+      "sc:url": "https://github.com/TopGene/AIvar"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ442",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

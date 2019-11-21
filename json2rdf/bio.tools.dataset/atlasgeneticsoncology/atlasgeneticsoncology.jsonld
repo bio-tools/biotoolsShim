@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gks1082",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/atlasgeneticsoncology",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2080"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0971"
+      },
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3070"
+        },
+        {
+          "@id": "edam:topic_3303"
+        }
+      ],
+      "sc:author": "JL Huret and P Dessen",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gks1082"
+        },
+        "pmcid:PMC3531131",
+        "pubmed:23161685",
+        "pubmed:12520000"
+      ],
+      "sc:contributor": "see http://atlasgeneticsoncology.org",
+      "sc:description": "The Atlas of Genetics and Cytogenetics in Oncology and Haematology is a peer-reviewed internet journal/encyclopaedia/database focused on genes implicated in cancer, cytogenetics and clinical entities in cancer and cancer-prone hereditary diseases. The main goal of the Atlas is to provide review articles that describe complementary topics, namely, genes, genetic abnormalities, histopathology, clinical diagnoses and a large iconography.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_0337"
+        }
+      ],
+      "sc:funder": "see http://atlasgeneticsoncology.org",
+      "sc:license": "CC-BY-NC-ND-2.0",
+      "sc:name": "AGCOH",
+      "sc:provider": "igr.fr",
+      "sc:url": "http://atlasgeneticsoncology.org"
+    }
+  ]
+}

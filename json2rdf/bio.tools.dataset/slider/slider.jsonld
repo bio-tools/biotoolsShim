@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/slider",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": [
+    {
+      "@id": "edam:data_2093"
+    },
+    {
+      "@id": "edam:data_2959"
+    }
+  ],
+  "edam:has_output": [
+    {
+      "@id": "edam:data_1383"
+    },
+    {
+      "@id": "edam:data_0867"
+    }
+  ],
+  "sc:additionalType": "Suite",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2885"
+    },
+    {
+      "@id": "edam:topic_2269"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_2533"
+    }
+  ],
+  "sc:citation": "pubmed:18974170",
+  "sc:description": "A suite of java classes which provides alignment of Illumina Sequence analyser reads. For alignment it uses base probabilities instead of sequences. It also enambles SNP prediction.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0292"
+    },
+    {
+      "@id": "edam:operation_0484"
+    },
+    {
+      "@id": "edam:operation_3227"
+    }
+  ],
+  "sc:license": "AFL-3.0",
+  "sc:name": "Slider",
+  "sc:url": "http://www.bcgsc.ca/platform/bioinfo/software/slider"
+}

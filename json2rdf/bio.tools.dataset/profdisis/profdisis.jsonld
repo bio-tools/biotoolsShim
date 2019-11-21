@@ -1,0 +1,57 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btm174",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/profdisis",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2886"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_1276"
+      },
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0128"
+      },
+      "sc:author": "Yanay Ofran",
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btm174"
+        },
+        "pubmed:17646316"
+      ],
+      "sc:contributor": [
+        "Burkhard Rost",
+        "Venkatesh Mysore"
+      ],
+      "sc:description": "Prediction of protein-DNA interaction sites identified from sequence.",
+      "sc:featureList": {
+        "@id": "edam:operation_2492"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "PROFdisis",
+      "sc:provider": [
+        "Columbia University",
+        "RostLab",
+        "D.E.Shaw Research"
+      ],
+      "sc:url": "http://ppopen.informatik.tu-muenchen.de/",
+      "sc:version": "1.0.6"
+    }
+  ]
+}

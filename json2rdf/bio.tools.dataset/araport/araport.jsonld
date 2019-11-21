@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/araport",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web service",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1111/tpj.13415"
+        },
+        "pubmed:27862469"
+      ],
+      "sc:description": "Resource for Arabidopsis thaliana genomics. Araport offers gene and protein reports with orthology, expression, interactions and the latest annotation, plus analysis tools, community apps, and web services",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0227"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:license": "Unlicensed",
+      "sc:name": "Araport",
+      "sc:url": "https://www.araport.org/"
+    },
+    {
+      "@id": "https://doi.org/10.1111/tpj.13415",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

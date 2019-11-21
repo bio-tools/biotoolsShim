@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/PiMP",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3520"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx499"
+      },
+      "sc:description": "PiMP my metabolome: an integrated, web-based tool for LC-MS metabolomics data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3803"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "PiMP",
+      "sc:url": "http://polyomics.mvls.gla.ac.uk/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx499",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

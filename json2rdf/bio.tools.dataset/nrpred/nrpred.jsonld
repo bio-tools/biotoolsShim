@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/nrpred",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_2229"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_0749"
+    },
+    {
+      "@id": "edam:topic_0204"
+    }
+  ],
+  "sc:citation": "pubmed:15039428",
+  "sc:description": "SVM based tool for the classification of nuclear receptors on the basis of amino acid composition or dipeptide composition. The overall prediction accuracy of amino acid composition and dipeptide composition based methods is 82.6% and 97.2%",
+  "sc:featureList": {
+    "@id": "edam:operation_2995"
+  },
+  "sc:name": "NRpred",
+  "sc:url": "http://www.imtech.res.in/raghava/nrpred/"
+}

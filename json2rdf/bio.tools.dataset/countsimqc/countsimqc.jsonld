@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/countsimqc",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3068"
+        },
+        {
+          "@id": "edam:topic_3524"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx631"
+      },
+      "sc:description": "Compare characteristic features of count data sets.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0256"
+        },
+        {
+          "@id": "edam:operation_0305"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "countsimQC",
+      "sc:url": "https://github.com/csoneson/countsimQC"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx631",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

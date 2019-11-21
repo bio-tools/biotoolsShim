@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/taxman",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_3168"
+    },
+    {
+      "@id": "edam:topic_0632"
+    },
+    {
+      "@id": "edam:topic_0080"
+    }
+  ],
+  "sc:citation": "pubmed:22618877",
+  "sc:description": "Trims rRNA reference sequences based on user-selected primer pairs and returns an assessment of the primer specificity by taxa.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3460"
+    },
+    {
+      "@id": "edam:operation_0308"
+    },
+    {
+      "@id": "edam:operation_3237"
+    },
+    {
+      "@id": "edam:operation_3192"
+    },
+    {
+      "@id": "edam:operation_2419"
+    }
+  ],
+  "sc:name": "TaxMan",
+  "sc:url": "http://www.ibi.vu.nl/programs/taxmanwww/"
+}

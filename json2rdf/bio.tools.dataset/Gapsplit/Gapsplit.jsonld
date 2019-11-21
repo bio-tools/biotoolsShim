@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Gapsplit",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3407"
+        },
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_3398"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/652917"
+      },
+      "sc:description": "Efficient random sampling for constraint-based (COBRA) models.",
+      "sc:featureList": {
+        "@id": "edam:operation_3660"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "Gapsplit",
+      "sc:url": "https://github.com/jensenlab/gapsplit"
+    },
+    {
+      "@id": "https://doi.org/10.1101/652917",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

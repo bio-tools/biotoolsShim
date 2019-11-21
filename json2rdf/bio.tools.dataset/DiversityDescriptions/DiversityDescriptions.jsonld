@@ -1,0 +1,90 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/database/baz002",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/DiversityDescriptions",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_3108"
+        },
+        {
+          "@id": "edam:data_3707"
+        },
+        {
+          "@id": "edam:data_3736"
+        }
+      ],
+      "edam:has_output": [
+        {
+          "@id": "edam:data_3108"
+        },
+        {
+          "@id": "edam:data_3736"
+        },
+        {
+          "@id": "edam:data_3707"
+        }
+      ],
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0610"
+        },
+        {
+          "@id": "edam:topic_3391"
+        },
+        {
+          "@id": "edam:topic_3855"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_3678"
+        },
+        {
+          "@id": "edam:topic_3070"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/database/baz002"
+      },
+      "sc:contributor": "Universität Bayreuth, Department of Mycology",
+      "sc:description": "DiversityDescriptions (DWB-DD) is an application of the Diversity Workbench (DWB). It might be installed as part of a DWB environment, but also as a stand-alone application, e. g., in a local installation. DD has a generic database model. It is organising descriptions of organisms, taxa, syntaxa and any item, which is object of diversity research. The descriptions are characterized by a triple structure, namely ’item-descriptor-state’.  The states can be generalized to one of the presently supported data types (categorical states, quantitative values and measures, molecular sequence data and free-form text). The descriptors (=properties) are not limited to morphological characters and functional traits, but could be physiological, ecological, behavioral , survey parameters, molecular descriptors, descriptors of a lab workflow, descriptors of data content schemes. Sample data and measurement data as gained by ecological field sampling are addressed with own functions.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3434"
+        },
+        {
+          "@id": "edam:operation_3438"
+        },
+        {
+          "@id": "edam:operation_2409"
+        },
+        {
+          "@id": "edam:operation_2429"
+        },
+        {
+          "@id": "edam:operation_2945"
+        }
+      ],
+      "sc:funder": "Deutsche Forschungsgemeinschaft (DFG)",
+      "sc:license": "GPL-2.0",
+      "sc:name": "DiversityDescriptions",
+      "sc:provider": "SNSB IT Center",
+      "sc:url": "https://diversityworkbench.net/Portal/DiversityDescriptions"
+    }
+  ]
+}

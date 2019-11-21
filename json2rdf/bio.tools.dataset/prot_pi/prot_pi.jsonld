@@ -1,0 +1,73 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/prot_pi",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": [
+    {
+      "@id": "edam:data_2974"
+    },
+    {
+      "@id": "edam:data_0846"
+    }
+  ],
+  "edam:has_output": [
+    {
+      "@id": "edam:data_1520"
+    },
+    {
+      "@id": "edam:data_2979"
+    },
+    {
+      "@id": "edam:data_2970"
+    },
+    {
+      "@id": "edam:data_1528"
+    },
+    {
+      "@id": "edam:data_0897"
+    },
+    {
+      "@id": "edam:data_1522"
+    }
+  ],
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0601"
+    },
+    {
+      "@id": "edam:topic_3524"
+    },
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_3520"
+    }
+  ],
+  "sc:description": "Online calculation (simulation) of many physicochemical parameters of peptides/proteins.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0250"
+    },
+    {
+      "@id": "edam:operation_2574"
+    },
+    {
+      "@id": "edam:operation_2426"
+    },
+    {
+      "@id": "edam:operation_0407"
+    }
+  ],
+  "sc:license": "Other",
+  "sc:name": "Prot pi",
+  "sc:url": "https://www.protpi.ch"
+}

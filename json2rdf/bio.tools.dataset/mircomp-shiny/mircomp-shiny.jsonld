@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.12688/f1000research.13098.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/mircomp-shiny",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_3519"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.12688/f1000research.13098.1"
+      },
+      "sc:description": "Interactive assessment of qPCR-based microRNA quantification and quality control algorithms. Read in the raw amplification data and use these data to assess the performance of methods that estimate expression from the amplification curves.",
+      "sc:featureList": {
+        "@id": "edam:operation_2428"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "miRcomp-Shiny",
+      "sc:url": "https://laurenkemperman.shinyapps.io/mircomp/",
+      "sc:version": "1.10.0"
+    }
+  ]
+}

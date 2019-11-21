@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/dogsitescorer",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1460"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_0897"
+        },
+        {
+          "@id": "edam:data_2878"
+        }
+      ],
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_3534"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/ci100241y"
+        },
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/bts310"
+        }
+      ],
+      "sc:description": "Automated pocket detection and analysis tool enabling the identification of potential binding pockets and subpockets in protein structures. Additionally, global properties, describing size, shape and chemical features of the predicted (sub)pockets, are calculated. Per default, a simple druggability score is provided for each (sub)pocket, based on a linear combination of the three descriptors describing volume, hydrophobicity and enclosure.",
+      "sc:featureList": {
+        "@id": "edam:operation_2406"
+      },
+      "sc:name": "DoGSiteScorer",
+      "sc:provider": "University of Hamburg - Center for Bioinformatics",
+      "sc:url": "http://proteinsplus.zbh.uni-hamburg.de/#dogsite"
+    },
+    {
+      "@id": "https://doi.org/10.1021/ci100241y",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bts310",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

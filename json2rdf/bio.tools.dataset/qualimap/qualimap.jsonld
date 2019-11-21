@@ -1,0 +1,23 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/qualimap",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3572"
+  },
+  "sc:citation": "pubmed:22914218",
+  "sc:description": "Platform-independent application written in Java and R that provides both a Graphical User Inteface (GUI) and a command-line interface to facilitate the quality control of alignment sequencing data.",
+  "sc:featureList": {
+    "@id": "edam:operation_3218"
+  },
+  "sc:name": "QualiMap",
+  "sc:url": "http://qualimap.bioinfo.cipf.es/"
+}

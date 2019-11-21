@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/hi-jack",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3324"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_2229"
+    }
+  ],
+  "sc:citation": "pubmed:25758402",
+  "sc:description": "Novel computational framework, for inferring pathway-based interactions between a host and a pathogen that relies on the idea of metabolite hijacking.",
+  "sc:featureList": {
+    "@id": "edam:operation_3439"
+  },
+  "sc:name": "Hi-Jack",
+  "sc:url": "http://cloud.kaust.edu.sa/Pages/Hi-Jack.aspx"
+}

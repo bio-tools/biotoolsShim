@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/bnbc",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0199"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/214361"
+      },
+      "sc:description": "Tools to normalize (several) Hi-C data from replicates.",
+      "sc:featureList": {
+        "@id": "edam:operation_3435"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "bnbc",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/bnbc.html",
+      "sc:version": "1.2.0"
+    },
+    {
+      "@id": "https://doi.org/10.1101/214361",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

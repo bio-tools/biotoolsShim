@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/omicbrowse",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0622"
+  },
+  "sc:citation": "pubmed:19528066",
+  "sc:description": "OmicBrowse is a genome browser designed as a scalable system for maintaining numerous genome annotation datasets. Multiple users may access a common dataset.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3208"
+    },
+    {
+      "@id": "edam:operation_0362"
+    }
+  ],
+  "sc:name": "OmicBrowse",
+  "sc:url": "http://sourceforge.net/projects/omicbrowse/"
+}

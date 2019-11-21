@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1853-z",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/vdjpipe",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3170"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1853-z"
+      },
+      "sc:description": "Pipelined tool for pre-processing immune repertoire sequencing data.",
+      "sc:featureList": {
+        "@id": "edam:operation_3680"
+      },
+      "sc:name": "VDJPipe",
+      "sc:url": "https://vdjserver.org/vdjpipe/index.html"
+    }
+  ]
+}

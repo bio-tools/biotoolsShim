@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.7490/f1000research.1110127.1",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bpm",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0091"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.7490/f1000research.1110127.1"
+      },
+      "sc:description": "Grid computing framework for enabling large-scale comparative genomics processes.",
+      "sc:featureList": {
+        "@id": "edam:operation_0291"
+      },
+      "sc:name": "BPM",
+      "sc:url": "https://github.com/BioDAG/BPM",
+      "sc:version": "1.0"
+    }
+  ]
+}

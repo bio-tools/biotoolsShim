@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/Exautomate",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3676"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/649368"
+      },
+      "sc:description": "User-friendly tool for region-based rare variant association analysis (RVAA).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3211"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "Exautomate",
+      "sc:url": "https://github.com/exautomate/Exautomate-Core"
+    },
+    {
+      "@id": "https://doi.org/10.1101/649368",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

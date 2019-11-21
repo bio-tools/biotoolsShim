@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/GMA",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_3517"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ304"
+        },
+        "pubmed:31070732"
+      ],
+      "sc:description": "Efficient Multivariate Analysis Algorithms for Longitudinal Genome-wide Association Studies.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3659"
+        },
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_0282"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "GMA",
+      "sc:url": "https://github.com/chaoning/GMA"
+    },
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ304",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/gene_set_to_diseases",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": [
+        {
+          "@id": "edam:data_1025"
+        },
+        {
+          "@id": "edam:data_1150"
+        }
+      ],
+      "edam:has_output": [
+        {
+          "@id": "edam:data_1622"
+        },
+        {
+          "@id": "edam:data_0916"
+        }
+      ],
+      "sc:additionalType": [
+        "Web application",
+        "Web API"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3473"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.18547/gcb.2016.vol2.iss1.e33"
+      },
+      "sc:description": "Disease enrichment analysis on gene sets.",
+      "sc:featureList": {
+        "@id": "edam:operation_3501"
+      },
+      "sc:name": "Gene set to diseases",
+      "sc:url": "http://cbdm.uni-mainz.de/geneset2diseases"
+    },
+    {
+      "@id": "https://doi.org/10.18547/gcb.2016.vol2.iss1.e33",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

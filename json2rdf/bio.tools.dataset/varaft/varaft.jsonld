@@ -1,0 +1,59 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gky471",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/varaft",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3325"
+        },
+        {
+          "@id": "edam:topic_3063"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gky471"
+      },
+      "sc:description": "Variant Analysis and Filtration Tool. Standalone and multiplatform tool for the annotation and prioritization of potential disease causing genes. With this tool users can annotate variant (VCF) files, combine multiple samples from various individuals, prioritize list of variants by multi-filtering parameters. Additionally, users can perform a coverage analysis and quality check from any BAM file.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3695"
+        },
+        {
+          "@id": "edam:operation_3763"
+        },
+        {
+          "@id": "edam:operation_3661"
+        },
+        {
+          "@id": "edam:operation_3436"
+        },
+        {
+          "@id": "edam:operation_3225"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "VarAFT",
+      "sc:url": "http://varaft.eu"
+    }
+  ]
+}

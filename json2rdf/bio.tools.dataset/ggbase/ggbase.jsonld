@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/nmeth.3252",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ggbase",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nmeth.3252"
+      },
+      "sc:description": "Infrastructure for genetics of gene expression package GGtools.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "GGBase",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/GGBase.html",
+      "sc:version": "3.36.0"
+    }
+  ]
+}

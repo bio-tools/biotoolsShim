@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/cs-rosetta3",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2275"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/s10723-012-9246-z"
+      },
+      "sc:description": "Protocol which generates 3D models of proteins, using only the 13CA, 13CB, 13C', 15N, 1HA and 1HN NMR chemical shifts as input.",
+      "sc:featureList": {
+        "@id": "edam:operation_0477"
+      },
+      "sc:name": "CS-ROSETTA3",
+      "sc:url": "http://haddock.science.uu.nl/enmr/services/CS-ROSETTA3/"
+    },
+    {
+      "@id": "https://doi.org/10.1007/s10723-012-9246-z",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

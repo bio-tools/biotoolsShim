@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1074/mcp.M110.004994",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/procoil",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_0736"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC3098589",
+        {
+          "@id": "https://doi.org/10.1074/mcp.M110.004994"
+        },
+        "pubmed:21311038"
+      ],
+      "sc:description": "The package allows for predicting whether a coiled coil sequence (amino acid sequence plus heptad register) is more likely to form a dimer or more likely to form a trimer. Additionally to the prediction itself, a prediction profile is computed which allows for determining the strengths to which the individual residues are indicative for either class. Prediction profiles can also be visualized as curves or heatmaps.",
+      "sc:featureList": {
+        "@id": "edam:operation_0474"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "procoil",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/procoil.html",
+      "sc:version": "2.2.0"
+    }
+  ]
+}

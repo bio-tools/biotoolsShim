@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/sbo_ws",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web service",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2259"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv1352"
+      },
+      "sc:description": "This ontology project goal is to develop controlled vocabularies and ontologies tailored specifically for the kinds of problems being faced in Systems Biology, especially in the context of computational modeling.",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:name": "SBO WS",
+      "sc:url": "http://www.ebi.ac.uk/sbo/SBOWSLib/docwsdl/wsdldoc.html",
+      "sc:version": "1"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv1352",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

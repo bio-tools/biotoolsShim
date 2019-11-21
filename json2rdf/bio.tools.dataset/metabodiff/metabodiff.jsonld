@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty344",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/metabodiff",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0797"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3172"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty344"
+      },
+      "sc:description": "Differential metabolomic analysis.",
+      "sc:featureList": {
+        "@id": "edam:operation_3209"
+      },
+      "sc:license": "MIT",
+      "sc:name": "MetaboDiff",
+      "sc:url": "https://github.com/andreasmock/MetaboDiff/"
+    }
+  ]
+}

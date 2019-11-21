@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/QTLpoly",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_0625"
+        },
+        {
+          "@id": "edam:topic_3810"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/622951"
+      },
+      "sc:description": "R package for random-effect multiple quantitative trait loci (QTL) mapping in autopolyploids.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3196"
+        },
+        {
+          "@id": "edam:operation_3232"
+        },
+        {
+          "@id": "edam:operation_0282"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "QTLpoly",
+      "sc:url": "https://github.com/guilherme-pereira/qtlpoly"
+    },
+    {
+      "@id": "https://doi.org/10.1101/622951",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

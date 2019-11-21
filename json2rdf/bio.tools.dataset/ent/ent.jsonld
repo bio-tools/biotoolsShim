@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1109/TCBB.2007.70223",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ent",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3053"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1109/TCBB.2007.70223"
+      },
+      "sc:description": "ENT is a highly scalable genotype phasing algorithm based on entropy minimization. ENT is capable of phasing both unrelated and related genotypes coming from complex pedigrees.",
+      "sc:featureList": {
+        "@id": "edam:operation_3454"
+      },
+      "sc:name": "ENT",
+      "sc:url": "http://dna.engr.uconn.edu/?page_id=25",
+      "sc:version": "1.0.2"
+    }
+  ]
+}

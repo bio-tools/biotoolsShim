@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/peppsy",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2872"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2042"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_0121"
+        }
+      ],
+      "sc:author": [
+        "Olivier Sallou",
+        "Thomas Darde"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/database/baw070"
+      },
+      "sc:contributor": [
+        "Paula P. Duek",
+        "Olivier Collin",
+        "Lydie Lane"
+      ],
+      "sc:description": "A gene expression-based prioritization system to help investigators to determine in which human tissues they should look for an unseen protein.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "PepPSy",
+      "sc:url": "http://peppsy.genouest.org"
+    },
+    {
+      "@id": "https://doi.org/10.1093/database/baw070",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

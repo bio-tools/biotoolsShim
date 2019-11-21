@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkv561",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/patternexplorer",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1460"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0883"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3510"
+        },
+        {
+          "@id": "edam:topic_0166"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_1317"
+        },
+        {
+          "@id": "edam:topic_0081"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkv561"
+      },
+      "sc:description": "A web application to define, extract, and analyze structural patterns or biomolecular complexes in real-time.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0570"
+        },
+        {
+          "@id": "edam:operation_0245"
+        },
+        {
+          "@id": "edam:operation_0250"
+        }
+      ],
+      "sc:name": "PatternExplorer",
+      "sc:provider": [
+        "Masaryk University, Brno, Czech Republic",
+        "ELIXIR-CZ"
+      ],
+      "sc:url": "http://ncbr.muni.cz/PatternQuery",
+      "sc:version": "1.0"
+    }
+  ]
+}

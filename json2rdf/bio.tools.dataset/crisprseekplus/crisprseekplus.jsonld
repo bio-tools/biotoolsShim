@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/crisprseekplus",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0108424"
+      },
+      "sc:description": "Bioinformatics platform containing interface to work with offTargetAnalysis and compare2Sequences in the CRISPRseek package, and GUIDEseqAnalysis.",
+      "sc:featureList": {
+        "@id": "edam:operation_2451"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "crisprseekplus",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/crisprseekplus.html",
+      "sc:version": "1.0.0"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0108424",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

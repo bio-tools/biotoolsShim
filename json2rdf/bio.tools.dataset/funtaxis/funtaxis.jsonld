@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/srep31971",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/funtaxis",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0637"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/srep31971"
+      },
+      "sc:description": "Web server attempts to automatically infer which functional specificities and commonalities exist among different taxa.",
+      "sc:featureList": {
+        "@id": "edam:operation_3460"
+      },
+      "sc:name": "Funtaxis",
+      "sc:provider": "Department of Molecular Medicine, University of Padua",
+      "sc:url": "http://www.medcomp.medicina.unipd.it/funtaxis",
+      "sc:version": "1.0"
+    }
+  ]
+}

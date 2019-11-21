@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/ample",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_2828"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1107/S0907444912039194"
+      },
+      "sc:description": "A program for Molecular Replacement with search ensembles generated from uncoventional models.",
+      "sc:featureList": {
+        "@id": "edam:operation_3454"
+      },
+      "sc:name": "Ample",
+      "sc:provider": "Instruct",
+      "sc:url": "http://www.ccp4.ac.uk/ample/",
+      "sc:version": "1"
+    },
+    {
+      "@id": "https://doi.org/10.1107/S0907444912039194",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

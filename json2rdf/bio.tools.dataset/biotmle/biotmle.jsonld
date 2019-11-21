@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/biotmle",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3518"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.21105/joss.00295"
+      },
+      "sc:description": "This package facilitates the discovery of biomarkers from biological sequencing data based on the associations of potential biomarkers with exposure and outcome variables by implementing an estimation procedure that combines a generalization of moderated statistics with targeted minimum loss-based estimates (TMLE) of parameters defined via causal inference whose estimators admit asymptotically linear representations.",
+      "sc:featureList": {
+        "@id": "edam:operation_3223"
+      },
+      "sc:license": "Other",
+      "sc:name": "biotmle",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/biotmle.html",
+      "sc:version": "1.4.0"
+    },
+    {
+      "@id": "https://doi.org/10.21105/joss.00295",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

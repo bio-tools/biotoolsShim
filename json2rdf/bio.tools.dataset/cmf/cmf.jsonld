@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btq546",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/cmf",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0654"
+        },
+        {
+          "@id": "edam:topic_3511"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btq546"
+      },
+      "sc:description": "Contrast motif finder that finds motifs with differential enrichment between two datasets. It aims to take advantage of multiple high quality binding datasets to identify subtle regulatory signals, such as context-dependent motifs, within bound sequences. It is specifically designed to discriminate between two sets of bound sequences and takes into account false positive sites when updating PWMs and other model parameters.",
+      "sc:featureList": {
+        "@id": "edam:operation_3501"
+      },
+      "sc:name": "CMF",
+      "sc:url": "http://www.stat.ucla.edu/~zhou/CMF/index.html"
+    }
+  ]
+}

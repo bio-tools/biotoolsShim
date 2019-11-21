@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/marky",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0219"
+    },
+    {
+      "@id": "edam:topic_3071"
+    }
+  ],
+  "sc:citation": "pubmed:25480679",
+  "sc:description": "It is able to annotate biomedical texts using different annotation classes. You only need a server with php technology and one database to annotate documents with a browser. Users can enter biomedical documents to be annotated by other users and get annotations for relevant terms, such as diseases, symptoms and treatments.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0335"
+    },
+    {
+      "@id": "edam:operation_0226"
+    }
+  ],
+  "sc:name": "Marky",
+  "sc:url": "http://sing.ei.uvigo.es/marky/"
+}

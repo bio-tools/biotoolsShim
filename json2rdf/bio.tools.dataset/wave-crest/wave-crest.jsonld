@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s13059-016-1033-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/wave-crest",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Desktop application",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s13059-016-1033-x"
+      },
+      "sc:description": "Statistical approach to reconstruct gene expression trajectory in single cell RNA-seq experiments with ordered conditions.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:license": "Apache-2.0",
+      "sc:name": "Wave-Crest",
+      "sc:url": "https://github.com/lengning/WaveCrest"
+    }
+  ]
+}

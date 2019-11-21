@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/marginalcausality",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0171142"
+      },
+      "sc:description": "Assess downstream causality between two variables.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2426"
+        },
+        {
+          "@id": "edam:operation_3439"
+        }
+      ],
+      "sc:name": "MarginalCausality",
+      "sc:url": "https://github.com/Monneret/MarginalCausality"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0171142",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

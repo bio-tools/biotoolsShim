@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/biolccc",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": {
+    "@id": "edam:data_2976"
+  },
+  "edam:has_output": {
+    "@id": "edam:data_2979"
+  },
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_3520"
+    }
+  ],
+  "sc:citation": "pubmed:17105170",
+  "sc:description": "An analytic model of peptide retention.",
+  "sc:featureList": {
+    "@id": "edam:operation_3633"
+  },
+  "sc:name": "BioLCCC",
+  "sc:url": "http://theorchromo.ru/"
+}

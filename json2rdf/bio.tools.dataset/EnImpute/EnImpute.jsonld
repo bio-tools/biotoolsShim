@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ435",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/EnImpute",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3474"
+        },
+        {
+          "@id": "edam:topic_0099"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:31125056",
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ435"
+        }
+      ],
+      "sc:description": "R package for imputing dropout events in single cell RNA sequencing data via ensemble learning.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3557"
+        },
+        {
+          "@id": "edam:operation_3192"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "EnImpute",
+      "sc:url": "https://github.com/Zhangxf-ccnu/EnImpute"
+    }
+  ]
+}

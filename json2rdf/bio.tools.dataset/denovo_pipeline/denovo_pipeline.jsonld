@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/denovo_pipeline",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3168"
+  },
+  "sc:description": "DeNovo Pipeline performes protein identification by de novo interpretation by coupling the PepNovo software for sequencing and the Fasta tool for homology searching.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3767"
+    },
+    {
+      "@id": "edam:operation_2479"
+    }
+  ],
+  "sc:name": "DeNovo Pipeline",
+  "sc:url": "http://pappso.inra.fr/bioinfo/denovopipeline/",
+  "sc:version": "1.5"
+}

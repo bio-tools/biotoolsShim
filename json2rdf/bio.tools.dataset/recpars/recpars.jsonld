@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1007/BF00182187",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/recpars",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3293"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/BF00182187"
+      },
+      "sc:description": "Phylogenetic analysis using a parsimony analysis that takes recombination events into account.",
+      "sc:featureList": {
+        "@id": "edam:operation_0545"
+      },
+      "sc:name": "RecPars",
+      "sc:provider": "birc.au.dk",
+      "sc:url": "http://www.daimi.au.dk/%7Ecompbio/recpars/recpars.html",
+      "sc:version": "1.0.0"
+    }
+  ]
+}

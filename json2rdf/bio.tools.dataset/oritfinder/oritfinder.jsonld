@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gky352",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/oritfinder",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_0798"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/nar/gky352"
+        },
+        "pubmed:29733379"
+      ],
+      "sc:description": "Rapid identification of the origin of transfer site (oriT) of a conjugative plasmid or chromosome-borne integrative and conjugative element. With a combination of similarity searches for the oriTDB-archived oriT nucleotide sequences and the co-localization of the flanking relaxase homologous genes, the oriTfinder can predict the oriT region with high accuracy in the DNA sequence of a bacterial plasmid or chromosome in minutes.",
+      "sc:featureList": {
+        "@id": "edam:operation_3482"
+      },
+      "sc:name": "oriTfinder",
+      "sc:url": "http://bioinfo-mml.sjtu.edu.cn/oriTfinder",
+      "sc:version": "1.1"
+    }
+  ]
+}

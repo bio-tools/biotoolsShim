@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/amigo2",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_2275"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:27378288",
+  "sc:description": "Multi-platform (Windows and Linux) toolbox which covers all the steps of the iterative identification procedure: local and global sensitivity analysis, local and global ranking of parameters, parameter estimation, identifiability analysis and optimal experimental design.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3562"
+    },
+    {
+      "@id": "edam:operation_2476"
+    },
+    {
+      "@id": "edam:operation_2238"
+    }
+  ],
+  "sc:name": "AMIGO2",
+  "sc:url": "https://sites.google.com/site/amigo2toolbox/"
+}

@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/webapollo",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0622"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/gb-2013-14-8-r93"
+      },
+      "sc:description": "Browser-based tool for distributed community annotation of sequences.",
+      "sc:featureList": {
+        "@id": "edam:operation_0226"
+      },
+      "sc:name": "WebApollo",
+      "sc:url": "http://gmod.org/wiki/WebApollo"
+    },
+    {
+      "@id": "https://doi.org/10.1186/gb-2013-14-8-r93",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

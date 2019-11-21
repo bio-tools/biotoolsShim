@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mdts",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_2269"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/252833"
+      },
+      "sc:description": "A package for the detection of de novo copy number deletions in targeted sequencing of trios with high sensitivity and positive predictive value.",
+      "sc:featureList": {
+        "@id": "edam:operation_3644"
+      },
+      "sc:license": "Artistic-2.0",
+      "sc:name": "MDTS",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/MDTS.html",
+      "sc:version": "1.0.2"
+    },
+    {
+      "@id": "https://doi.org/10.1101/252833",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

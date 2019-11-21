@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/CRISPR-P",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3810"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0659"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1016/j.molp.2017.01.00"
+      },
+      "sc:description": "Improved CRISPR/Cas9 tool for genome editing in plants",
+      "sc:featureList": {
+        "@id": "edam:operation_3096"
+      },
+      "sc:license": "Unlicense",
+      "sc:name": "CRISPR-P",
+      "sc:url": "http://crispr.hzau.edu.cn/CRISPR2/",
+      "sc:version": "2.0"
+    },
+    {
+      "@id": "https://doi.org/10.1016/j.molp.2017.01.00",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

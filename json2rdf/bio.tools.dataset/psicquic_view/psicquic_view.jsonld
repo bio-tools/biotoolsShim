@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/psicquic_view",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0128"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1007/978-1-4419-9863-7_1352"
+      },
+      "sc:description": "Standardises programmatic access to molecular interaction databases.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2422"
+        },
+        {
+          "@id": "edam:operation_0224"
+        }
+      ],
+      "sc:name": "PSICQUIC view",
+      "sc:url": "http://www.ebi.ac.uk/Tools/webservices/psicquic/view/home.xhtml"
+    },
+    {
+      "@id": "https://doi.org/10.1007/978-1-4419-9863-7_1352",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

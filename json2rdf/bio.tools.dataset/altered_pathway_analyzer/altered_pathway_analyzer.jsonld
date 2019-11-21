@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/srep40450",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/altered_pathway_analyzer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0204"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/srep40450"
+      },
+      "sc:description": "Cross-platform and standalone tool for analyzing gene expression datasets to highlight significantly rewired pathways across case-vs-control conditions. The Tool is designed to analyze human gene expression datasets (with Entrez ID).",
+      "sc:featureList": {
+        "@id": "edam:operation_2497"
+      },
+      "sc:name": "Altered Pathway Analyzer",
+      "sc:url": "http://bioinfo.icgeb.res.in/APA/",
+      "sc:version": "3.0"
+    }
+  ]
+}

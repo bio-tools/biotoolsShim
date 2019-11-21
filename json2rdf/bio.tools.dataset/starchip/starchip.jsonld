@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty091",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/starchip",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0659"
+        },
+        {
+          "@id": "edam:topic_0097"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty091"
+      },
+      "sc:description": "Detection of Circular RNA and Fusions from RNA-Seq.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2441"
+        },
+        {
+          "@id": "edam:operation_0278"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "STARChip",
+      "sc:url": "https://github.com/LosicLab/STARChip"
+    }
+  ]
+}

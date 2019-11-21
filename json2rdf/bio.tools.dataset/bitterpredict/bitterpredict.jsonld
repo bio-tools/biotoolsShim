@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1038/s41598-017-12359-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bitterpredict",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Script",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3292"
+        },
+        {
+          "@id": "edam:topic_3332"
+        },
+        {
+          "@id": "edam:topic_2815"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41598-017-12359-7"
+      },
+      "sc:description": "Classifier which predicts whether a compound is bitter or not, based on its chemical structure.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "BitterPredict",
+      "sc:url": "https://github.com/Niv-Lab/BitterPredict1"
+    }
+  ]
+}

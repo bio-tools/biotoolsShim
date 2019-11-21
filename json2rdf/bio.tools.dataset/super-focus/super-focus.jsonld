@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/super-focus",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3174"
+    },
+    {
+      "@id": "edam:topic_0654"
+    },
+    {
+      "@id": "edam:topic_0080"
+    }
+  ],
+  "sc:citation": "pubmed:26454280",
+  "sc:description": "An agile homology-based approach using a reduced SEED database to report the subsystems present in metagenomic samples and profile their abundances.",
+  "sc:featureList": {
+    "@id": "edam:operation_0253"
+  },
+  "sc:name": "SUPER-FOCUS",
+  "sc:url": "http://edwards.sdsu.edu/superfocus/"
+}

@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1688-7",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/quantgenius",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_3108"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2603"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3519"
+      },
+      "sc:author": "Miha Svalina",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1688-7"
+      },
+      "sc:contributor": [
+        "Marko Petek",
+        "Katja Stare",
+        "Ana Rotter",
+        "Maruša Pompe-Novak"
+      ],
+      "sc:description": "Web-based tool for the quantification of qPCR data using standard curve approach and QC-based decision support system in a high-throughput setting. It deals with all the issues of qPCR related calculations from data consistency, pipetting errors, standard curve parameters, individual sample efficiencies/inhibition, range of quantification and normalization to one or several reference genes. In this way it enables robust quality controlled quantification of nucleic acids.",
+      "sc:featureList": {
+        "@id": "edam:operation_3438"
+      },
+      "sc:name": "quantGenius",
+      "sc:provider": [
+        "National Institute of Biology, Department of Biotechnology and Systems Biology",
+        "ELIXIR-SI-hackathon"
+      ],
+      "sc:url": "http://quantgenius.nib.si/",
+      "sc:version": "1"
+    }
+  ]
+}

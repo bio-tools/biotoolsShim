@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/profed",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0108"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3336"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0191570"
+      },
+      "sc:description": "Profile filtering of expression data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2495"
+      },
+      "sc:name": "ProFED",
+      "sc:url": "http://ebi056.uni-muenster.de:3838/profed/"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0191570",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

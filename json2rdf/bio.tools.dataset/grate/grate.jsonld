@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/grate",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0637"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_3299"
+    }
+  ],
+  "sc:citation": "pubmed:15248131",
+  "sc:description": "Software for relative rate tests with groups supporting all models of nucleotide substitution known by PAUP*.",
+  "sc:featureList": {
+    "@id": "edam:operation_2478"
+  },
+  "sc:name": "GRate",
+  "sc:url": "http://bioinfweb.info/Software/GRate"
+}

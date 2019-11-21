@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/651018",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/TEMPO",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3399"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/651018"
+      },
+      "sc:description": "TEMPO (TEmporal Modeling of Pathway Outliers) -  method for modeling and detecting gene sets with disruption of some temporal pattern of expression.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3431"
+        },
+        {
+          "@id": "edam:operation_2436"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "TEMPO",
+      "sc:url": "http://bcb.cs.tufts.edu/tempo/"
+    }
+  ]
+}

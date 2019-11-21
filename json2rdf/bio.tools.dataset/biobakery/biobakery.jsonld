@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/biobakery",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Suite",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_0637"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0080"
+        },
+        {
+          "@id": "edam:topic_3174"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx754"
+      },
+      "sc:description": "Meta’omic analysis environment and collection of individual software tools with the capacity to process raw shotgun sequencing data into actionable microbial community feature profiles, summary reports, and publication-ready figures.",
+      "sc:featureList": {
+        "@id": "edam:operation_3194"
+      },
+      "sc:name": "bioBakery",
+      "sc:url": "https://bitbucket.org/biobakery/biobakery/wiki/Home"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx754",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

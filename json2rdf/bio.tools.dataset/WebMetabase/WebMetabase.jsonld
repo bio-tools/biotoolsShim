@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/bty667",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/WebMetabase",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web service",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3375"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3534"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/bty667"
+      },
+      "sc:description": "Cleavage sites analysis tool for natural and unnatural substrates from diverse data source.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3803"
+        },
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3216"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "WebMetabase",
+      "sc:url": "http://webmetabase.com:8182/WebMetabaseBioinformatics/"
+    }
+  ]
+}

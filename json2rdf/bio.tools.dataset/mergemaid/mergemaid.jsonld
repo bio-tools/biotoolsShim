@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/mergemaid",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3053"
+        },
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.2202/1544-6115.1046"
+      },
+      "sc:description": "This R extension studies gene expression array data. Its main function is 'mergeExprs' which transforms the input objects into data in the merged format, such that common genes in different datasets can be easily found. And the function 'intcor' calculates the correlation coefficients. Other functions use the output from 'modelOutcome' to graphically display the results and cross-validate associations of gene expression data with survival.",
+      "sc:featureList": {
+        "@id": "edam:operation_0335"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "MergeMaid",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/MergeMaid.html",
+      "sc:version": "2.46.0"
+    },
+    {
+      "@id": "https://doi.org/10.2202/1544-6115.1046",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

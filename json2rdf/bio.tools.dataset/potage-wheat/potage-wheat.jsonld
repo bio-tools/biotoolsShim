@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/potage-wheat",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0102"
+        },
+        {
+          "@id": "edam:topic_0203"
+        },
+        {
+          "@id": "edam:topic_0780"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41598-017-14591-7"
+      },
+      "sc:description": "Visualisation tool for speeding up gene discovery in wheat.",
+      "sc:featureList": {
+        "@id": "edam:operation_0571"
+      },
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "POTAGE",
+      "sc:url": "http://crobiad.agwine.adelaide.edu.au/potage/"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41598-017-14591-7",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

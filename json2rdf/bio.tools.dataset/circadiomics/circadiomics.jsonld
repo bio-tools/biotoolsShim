@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/circadiomics",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web service",
+        "Database portal"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3391"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gky441"
+      },
+      "sc:description": "Integrating circadian genomics, transcriptomics, proteomics and metabolomics.",
+      "sc:featureList": {
+        "@id": "edam:operation_2409"
+      },
+      "sc:name": "CircadiOmics",
+      "sc:url": "http://circadiomics.ics.uci.edu"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gky441",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

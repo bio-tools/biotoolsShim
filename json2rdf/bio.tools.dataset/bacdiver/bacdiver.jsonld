@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.5281/zenodo.1308060",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bacdiver",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_0842"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0006"
+      },
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool",
+        "Plug-in",
+        "Script",
+        "Web service"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3301"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.5281/zenodo.1308060"
+      },
+      "sc:description": "The DSMZ's Bacterial Diversity Metadatabase (BacDive) focuses on providing organism-linked information covering the multifarious aspects of bacterial biodiversity: taxonomic classification, morphology, physiology, cultivation, origin natural habitat and more, both for bacterial and archaeal strains. BacDiveR helps you investigate this data offline, and semi-automatically in R.",
+      "sc:featureList": {
+        "@id": "edam:operation_1812"
+      },
+      "sc:license": "MIT",
+      "sc:name": "BacDiveR: A Programmatic Interface For BacDive",
+      "sc:url": "https://tibhannover.github.io/BacDiveR/",
+      "sc:version": "0.7.0"
+    }
+  ]
+}

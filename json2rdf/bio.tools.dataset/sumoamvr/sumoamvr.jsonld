@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/sumoamvr",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0078"
+    },
+    {
+      "@id": "edam:topic_0080"
+    },
+    {
+      "@id": "edam:topic_0160"
+    }
+  ],
+  "sc:citation": "pubmed:26154679",
+  "sc:description": "Web server for prediction of sumoylation related amino acid variations that affect sumoylation sites or enzymes involved in the process of connectivity.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3092"
+    },
+    {
+      "@id": "edam:operation_2479"
+    }
+  ],
+  "sc:name": "SUMOAMVR",
+  "sc:url": "http://bioinfo.ncu.edu.cn/SUMOAMVR_Home.aspx"
+}

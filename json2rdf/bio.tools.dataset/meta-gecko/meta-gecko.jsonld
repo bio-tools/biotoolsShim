@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12864-016-3063-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/meta-gecko",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1234"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_1872"
+      },
+      "sc:additionalType": [
+        "Command-line tool",
+        "Web application"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3174"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12864-016-3063-x"
+      },
+      "sc:description": "Set of post-processing tools aimed at improving the taxonomical classification and at providing additional information to enhance metagenomics analyses. The developed tools provide additional proofs in the presence of low-abundant species, information of the mapping quality in coding and noncoding regions, etc.",
+      "sc:featureList": {
+        "@id": "edam:operation_3460"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "META-GECKO",
+      "sc:provider": "uma.es",
+      "sc:url": "http://bitlab-es.com/gecko/template.php#META-GECKO",
+      "sc:version": "1"
+    }
+  ]
+}

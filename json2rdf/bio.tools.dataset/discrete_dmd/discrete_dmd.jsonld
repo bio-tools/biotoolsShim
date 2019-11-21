@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/discrete_dmd",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0176"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/acs.jctc.6b01153"
+      },
+      "sc:description": "Coarse-Grained Molecular Dynamics simulation package.",
+      "sc:featureList": {
+        "@id": "edam:operation_2423"
+      },
+      "sc:name": "DISCRETE (DMD)",
+      "sc:url": "http://mmb.irbbarcelona.org"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jctc.6b01153",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

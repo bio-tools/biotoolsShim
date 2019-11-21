@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1002/JCC.23943",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pteros",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0176"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_3343"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1002/JCC.23943"
+        },
+        "pubmed:25974373"
+      ],
+      "sc:description": "Fast parallel molecular analysis library.",
+      "sc:featureList": {
+        "@id": "edam:operation_2476"
+      },
+      "sc:name": "Pteros",
+      "sc:url": "https://github.com/yesint/pteros",
+      "sc:version": "2.0"
+    }
+  ]
+}

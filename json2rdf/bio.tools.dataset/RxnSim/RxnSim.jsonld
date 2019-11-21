@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv416",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/RxnSim",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_3314"
+        },
+        {
+          "@id": "edam:topic_0821"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv416"
+      },
+      "sc:description": "Tool computes reaction similarity based on the molecular signatures of participating molecules.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2929"
+        },
+        {
+          "@id": "edam:operation_3502"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "RxnSim",
+      "sc:url": "https://cran.r-project.org/package=RxnSim"
+    }
+  ]
+}

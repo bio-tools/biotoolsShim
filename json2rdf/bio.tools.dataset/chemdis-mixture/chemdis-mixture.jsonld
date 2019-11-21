@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/chemdis-mixture",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0202"
+        },
+        {
+          "@id": "edam:topic_0128"
+        },
+        {
+          "@id": "edam:topic_3524"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41598-018-28361-6"
+      },
+      "sc:description": "Analyzing potential interaction effects of chemical mixtures.",
+      "sc:featureList": {
+        "@id": "edam:operation_2497"
+      },
+      "sc:name": "ChemDIS-Mixture",
+      "sc:url": "https://cwtung.kmu.edu.tw/chemdis/mixture"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41598-018-28361-6",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

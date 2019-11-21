@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/185413",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/trendy",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3170"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/185413"
+      },
+      "sc:description": "Trendy implements segmented (or breakpoint) regression models to estimate breakpoints which represent changes in expression for each feature/gene in high throughput data with ordered conditions.",
+      "sc:featureList": {
+        "@id": "edam:operation_3659"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "Trendy",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/Trendy.html",
+      "sc:version": "1.2.2"
+    }
+  ]
+}

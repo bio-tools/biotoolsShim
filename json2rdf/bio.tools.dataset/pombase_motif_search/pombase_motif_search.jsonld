@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gku1040",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/pombase_motif_search",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_1352"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0857"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0160"
+      },
+      "sc:author": "Kim Rutherford",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gku1040"
+      },
+      "sc:description": "Search PomBase protein set for a given motif.",
+      "sc:featureList": {
+        "@id": "edam:operation_0239"
+      },
+      "sc:name": "PomBase Motif search",
+      "sc:provider": [
+        "Sanger Institute",
+        "EMBL-EBI"
+      ],
+      "sc:url": "http://curation.pombase.org/cgi-bin/sanger_motif_search",
+      "sc:version": "1"
+    }
+  ]
+}

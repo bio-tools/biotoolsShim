@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/gb-2008-9-7-r118",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/iterativebma",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3518"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/gb-2008-9-7-r118"
+      },
+      "sc:description": "The iterative Bayesian Model Averaging (BMA) algorithm is a variable selection and classification algorithm with an application of classifying 2-class microarray samples.",
+      "sc:featureList": {
+        "@id": "edam:operation_2990"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "iterativeBMA",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/iterativeBMA.html",
+      "sc:version": "1.32.0"
+    }
+  ]
+}

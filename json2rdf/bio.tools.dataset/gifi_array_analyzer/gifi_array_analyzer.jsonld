@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/gifi_array_analyzer",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0654"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1089/1536231041388320"
+      },
+      "sc:description": "Gifi Array Analyzer is a Java application for integrated analysis of DNA microarray data and gene functional classification data.Gifi Array Analyzer implements Homals (Homogeneity Analysis by means of Alternating Least Square). Homogeneity analysis is a graphical, multivariate statistical method.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2990"
+        },
+        {
+          "@id": "edam:operation_2495"
+        }
+      ],
+      "sc:name": "Gifi Array Analyzer 1.2 beta",
+      "sc:url": "http://compbio.uthsc.edu/Gifi.php"
+    },
+    {
+      "@id": "https://doi.org/10.1089/1536231041388320",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

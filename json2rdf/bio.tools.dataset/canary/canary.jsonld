@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/canary",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2885"
+        },
+        {
+          "@id": "edam:topic_0634"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1950-z"
+      },
+      "sc:description": "Self contained amplicon NGS pipeline that takes a pair of zipped Fastq files and generates an annotated VCF file of variants.",
+      "sc:featureList": {
+        "@id": "edam:operation_3227"
+      },
+      "sc:license": "GPL-3.0",
+      "sc:name": "Canary",
+      "sc:url": "https://github.com/PapenfussLab/Canary"
+    },
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1950-z",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

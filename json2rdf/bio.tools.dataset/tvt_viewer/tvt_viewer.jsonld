@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tvt_viewer",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_0943"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_2884"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_3572"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/acs.jproteome.8b00737"
+        },
+        "pubmed:30451507"
+      ],
+      "sc:description": "Automated, web-based, database searching of the TKO standard, returning traditional figures of merit, such as peptide and protein counts, scan-specific ion accumulation times, as well as the TKO-specific metric, the IFI (interference-free index).",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3203"
+        },
+        {
+          "@id": "edam:operation_2428"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "TVT viewer",
+      "sc:url": "https://elk.med.harvard.edu/gfy/www/modules/single_standard"
+    },
+    {
+      "@id": "https://doi.org/10.1021/acs.jproteome.8b00737",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/ACS.JCIM.6B00149",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/bottled_saft",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_2275"
+        },
+        {
+          "@id": "edam:topic_3314"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/ACS.JCIM.6B00149"
+        },
+        "pubmed:27556884"
+      ],
+      "sc:description": "SAFT-γ Mie Force Field Parameters for Thousands of Molecular Fluids.",
+      "sc:featureList": {
+        "@id": "edam:operation_2476"
+      },
+      "sc:name": "Bottled SAFT",
+      "sc:url": "http://www.bottledsaft.org/"
+    }
+  ]
+}

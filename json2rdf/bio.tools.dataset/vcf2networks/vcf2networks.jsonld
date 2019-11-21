@@ -1,0 +1,56 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/vcf2networks",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Library",
+        "Script"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0199"
+        },
+        {
+          "@id": "edam:topic_0625"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/bioinformatics/btu650"
+        },
+        "pubmed:25282646"
+      ],
+      "sc:description": "Calculate Genotype Networks from Variant Call Format (VCF) files.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3439"
+        },
+        {
+          "@id": "edam:operation_0277"
+        },
+        {
+          "@id": "edam:operation_3196"
+        }
+      ],
+      "sc:license": "GPL-3.0",
+      "sc:name": "VCF2Networks",
+      "sc:url": "https://bitbucket.org/dalloliogm/vcf2networks"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btu650",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/genega",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0203"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1748-7188-6-26"
+      },
+      "sc:description": "R based genetic algorithm for gene expression optimization by considering both mRNA secondary structure and codon usage bias. It includes the information of highly expressed genes of almost 200 genomes. Meanwhile, Vienna RNA Package is needed to ensure that this package functions properly.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2963"
+        },
+        {
+          "@id": "edam:operation_0286"
+        }
+      ],
+      "sc:license": "GPL-2.0",
+      "sc:name": "GeneGA",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/GeneGA.html",
+      "sc:version": "1.24.0"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1748-7188-6-26",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

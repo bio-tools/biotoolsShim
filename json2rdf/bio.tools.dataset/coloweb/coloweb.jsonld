@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/coloweb",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_0097"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/S12864-015-1345-3"
+        },
+        "pmcid:PMC4364483",
+        "pubmed:25887597"
+      ],
+      "sc:description": "A resource for analysis of colocalization of genomic features.",
+      "sc:featureList": {
+        "@id": "edam:operation_0253"
+      },
+      "sc:name": "ColoWeb",
+      "sc:url": "http://projects.insilico.us.com/ColoWeb/"
+    },
+    {
+      "@id": "https://doi.org/10.1186/S12864-015-1345-3",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

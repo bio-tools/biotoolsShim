@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/JOURNAL.PONE.0217146",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/classification_noise",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3379"
+        },
+        {
+          "@id": "edam:topic_3577"
+        },
+        {
+          "@id": "edam:topic_3305"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1371/JOURNAL.PONE.0217146"
+        },
+        "pmcid:PMC6530857",
+        "pubmed:31116772"
+      ],
+      "sc:description": "The effect of uncertainty in patient classification on diagnostic performance estimations.",
+      "sc:license": "MIT",
+      "sc:name": "classification noise",
+      "sc:url": "https://imperfect-gold-standard.shinyapps.io/classification-noise/"
+    }
+  ]
+}

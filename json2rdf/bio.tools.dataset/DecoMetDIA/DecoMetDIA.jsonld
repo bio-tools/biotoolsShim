@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/DecoMetDIA",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3520"
+        },
+        {
+          "@id": "edam:topic_3172"
+        },
+        {
+          "@id": "edam:topic_3370"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1021/ACS.ANALCHEM.9B02655"
+        },
+        "pubmed:31436405"
+      ],
+      "sc:description": "Deconvolution of Multiplexed MS/MS Spectra for Metabolite Identification in SWATH-MS-Based Untargeted Metabolomics | DecoMetDIA was developed to process SWATH-MS based data for metabolomics. For detail, please read our recent publication on Analytical Chemistry (dio:doi.org/10.1021/acs.analchem.9b02655)",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3629"
+        },
+        {
+          "@id": "edam:operation_3803"
+        },
+        {
+          "@id": "edam:operation_3637"
+        }
+      ],
+      "sc:name": "DecoMetDIA",
+      "sc:url": "https://github.com/ZhuMSLab/DecoMetDIA"
+    },
+    {
+      "@id": "https://doi.org/10.1021/ACS.ANALCHEM.9B02655",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

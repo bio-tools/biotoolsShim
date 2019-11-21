@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1021/pr400294c",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/splicedb",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_0121"
+        },
+        {
+          "@id": "edam:topic_0099"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1021/pr400294c"
+      },
+      "sc:description": "SpliceDB is a software of incorporation of RNA-seq for MS database search",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:name": "SpliceDB",
+      "sc:url": "http://proteomics.ucsd.edu/software-tools/splicedb-splice-graph-proteomics-tools/",
+      "sc:version": "1.0"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/gr.9.9.815",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/wise2dba",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2977"
+      },
+      "edam:has_output": [
+        {
+          "@id": "edam:data_1381"
+        },
+        {
+          "@id": "edam:data_1383"
+        }
+      ],
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0080"
+      },
+      "sc:author": [
+        "Ewan Birney",
+        "Web Production"
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/gr.9.9.815"
+      },
+      "sc:description": "Align two sequences assuming the sequences share colinear conserved blocks separated by gaps.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0491"
+        },
+        {
+          "@id": "edam:operation_0495"
+        }
+      ],
+      "sc:name": "Wise2DBA",
+      "sc:provider": "EMBL-EBI",
+      "sc:url": "http://www.ebi.ac.uk/Tools/psa/wise2dba/",
+      "sc:version": "1"
+    }
+  ]
+}

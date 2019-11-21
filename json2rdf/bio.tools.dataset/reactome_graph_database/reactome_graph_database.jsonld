@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/reactome_graph_database",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Plug-in",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0602"
+        },
+        {
+          "@id": "edam:topic_0085"
+        },
+        {
+          "@id": "edam:topic_3365"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pcbi.1005968"
+      },
+      "sc:description": "A tool for accessing Reactome data efficiently.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2425"
+        },
+        {
+          "@id": "edam:operation_2422"
+        }
+      ],
+      "sc:name": "Reactome Graph Database",
+      "sc:url": "https://reactome.org/dev/graph-database"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pcbi.1005968",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

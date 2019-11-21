@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12859-017-1839-x",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/fangorn_forest",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0219"
+        },
+        {
+          "@id": "edam:topic_3474"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/s12859-017-1839-x"
+      },
+      "sc:description": "Machine learning approach to classify genes and genera in the family Geminiviridae.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_2995"
+        },
+        {
+          "@id": "edam:operation_2421"
+        }
+      ],
+      "sc:name": "Fangorn Forest (F2)",
+      "sc:url": "http://www.geminivirus.org:8080/geminivirusdw/discoveryGeminivirus.jsp"
+    }
+  ]
+}

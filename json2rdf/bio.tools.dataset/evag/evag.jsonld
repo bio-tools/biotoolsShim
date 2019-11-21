@@ -1,0 +1,37 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1016/j.antiviral.2012.05.005",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/evag",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0781"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1016/j.antiviral.2012.05.005"
+        },
+        "pubmed:22626637"
+      ],
+      "sc:description": "Non-profit organisation dedicated to the characterisation, conservation, production, distribution and characterisation of biological materials in the field of virology.",
+      "sc:featureList": {
+        "@id": "edam:operation_0224"
+      },
+      "sc:name": "European Virus Archive",
+      "sc:provider": "rki.de",
+      "sc:url": "http://www.european-virus-archive.com/"
+    }
+  ]
+}

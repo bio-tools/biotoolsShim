@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/iom",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3520"
+  },
+  "sc:author": "Jan Fesl",
+  "sc:contributor": "Marie Doležalová",
+  "sc:description": "Dedicated for MS data measured in high resolution mode and their interpretation. Primarily oriented on devices developed by the Thermo-Fisher Scientific company.",
+  "sc:featureList": {
+    "@id": "edam:operation_3214"
+  },
+  "sc:name": "IoM - Interpreter of Mass",
+  "sc:provider": [
+    "ELIXIR-CZ",
+    "University of South Bohemia, Czech Republic"
+  ],
+  "sc:url": "http://www.prf.jcu.cz/iom/",
+  "sc:version": "1.0.0.0"
+}

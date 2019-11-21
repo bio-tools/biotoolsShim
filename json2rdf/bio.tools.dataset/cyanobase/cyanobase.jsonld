@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/cyanobase",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Database portal",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0621"
+    },
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_0622"
+    }
+  ],
+  "sc:citation": "pubmed:19880388",
+  "sc:description": "CyanoBase is the genome database for cyanobacteria, which are model organisms for photosynthesis. The database houses cyanobacteria species information, complete genome sequences, genome-scale experiment data, gene information, gene annotations and mutant information.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2422"
+    },
+    {
+      "@id": "edam:operation_0224"
+    },
+    {
+      "@id": "edam:operation_3672"
+    },
+    {
+      "@id": "edam:operation_0362"
+    }
+  ],
+  "sc:name": "CyanoBase",
+  "sc:url": "http://genome.kazusa.or.jp/cyanobase"
+}

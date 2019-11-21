@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1101/636290",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/KPHMMER",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3407"
+        },
+        {
+          "@id": "edam:topic_0160"
+        },
+        {
+          "@id": "edam:topic_0602"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/636290"
+      },
+      "sc:description": "Hidden Markov Model generator for detecting KEGG PATHWAY-specific genes.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3092"
+        },
+        {
+          "@id": "edam:operation_3501"
+        }
+      ],
+      "sc:license": "MIT",
+      "sc:name": "KPHMMER",
+      "sc:url": "https://github.com/suecharo/KPHMMER"
+    }
+  ]
+}

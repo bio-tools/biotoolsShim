@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/spice-classify",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0623"
+        },
+        {
+          "@id": "edam:topic_0078"
+        },
+        {
+          "@id": "edam:topic_0080"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/1471-2105-15-93"
+        },
+        "pubmed:24685258",
+        "pmcid:PMC4021553"
+      ],
+      "sc:description": "Sequence-based protein classification and exploration.",
+      "sc:featureList": {
+        "@id": "edam:operation_2995"
+      },
+      "sc:name": "SPiCE",
+      "sc:url": "https://github.com/basvandenberg/spice"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-15-93",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

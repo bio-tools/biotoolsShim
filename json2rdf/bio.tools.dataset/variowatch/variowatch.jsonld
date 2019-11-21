@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/variowatch",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0199"
+    },
+    {
+      "@id": "edam:topic_2885"
+    },
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_3678"
+    },
+    {
+      "@id": "edam:topic_3517"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:18440974",
+    "pubmed:22618869"
+  ],
+  "sc:description": "Disease gene mining browser for association study. It annotates both known SNPs and novel variants using information from public domain websites such as NCBI, UniProt, KEGG and GO.",
+  "sc:featureList": {
+    "@id": "edam:operation_3661"
+  },
+  "sc:license": "Unlicense",
+  "sc:name": "VarioWatch",
+  "sc:url": "http://grch38.genepipe.ncgm.sinica.edu.tw/variowatch/main.do"
+}

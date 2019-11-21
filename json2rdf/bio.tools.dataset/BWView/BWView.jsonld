@@ -1,0 +1,20 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/BWView",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_3334"
+  },
+  "sc:description": "Application designed to view the frequency content of recorded brainwave files. It uses wavelets rather than a conventional FFT to analyse the data for maximum flexibility and resolution.",
+  "sc:license": "GPL-2.0",
+  "sc:name": "BWView",
+  "sc:url": "http://uazu.net/bwview/"
+}

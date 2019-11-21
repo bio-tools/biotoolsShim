@@ -1,0 +1,45 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/guidescan",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3297"
+        },
+        {
+          "@id": "edam:topic_0099"
+        },
+        {
+          "@id": "edam:topic_0085"
+        },
+        {
+          "@id": "edam:topic_3371"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/nbt.3804"
+      },
+      "sc:description": "A generalized CRISPR guideRNA design tool.",
+      "sc:featureList": {
+        "@id": "edam:operation_3095"
+      },
+      "sc:name": "GuideScan",
+      "sc:url": "http://www.guidescan.com/",
+      "sc:version": "1.0"
+    },
+    {
+      "@id": "https://doi.org/10.1038/nbt.3804",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

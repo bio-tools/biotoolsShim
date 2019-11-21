@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/S12881-019-0878-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/Pompe",
+      "@type": "sc:SoftwareApplication",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0634"
+        },
+        {
+          "@id": "edam:topic_3400"
+        },
+        {
+          "@id": "edam:topic_0199"
+        }
+      ],
+      "sc:citation": [
+        "pmcid:PMC6737665",
+        "pubmed:31510962",
+        {
+          "@id": "https://doi.org/10.1186/S12881-019-0878-8"
+        }
+      ],
+      "sc:description": "> LOW CONFIDENCE! | > CORRECT NAME OF TOOL COULD ALSO BE 'infantile-onset Pompe', 'infantile-onset', 'IOPD', 'Asp513Gly' | Clinical course, mutations and its functional characteristics of infantile-onset Pompe disease in Thailand | Informatie voor patienten, collega wetenschappers/ - artsen, genetic counsellors en anderen met een speciale interesse voor de ziekte van Pompe",
+      "sc:name": "Pompe",
+      "sc:url": "http://www.pompecenter.nl"
+    }
+  ]
+}

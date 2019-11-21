@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkn180",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/phylogeny.lirmm.fr",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Workbench"
+      ],
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3293"
+      },
+      "sc:author": [
+        "Alexis Dereeper",
+        "Valentin Guignon"
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/1471-2148-10-8"
+        },
+        {
+          "@id": "https://doi.org/10.1093/nar/gkn180"
+        }
+      ],
+      "sc:description": "Free, simple to use web service dedicated to reconstructing and analysing phylogenetic relationships between molecular sequences.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3478"
+        },
+        {
+          "@id": "edam:operation_0540"
+        },
+        {
+          "@id": "edam:operation_0552"
+        },
+        {
+          "@id": "edam:operation_0567"
+        }
+      ],
+      "sc:name": "Phylogeny.lirmm.fr",
+      "sc:provider": "lirmm.fr",
+      "sc:url": "http://phylogeny.lirmm.fr/",
+      "sc:version": "1"
+    },
+    {
+      "@id": "https://doi.org/10.1186/1471-2148-10-8",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

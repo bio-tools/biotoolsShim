@@ -1,0 +1,42 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/dpubchem",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0202"
+        },
+        {
+          "@id": "edam:topic_3343"
+        },
+        {
+          "@id": "edam:topic_3336"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1038/s41598-018-27495-x"
+      },
+      "sc:description": "Web tool for QSAR modeling and high-throughput virtual screening.",
+      "sc:featureList": {
+        "@id": "edam:operation_0478"
+      },
+      "sc:license": "CC-BY-4.0",
+      "sc:name": "DPubChem",
+      "sc:url": "http://www.cbrc.kaust.edu.sa/dpubchem/"
+    },
+    {
+      "@id": "https://doi.org/10.1038/s41598-018-27495-x",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

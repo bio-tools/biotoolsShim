@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1126/science.252.5009.1162",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/ncoils",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_2974"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_1277"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3542"
+      },
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1126/science.252.5009.1162"
+        },
+        "pubmed:2031185"
+      ],
+      "sc:description": "Prediction of coiled-coil secondary structure elements.",
+      "sc:featureList": {
+        "@id": "edam:operation_0470"
+      },
+      "sc:name": "ncoils",
+      "sc:provider": "RostLab",
+      "sc:url": "http://www.predictprotein.org",
+      "sc:version": "1"
+    }
+  ]
+}

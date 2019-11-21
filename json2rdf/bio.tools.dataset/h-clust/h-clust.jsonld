@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/h-clust",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3053"
+    },
+    {
+      "@id": "edam:topic_2885"
+    },
+    {
+      "@id": "edam:topic_0625"
+    }
+  ],
+  "sc:citation": "pubmed:15637716",
+  "sc:description": "Simple clustering method that can be used to rapidly identify a set of tag SNP’s based upon genotype data.",
+  "sc:featureList": {
+    "@id": "edam:operation_3432"
+  },
+  "sc:name": "H-Clust",
+  "sc:url": "http://wpicr.wpic.pitt.edu/WPICCompGen/hclust/hclust.htm"
+}

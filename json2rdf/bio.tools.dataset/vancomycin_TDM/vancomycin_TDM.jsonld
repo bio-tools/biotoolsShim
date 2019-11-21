@@ -1,0 +1,35 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/vancomycin_TDM",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3375"
+      },
+      "sc:citation": [
+        "pmcid:PMC6572512",
+        {
+          "@id": "https://doi.org/10.3390/PHARMACEUTICS11050224"
+        },
+        "pubmed:31075931"
+      ],
+      "sc:description": "Open-Source Software for Vancomycin Therapeutic Drug Management.",
+      "sc:license": "Unlicense",
+      "sc:name": "vancomycin TDM",
+      "sc:url": "http://pipet.shinyapps.io/vancomycin"
+    },
+    {
+      "@id": "https://doi.org/10.3390/PHARMACEUTICS11050224",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

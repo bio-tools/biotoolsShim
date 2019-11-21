@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/omia",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Database portal",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_0625"
+      },
+      "sc:citation": [
+        "pubmed:16381939",
+        {
+          "@id": "https://doi.org/10.1093/nar/gkj152"
+        },
+        "pmcid:PMC1347514"
+      ],
+      "sc:description": "A catalogue/compendium of inherited disorders, other (single-locus) traits, and genes in 233 animal species (other than human and mouse and rats, which have their own resources).",
+      "sc:featureList": {
+        "@id": "edam:operation_2422"
+      },
+      "sc:license": "Unlicensed",
+      "sc:name": "OMIA",
+      "sc:url": "http://omia.angis.org.au/home/"
+    },
+    {
+      "@id": "https://doi.org/10.1093/nar/gkj152",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

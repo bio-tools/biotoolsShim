@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/cRacle",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3050"
+        },
+        {
+          "@id": "edam:topic_0780"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1101/641183"
+      },
+      "sc:description": "R Tools for Estimating Climate from Vegetation.",
+      "sc:featureList": {
+        "@id": "edam:operation_3659"
+      },
+      "sc:license": "MIT",
+      "sc:name": "cRacle",
+      "sc:url": "https://www.github.com/rsh249/cRacle"
+    },
+    {
+      "@id": "https://doi.org/10.1101/641183",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

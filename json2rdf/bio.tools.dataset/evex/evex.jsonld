@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0055814",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/evex",
+      "@type": "sc:SoftwareApplication",
+      "edam:has_input": {
+        "@id": "edam:data_0842"
+      },
+      "edam:has_output": {
+        "@id": "edam:data_0972"
+      },
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": {
+        "@id": "edam:topic_3473"
+      },
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0055814"
+      },
+      "sc:description": "A text mining resource built on top of PubMed abstracts and PubMed Central full texts.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0305"
+        },
+        {
+          "@id": "edam:operation_0306"
+        }
+      ],
+      "sc:name": "EVEX",
+      "sc:provider": "PSB",
+      "sc:url": "http://evexdb.org",
+      "sc:version": "1"
+    }
+  ]
+}

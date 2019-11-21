@@ -1,0 +1,43 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btv301",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/psygenet2r",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Library"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3419"
+        },
+        {
+          "@id": "edam:topic_3071"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btv301"
+      },
+      "sc:description": "Package to retrieve data from PsyGeNET database and to perform comorbidity studies with PsyGeNET's and user's data.",
+      "sc:featureList": {
+        "@id": "edam:operation_2421"
+      },
+      "sc:license": "MIT",
+      "sc:name": "psygenet2r",
+      "sc:url": "http://bioconductor.org/packages/release/bioc/html/psygenet2r.html",
+      "sc:version": "1.6.2"
+    }
+  ]
+}

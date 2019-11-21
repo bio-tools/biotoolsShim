@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/pat",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3297"
+    },
+    {
+      "@id": "edam:topic_2830"
+    },
+    {
+      "@id": "edam:topic_3400"
+    }
+  ],
+  "sc:citation": "pubmed:27039071",
+  "sc:description": "Web server that can efficiently identify target molecules for antibodies.",
+  "sc:featureList": {
+    "@id": "edam:operation_0474"
+  },
+  "sc:name": "PAT",
+  "sc:url": "http://www.kimlab.org/software/pat"
+}

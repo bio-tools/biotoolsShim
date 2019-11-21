@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/phenolyzer",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": [
+    "Command-line tool",
+    "Web application"
+  ],
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0634"
+    },
+    {
+      "@id": "edam:topic_3574"
+    }
+  ],
+  "sc:citation": "pubmed:26192085",
+  "sc:description": "Tool focusing on discovering genes based on user-specific disease/phenotype terms.",
+  "sc:featureList": {
+    "@id": "edam:operation_3439"
+  },
+  "sc:name": "Phenolyzer",
+  "sc:url": "http://phenolyzer.wglab.org/"
+}

@@ -1,0 +1,48 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/capweb",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0654"
+    },
+    {
+      "@id": "edam:topic_3382"
+    },
+    {
+      "@id": "edam:topic_0199"
+    },
+    {
+      "@id": "edam:topic_3518"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:15381628",
+    "pubmed:16845053"
+  ],
+  "sc:description": "Tool for storing, analyzing and visualizing CGH-array data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3233"
+    },
+    {
+      "@id": "edam:operation_3197"
+    },
+    {
+      "@id": "edam:operation_3211"
+    },
+    {
+      "@id": "edam:operation_3443"
+    }
+  ],
+  "sc:name": "CAPweb",
+  "sc:url": "http://bioinfo.curie.fr/CAPweb/"
+}

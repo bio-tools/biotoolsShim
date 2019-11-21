@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/setsapp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Plug-in",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_2259"
+    }
+  ],
+  "sc:citation": "pubmed:25352980",
+  "sc:description": "A Cytoscape 3 app allowing the user to create and manipulate sets of nodes or edges (but not sets with both nodes and edges, at least in the current version) in Cytoscape. Sets can be created for different networks.",
+  "sc:featureList": {
+    "@id": "edam:operation_2409"
+  },
+  "sc:name": "setsApp",
+  "sc:url": "http://apps.cytoscape.org/apps/setsapp"
+}

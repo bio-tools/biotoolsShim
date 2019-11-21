@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/nhphyml",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3293"
+    },
+    {
+      "@id": "edam:topic_3299"
+    },
+    {
+      "@id": "edam:topic_0654"
+    }
+  ],
+  "sc:citation": "pubmed:17060197",
+  "sc:description": "Program built to compute phylogenetic trees under the non stationary, non homogeneous model of DNA sequence evolution of Galtier and Gouy (1998).",
+  "sc:featureList": {
+    "@id": "edam:operation_0323"
+  },
+  "sc:name": "nhPhyML",
+  "sc:url": "http://doua.prabi.fr/software/nhphyml"
+}

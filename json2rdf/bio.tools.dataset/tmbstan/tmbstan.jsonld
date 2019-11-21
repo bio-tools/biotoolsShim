@@ -1,0 +1,41 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/tmbstan",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0610"
+        },
+        {
+          "@id": "edam:topic_2269"
+        },
+        {
+          "@id": "edam:topic_3474"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0197954"
+      },
+      "sc:description": "Enabled 'rstan' functionality for a 'TMB' model object, in particular MCMC sampling and chain visualization. Sampling can be performed with or without Laplace approximation for the random effects.",
+      "sc:featureList": {
+        "@id": "edam:operation_2426"
+      },
+      "sc:name": "tmbstan",
+      "sc:url": "https://cran.r-project.org/web/packages/tmbstan/index.html"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0197954",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

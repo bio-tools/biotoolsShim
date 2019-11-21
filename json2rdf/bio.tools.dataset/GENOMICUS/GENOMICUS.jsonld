@@ -1,0 +1,19 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/GENOMICUS",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": {
+    "@id": "edam:topic_0622"
+  },
+  "sc:description": "Genomicus is a genome browser that enables users to navigate in genomes in several dimensions: linearly along chromosome axes, transversaly across different species, and chronologicaly along evolutionary time.",
+  "sc:name": "GENOMICUS",
+  "sc:url": "http://www.genomicus.biologie.ens.fr/genomicus-97.01/cgi-bin/search.pl"
+}

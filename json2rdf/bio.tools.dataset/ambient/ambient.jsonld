@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/ambient",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0602"
+    },
+    {
+      "@id": "edam:topic_2259"
+    },
+    {
+      "@id": "edam:topic_3172"
+    }
+  ],
+  "sc:citation": "pubmed:23531303",
+  "sc:description": "The Active Modules for Bipartite Networks is a Python module that uses simulated annealing to find areas of a metabolic network (modules) that have some consistent characteristic. It does not require predefined pathways and gives highly specific predictions of affected areas of metabolism.",
+  "sc:featureList": {
+    "@id": "edam:operation_3660"
+  },
+  "sc:name": "AMBIENT",
+  "sc:url": "http://sourceforge.net/projects/ambient-bio/?source=navbar"
+}

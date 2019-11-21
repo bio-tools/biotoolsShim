@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/s12864-016-2389-8",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/cascade_visualization",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Web application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2640"
+        },
+        {
+          "@id": "edam:topic_0622"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": [
+        "pubmed:26810393",
+        {
+          "@id": "https://doi.org/10.1186/s12864-016-2389-8"
+        },
+        "pmcid:PMC4727405"
+      ],
+      "sc:description": "Cascade is a web based tool for the intuitive 3D visualization of RNA-seq data from cancer genomics experiments.",
+      "sc:featureList": {
+        "@id": "edam:operation_3208"
+      },
+      "sc:license": "GPL-2.0",
+      "sc:name": "Cascade",
+      "sc:url": "http://bioinfo.iric.ca/~shifmana/Cascade/"
+    }
+  ]
+}

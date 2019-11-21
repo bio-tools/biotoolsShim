@@ -1,0 +1,51 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/popmusic",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0736"
+    },
+    {
+      "@id": "edam:topic_0130"
+    },
+    {
+      "@id": "edam:topic_0082"
+    },
+    {
+      "@id": "edam:topic_0199"
+    },
+    {
+      "@id": "edam:topic_0154"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:19654118",
+    "pubmed:21569468"
+  ],
+  "sc:description": "The PoPMuSiC program is a tool for the computer-aided design of mutant proteins with controlled stability properties. It evaluates the changes in stability of a given protein or peptide under single-site mutations, on the basis of the protein's structure.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0321"
+    },
+    {
+      "@id": "edam:operation_0267"
+    },
+    {
+      "@id": "edam:operation_0250"
+    },
+    {
+      "@id": "edam:operation_0331"
+    }
+  ],
+  "sc:name": "PoPMuSiC",
+  "sc:url": "http://babylone.ulb.ac.be/popmusic"
+}

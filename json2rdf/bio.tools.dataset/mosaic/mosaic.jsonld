@@ -1,0 +1,31 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/mosaic",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_3056"
+    },
+    {
+      "@id": "edam:topic_3053"
+    },
+    {
+      "@id": "edam:topic_3299"
+    }
+  ],
+  "sc:citation": "pubmed:19780815",
+  "sc:description": "Software which calculates the ‘mosaicity’ of a one dimensional hybrid zone. This package uses likelihood to fit step-wise models to one dimensional hybrid zone data, and to estimate the ‘mosaicity’ of the hybrid zone.",
+  "sc:featureList": {
+    "@id": "edam:operation_3664"
+  },
+  "sc:name": "mosaic",
+  "sc:url": "http://www.zoology.ubc.ca/prog/mosaic/"
+}

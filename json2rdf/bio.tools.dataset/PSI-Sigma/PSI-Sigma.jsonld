@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ438",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/PSI-Sigma",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3170"
+        },
+        {
+          "@id": "edam:topic_3320"
+        },
+        {
+          "@id": "edam:topic_3512"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1093/BIOINFORMATICS/BTZ438"
+        },
+        "pubmed:31135034"
+      ],
+      "sc:description": "Splicing-detection method for short-read and long-read RNA-seq analysis.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3798"
+        },
+        {
+          "@id": "edam:operation_3680"
+        },
+        {
+          "@id": "edam:operation_3800"
+        }
+      ],
+      "sc:license": "Other",
+      "sc:name": "PSI-Sigma",
+      "sc:url": "https://github.com/wososa/PSI-Sigma"
+    }
+  ]
+}

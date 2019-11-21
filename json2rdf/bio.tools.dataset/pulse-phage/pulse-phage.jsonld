@@ -1,0 +1,44 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/pulse-phage",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Command-line tool",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0781"
+        },
+        {
+          "@id": "edam:topic_3572"
+        },
+        {
+          "@id": "edam:topic_0154"
+        },
+        {
+          "@id": "edam:topic_0078"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1371/journal.pone.0193332"
+      },
+      "sc:description": "Tool to analyse protein sequence coverage of phage display libraries.",
+      "sc:featureList": {
+        "@id": "edam:operation_2479"
+      },
+      "sc:name": "PuLSE",
+      "sc:url": "https://github.com/stevenshave/PuLSE"
+    },
+    {
+      "@id": "https://doi.org/10.1371/journal.pone.0193332",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

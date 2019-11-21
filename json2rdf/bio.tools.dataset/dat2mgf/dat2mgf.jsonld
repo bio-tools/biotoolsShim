@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/dat2mgf",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": {
+    "@id": "edam:data_0945"
+  },
+  "edam:has_output": {
+    "@id": "edam:data_0945"
+  },
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_3520"
+    }
+  ],
+  "sc:description": "Converts Mascot results files back to MGF.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_1812"
+    },
+    {
+      "@id": "edam:operation_0335"
+    }
+  ],
+  "sc:name": "dat2mgf",
+  "sc:url": "http://www.ce4csb.org/software.shtml"
+}

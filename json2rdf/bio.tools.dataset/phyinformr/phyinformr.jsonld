@@ -1,0 +1,47 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/S12862-016-0837-3",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/phyinformr",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3293"
+        },
+        {
+          "@id": "edam:topic_0092"
+        }
+      ],
+      "sc:citation": [
+        {
+          "@id": "https://doi.org/10.1186/S12862-016-0837-3"
+        },
+        "pubmed:27905871",
+        "pmcid:PMC5134231"
+      ],
+      "sc:description": "Open source software package that performs rapid calculation of phylogenetic information content using the latest advances in phylogenetic informativeness based theory.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0324"
+        },
+        {
+          "@id": "edam:operation_0567"
+        }
+      ],
+      "sc:name": "PhyInformR",
+      "sc:url": "https://carolinafishes.github.io/software/phyinformR/"
+    }
+  ]
+}

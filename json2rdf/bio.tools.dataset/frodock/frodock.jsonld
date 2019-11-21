@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/frodock",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0128"
+    },
+    {
+      "@id": "edam:topic_2275"
+    },
+    {
+      "@id": "edam:topic_0078"
+    }
+  ],
+  "sc:citation": "pubmed:19620099",
+  "sc:description": "Generate very efficiently many potential predictions of how  two proteins could interact. This approximation effectively address the complexity and sampling requirements of the initial 6D docking exhaustive search by combining the projection of the interaction terms into 3D grid-based potentials with the efficiency of spherical harmonics approximations.",
+  "sc:featureList": {
+    "@id": "edam:operation_2464"
+  },
+  "sc:name": "FRODOCK",
+  "sc:url": "http://chaconlab.org/frodock/index.html",
+  "sc:version": "2.1"
+}

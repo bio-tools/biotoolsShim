@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1186/1471-2105-11-581",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/INTERPRET_DSS",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Desktop application",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3384"
+        },
+        {
+          "@id": "edam:topic_3444"
+        },
+        {
+          "@id": "edam:topic_0593"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1186/1471-2105-11-581"
+      },
+      "sc:description": "Software generated to aid in MRS analysis to achieve a specific diagnosis for brain lesions.",
+      "sc:license": "Unlicense",
+      "sc:name": "INTERPRET DSS",
+      "sc:url": "http://gabrmn.uab.es/dss",
+      "sc:version": "3.2"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/bcbiornaseq",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": "Library",
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_3308"
+        },
+        {
+          "@id": "edam:topic_3170"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.12688/f1000research.12093.2"
+      },
+      "sc:description": "Automated and scalable RNA-seq methods for identifying gene abundance counts.",
+      "sc:featureList": {
+        "@id": "edam:operation_3563"
+      },
+      "sc:license": "MIT",
+      "sc:name": "bcbioRNASeq",
+      "sc:url": "http://bioinformatics.sph.harvard.edu/bcbioRNASeq/",
+      "sc:version": "0.2.5"
+    },
+    {
+      "@id": "https://doi.org/10.12688/f1000research.12093.2",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

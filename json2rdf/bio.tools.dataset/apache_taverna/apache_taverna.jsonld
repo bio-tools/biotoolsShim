@@ -1,0 +1,69 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://doi.org/10.1093/nar/gkt328",
+      "@type": "sc:CreativeWork"
+    },
+    {
+      "@id": "https://bio.tools/apache_taverna",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Web application",
+        "Web service",
+        "Web API",
+        "Desktop application",
+        "Workbench",
+        "Command-line tool"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_2258"
+        },
+        {
+          "@id": "edam:topic_0202"
+        },
+        {
+          "@id": "edam:topic_3473"
+        },
+        {
+          "@id": "edam:topic_0091"
+        },
+        {
+          "@id": "edam:topic_3071"
+        },
+        {
+          "@id": "edam:topic_0089"
+        }
+      ],
+      "sc:author": "Apache Taverna community",
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/nar/gkt328"
+      },
+      "sc:description": "Open source and domain-independent Workflow Management System – a suite of tools used to design and execute scientific workflows and aid in silico experimentation.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_0224"
+        },
+        {
+          "@id": "edam:operation_2409"
+        }
+      ],
+      "sc:license": "Apache-2.0",
+      "sc:name": "Apache Taverna",
+      "sc:provider": [
+        "cs.manchester.ac.uk",
+        "Apache Software Foundation"
+      ],
+      "sc:url": "http://taverna.incubator.apache.org/",
+      "sc:version": "3"
+    }
+  ]
+}

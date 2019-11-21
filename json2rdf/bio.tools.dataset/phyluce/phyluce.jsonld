@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/phyluce",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0654"
+    },
+    {
+      "@id": "edam:topic_0194"
+    }
+  ],
+  "sc:citation": "pubmed:26530724",
+  "sc:description": "Software package that was initially developed for analyzing data collected from ultraconserved elements in organismal genomes.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_2423"
+    },
+    {
+      "@id": "edam:operation_0292"
+    }
+  ],
+  "sc:name": "PHYLUCE",
+  "sc:url": "http://phyluce.readthedocs.org/en/latest/"
+}

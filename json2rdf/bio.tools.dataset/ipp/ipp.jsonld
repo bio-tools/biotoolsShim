@@ -1,0 +1,28 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/ipp",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Command-line tool",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0084"
+    },
+    {
+      "@id": "edam:topic_3293"
+    }
+  ],
+  "sc:citation": "pubmed:18989047",
+  "sc:description": "Efficient enumerative algorithm for incomplete Perfect Phylogeny Haplotyping.",
+  "sc:featureList": {
+    "@id": "edam:operation_0487"
+  },
+  "sc:name": "IPP",
+  "sc:url": "http://vlsi.cs.ucf.edu/nsf/software/ipph/"
+}

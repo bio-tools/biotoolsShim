@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bio.tools/GLANET",
+      "@type": "sc:SoftwareApplication",
+      "sc:additionalType": [
+        "Command-line tool",
+        "Desktop application"
+      ],
+      "sc:applicationSubCategory": [
+        {
+          "@id": "edam:topic_0749"
+        },
+        {
+          "@id": "edam:topic_3168"
+        },
+        {
+          "@id": "edam:topic_3173"
+        }
+      ],
+      "sc:citation": {
+        "@id": "https://doi.org/10.1093/bioinformatics/btx326"
+      },
+      "sc:description": "Genomic loci annotation and enrichment tool.",
+      "sc:featureList": [
+        {
+          "@id": "edam:operation_3501"
+        },
+        {
+          "@id": "edam:operation_3197"
+        }
+      ],
+      "sc:license": "Unlicense",
+      "sc:name": "GLANET",
+      "sc:url": "https://github.com/burcakotlu/GLANET"
+    },
+    {
+      "@id": "https://doi.org/10.1093/bioinformatics/btx326",
+      "@type": "sc:CreativeWork"
+    }
+  ]
+}

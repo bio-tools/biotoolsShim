@@ -1,0 +1,49 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/augustus",
+  "@type": "sc:SoftwareApplication",
+  "sc:additionalType": "Web application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_0623"
+    },
+    {
+      "@id": "edam:topic_3512"
+    },
+    {
+      "@id": "edam:topic_3170"
+    }
+  ],
+  "sc:citation": [
+    "pubmed:16845043",
+    "pubmed:15980513",
+    "pubmed:182186",
+    "pubmed:15215400",
+    "pubmed:16469098"
+  ],
+  "sc:description": "AUGUSTUS is a eukaryotic gene prediction tool. It can integrate evidence, e.g. from RNA-Seq, ESTs, proteomics, but can also predict genes ab initio. The PPX extension to AUGUSTUS can take a protein sequence multiple sequence alignment as input to find new members of the family in a genome. It can be run through a web interface, or downloaded and run locally.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_0476"
+    },
+    {
+      "@id": "edam:operation_0492"
+    },
+    {
+      "@id": "edam:operation_2454"
+    }
+  ],
+  "sc:license": "Artistic-1.0",
+  "sc:name": "AUGUSTUS",
+  "sc:url": "http://bioinf.uni-greifswald.de/augustus"
+}

@@ -1,0 +1,53 @@
+{
+  "@context": {
+    "bsc": "http://bioschemas.org/",
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "sc": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "https://bio.tools/exms",
+  "@type": "sc:SoftwareApplication",
+  "edam:has_input": [
+    {
+      "@id": "edam:data_0945"
+    },
+    {
+      "@id": "edam:data_0943"
+    }
+  ],
+  "edam:has_output": {
+    "@id": "edam:data_2955"
+  },
+  "sc:additionalType": "Desktop application",
+  "sc:applicationSubCategory": [
+    {
+      "@id": "edam:topic_0121"
+    },
+    {
+      "@id": "edam:topic_3520"
+    }
+  ],
+  "sc:citation": "pubmed:21952778",
+  "sc:description": "MATLAB program for analyzing H/D-exchange data.",
+  "sc:featureList": [
+    {
+      "@id": "edam:operation_3441"
+    },
+    {
+      "@id": "edam:operation_3629"
+    },
+    {
+      "@id": "edam:operation_3648"
+    },
+    {
+      "@id": "edam:operation_0404"
+    },
+    {
+      "@id": "edam:operation_3215"
+    }
+  ],
+  "sc:name": "ExMS",
+  "sc:url": "http://hx2.med.upenn.edu/download.html"
+}
