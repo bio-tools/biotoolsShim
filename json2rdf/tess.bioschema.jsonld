@@ -1,0 +1,1706 @@
+{
+  "@context": {
+    "edam": "http://edamontology.org/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-06-rnaseq-analysis/rnaseq.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNA-seq data analysis and differential expression"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-17-gene-set-enrichment/gene_set_correlations.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Gene-sets and correlation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/Rochester/Overview.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Bioconductor for 'Omics Analysis (University of Rochester Medical Center)"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/4_Thursday/lectures/ChIPSeq_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "ChIP-seq Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/RNASeqShortCourse.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to RNA-Seq data analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops3/Goldstein/SGSeqBioC2016.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Analyzing splice events from RNA-seq data with SGSeq"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/4_Thursday/lectures/thursClust.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Elements of statistics 3: Classification and clustering - basic concepts"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/D04.1_InstallIGV.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Appendix: Install IGV"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/BioCAsia/A02-Package-Development.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Bioconductor Masterclass: Package Development"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/03_CoreApproachesInBioconductor.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "03: Core approaches in Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L02-hts-intro-anders.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: Basics of sequence alignment and aligners"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/eQTLtalk.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "eQTL analysis -- an approach with Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/bioconductor.github.io/BiocWorkshops/working-with-genomic-data-in-r-with-the-decipher-package.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "250: Working with genomic data in R with the DECIPHER package"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/BioInfoSummer/bioc-bioinfosummer-2017.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Conducting Genomic Symphonies with Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-11-robust/robust.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Robust statistics"
+    },
+    {
+      "@id": "http://intermine.readthedocs.io/en/latest/help/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/flymine"
+      },
+      "schema:name": "FlyMine intro videos"
+    },
+    {
+      "@id": "https://chipster.csc.fi/manual/courses.html#16S",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/chipster"
+      },
+      "schema:name": "Community analysis of amplicon sequencing data (16S rRNA)"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/www.youtube.com/watch?v=BqQDmdtvVSk",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "HCABrowser for discovery and access"
+    },
+    {
+      "@id": "http://flymine.readthedocs.io/en/latest",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/intermine"
+        },
+        {
+          "@id": "https://bio.tools/tool/InterMineR"
+        }
+      ],
+      "schema:name": "InterMine user manual"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/minfi_BioC2014.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Analysis of 450k methylation data with the minfi package"
+    },
+    {
+      "@id": "https://www.mygoblet.org/training-portal/materials/rna-seq-analysis-2014-module-4-isoform-discovery-and-alternative",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/cufflinks"
+      },
+      "schema:name": "RNA-seq Analysis 2014 Module 4 - Isoform discovery and alternative expression"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-16-graphics/160714-brixen-viz-huber.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Graphics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/RNA-Seq-Analysis-Lab.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Analysis of RNA-Seq using the DESeq2 package"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/summerx/Visualization-slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Visualization."
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/bioconductor.github.io/BiocWorkshops/solving-common-bioinformatic-challenges-using-genomicranges.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "102: Solving common bioinformatic challenges using GenomicRanges"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BKU/S4_RNASeq.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "An RNA-seq work flow"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lab-3-rnaseq/rnaseq_gene_CSAMA2016.Rmd",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "End-to-end RNA-Seq workflow"
+    },
+    {
+      "@id": "https://figshare.com/articles/InterMine_training_slides/4737313",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/intermine"
+        },
+        {
+          "@id": "https://bio.tools/tool/InterMineR"
+        }
+      ],
+      "schema:name": "InterMine user tutorial"
+    },
+    {
+      "@id": "https://chipster.csc.fi/manual/courses.html#virusdetect",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/chipster"
+      },
+      "schema:name": "Virus detection using small RNA-seq"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/e/2PACX-1vQUgyXDlkh1Kl91ICpudr9culyEuMSEppdi-qy97jwba3fy3m5UlKhJMvz_EW3JTP2Vu376OuzKcaQG/pub?start=false&loop=false&delayms=3000",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Surprises from scalable container and cloud-based R / Bioconductor deployments"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/e/2PACX-1vQnSGdSu3iSrVTZadiuOEXXrnikX7qS_A4NBHDbNxVMojPy69zu_dLwWH5pjAb1chY4Jz5n74y72Q4z/pub?start=false&loop=false&delayms=3000",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "How Bioconductor advances science and contributes to R"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L08-epigenetics-and-chip-seq-pekowska.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: Epigenetics and ChIP-Seq"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/http:/mikelove.github.io/biocrnaseq/#1",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Analysis of RNA-Seq Data"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-12-resampling/Waldron_CSAMA2016_resampling.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Resampling methods"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lab/Paul.Pyl.Plotting.Variants.or.Ranges.from.Bam.files.directly.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab: Plotting Regions from BAM files directly"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/summerx/Ranges-slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Ranges"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lab/L7-performance-and-large-data-morgan.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab: Performance and Parallel Evaluation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1pQZJUfsj4rQ38N28PeDFHJ1ocnuzcamFKCgxfAEO51s/edit#slide=id.p",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Orchestrating single cell analysis with Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-02+13-testing/160711-brixen-testing-huber.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Multiple testing"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/04_Practical_CoreApproachesInBioconductor.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "04: Practical: Organizing data with SummarizedExperiment"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/ParallelBioc.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Parallel Computing with Bioconductor in the Amazon Cloud"
+    },
+    {
+      "@id": "http://jensenlab.org/training/string/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/stitch"
+        },
+        {
+          "@id": "https://bio.tools/tool/DISEASES"
+        },
+        {
+          "@id": "https://bio.tools/tool/string"
+        }
+      ],
+      "schema:name": "STRING exercises"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/MethylationArrays.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to working with methylation arrays (slides)"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BiocDevelForum/03-ExperimentHub.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Discussion: Guidelines for submitting data to ExperimentHub"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/S1-RNASeq-Workflow.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Supplement 1: RNA-Seq Workflow"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/Bioc2014_ChIPQC_Practical.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Visualisation and assessment of ChIP-seq quality using ChIPQC and Diffbind packages"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/S2-RNASeq-Experimental-Design.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Supplement 2: RNA-Seq Statistical Issues"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/CSAMA/lecture-01-r-intro.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture 1: Introduction to R and Bioconductor"
+    },
+    {
+      "@id": "https://chipster.csc.fi/manual/courses.html#single-cell",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/chipster"
+      },
+      "schema:name": "Single cell RNA-seq data analysis with Chipster"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/Lawrence_Tutorial.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Variant calling with Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/01_IntroToRAndBioconductor.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "01: Introduction to R and Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/A01.1_IntroductionToR.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to R"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops2/Wright/BigBioSeqData.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Managing big biological sequence data with Biostrings and DECIPHER"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/C03.1_LargeData.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with Large Data"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-09-expdesign/ExperimentalDesign.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Experimental design"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/e/2PACX-1vS25aIVGDGCAJMsG1VNIxKaUbU7tsefGwMzAIxBLtUJG8ZO44m0zjYRvajli18xSbzwCgFrU_Zlb9kq/pub?start=false&loop=false&delayms=3000",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R / Bioconductor for open-source analysis and comprehension of high-throughput genomic data"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1xWfHDw8pr65xDlKjM0PZLTWzOF7E0BPr1SD9s6kwDmM/edit#slide=id.p",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Developments in rhdf5"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/github.com/jennybc/happy-git-with-r",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Reproducible research and R authoring with markdown and knitr"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/workflows/rnaseqGene/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNA-Seq Lab: Workflow -- gene-level exploratory analysis and differential expression"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/1_Monday/lectures/HTS_intro__Anders.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "High-throughput sequencing: Alignment and related topic"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lab-8-graphics/graphics-chapter.Rmd",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R Graphics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/5_Friday/lectures/ExpDesign_Anders.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Elements of statistics 5: experimental design"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/bioconductor.github.io/BiocWorkshops/maintaining-your-bioconductor-package.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "510: Maintaining your Bioconductor package"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/C03.3_ReproducibleResearch.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Reproducible Research"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/rebrand.ly/biocworkshops2019",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Workshops"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L05-deseq2-anders.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: RNA-Seq data analysis and differential expression part I"
+    },
+    {
+      "@id": "http://jensenlab.org/training/stringapp/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/DISEASES"
+        },
+        {
+          "@id": "https://bio.tools/tool/stitch"
+        },
+        {
+          "@id": "https://bio.tools/tool/cytoscape"
+        },
+        {
+          "@id": "https://bio.tools/tool/string"
+        },
+        {
+          "@id": "https://bio.tools/tool/stringApp"
+        }
+      ],
+      "schema:name": "Cytoscape stringApp exercises"
+    },
+    {
+      "@id": "https://www.youtube.com/watch?v=FtlsoM8TGGs&t=139s",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/MouseMine"
+      },
+      "schema:name": "MouseMine at MGI"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/06_GeneSetEnrichment.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "06: Gene Set Enrichment Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-15-microbiome/microbiome.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Microbial genomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/V4-Annotation.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Adding Annotation To Your Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/BioCAsia/A01-Bioc-Basics.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Bioconductor Masterclass: Bioconductor Essentials"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/V2-WorkingWithData.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with Data: SummarizedExperiment"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L10-proteomics-gatto.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: Introduction to MS based proteomics and Bioconductor infrastructure"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/ISMB2014/vjcScalable2.pptx",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Scalable Integrative Bioinformatics with Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/3_Wednesday/lectures/CSAMA2014.variant.visualisation.and.qc.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "DNA-Seq 2: visualisation and quality assessment of variant calls"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/RBiocForEveryone.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R / Bioconductor for everyone"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/day3-gene.expression.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Gene Expression"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops2/MacDonald/AnnotationWorkshop.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Annotating high throughput data using Bioconductor resources"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/3_Wednesday/lectures/GSEA2014.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Gene set enrichment analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/http:/rpubs.com/lwaldron/bioc2014",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Meta-analysis of genomics experiments using Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/V3-GenomicRanges.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Genomic Ranges For Genome-Scale Data And Annotation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1VUWJeFv27OKSU9YNA2tqNW5QX9ViGF_12-CHFJXmMCA/edit#slide=id.p",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Ontology issues"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/B02.2.3_CopyNumber.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Copy Number"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops3/Lawrence/tutorial.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Hello Ranges: An Introduction to Analyzing Genomic Ranges in  R"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-07-modern-rnaseq/ModernRNAseqAnalysis.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "New RNA-seq workflows"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L03-testing-huber.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: Hypothesis testing and multiple testing"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/BioC2017/Day2/Workshops/Anno/doc/AnnotationWorkshop.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Understanding Bioconductor Annotation Packages"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/BioC2017/DDay/Workshop/MakeAPackage.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to new package development and submission"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lab/shiny.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab: Interactive data visualization with Shiny"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/C03.4_Visualization.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Visualization"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/Annotation.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with Annotations"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/ISMB2014/Annotation_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Accessing Annotation Resources"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/CSAMA/L9.1-efficient-and-parallel-r.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab 9-1: Efficient and Parallel Evaluation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops4/Gatto/Bioc2016.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R / Bioconductor tools for mass spectrometry-based proteomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-05-aligning/Anders_aligners.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "High-throughput sequencing and using short-read aligners"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/HCA/HCA_Data_Access.pptx",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "HCA Data Access"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/IntroductionToR.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to R (slides)"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/05_Annotations.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "05: Bioconductor Annotation Resources"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lab/Paul.Pyl.Phyloseq.Basics.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab: Phyloseq Basic Usage for Metagenomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/BiocForSequenceAnalysis.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to Bioconductor for Sequence Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/06_GeneSetEnrichmentSlides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "06: Gene Set Enrichment -- Introduction"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops1/Girke/systemPipeR_Intro.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Building and running automated NGS analysis workflows"
+    },
+    {
+      "@id": "http://jensenlab.org/training/textmining/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/DISEASES"
+        },
+        {
+          "@id": "https://bio.tools/tool/EXTRACT"
+        },
+        {
+          "@id": "https://bio.tools/tool/ORGANISMS"
+        }
+      ],
+      "schema:name": "Text-mining exercises"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BSS2019/02_Practical_RBioconductorAndReproductibleResearch.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "02: Practical: R / Bioconductor and Reproducible Research"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/workflows/annotation/annotation/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Bioconductor annotations: using and sharing resources"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/SeattleApr2015/B_GenomicRanges.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Genomic Ranges"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/BiocForEpigenomics.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to Bioconductor for Epigneomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/Visualization.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Visualization of Genomic Data"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/UIdaho/Overview.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R / Bioconductor for 'Omics Analysis (U. Idaho)"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/www.youtube.com/watch?v=fCFvS0Ze5W4",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "HCAMatrixBrowser for retrieving count matrices"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/OSU/A1_Using_R.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R and Bioconductor for Genomic Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-18-meta-analysis/Waldron_metaanalysis.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Meta-analysis"
+    },
+    {
+      "@id": "http://targetmine.mizuguchilab.org/tutorials",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/TargetMine"
+      },
+      "schema:name": "TargetMine tutorials Tutorials for an InterMine designed to help identify drug targets."
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/V6-RNASeq.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNA-Seq Differential Expression"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/CSAMA/lab-1-intro-to-r-bioc.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab 1: Introduction to R and Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/TCGAbiolinks.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "The TCGAbiolinks package"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1bKVCw8ByDG8UTQpE0pBMZ9RFqu0dP9AXNskynpxtdG0/edit#slide=id.p",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Work in Progress: Bioconductor and the HCA"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/4_Thursday/lectures/140626-brixen-machinelearn-huber.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Elements of statistics 4: regularisation & kernels"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/B02.2_CommonWorkFlows.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Common Sequence Analysis Work Flows"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/BioC2015/#ami",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Liftr & sbgr"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/BiocAsia2015/#ami",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Workshop: RNASeq"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lab-5-chipseq/Epigenetics.Rmd",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "ChIP-Seq analysis basics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-08-sequences-and-ranges/lect-08-sequences-and-ranges.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Computing with sequences and ranges"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1GNg1xIKNHU5eIEx01xpidpx4L_gFgBnk_ZCJnt4GEtk/edit#slide=id.p",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "State of PCA"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-17-gene-set-enrichment/lect-17-gene-set-enrichment.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Gene set enrichment - Introduction"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/4_Thursday/lectures/isoforms_dexseq_talk.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNA-Seq 3: alternative exon usage"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/GenomicRangesHOWTOs.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Learn how to use Bioconductor to perform common tasks on your high-throughput sequencing data"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/Ranges.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with Genomic Ranges"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/www.youtube.com/watch?v=dfYF0lAeV_Y&t=1s",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Day 2 European Bioconductor Meeting 2017"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/4_Thursday/labs/Annotation_lab.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with Ranges infrastructure: annotating and understanding regions"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/useR2014/Workflows.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Work flows : RNA-Seq"
+    },
+    {
+      "@id": "https://www.ebi.ac.uk/training/online/course/ontology-lookup-service-ols",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/ols"
+      },
+      "schema:name": "Ontology Lookup Service (OLS)"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/Gatto.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "R / Bioconductor packages for Proteomics"
+    },
+    {
+      "@id": "https://bigcat-um.github.io/BridgeDbVariantDatabase/Local_BridgeDb_IMS_installation.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/bridgedb"
+      },
+      "schema:name": "How to install and load the Identifier Mapping Service with data needed for gene-to-variant and variant-to-gene"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/CRISPRseek-forBioc2014.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "CRISPRseek: Design of target-specific guide RNAs in CRISPR-Cas9 genome-editing systems"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/R_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with R"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/NewPackageHangout2014/PackageHangout.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Google Hangout for New Package Submitters"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/CSAMA/lecture-19-gene-set-enrichment.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture 19: Gene Set Enrichment Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/IntAnalysis.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Integrated pathway analysis of multiple omics datasets"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/CSAMA/efficient_r.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Evening session: Efficient R"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/B02.5_GeneSetEnrichment.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Gene set enrichment"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/B02.1_RNASeq.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNA-Seq"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/5_Friday/lectures/vjcEQTLfri.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "eQTL / molecular-QTL analyses"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/2_Tuesday/lectures/DESeq2-Anders.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNA-Seq 1: differential expression analysis - GLMs and testing"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/SequenceDataRepresentation.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Sequence data represenations in Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/B02.3_MachineLearning.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Machine Learning"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/Bioconductor_sequences.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with DNA Sequences"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lab/rr-authoring.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lab: Reproducible Research and R Authoring with markdown and knitr"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L07-sequences-ranges-morgan.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: Computing with sequences and genomic intervals"
+    },
+    {
+      "@id": "https://egonw.github.io/metawinterschool-bigcat/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/bridgedbr"
+        },
+        {
+          "@id": "https://bio.tools/tool/PathVisio"
+        }
+      ],
+      "schema:name": "#metawinterschool contribution by BiGCaT"
+    },
+    {
+      "@id": "https://chipster.csc.fi/manual/courses.html#rna",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/tool/chipster"
+      },
+      "schema:name": "RNA-seq data analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2019/BiocDevelForum/04-Findability.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Improving findability of BioC packages"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/Bioconductor_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Bioconductor - Slides"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-19-big-data/out-of-mem.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Benchmarking out-of-memory strategies"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lab-6-hypothesis-weighting/introduction_to_ihw.Rmd",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Independent Hypothesis Weighting"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/SeattleApr2015/F_ChIPSeq.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "ChIP-seq with csaw"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-04-linear-models/Waldron_linearmodels.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to linear models"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/bioconductor.github.io/BiocWorkshops/effectively-using-the-delayedarray-framework-to-support-the-analysis-of-large-datasets.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "500: Effectively using the DelayedArray framework to support the analysis of large datasets"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-20-what-now/2016-07_next-steps-csama.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "What should you do next?"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1Xb8x3Cv6eibZM2zqxSFVBm6w_RBx8JitB3UtovaRq1Y/edit#slide=id.g4f2eea2032_0_48",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "New Bioconductor packages for HCA Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BiocDevelForum/01-SingleCell.pptx",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Single cell updates"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/SeattleApr2015/I_LargeData.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Large Data"
+    },
+    {
+      "@id": "https://bioconductor.org/packages/release/bioc/vignettes/BridgeDbR/inst/doc/tutorial.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/BridgeDb_API"
+        },
+        {
+          "@id": "https://bio.tools/tool/bridgedbr"
+        },
+        {
+          "@id": "https://bio.tools/tool/bridgedb"
+        }
+      ],
+      "schema:name": "BridgeDbR Tutorial"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/www.youtube.com/watch?v=d3PPpAapDVc&list=LLqaMSQd_h-2EDGsU6WDiX0Q",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Day 1 European Bioconductor Meeting 2017"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/summerx/BestPractices-slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Best Practices for Managing R / Bioconductor Scripts"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L06-rna-stats-love.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: RNA-Seq data analysis and differential expression part II"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/bioconductor.github.io/BiocWorkshops/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "BioC 2018: Where Software and Biology Connect"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L13-hi-c-pekowska.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: HiC data analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/V7-ChIPSeq.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "ChIP-Seq for Understanding Gene Regulation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/Uruguay2015/V5-LargeFiles.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Counting Reads And Working With Large Files"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleOct2014/A01.2_IntroductionToBioconductor.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/https:/docs.google.com/presentation/d/1lMQ0A2lhUCNBabIl4HRKnKXMT5bb8-vJ5JcgYmeWGiI/edit#slide=id.p",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "mbkmeans for clustering data with lots of samples"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/3_Wednesday/lectures/Annotation_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Working with gene and genome annotations"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/CSAMA2015/lect/L04-clusclass-carey.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture: Clustering and classification"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/summerx/Variants-slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Variants"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops3/Love/bioc2016eda.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Low-level exploratory data analysis and methods development for RNA-seq"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BiocDevelForum/02-Serialization.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Pitfalls and best practices for serializing Bioconductor objects"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/NURDS/NURDS.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Developing robust and efficient code"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/useR2014/Introduction.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to R / Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/BioC2014/eqtl2014.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Genetics of gene expression: computation and integrative prediction"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/5_Friday/lectures/proteomics_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Proteomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/ISMB2014/ISMB2014_WaldronOverview.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Trends in Genomic Data Analysis in R"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2017/BioC2017/Day2/Workshops/EGSEA/doc/EGSEAWorkflow.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Ensembl gene set enrichment analysis with EGSEA"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/2_Tuesday/lectures/Visualization_in_Statistical_Genomics-Carey.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Visualisation in Statistical Genomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/CSAMA/lect-19-big-data/lect-19-big-data.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Performance and parallel evaluation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/SeattleApr2015/G_Methylation.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Methylation and regulatory work flows with minfi"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/SeattleApr2015/C_DifferentialExpression.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Differential Gene Expression"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/summerx/Bioconductor-slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/RNASeq.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "RNASeq Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/CountingReadsForRNASeq.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Counting reads for RNA-seq in Bioconductor"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2015/SeattleApr2015/H_IntegrativeAnalysis.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Integrative Data Analysis"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/useR2014/DataRepresentation.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Sequence Data Representation"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/CSAMA/lecture-20-1-big-data.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Lecture 20-1: Working with Large Data"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BioC2016/ConcurrentWorkshops4/Buros/applied-survival-model.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to Bayesian Inference using Stan with Applications to Cancer Genomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2016/BiocAsia/Talk.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "The Bioconductor Project: Current Status"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/1_Monday/lectures/140623-gentleman-statistics-intro.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Elements of statistics 1: t-test and linear model"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/help/course-materials/2019/BiocDevelForum/02-DataFrame.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Introduction to DataFrames and the impact of recent changes"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/Epigenomics/MethylationArrays-lab.html",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "A short methylation analysis using minfi"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/SeattleFeb2014/Annotation_slides.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Annotations"
+    },
+    {
+      "@id": "https://bioinformatics.psb.ugent.be/plaza/",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/plaza_dicots"
+        },
+        {
+          "@id": "https://bio.tools/tool/plaza_monocots"
+        }
+      ],
+      "schema:name": "PLAZA is a plant-oriented online resource for comparative, evolutionary and functional genomics"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2014/CSAMA2014/3_Wednesday/lectures/VariantCallingLecture.pdf",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "DNA-Seq 1: Variant calling"
+    },
+    {
+      "@id": "https://bioconductor.org/help/course-materials/2019/CMCM/01-Workshop.Rmd",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": {
+        "@id": "https://bio.tools/bioconductor"
+      },
+      "schema:name": "Cancer Immuno-Oncology: Bioconductor and beyond"
+    },
+    {
+      "@id": "http://intermine.readthedocs.io/en/latest",
+      "@type": "schema:CreativeWork",
+      "schema:hasPart": [
+        {
+          "@id": "https://bio.tools/tool/InterMineR"
+        },
+        {
+          "@id": "https://bio.tools/tool/intermine"
+        }
+      ],
+      "schema:name": "InterMine operator manual"
+    }
+  ]
+}
