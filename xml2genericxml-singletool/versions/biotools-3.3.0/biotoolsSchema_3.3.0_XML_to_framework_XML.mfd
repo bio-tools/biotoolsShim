@@ -1,0 +1,692 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2019r3 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="xslt2"/>
+		<structure>
+			<children>
+				<component name="biotools-3.3.0_framework_singletool" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1384" lty="-492" rbx="1941" rby="1840"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" inpkey="1985" expanded="1">
+										<entry name="name" inpkey="1986"/>
+										<entry name="description" inpkey="1987"/>
+										<entry name="homepage" inpkey="1988"/>
+										<entry name="biotoolsID" inpkey="1989"/>
+										<entry name="biotoolsCURIE" inpkey="1990"/>
+										<entry name="version" expanded="1">
+											<entry name="list-item" inpkey="1991"/>
+										</entry>
+										<entry name="otherID" expanded="1">
+											<entry name="list-item" inpkey="1992" expanded="1">
+												<entry name="value" inpkey="1993"/>
+												<entry name="type" inpkey="1994"/>
+												<entry name="version" inpkey="1995"/>
+											</entry>
+										</entry>
+										<entry name="function" expanded="1">
+											<entry name="list-item" inpkey="1996" expanded="1">
+												<entry name="operation" expanded="1">
+													<entry name="list-item" inpkey="1997" expanded="1">
+														<entry name="uri" inpkey="1998"/>
+														<entry name="term" inpkey="1999"/>
+													</entry>
+												</entry>
+												<entry name="input" expanded="1">
+													<entry name="list-item" inpkey="2000" expanded="1">
+														<entry name="data" inpkey="2001" expanded="1">
+															<entry name="uri" inpkey="2002"/>
+															<entry name="term" inpkey="2003"/>
+														</entry>
+														<entry name="format" expanded="1">
+															<entry name="list-item" inpkey="2004" expanded="1">
+																<entry name="uri" inpkey="2005"/>
+																<entry name="term" inpkey="2006"/>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="output" expanded="1">
+													<entry name="list-item" inpkey="2007" expanded="1">
+														<entry name="data" inpkey="2008" expanded="1">
+															<entry name="uri" inpkey="2009"/>
+															<entry name="term" inpkey="2010"/>
+														</entry>
+														<entry name="format" expanded="1">
+															<entry name="list-item" inpkey="2011" expanded="1">
+																<entry name="uri" inpkey="2012"/>
+																<entry name="term" inpkey="2013"/>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+												<entry name="note" inpkey="2014"/>
+												<entry name="cmd" inpkey="2015"/>
+											</entry>
+										</entry>
+										<entry name="toolType" expanded="1">
+											<entry name="list-item" inpkey="2016"/>
+										</entry>
+										<entry name="topic" expanded="1">
+											<entry name="list-item" inpkey="2017" expanded="1">
+												<entry name="uri" inpkey="2018"/>
+												<entry name="term" inpkey="2019"/>
+											</entry>
+										</entry>
+										<entry name="operatingSystem" expanded="1">
+											<entry name="list-item" inpkey="2020"/>
+										</entry>
+										<entry name="language" expanded="1">
+											<entry name="list-item" inpkey="2021"/>
+										</entry>
+										<entry name="license" inpkey="2022"/>
+										<entry name="collectionID" expanded="1">
+											<entry name="list-item" inpkey="2023"/>
+										</entry>
+										<entry name="maturity" inpkey="2024"/>
+										<entry name="cost" inpkey="2025"/>
+										<entry name="accessibility" inpkey="2026" expanded="1"/>
+										<entry name="elixirPlatform" expanded="1">
+											<entry name="list-item" inpkey="2027"/>
+										</entry>
+										<entry name="elixirCommunity" expanded="1">
+											<entry name="list-item" inpkey="2028"/>
+										</entry>
+										<entry name="elixirNode" expanded="1">
+											<entry name="list-item" inpkey="2029"/>
+										</entry>
+										<entry name="link" expanded="1">
+											<entry name="list-item" inpkey="2030" expanded="1">
+												<entry name="url" inpkey="2031"/>
+												<entry name="type" inpkey="2032"/>
+												<entry name="note" inpkey="2033"/>
+											</entry>
+										</entry>
+										<entry name="download" expanded="1">
+											<entry name="list-item" inpkey="2034" expanded="1">
+												<entry name="url" inpkey="2035"/>
+												<entry name="type" inpkey="2036"/>
+												<entry name="note" inpkey="2037"/>
+												<entry name="version" inpkey="2038"/>
+											</entry>
+										</entry>
+										<entry name="documentation" expanded="1">
+											<entry name="list-item" inpkey="2039" expanded="1">
+												<entry name="url" inpkey="2040"/>
+												<entry name="type" inpkey="2041"/>
+												<entry name="note" inpkey="2042"/>
+											</entry>
+										</entry>
+										<entry name="relation" expanded="1">
+											<entry name="list-item" inpkey="2043" expanded="1">
+												<entry name="biotoolsID" inpkey="2044"/>
+												<entry name="type" inpkey="2045"/>
+											</entry>
+										</entry>
+										<entry name="publication" expanded="1">
+											<entry name="list-item" inpkey="2046" expanded="1">
+												<entry name="doi" inpkey="2047"/>
+												<entry name="pmid" inpkey="2048"/>
+												<entry name="pmcid" inpkey="2049"/>
+												<entry name="type" inpkey="2050"/>
+												<entry name="version" inpkey="2051"/>
+												<entry name="note" inpkey="2052"/>
+											</entry>
+										</entry>
+										<entry name="credit" expanded="1">
+											<entry name="list-item" inpkey="2053" expanded="1">
+												<entry name="name" inpkey="2054"/>
+												<entry name="email" inpkey="2055"/>
+												<entry name="url" inpkey="2056"/>
+												<entry name="orcidid" inpkey="2057"/>
+												<entry name="gridid" inpkey="2058"/>
+												<entry name="rorid" inpkey="2059"/>
+												<entry name="fundrefid" inpkey="2060"/>
+												<entry name="typeEntity" inpkey="2061"/>
+												<entry name="typeRole" expanded="1">
+													<entry name="list-item" inpkey="2062"/>
+												</entry>
+												<entry name="note" inpkey="2063"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\..\genericxml2xml-singletool\versions\biotools-3.3.0\biotools-3.3.0_framework_singletool.xsd" inputinstance="..\..\..\genericxml2xml-singletool\versions\biotools-3.3.0\output.xml" outputinstance="..\..\..\genericxml2xml-singletool\versions\biotools-3.3.0\input.xml" instanceroot="{}root"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="biotools_3.3.0" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="180" lty="-257" rbx="754" rby="2013"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace uid="biotoolsSchema"/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="tools" expanded="1">
+										<entry name="tool" outkey="2064" expanded="1">
+											<entry name="name" outkey="2065"/>
+											<entry name="description" outkey="2066"/>
+											<entry name="homepage" outkey="2067"/>
+											<entry name="biotoolsID" outkey="2068"/>
+											<entry name="biotoolsCURIE" outkey="2069"/>
+											<entry name="version" outkey="2070"/>
+											<entry name="otherID" outkey="2071" expanded="1">
+												<entry name="value" outkey="2072"/>
+												<entry name="type" outkey="2073"/>
+												<entry name="version" outkey="2074"/>
+											</entry>
+											<entry name="toolType" outkey="2075"/>
+											<entry name="topic" outkey="2076" expanded="1">
+												<entry name="uri" outkey="2077"/>
+												<entry name="term" outkey="2078"/>
+											</entry>
+											<entry name="operatingSystem" outkey="2079"/>
+											<entry name="language" outkey="2080"/>
+											<entry name="license" outkey="2081"/>
+											<entry name="collectionID" outkey="2082"/>
+											<entry name="maturity" outkey="2083"/>
+											<entry name="cost" outkey="2084"/>
+											<entry name="accessibility" outkey="2085"/>
+											<entry name="elixirPlatform" outkey="2086"/>
+											<entry name="elixirCommunity" outkey="2087"/>
+											<entry name="elixirNode" outkey="2088"/>
+											<entry name="function" outkey="2089" expanded="1">
+												<entry name="operation" outkey="2090" expanded="1">
+													<entry name="uri" outkey="2091"/>
+													<entry name="term" outkey="2092"/>
+												</entry>
+												<entry name="input" outkey="2093" expanded="1">
+													<entry name="data" outkey="2094" expanded="1">
+														<entry name="uri" outkey="2095"/>
+														<entry name="term" outkey="2096"/>
+													</entry>
+													<entry name="format" outkey="2097" expanded="1">
+														<entry name="uri" outkey="2098"/>
+														<entry name="term" outkey="2099"/>
+													</entry>
+												</entry>
+												<entry name="output" outkey="2100" expanded="1">
+													<entry name="data" outkey="2101" expanded="1">
+														<entry name="uri" outkey="2102"/>
+														<entry name="term" outkey="2103"/>
+													</entry>
+													<entry name="format" outkey="2104" expanded="1">
+														<entry name="uri" outkey="2105"/>
+														<entry name="term" outkey="2106"/>
+													</entry>
+												</entry>
+												<entry name="note" outkey="2107"/>
+												<entry name="cmd" outkey="2108"/>
+											</entry>
+											<entry name="link" outkey="2109" expanded="1">
+												<entry name="url" outkey="2110"/>
+												<entry name="type" outkey="2111"/>
+												<entry name="note" outkey="2112"/>
+											</entry>
+											<entry name="download" outkey="2113" expanded="1">
+												<entry name="url" outkey="2114"/>
+												<entry name="type" outkey="2115"/>
+												<entry name="note" outkey="2116"/>
+												<entry name="version" outkey="2117"/>
+											</entry>
+											<entry name="documentation" outkey="2118" expanded="1">
+												<entry name="url" outkey="2119"/>
+												<entry name="type" outkey="2120"/>
+												<entry name="note" outkey="2121"/>
+											</entry>
+											<entry name="relation" outkey="2122" expanded="1">
+												<entry name="biotoolsID" outkey="2123"/>
+												<entry name="type" outkey="2124"/>
+											</entry>
+											<entry name="publication" outkey="2125" expanded="1">
+												<entry name="doi" outkey="2126"/>
+												<entry name="pmid" outkey="2127"/>
+												<entry name="pmcid" outkey="2128"/>
+												<entry name="type" outkey="2129"/>
+												<entry name="version" outkey="2130"/>
+												<entry name="note" outkey="2131"/>
+											</entry>
+											<entry name="credit" outkey="2132" expanded="1">
+												<entry name="name" outkey="2133"/>
+												<entry name="email" outkey="2134"/>
+												<entry name="url" outkey="2135"/>
+												<entry name="orcidid" outkey="2136"/>
+												<entry name="gridid" outkey="2137"/>
+												<entry name="rorid" outkey="2138"/>
+												<entry name="fundrefid" outkey="2139"/>
+												<entry name="typeEntity" outkey="2140"/>
+												<entry name="typeRole" outkey="2141"/>
+												<entry name="note" outkey="2142"/>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\..\..\genericxml2xml-singletool\versions\biotools-3.3.0\biotools_3.3.0.xsd" inputinstance="..\..\..\genericxml2xml-singletool\versions\biotools-3.3.0\output.xml" outputinstance="..\..\..\genericxml2xml-singletool\versions\biotools-3.3.0\input.xml" instanceroot="{biotoolsSchema}tools"/>
+						<wsdl/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="2064">
+						<edges>
+							<edge vertexkey="1985"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2065">
+						<edges>
+							<edge vertexkey="1986"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2066">
+						<edges>
+							<edge vertexkey="1987"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2067">
+						<edges>
+							<edge vertexkey="1988"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2068">
+						<edges>
+							<edge vertexkey="1989"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2069">
+						<edges>
+							<edge vertexkey="1990"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2070">
+						<edges>
+							<edge vertexkey="1991"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2071">
+						<edges>
+							<edge vertexkey="1992"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2072">
+						<edges>
+							<edge vertexkey="1993"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2073">
+						<edges>
+							<edge vertexkey="1994"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2074">
+						<edges>
+							<edge vertexkey="1995"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2089">
+						<edges>
+							<edge vertexkey="1996"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2090">
+						<edges>
+							<edge vertexkey="1997"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2091">
+						<edges>
+							<edge vertexkey="1998"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2092">
+						<edges>
+							<edge vertexkey="1999"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2093">
+						<edges>
+							<edge vertexkey="2000"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2094">
+						<edges>
+							<edge vertexkey="2001"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2095">
+						<edges>
+							<edge vertexkey="2002"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2096">
+						<edges>
+							<edge vertexkey="2003"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2097">
+						<edges>
+							<edge vertexkey="2004"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2098">
+						<edges>
+							<edge vertexkey="2005"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2099">
+						<edges>
+							<edge vertexkey="2006"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2100">
+						<edges>
+							<edge vertexkey="2007"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2101">
+						<edges>
+							<edge vertexkey="2008"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2102">
+						<edges>
+							<edge vertexkey="2009"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2103">
+						<edges>
+							<edge vertexkey="2010"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2104">
+						<edges>
+							<edge vertexkey="2011"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2105">
+						<edges>
+							<edge vertexkey="2012"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2106">
+						<edges>
+							<edge vertexkey="2013"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2107">
+						<edges>
+							<edge vertexkey="2014"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2108">
+						<edges>
+							<edge vertexkey="2015"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2075">
+						<edges>
+							<edge vertexkey="2016"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2076">
+						<edges>
+							<edge vertexkey="2017"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2077">
+						<edges>
+							<edge vertexkey="2018"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2078">
+						<edges>
+							<edge vertexkey="2019"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2079">
+						<edges>
+							<edge vertexkey="2020"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2080">
+						<edges>
+							<edge vertexkey="2021"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2081">
+						<edges>
+							<edge vertexkey="2022"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2082">
+						<edges>
+							<edge vertexkey="2023"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2083">
+						<edges>
+							<edge vertexkey="2024"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2084">
+						<edges>
+							<edge vertexkey="2025"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2085">
+						<edges>
+							<edge vertexkey="2026"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2086">
+						<edges>
+							<edge vertexkey="2027"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2087">
+						<edges>
+							<edge vertexkey="2028"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2088">
+						<edges>
+							<edge vertexkey="2029"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2109">
+						<edges>
+							<edge vertexkey="2030"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2110">
+						<edges>
+							<edge vertexkey="2031"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2111">
+						<edges>
+							<edge vertexkey="2032"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2112">
+						<edges>
+							<edge vertexkey="2033"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2113">
+						<edges>
+							<edge vertexkey="2034"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2114">
+						<edges>
+							<edge vertexkey="2035"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2115">
+						<edges>
+							<edge vertexkey="2036"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2116">
+						<edges>
+							<edge vertexkey="2037"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2117">
+						<edges>
+							<edge vertexkey="2038"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2118">
+						<edges>
+							<edge vertexkey="2039"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2119">
+						<edges>
+							<edge vertexkey="2040"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2120">
+						<edges>
+							<edge vertexkey="2041"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2121">
+						<edges>
+							<edge vertexkey="2042"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2122">
+						<edges>
+							<edge vertexkey="2043"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2123">
+						<edges>
+							<edge vertexkey="2044"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2124">
+						<edges>
+							<edge vertexkey="2045"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2125">
+						<edges>
+							<edge vertexkey="2046"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2126">
+						<edges>
+							<edge vertexkey="2047"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2127">
+						<edges>
+							<edge vertexkey="2048"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2128">
+						<edges>
+							<edge vertexkey="2049"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2129">
+						<edges>
+							<edge vertexkey="2050"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2130">
+						<edges>
+							<edge vertexkey="2051"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2131">
+						<edges>
+							<edge vertexkey="2052"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2132">
+						<edges>
+							<edge vertexkey="2053"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2133">
+						<edges>
+							<edge vertexkey="2054"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2134">
+						<edges>
+							<edge vertexkey="2055"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2135">
+						<edges>
+							<edge vertexkey="2056"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2136">
+						<edges>
+							<edge vertexkey="2057"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2137">
+						<edges>
+							<edge vertexkey="2058"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2138">
+						<edges>
+							<edge vertexkey="2059"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2139">
+						<edges>
+							<edge vertexkey="2060"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2140">
+						<edges>
+							<edge vertexkey="2061"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2141">
+						<edges>
+							<edge vertexkey="2062"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2142">
+						<edges>
+							<edge vertexkey="2063"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
