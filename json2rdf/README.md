@@ -7,9 +7,9 @@ This prototype aims at transforming Bio.Tools content into RDF (see https://gith
   - alban.gaignard@univ-nantes.fr
 
 # Prerequisites
-You first need to install python dependencies. They are specified in the `requirements.txt` file and can be automatically downloaded with Conda: 
+You first need to install python dependencies. They are specified in the `environment.yml` file and can be automatically downloaded with Conda: 
 ```
-conda create --name biotools-rdf --file requirements.txt -c conda-forge
+conda env create -f environment.yml
 ```
 Then the software environment must be launched through the following command: 
 ```

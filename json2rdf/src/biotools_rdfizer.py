@@ -65,106 +65,108 @@ def rdfize(json_entry):
     """
 
     entry = json_entry
-    # print(json.dumps(entry, indent=4, sort_keys=True))
-    # print()
 
-    ctx = {
-        "@context": {
-            "@base": "https://bio.tools/",
-            "biotools": "https://bio.tools/ontology/",
-            "edam": "http://edamontology.org/",
-            "pubmed": "https://www.ncbi.nlm.nih.gov/pubmed/",
-            "pmc": "https://www.ncbi.nlm.nih.gov/pmc/",
-            "doi": "https://doi.org/",
-            "dc": "http://purl.org/dc/terms/",
-            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    try:
 
+        ctx = {
+            "@context": {
+                "@base": "https://bio.tools/",
+                "biotools": "https://bio.tools/ontology/",
+                "edam": "http://edamontology.org/",
+                "pubmed": "https://www.ncbi.nlm.nih.gov/pubmed/",
+                "pmc": "https://www.ncbi.nlm.nih.gov/pmc/",
+                "doi": "https://doi.org/",
+                "dc": "http://purl.org/dc/terms/",
+                "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
 
+                # "hasContact": "dc:publisher",
+                # "hasPublication": "dc:references",
 
-            # "hasContact": "dc:publisher",
-            # "hasPublication": "dc:references",
+                # "id": "datacite:identifier",
+                "id": "dc:identifier",
+                # "name": "datacite:title",
+                "name": "dc:title",
+                # "description": "datacite:description",
+                "description": "dc:description",
+                # "license": "datacite:rights",
+                "license": "dc:license",
+                "hasContact": "datacite:contributor",
+                "toolType": "datacite:resourceType",
+                "additionDate": "datacite:date",
+                "language": "datacite:format",
+                "homepage": "datacite:alternateIdentifier",
+                "hasPublication": "dc:references",
+                "download": "datacite:alternateIdentifier",
 
-            # "id": "datacite:identifier",
-            "id": "dc:identifier",
-            # "name": "datacite:title",
-            "name": "dc:title",
-            # "description": "datacite:description",
-            "description": "dc:description",
-            # "license": "datacite:rights",
-            "license": "dc:license",
-            "hasContact": "datacite:contributor",
-            "toolType": "datacite:resourceType",
-            "additionDate": "datacite:date",
-            "language": "datacite:format",
-            "homepage": "datacite:alternateIdentifier",
-            "hasPublication": "dc:references",
-            "download": "datacite:alternateIdentifier",
-
-            "hasOperation": "biotools:has_function",
-            "hasInputData": "edam:has_input",
-            "hasOutputData": "edam:has_output",
-            "hasTopic": "edam:has_topic"
+                "hasOperation": "biotools:has_function",
+                "hasInputData": "edam:has_input",
+                "hasOutputData": "edam:has_output",
+                "hasTopic": "edam:has_topic"
+            }
         }
-    }
-    entry['@id'] = str(entry['id'])
-    entry['@type'] = {"@id": 'biotools:Resource'}
-    entry.update(ctx)
+        entry['@id'] = str(entry['biotoolsID'])
+        entry['@type'] = {"@id": 'biotools:Resource'}
+        entry.update(ctx)
 
-    for contact in entry['contact']:
-        if not "hasContact" in entry.keys():
-            entry['hasContact'] = [contact['name']]
-        else :
-            entry['hasContact'].append(contact['name'])
+        # for contact in entry['contact']:
+        #     if not "hasContact" in entry.keys():
+        #         entry['hasContact'] = [contact['name']]
+        #     else :
+        #         entry['hasContact'].append(contact['name'])
 
-    # for download in entry['download']:
-    #     if download['url']:
-    #         if not "download" in entry.keys():
-    #             entry['download'] = [download['url']]
-    #         else :
-    #             entry['download'].append(download['url'])
+        # for download in entry['download']:
+        #     if download['url']:
+        #         if not "download" in entry.keys():
+        #             entry['download'] = [download['url']]
+        #         else :
+        #             entry['download'].append(download['url'])
 
-    for publication in entry['publication']:
-        if publication['pmid']:
-            if not "hasPublication" in entry.keys():
-                entry['hasPublication'] = [{"@id": 'pubmed:' + publication['pmid']}]
-            else:
-                entry['hasPublication'].append({"@id": 'pubmed:' + publication['pmid']})
-        if publication['pmcid']:
+        for publication in entry['publication']:
+            if publication['pmid']:
+                if not "hasPublication" in entry.keys():
+                    entry['hasPublication'] = [{"@id": 'pubmed:' + publication['pmid']}]
+                else:
+                    entry['hasPublication'].append({"@id": 'pubmed:' + publication['pmid']})
+            if publication['pmcid']:
                 if not "hasPublication" in entry.keys():
                     entry['hasPublication'] = [{"@id": 'pmc:' + publication['pmcid']}]
                 else:
                     entry['hasPublication'].append({"@id": 'pmc:' + publication['pmcid']})
-        if publication['doi']:
-                if not ("<" in publication['doi'] or ">" in publication['doi']) :
+            if publication['doi']:
+                if not ("<" in publication['doi'] or ">" in publication['doi']):
                     if not "hasPublication" in entry.keys():
                         entry['hasPublication'] = [{"@id": "https://doi.org/" + publication['doi']}]
                     else:
-                        entry['hasPublication'].append({"@id": "https://doi.org/" +  publication['doi']})
+                        entry['hasPublication'].append({"@id": "https://doi.org/" + publication['doi']})
 
-    for item in entry['function']:
-        for op in item['operation']:
-            if not "hasOperation" in entry.keys():
-                entry['hasOperation'] = [{"@id": op['uri']}]
+        for item in entry['function']:
+            for op in item['operation']:
+                if not "hasOperation" in entry.keys():
+                    entry['hasOperation'] = [{"@id": op['uri']}]
+                else:
+                    entry['hasOperation'].append({"@id": op['uri']})
+
+            for input in item['input']:
+                if not "hasInputData" in entry.keys():
+                    entry['hasInputData'] = [{"@id": input['data']['uri']}]
+                else:
+                    entry['hasInputData'].append({"@id": input['data']['uri']})
+
+            for output in item['output']:
+                if not "hasOutputData" in entry.keys():
+                    entry['hasOutputData'] = [{"@id": output['data']['uri']}]
+                else:
+                    entry['hasOutputData'].append({"@id": output['data']['uri']})
+
+        for item in entry['topic']:
+            if not "hasTopic" in entry.keys():
+                entry['hasTopic'] = [{"@id": item['uri']}]
             else:
-                entry['hasOperation'].append({"@id": op['uri']})
+                entry['hasTopic'].append({"@id": item['uri']})
 
-        for input in item['input']:
-            if not "hasInputData" in entry.keys():
-                entry['hasInputData'] = [{"@id": input['data']['uri']}]
-            else:
-                entry['hasInputData'].append({"@id": input['data']['uri']})
-
-        for output in item['output']:
-            if not "hasOutputData" in entry.keys():
-                entry['hasOutputData'] = [{"@id": output['data']['uri']}]
-            else:
-                entry['hasOutputData'].append({"@id": output['data']['uri']})
-
-    for item in entry['topic']:
-        if not "hasTopic" in entry.keys():
-            entry['hasTopic'] = [{"@id": item['uri']}]
-        else:
-            entry['hasTopic'].append({"@id": item['uri']})
+    except KeyError as error:
+        print(json.dumps(entry, indent=4, sort_keys=True))
+        print()
 
     raw_jld = json.dumps(entry)
     return raw_jld
