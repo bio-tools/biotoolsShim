@@ -235,18 +235,14 @@
 			<link>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 			</link>
@@ -267,18 +263,14 @@
 			<documentation>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>					
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 			</documentation>
@@ -297,10 +289,8 @@
 					<doi>String</doi>
 					<pmid>String</pmid>
 					<pmcid>String</pmcid>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<version>String</version>
 					<note>String</note>
 				</list-item>
@@ -308,10 +298,8 @@
 					<doi>String</doi>
 					<pmid>String</pmid>
 					<pmcid>String</pmcid>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<version>String</version>
 					<note>String</note>
 				</list-item>
@@ -582,18 +570,14 @@
 			<link>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 			</link>
@@ -614,18 +598,14 @@
 			<documentation>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 				<list-item>
 					<url>http://www.altova.com/</url>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<note>String</note>
 				</list-item>
 			</documentation>
@@ -644,10 +624,8 @@
 					<doi>String</doi>
 					<pmid>String</pmid>
 					<pmcid>String</pmcid>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<version>String</version>
 					<note>String</note>
 				</list-item>
@@ -655,10 +633,8 @@
 					<doi>String</doi>
 					<pmid>String</pmid>
 					<pmcid>String</pmcid>
-					<type>
-						<list-item>String</list-item>
-						<list-item>String</list-item>
-					</type>
+					<type>String</type>
+					<type>String</type>
 					<version>String</version>
 					<note>String</note>
 				</list-item>

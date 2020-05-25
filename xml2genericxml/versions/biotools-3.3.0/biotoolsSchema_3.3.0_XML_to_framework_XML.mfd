@@ -120,7 +120,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\..\..\genericxml2xml\versions\biotools-3.3.0\biotools_3.3.0.xsd" inputinstance="..\..\..\genericxml2xml\versions\biotools-3.3.0\output.xml" outputinstance="..\..\..\genericxml2xml\versions\biotools-3.3.0\input.xml" instanceroot="{biotoolsSchema}tools"/>
+						<document schema="..\..\..\genericxml2xml\versions\biotools-3.3.0\biotools_3.3.0.xsd" inputinstance="input.xml" instanceroot="{biotoolsSchema}tools"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -229,7 +229,9 @@
 												<entry name="link" expanded="1">
 													<entry name="list-item" inpkey="2092" expanded="1">
 														<entry name="url" inpkey="2093"/>
-														<entry name="type" inpkey="2094"/>
+														<entry name="type" expanded="1">
+															<entry name="list-item" inpkey="2126"/>
+														</entry>
 														<entry name="note" inpkey="2095"/>
 													</entry>
 												</entry>
@@ -244,7 +246,9 @@
 												<entry name="documentation" expanded="1">
 													<entry name="list-item" inpkey="2101" expanded="1">
 														<entry name="url" inpkey="2102"/>
-														<entry name="type" inpkey="2103"/>
+														<entry name="type" expanded="1">
+															<entry name="list-item" inpkey="2127"/>
+														</entry>
 														<entry name="note" inpkey="2104"/>
 													</entry>
 												</entry>
@@ -259,7 +263,9 @@
 														<entry name="doi" inpkey="2109"/>
 														<entry name="pmid" inpkey="2110"/>
 														<entry name="pmcid" inpkey="2111"/>
-														<entry name="type" inpkey="2112"/>
+														<entry name="type" expanded="1">
+															<entry name="list-item" inpkey="2128"/>
+														</entry>
 														<entry name="version" inpkey="2113"/>
 														<entry name="note" inpkey="2114"/>
 													</entry>
@@ -286,7 +292,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\..\..\genericxml2xml\versions\biotools-3.3.0\biotools-3.3.0_framework.xsd" inputinstance="..\..\..\genericxml2xml\versions\biotools-3.3.0\output.xml" outputinstance="..\..\..\genericxml2xml\versions\biotools-3.3.0\input.xml" instanceroot="{}root"/>
+						<document schema="..\..\..\genericxml2xml\versions\biotools-3.3.0\biotools-3.3.0_framework.xsd" outputinstance="output.xml" instanceroot="{}root"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -529,11 +535,6 @@
 							<edge vertexkey="2093"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2015">
-						<edges>
-							<edge vertexkey="2094"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="2016">
 						<edges>
 							<edge vertexkey="2095"/>
@@ -574,11 +575,6 @@
 							<edge vertexkey="2102"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="2024">
-						<edges>
-							<edge vertexkey="2103"/>
-						</edges>
-					</vertex>
 					<vertex vertexkey="2025">
 						<edges>
 							<edge vertexkey="2104"/>
@@ -617,11 +613,6 @@
 					<vertex vertexkey="2032">
 						<edges>
 							<edge vertexkey="2111"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="2033">
-						<edges>
-							<edge vertexkey="2112"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="2034">
@@ -687,6 +678,21 @@
 					<vertex vertexkey="2046">
 						<edges>
 							<edge vertexkey="2125"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2015">
+						<edges>
+							<edge vertexkey="2126"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2024">
+						<edges>
+							<edge vertexkey="2127"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2033">
+						<edges>
+							<edge vertexkey="2128"/>
 						</edges>
 					</vertex>
 				</vertices>

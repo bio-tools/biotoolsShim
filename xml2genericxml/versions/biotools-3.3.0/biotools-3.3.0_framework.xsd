@@ -207,7 +207,13 @@
 														<xs:complexType>
 															<xs:sequence>
 																<xs:element name="url" type="xs:anyURI"/>
-																<xs:element name="type" type="xs:string" maxOccurs="unbounded"/>
+																<xs:element name="type">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
 																<xs:element name="note" type="xs:string" minOccurs="0"/>
 															</xs:sequence>
 														</xs:complexType>
@@ -238,7 +244,13 @@
 														<xs:complexType>
 															<xs:sequence>
 																<xs:element name="url" type="xs:anyURI"/>
-																<xs:element name="type" type="xs:string" maxOccurs="unbounded"/>
+																<xs:element name="type">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
 																<xs:element name="note" type="xs:string" minOccurs="0"/>
 															</xs:sequence>
 														</xs:complexType>
@@ -269,7 +281,13 @@
 																<xs:element name="doi" type="xs:string" minOccurs="0"/>
 																<xs:element name="pmid" type="xs:string" minOccurs="0"/>
 																<xs:element name="pmcid" type="xs:string" minOccurs="0"/>
-																<xs:element name="type" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+																<xs:element name="type" minOccurs="0">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="list-item" type="xs:string" maxOccurs="unbounded"/>
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
 																<xs:element name="version" type="xs:string" minOccurs="0"/>
 																<xs:element name="note" type="xs:string" minOccurs="0"/>
 															</xs:sequence>

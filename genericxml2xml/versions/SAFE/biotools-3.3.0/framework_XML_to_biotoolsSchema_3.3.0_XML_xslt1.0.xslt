@@ -13,8 +13,8 @@ http://www.altova.com/mapforce
 	<xsl:template match="/">
 		<xsl:variable name="var1_initial" select="."/>
 		<tools xmlns="biotoolsSchema">
-			<xsl:attribute name="xsi:schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">biotoolsSchema file:///E:/repos/GitHub/biotoolsShim/genericxml2xml-singletool/versions/biotools-3.3.0/biotools_3.3.0.xsd</xsl:attribute>
-			<xsl:for-each select="*[local-name()='root' and namespace-uri()='']">
+			<xsl:attribute name="xsi:schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance">biotoolsSchema file:///E:/repos/GitHub/biotoolsShim/genericxml2xml/versions/biotools-3.3.0/biotools_3.3.0.xsd</xsl:attribute>
+			<xsl:for-each select="*[local-name()='root' and namespace-uri()='']/*[local-name()='list' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
 				<xsl:variable name="var2_cur" select="."/>
 				<tool>
 					<name>
@@ -259,7 +259,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:value-of select="*[local-name()='url' and namespace-uri()='']"/>
 							</url>
-							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
+							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']">
 								<xsl:variable name="var42_cur" select="."/>
 								<type>
 									<xsl:value-of select="."/>
@@ -302,7 +302,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:value-of select="*[local-name()='url' and namespace-uri()='']"/>
 							</url>
-							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
+							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']">
 								<xsl:variable name="var48_cur" select="."/>
 								<type>
 									<xsl:value-of select="."/>
@@ -348,7 +348,7 @@ http://www.altova.com/mapforce
 									<xsl:value-of select="."/>
 								</pmcid>
 							</xsl:for-each>
-							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
+							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']">
 								<xsl:variable name="var55_cur" select="."/>
 								<type>
 									<xsl:value-of select="."/>

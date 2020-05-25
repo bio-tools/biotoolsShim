@@ -252,11 +252,13 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:url)))"/>
 							</url>
-							<xsl:for-each select="ns0:type">
-								<type>
-									<xsl:sequence select="fn:string(.)"/>
-								</type>
-							</xsl:for-each>
+							<type>
+								<xsl:for-each select="ns0:type">
+									<list-item>
+										<xsl:sequence select="fn:string(.)"/>
+									</list-item>
+								</xsl:for-each>
+							</type>
 							<xsl:for-each select="ns0:note">
 								<note>
 									<xsl:sequence select="fn:string(.)"/>
@@ -293,11 +295,13 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(ns0:url)))"/>
 							</url>
-							<xsl:for-each select="ns0:type">
-								<type>
-									<xsl:sequence select="fn:string(.)"/>
-								</type>
-							</xsl:for-each>
+							<type>
+								<xsl:for-each select="ns0:type">
+									<list-item>
+										<xsl:sequence select="fn:string(.)"/>
+									</list-item>
+								</xsl:for-each>
+							</type>
 							<xsl:for-each select="ns0:note">
 								<note>
 									<xsl:sequence select="fn:string(.)"/>
@@ -336,11 +340,13 @@ http://www.altova.com/mapforce
 									<xsl:sequence select="fn:string(.)"/>
 								</pmcid>
 							</xsl:for-each>
-							<xsl:for-each select="ns0:type">
-								<type>
-									<xsl:sequence select="fn:string(.)"/>
-								</type>
-							</xsl:for-each>
+							<type>
+								<xsl:for-each select="ns0:type">
+									<list-item>
+										<xsl:sequence select="fn:string(.)"/>
+									</list-item>
+								</xsl:for-each>
+							</type>
 							<xsl:for-each select="ns0:version">
 								<version>
 									<xsl:sequence select="fn:string(.)"/>

@@ -220,7 +220,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(*:url[fn:namespace-uri() eq ''])))"/>
 							</url>
-							<xsl:for-each select="*:type[fn:namespace-uri() eq '']">
+							<xsl:for-each select="*:type[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
 								<type>
 									<xsl:sequence select="fn:string(.)"/>
 								</type>
@@ -257,7 +257,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(*:url[fn:namespace-uri() eq ''])))"/>
 							</url>
-							<xsl:for-each select="*:type[fn:namespace-uri() eq '']">
+							<xsl:for-each select="*:type[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
 								<type>
 									<xsl:sequence select="fn:string(.)"/>
 								</type>
@@ -296,7 +296,7 @@ http://www.altova.com/mapforce
 									<xsl:sequence select="fn:string(.)"/>
 								</pmcid>
 							</xsl:for-each>
-							<xsl:for-each select="*:type[fn:namespace-uri() eq '']">
+							<xsl:for-each select="*:type[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
 								<type>
 									<xsl:sequence select="fn:string(.)"/>
 								</type>

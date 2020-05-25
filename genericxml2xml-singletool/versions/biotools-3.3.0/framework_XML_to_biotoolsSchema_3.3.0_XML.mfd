@@ -3,7 +3,7 @@
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
-		<properties SelectedLanguage="builtin"/>
+		<properties SelectedLanguage="xslt2"/>
 		<structure>
 			<children>
 				<component name="biotools-3.3.0_framework_singletool" library="xml" uid="2" kind="14">
@@ -109,7 +109,9 @@
 										<entry name="link" expanded="1">
 											<entry name="list-item" outkey="1950" expanded="1">
 												<entry name="url" outkey="1951"/>
-												<entry name="type" outkey="1952"/>
+												<entry name="type" expanded="1">
+													<entry name="list-item" outkey="1985"/>
+												</entry>
 												<entry name="note" outkey="1953"/>
 											</entry>
 										</entry>
@@ -124,7 +126,9 @@
 										<entry name="documentation" expanded="1">
 											<entry name="list-item" outkey="1959" expanded="1">
 												<entry name="url" outkey="1960"/>
-												<entry name="type" outkey="1961"/>
+												<entry name="type" expanded="1">
+													<entry name="list-item" outkey="1986"/>
+												</entry>
 												<entry name="note" outkey="1962"/>
 											</entry>
 										</entry>
@@ -139,7 +143,9 @@
 												<entry name="doi" outkey="1967"/>
 												<entry name="pmid" outkey="1968"/>
 												<entry name="pmcid" outkey="1969"/>
-												<entry name="type" outkey="1970"/>
+												<entry name="type" expanded="1">
+													<entry name="list-item" outkey="1987"/>
+												</entry>
 												<entry name="version" outkey="1971"/>
 												<entry name="note" outkey="1972"/>
 											</entry>
@@ -164,7 +170,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="biotools-3.3.0_framework_singletool.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
+						<document schema="biotools-3.3.0_framework_singletool.xsd" inputinstance="input.xml" instanceroot="{}root"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -282,7 +288,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="biotools_3.3.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{biotoolsSchema}tools"/>
+						<document schema="biotools_3.3.0.xsd" outputinstance="output.xml" instanceroot="{biotoolsSchema}tools"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -525,7 +531,7 @@
 							<edge vertexkey="1872"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1952">
+					<vertex vertexkey="1985">
 						<edges>
 							<edge vertexkey="1873"/>
 						</edges>
@@ -570,7 +576,7 @@
 							<edge vertexkey="1881"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1961">
+					<vertex vertexkey="1986">
 						<edges>
 							<edge vertexkey="1882"/>
 						</edges>
@@ -615,7 +621,7 @@
 							<edge vertexkey="1890"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="1970">
+					<vertex vertexkey="1987">
 						<edges>
 							<edge vertexkey="1891"/>
 						</edges>

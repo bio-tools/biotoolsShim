@@ -291,12 +291,14 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:value-of select="ns0:url"/>
 							</url>
-							<xsl:for-each select="ns0:type">
-								<xsl:variable name="var42_cur" select="."/>
-								<type>
-									<xsl:value-of select="."/>
-								</type>
-							</xsl:for-each>
+							<type>
+								<xsl:for-each select="ns0:type">
+									<xsl:variable name="var42_cur" select="."/>
+									<list-item>
+										<xsl:value-of select="."/>
+									</list-item>
+								</xsl:for-each>
+							</type>
 							<xsl:for-each select="ns0:note">
 								<xsl:variable name="var43_cur" select="."/>
 								<note>
@@ -338,12 +340,14 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:value-of select="ns0:url"/>
 							</url>
-							<xsl:for-each select="ns0:type">
-								<xsl:variable name="var48_cur" select="."/>
-								<type>
-									<xsl:value-of select="."/>
-								</type>
-							</xsl:for-each>
+							<type>
+								<xsl:for-each select="ns0:type">
+									<xsl:variable name="var48_cur" select="."/>
+									<list-item>
+										<xsl:value-of select="."/>
+									</list-item>
+								</xsl:for-each>
+							</type>
 							<xsl:for-each select="ns0:note">
 								<xsl:variable name="var49_cur" select="."/>
 								<note>
@@ -388,12 +392,14 @@ http://www.altova.com/mapforce
 									<xsl:value-of select="."/>
 								</pmcid>
 							</xsl:for-each>
-							<xsl:for-each select="ns0:type">
-								<xsl:variable name="var55_cur" select="."/>
-								<type>
-									<xsl:value-of select="."/>
-								</type>
-							</xsl:for-each>
+							<type>
+								<xsl:for-each select="ns0:type">
+									<xsl:variable name="var55_cur" select="."/>
+									<list-item>
+										<xsl:value-of select="."/>
+									</list-item>
+								</xsl:for-each>
+							</type>
 							<xsl:for-each select="ns0:version">
 								<xsl:variable name="var56_cur" select="."/>
 								<version>

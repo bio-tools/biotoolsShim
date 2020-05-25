@@ -3,7 +3,7 @@
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap" uid="1" editable="1" blackbox="0">
-		<properties SelectedLanguage="xslt2"/>
+		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
 				<component name="biotools-3.3.0_framework" library="xml" uid="2" kind="14">
@@ -174,7 +174,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="biotools-3.3.0_framework.xsd" inputinstance="input.xml" instanceroot="{}root"/>
+						<document schema="biotools-3.3.0_framework.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{}root"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -292,7 +292,7 @@
 								</entry>
 							</entry>
 						</root>
-						<document schema="biotools_3.3.0.xsd" outputinstance="output.xml" instanceroot="{biotoolsSchema}tools"/>
+						<document schema="biotools_3.3.0.xsd" inputinstance="input.xml" outputinstance="output.xml" instanceroot="{biotoolsSchema}tools"/>
 						<wsdl/>
 					</data>
 				</component>

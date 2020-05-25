@@ -12,8 +12,8 @@ http://www.altova.com/mapforce
 	<xsl:output method="xml" encoding="UTF-8" byte-order-mark="no" indent="yes"/>
 	<xsl:template match="/">
 		<tools xmlns="biotoolsSchema">
-			<xsl:attribute name="xsi:schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'biotoolsSchema file:///E:/repos/GitHub/biotoolsShim/genericxml2xml-singletool/versions/biotools-3.3.0/biotools_3.3.0.xsd'"/>
-			<xsl:for-each select="*:root[fn:namespace-uri() eq '']">
+			<xsl:attribute name="xsi:schemaLocation" namespace="http://www.w3.org/2001/XMLSchema-instance" select="'biotoolsSchema file:///E:/repos/GitHub/biotoolsShim/genericxml2xml/versions/biotools-3.3.0/biotools_3.3.0.xsd'"/>
+			<xsl:for-each select="*:root[fn:namespace-uri() eq '']/*:list[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
 				<tool>
 					<name>
 						<xsl:sequence select="fn:string(*:name[fn:namespace-uri() eq ''])"/>
@@ -220,7 +220,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(*:url[fn:namespace-uri() eq ''])))"/>
 							</url>
-							<xsl:for-each select="*:type[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
+							<xsl:for-each select="*:type[fn:namespace-uri() eq '']">
 								<type>
 									<xsl:sequence select="fn:string(.)"/>
 								</type>
@@ -257,7 +257,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:sequence select="xs:string(xs:anyURI(fn:string(*:url[fn:namespace-uri() eq ''])))"/>
 							</url>
-							<xsl:for-each select="*:type[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
+							<xsl:for-each select="*:type[fn:namespace-uri() eq '']">
 								<type>
 									<xsl:sequence select="fn:string(.)"/>
 								</type>
@@ -296,7 +296,7 @@ http://www.altova.com/mapforce
 									<xsl:sequence select="fn:string(.)"/>
 								</pmcid>
 							</xsl:for-each>
-							<xsl:for-each select="*:type[fn:namespace-uri() eq '']/*:list-item[fn:namespace-uri() eq '']">
+							<xsl:for-each select="*:type[fn:namespace-uri() eq '']">
 								<type>
 									<xsl:sequence select="fn:string(.)"/>
 								</type>

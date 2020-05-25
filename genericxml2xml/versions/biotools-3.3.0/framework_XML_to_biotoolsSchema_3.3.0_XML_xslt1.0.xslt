@@ -259,7 +259,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:value-of select="*[local-name()='url' and namespace-uri()='']"/>
 							</url>
-							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']">
+							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
 								<xsl:variable name="var42_cur" select="."/>
 								<type>
 									<xsl:value-of select="."/>
@@ -302,7 +302,7 @@ http://www.altova.com/mapforce
 							<url>
 								<xsl:value-of select="*[local-name()='url' and namespace-uri()='']"/>
 							</url>
-							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']">
+							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
 								<xsl:variable name="var48_cur" select="."/>
 								<type>
 									<xsl:value-of select="."/>
@@ -348,7 +348,7 @@ http://www.altova.com/mapforce
 									<xsl:value-of select="."/>
 								</pmcid>
 							</xsl:for-each>
-							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']">
+							<xsl:for-each select="*[local-name()='type' and namespace-uri()='']/*[local-name()='list-item' and namespace-uri()='']">
 								<xsl:variable name="var55_cur" select="."/>
 								<type>
 									<xsl:value-of select="."/>
